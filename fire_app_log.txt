@@ -1,0 +1,2974 @@
+2013-05-07 14:38:50 identical stylesheets/ie.css 
+2013-05-07 14:38:50 identical stylesheets/print.css 
+2013-05-07 14:38:53 identical stylesheets/screen.css 
+2013-05-07 14:39:25 identical stylesheets/ie.css 
+2013-05-07 14:39:25 identical stylesheets/print.css 
+2013-05-07 14:39:26 overwrite stylesheets/screen.css 
+2013-05-07 14:43:55 identical stylesheets/ie.css 
+2013-05-07 14:43:55 identical stylesheets/print.css 
+2013-05-07 14:43:56 identical stylesheets/screen.css 
+2013-05-07 14:45:46 identical stylesheets/ie.css 
+2013-05-07 14:45:46 identical stylesheets/print.css 
+2013-05-07 14:45:46     error sass/screen.sass (Line 5: Invalid CSS after "": expected expression (e.g. 1px, bold), was "../fonts/")
+2013-05-07 14:45:46 overwrite stylesheets/screen.css 
+2013-05-07 14:47:44 identical stylesheets/ie.css 
+2013-05-07 14:47:44 identical stylesheets/print.css 
+2013-05-07 14:47:44     error sass/screen.sass (Line 13: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 2 spaces.)
+2013-05-07 14:47:44 overwrite stylesheets/screen.css 
+2013-05-07 14:47:49 identical stylesheets/ie.css 
+2013-05-07 14:47:49 identical stylesheets/print.css 
+2013-05-07 14:47:49     error sass/screen.sass (Line 13: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 2 spaces.)
+2013-05-07 14:47:49 identical stylesheets/screen.css 
+2013-05-07 14:48:24 identical stylesheets/ie.css 
+2013-05-07 14:48:24 identical stylesheets/print.css 
+2013-05-07 14:48:24     error sass/screen.sass (Line 13: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 2 spaces.)
+2013-05-07 14:48:24 identical stylesheets/screen.css 
+2013-05-07 14:49:12 identical stylesheets/ie.css 
+2013-05-07 14:49:12 identical stylesheets/print.css 
+2013-05-07 14:49:13     error sass/screen.sass (Line 13: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 2 spaces.)
+2013-05-07 14:49:13 identical stylesheets/screen.css 
+2013-05-07 14:49:30 identical stylesheets/ie.css 
+2013-05-07 14:49:30 identical stylesheets/print.css 
+2013-05-07 14:49:30 overwrite stylesheets/screen.css 
+2013-05-07 14:50:46 identical stylesheets/ie.css 
+2013-05-07 14:50:46 identical stylesheets/print.css 
+2013-05-07 14:50:46 overwrite stylesheets/screen.css 
+2013-05-07 14:51:17 identical stylesheets/ie.css 
+2013-05-07 14:51:17 identical stylesheets/print.css 
+2013-05-07 14:51:17 overwrite stylesheets/screen.css 
+2013-05-07 14:52:18 identical stylesheets/ie.css 
+2013-05-07 14:52:18 identical stylesheets/print.css 
+2013-05-07 14:52:18     error sass/screen.sass (Line 6: Invalid CSS after "...r", font-files(": expected ")", was "..+"Muli-Regula...")
+2013-05-07 14:52:18 overwrite stylesheets/screen.css 
+2013-05-07 14:52:28 identical stylesheets/ie.css 
+2013-05-07 14:52:28 identical stylesheets/print.css 
+2013-05-07 14:52:28 overwrite stylesheets/screen.css 
+2013-05-07 14:55:47 identical stylesheets/ie.css 
+2013-05-07 14:55:47 identical stylesheets/print.css 
+2013-05-07 14:55:47     error sass/screen.sass (Line 7: Invalid CSS after ""Muli-Regular"": expected expression (e.g. 1px, bold), was ";")
+2013-05-07 14:55:47 overwrite stylesheets/screen.css 
+2013-05-07 14:55:56 identical stylesheets/ie.css 
+2013-05-07 14:55:56 identical stylesheets/print.css 
+2013-05-07 14:55:56 overwrite stylesheets/screen.css 
+2013-05-07 14:56:22 identical stylesheets/ie.css 
+2013-05-07 14:56:22 identical stylesheets/print.css 
+2013-05-07 14:56:22 overwrite stylesheets/screen.css 
+2013-05-07 14:56:29 identical stylesheets/ie.css 
+2013-05-07 14:56:29 identical stylesheets/print.css 
+2013-05-07 14:56:29     error sass/screen.sass (Line 5: Invalid CSS after "fonts/": expected expression (e.g. 1px, bold), was "")
+2013-05-07 14:56:29 overwrite stylesheets/screen.css 
+2013-05-07 14:56:34 identical stylesheets/ie.css 
+2013-05-07 14:56:34 identical stylesheets/print.css 
+2013-05-07 14:56:34 overwrite stylesheets/screen.css 
+2013-05-07 14:56:39 identical stylesheets/ie.css 
+2013-05-07 14:56:39 identical stylesheets/print.css 
+2013-05-07 14:56:39 identical stylesheets/screen.css 
+2013-05-07 14:57:57 identical stylesheets/ie.css 
+2013-05-07 14:57:57 identical stylesheets/print.css 
+2013-05-07 14:57:57 identical stylesheets/screen.css 
+2013-05-07 14:59:09 identical stylesheets/ie.css 
+2013-05-07 14:59:09 identical stylesheets/print.css 
+2013-05-07 14:59:09 overwrite stylesheets/screen.css 
+2013-05-07 15:02:59 identical stylesheets/ie.css 
+2013-05-07 15:02:59 identical stylesheets/print.css 
+2013-05-07 15:03:00 identical stylesheets/screen.css 
+2013-05-07 15:03:26 identical stylesheets/ie.css 
+2013-05-07 15:03:26 identical stylesheets/print.css 
+2013-05-07 15:03:27 overwrite stylesheets/screen.css 
+2013-05-07 15:04:42 identical stylesheets/ie.css 
+2013-05-07 15:04:42 identical stylesheets/print.css 
+2013-05-07 15:04:43 overwrite stylesheets/screen.css 
+2013-05-07 15:04:55 identical stylesheets/ie.css 
+2013-05-07 15:04:55 identical stylesheets/print.css 
+2013-05-07 15:04:56 overwrite stylesheets/screen.css 
+2013-05-07 15:05:34 identical stylesheets/ie.css 
+2013-05-07 15:05:34 identical stylesheets/print.css 
+2013-05-07 15:05:35 overwrite stylesheets/screen.css 
+2013-05-07 15:06:18 identical stylesheets/ie.css 
+2013-05-07 15:06:18 identical stylesheets/print.css 
+2013-05-07 15:06:19 overwrite stylesheets/screen.css 
+2013-05-07 15:06:33 identical stylesheets/ie.css 
+2013-05-07 15:06:33 identical stylesheets/print.css 
+2013-05-07 15:06:34 overwrite stylesheets/screen.css 
+2013-05-07 15:06:40 identical stylesheets/ie.css 
+2013-05-07 15:06:40 identical stylesheets/print.css 
+2013-05-07 15:06:41 overwrite stylesheets/screen.css 
+2013-05-07 15:06:43 identical stylesheets/ie.css 
+2013-05-07 15:06:43 identical stylesheets/print.css 
+2013-05-07 15:06:44 overwrite stylesheets/screen.css 
+2013-05-07 15:06:45 identical stylesheets/ie.css 
+2013-05-07 15:06:45 identical stylesheets/print.css 
+2013-05-07 15:06:46 identical stylesheets/screen.css 
+2013-05-07 15:08:27 identical stylesheets/ie.css 
+2013-05-07 15:08:27 identical stylesheets/print.css 
+2013-05-07 15:08:28     error sass/screen.sass (Line 29: Invalid CSS after "h#": expected id name, was "($h)")
+2013-05-07 15:08:28 overwrite stylesheets/screen.css 
+2013-05-07 15:08:44 identical stylesheets/ie.css 
+2013-05-07 15:08:44 identical stylesheets/print.css 
+2013-05-07 15:08:45     error sass/screen.sass (Line 29: Invalid CSS after "h#": expected id name, was "($h)")
+2013-05-07 15:08:45 overwrite stylesheets/screen.css 
+2013-05-07 15:09:01 identical stylesheets/ie.css 
+2013-05-07 15:09:01 identical stylesheets/print.css 
+2013-05-07 15:09:02 overwrite stylesheets/screen.css 
+2013-05-07 15:09:27 identical stylesheets/ie.css 
+2013-05-07 15:09:27 identical stylesheets/print.css 
+2013-05-07 15:09:27 overwrite stylesheets/screen.css 
+2013-05-07 15:10:01 identical stylesheets/ie.css 
+2013-05-07 15:10:01 identical stylesheets/print.css 
+2013-05-07 15:10:01 overwrite stylesheets/screen.css 
+2013-05-07 15:10:20 identical stylesheets/ie.css 
+2013-05-07 15:10:20 identical stylesheets/print.css 
+2013-05-07 15:10:20 overwrite stylesheets/screen.css 
+2013-05-07 15:10:39 identical stylesheets/ie.css 
+2013-05-07 15:10:39 identical stylesheets/print.css 
+2013-05-07 15:10:39 overwrite stylesheets/screen.css 
+2013-05-07 15:10:44 identical stylesheets/ie.css 
+2013-05-07 15:10:44 identical stylesheets/print.css 
+2013-05-07 15:10:44 overwrite stylesheets/screen.css 
+2013-05-07 15:11:31 identical stylesheets/ie.css 
+2013-05-07 15:11:31 identical stylesheets/print.css 
+2013-05-07 15:11:31 overwrite stylesheets/screen.css 
+2013-05-07 15:11:47 identical stylesheets/ie.css 
+2013-05-07 15:11:47 identical stylesheets/print.css 
+2013-05-07 15:11:47 overwrite stylesheets/screen.css 
+2013-05-07 15:11:55 identical stylesheets/ie.css 
+2013-05-07 15:11:55 identical stylesheets/print.css 
+2013-05-07 15:11:55 overwrite stylesheets/screen.css 
+2013-05-07 15:12:03 identical stylesheets/ie.css 
+2013-05-07 15:12:03 identical stylesheets/print.css 
+2013-05-07 15:12:03 overwrite stylesheets/screen.css 
+2013-05-07 15:12:07 identical stylesheets/ie.css 
+2013-05-07 15:12:07 identical stylesheets/print.css 
+2013-05-07 15:12:07 overwrite stylesheets/screen.css 
+2013-05-07 15:12:48 identical stylesheets/ie.css 
+2013-05-07 15:12:48 identical stylesheets/print.css 
+2013-05-07 15:12:49 overwrite stylesheets/screen.css 
+2013-05-07 15:13:11 identical stylesheets/ie.css 
+2013-05-07 15:13:11 identical stylesheets/print.css 
+2013-05-07 15:13:12 overwrite stylesheets/screen.css 
+2013-05-07 15:13:47 identical stylesheets/ie.css 
+2013-05-07 15:13:47 identical stylesheets/print.css 
+2013-05-07 15:13:48 overwrite stylesheets/screen.css 
+2013-05-07 15:13:58 identical stylesheets/ie.css 
+2013-05-07 15:13:58 identical stylesheets/print.css 
+2013-05-07 15:13:59 overwrite stylesheets/screen.css 
+2013-05-07 15:14:17 identical stylesheets/ie.css 
+2013-05-07 15:14:17 identical stylesheets/print.css 
+2013-05-07 15:14:18 identical stylesheets/screen.css 
+2013-05-07 15:14:40 identical stylesheets/ie.css 
+2013-05-07 15:14:40 identical stylesheets/print.css 
+2013-05-07 15:14:41 overwrite stylesheets/screen.css 
+2013-05-07 15:14:54 identical stylesheets/ie.css 
+2013-05-07 15:14:54 identical stylesheets/print.css 
+2013-05-07 15:14:55 overwrite stylesheets/screen.css 
+2013-05-07 15:21:33 identical stylesheets/ie.css 
+2013-05-07 15:21:33 identical stylesheets/print.css 
+2013-05-07 15:21:33 overwrite stylesheets/screen.css 
+2013-05-07 15:22:24 identical stylesheets/ie.css 
+2013-05-07 15:22:24 identical stylesheets/print.css 
+2013-05-07 15:22:24 overwrite stylesheets/screen.css 
+2013-05-07 15:22:29 identical stylesheets/ie.css 
+2013-05-07 15:22:29 identical stylesheets/print.css 
+2013-05-07 15:22:29 overwrite stylesheets/screen.css 
+2013-05-07 15:22:38 identical stylesheets/ie.css 
+2013-05-07 15:22:38 identical stylesheets/print.css 
+2013-05-07 15:22:38 overwrite stylesheets/screen.css 
+2013-05-07 15:22:43 identical stylesheets/ie.css 
+2013-05-07 15:22:43 identical stylesheets/print.css 
+2013-05-07 15:22:43 overwrite stylesheets/screen.css 
+2013-05-07 15:22:49 identical stylesheets/ie.css 
+2013-05-07 15:22:49 identical stylesheets/print.css 
+2013-05-07 15:22:49 overwrite stylesheets/screen.css 
+2013-05-07 15:23:01 identical stylesheets/ie.css 
+2013-05-07 15:23:01 identical stylesheets/print.css 
+2013-05-07 15:23:01 overwrite stylesheets/screen.css 
+2013-05-07 15:26:16 identical stylesheets/ie.css 
+2013-05-07 15:26:16 identical stylesheets/print.css 
+2013-05-07 15:26:16 identical stylesheets/screen.css 
+2013-05-07 15:26:49 identical stylesheets/ie.css 
+2013-05-07 15:26:49 identical stylesheets/print.css 
+2013-05-07 15:26:49 overwrite stylesheets/screen.css 
+2013-05-07 15:27:01 identical stylesheets/ie.css 
+2013-05-07 15:27:01 identical stylesheets/print.css 
+2013-05-07 15:27:01 overwrite stylesheets/screen.css 
+2013-05-07 15:27:08 identical stylesheets/ie.css 
+2013-05-07 15:27:08 identical stylesheets/print.css 
+2013-05-07 15:27:08 overwrite stylesheets/screen.css 
+2013-05-07 15:27:30 identical stylesheets/ie.css 
+2013-05-07 15:27:30 identical stylesheets/print.css 
+2013-05-07 15:27:30 overwrite stylesheets/screen.css 
+2013-05-07 15:27:36 identical stylesheets/ie.css 
+2013-05-07 15:27:36 identical stylesheets/print.css 
+2013-05-07 15:27:36 overwrite stylesheets/screen.css 
+2013-05-07 15:27:42 identical stylesheets/ie.css 
+2013-05-07 15:27:42 identical stylesheets/print.css 
+2013-05-07 15:27:42 overwrite stylesheets/screen.css 
+2013-05-07 15:29:32 identical stylesheets/ie.css 
+2013-05-07 15:29:32 identical stylesheets/print.css 
+2013-05-07 15:29:32 overwrite stylesheets/screen.css 
+2013-05-07 15:29:46 identical stylesheets/ie.css 
+2013-05-07 15:29:46 identical stylesheets/print.css 
+2013-05-07 15:29:46 overwrite stylesheets/screen.css 
+2013-05-07 15:29:51 identical stylesheets/ie.css 
+2013-05-07 15:29:51 identical stylesheets/print.css 
+2013-05-07 15:29:51 identical stylesheets/screen.css 
+2013-05-07 15:31:18 identical stylesheets/ie.css 
+2013-05-07 15:31:18 identical stylesheets/print.css 
+2013-05-07 15:31:18 overwrite stylesheets/screen.css 
+2013-05-07 15:38:43 identical stylesheets/ie.css 
+2013-05-07 15:38:43 identical stylesheets/print.css 
+2013-05-07 15:38:44 identical stylesheets/screen.css 
+2013-05-07 15:39:05 identical stylesheets/ie.css 
+2013-05-07 15:39:06 identical stylesheets/print.css 
+2013-05-07 15:39:06 identical stylesheets/screen.css 
+2013-05-07 15:40:29 identical stylesheets/ie.css 
+2013-05-07 15:40:29 identical stylesheets/print.css 
+2013-05-07 15:40:29 identical stylesheets/screen.css 
+2013-05-07 15:41:49 identical stylesheets/ie.css 
+2013-05-07 15:41:49 identical stylesheets/print.css 
+2013-05-07 15:41:49 overwrite stylesheets/screen.css 
+2013-05-07 15:42:44 identical stylesheets/ie.css 
+2013-05-07 15:42:44 identical stylesheets/print.css 
+2013-05-07 15:42:44 overwrite stylesheets/screen.css 
+2013-05-07 15:43:25 identical stylesheets/ie.css 
+2013-05-07 15:43:25 identical stylesheets/print.css 
+2013-05-07 15:43:25 overwrite stylesheets/screen.css 
+2013-05-07 15:44:33 identical stylesheets/ie.css 
+2013-05-07 15:44:33 identical stylesheets/print.css 
+2013-05-07 15:44:33 overwrite stylesheets/screen.css 
+2013-05-07 15:45:01 identical stylesheets/ie.css 
+2013-05-07 15:45:01 identical stylesheets/print.css 
+2013-05-07 15:45:01 overwrite stylesheets/screen.css 
+2013-05-07 15:45:14 identical stylesheets/ie.css 
+2013-05-07 15:45:14 identical stylesheets/print.css 
+2013-05-07 15:45:14 overwrite stylesheets/screen.css 
+2013-05-07 15:45:53 identical stylesheets/ie.css 
+2013-05-07 15:45:53 identical stylesheets/print.css 
+2013-05-07 15:45:53     error sass/screen.sass (Line 43: Incompatible units: '%' and 'px'.)
+2013-05-07 15:45:53 overwrite stylesheets/screen.css 
+2013-05-07 15:46:12 identical stylesheets/ie.css 
+2013-05-07 15:46:12 identical stylesheets/print.css 
+2013-05-07 15:46:12 overwrite stylesheets/screen.css 
+2013-05-07 15:47:05 identical stylesheets/ie.css 
+2013-05-07 15:47:05 identical stylesheets/print.css 
+2013-05-07 15:47:05 identical stylesheets/screen.css 
+2013-05-07 15:47:29 identical stylesheets/ie.css 
+2013-05-07 15:47:29 identical stylesheets/print.css 
+2013-05-07 15:47:29 overwrite stylesheets/screen.css 
+2013-05-07 15:47:52 identical stylesheets/ie.css 
+2013-05-07 15:47:52 identical stylesheets/print.css 
+2013-05-07 15:47:52 overwrite stylesheets/screen.css 
+2013-05-07 15:47:57 identical stylesheets/ie.css 
+2013-05-07 15:47:57 identical stylesheets/print.css 
+2013-05-07 15:47:58 identical stylesheets/screen.css 
+2013-05-07 15:50:02 identical stylesheets/ie.css 
+2013-05-07 15:50:02 identical stylesheets/print.css 
+2013-05-07 15:50:03 overwrite stylesheets/screen.css 
+2013-05-07 15:50:09 identical stylesheets/ie.css 
+2013-05-07 15:50:09 identical stylesheets/print.css 
+2013-05-07 15:50:09 identical stylesheets/screen.css 
+2013-05-07 15:51:25 identical stylesheets/ie.css 
+2013-05-07 15:51:25 identical stylesheets/print.css 
+2013-05-07 15:51:26 overwrite stylesheets/screen.css 
+2013-05-07 15:52:35 identical stylesheets/ie.css 
+2013-05-07 15:52:35 identical stylesheets/print.css 
+2013-05-07 15:52:36 overwrite stylesheets/screen.css 
+2013-05-07 15:52:37 identical stylesheets/ie.css 
+2013-05-07 15:52:37 identical stylesheets/print.css 
+2013-05-07 15:52:38 identical stylesheets/screen.css 
+2013-05-07 15:52:39 identical stylesheets/ie.css 
+2013-05-07 15:52:39 identical stylesheets/print.css 
+2013-05-07 15:52:40 identical stylesheets/screen.css 
+2013-05-07 15:53:06 identical stylesheets/ie.css 
+2013-05-07 15:53:06 identical stylesheets/print.css 
+2013-05-07 15:53:07 overwrite stylesheets/screen.css 
+2013-05-07 15:54:18 identical stylesheets/ie.css 
+2013-05-07 15:54:18 identical stylesheets/print.css 
+2013-05-07 15:54:19 overwrite stylesheets/screen.css 
+2013-05-07 15:54:27 identical stylesheets/ie.css 
+2013-05-07 15:54:27 identical stylesheets/print.css 
+2013-05-07 15:54:28 overwrite stylesheets/screen.css 
+2013-05-07 15:54:36 identical stylesheets/ie.css 
+2013-05-07 15:54:36 identical stylesheets/print.css 
+2013-05-07 15:54:37 overwrite stylesheets/screen.css 
+2013-05-07 15:57:28 identical stylesheets/ie.css 
+2013-05-07 15:57:28 identical stylesheets/print.css 
+2013-05-07 15:57:28 identical stylesheets/screen.css 
+2013-05-07 15:58:16 identical stylesheets/ie.css 
+2013-05-07 15:58:16 identical stylesheets/print.css 
+2013-05-07 15:58:16 overwrite stylesheets/screen.css 
+2013-05-07 15:58:21 identical stylesheets/ie.css 
+2013-05-07 15:58:21 identical stylesheets/print.css 
+2013-05-07 15:58:21 overwrite stylesheets/screen.css 
+2013-05-07 15:58:39 identical stylesheets/ie.css 
+2013-05-07 15:58:39 identical stylesheets/print.css 
+2013-05-07 15:58:39 overwrite stylesheets/screen.css 
+2013-05-07 15:58:44 identical stylesheets/ie.css 
+2013-05-07 15:58:44 identical stylesheets/print.css 
+2013-05-07 15:58:44 overwrite stylesheets/screen.css 
+2013-05-07 15:58:59 identical stylesheets/ie.css 
+2013-05-07 15:58:59 identical stylesheets/print.css 
+2013-05-07 15:58:59 overwrite stylesheets/screen.css 
+2013-05-07 15:59:35 identical stylesheets/ie.css 
+2013-05-07 15:59:35 identical stylesheets/print.css 
+2013-05-07 15:59:35 overwrite stylesheets/screen.css 
+2013-05-07 15:59:40 identical stylesheets/ie.css 
+2013-05-07 15:59:40 identical stylesheets/print.css 
+2013-05-07 15:59:40 identical stylesheets/screen.css 
+2013-05-07 15:59:47 identical stylesheets/ie.css 
+2013-05-07 15:59:47 identical stylesheets/print.css 
+2013-05-07 15:59:47 overwrite stylesheets/screen.css 
+2013-05-07 16:00:13 identical stylesheets/ie.css 
+2013-05-07 16:00:13 identical stylesheets/print.css 
+2013-05-07 16:00:13     error sass/screen.sass (Line 74: Undefined variable: "$i".)
+2013-05-07 16:00:13 overwrite stylesheets/screen.css 
+2013-05-07 16:00:19 identical stylesheets/ie.css 
+2013-05-07 16:00:19 identical stylesheets/print.css 
+2013-05-07 16:00:19 overwrite stylesheets/screen.css 
+2013-05-07 16:01:03 identical stylesheets/ie.css 
+2013-05-07 16:01:03 identical stylesheets/print.css 
+2013-05-07 16:01:03 identical stylesheets/screen.css 
+2013-05-07 16:01:22 identical stylesheets/ie.css 
+2013-05-07 16:01:22 identical stylesheets/print.css 
+2013-05-07 16:01:22 identical stylesheets/screen.css 
+2013-05-07 16:02:37 identical stylesheets/ie.css 
+2013-05-07 16:02:37 identical stylesheets/print.css 
+2013-05-07 16:02:38 overwrite stylesheets/screen.css 
+2013-05-07 16:02:53 identical stylesheets/ie.css 
+2013-05-07 16:02:53 identical stylesheets/print.css 
+2013-05-07 16:02:53 overwrite stylesheets/screen.css 
+2013-05-07 16:04:38 identical stylesheets/ie.css 
+2013-05-07 16:04:38 identical stylesheets/print.css 
+2013-05-07 16:04:38 overwrite stylesheets/screen.css 
+2013-05-07 16:05:01 identical stylesheets/ie.css 
+2013-05-07 16:05:01 identical stylesheets/print.css 
+2013-05-07 16:05:01 overwrite stylesheets/screen.css 
+2013-05-07 16:05:07 identical stylesheets/ie.css 
+2013-05-07 16:05:07 identical stylesheets/print.css 
+2013-05-07 16:05:07 identical stylesheets/screen.css 
+2013-05-07 16:06:09 identical stylesheets/ie.css 
+2013-05-07 16:06:09 identical stylesheets/print.css 
+2013-05-07 16:06:09     error sass/screen.sass (Line 51: Invalid CSS after "input": expected "{", was "&"
+
+"&" may only be used at the beginning of a compound selector.)
+2013-05-07 16:06:09 overwrite stylesheets/screen.css 
+2013-05-07 16:06:14 identical stylesheets/ie.css 
+2013-05-07 16:06:14 identical stylesheets/print.css 
+2013-05-07 16:06:14     error sass/screen.sass (Line 51: Invalid CSS after "input": expected "{", was "&"
+
+"&" may only be used at the beginning of a compound selector.)
+2013-05-07 16:06:14 overwrite stylesheets/screen.css 
+2013-05-07 16:06:16 identical stylesheets/ie.css 
+2013-05-07 16:06:16 identical stylesheets/print.css 
+2013-05-07 16:06:16     error sass/screen.sass (Line 51: Invalid CSS after "input": expected "{", was "&"
+
+"&" may only be used at the beginning of a compound selector.)
+2013-05-07 16:06:16 overwrite stylesheets/screen.css 
+2013-05-07 16:06:20 identical stylesheets/ie.css 
+2013-05-07 16:06:20 identical stylesheets/print.css 
+2013-05-07 16:06:20 overwrite stylesheets/screen.css 
+2013-05-07 16:06:30 identical stylesheets/ie.css 
+2013-05-07 16:06:30 identical stylesheets/print.css 
+2013-05-07 16:06:30 overwrite stylesheets/screen.css 
+2013-05-07 16:06:41 identical stylesheets/ie.css 
+2013-05-07 16:06:41 identical stylesheets/print.css 
+2013-05-07 16:06:42 overwrite stylesheets/screen.css 
+2013-05-07 16:06:56 identical stylesheets/ie.css 
+2013-05-07 16:06:56 identical stylesheets/print.css 
+2013-05-07 16:06:56 overwrite stylesheets/screen.css 
+2013-05-07 16:07:26 identical stylesheets/ie.css 
+2013-05-07 16:07:26 identical stylesheets/print.css 
+2013-05-07 16:07:26 overwrite stylesheets/screen.css 
+2013-05-07 16:07:56 identical stylesheets/ie.css 
+2013-05-07 16:07:56 identical stylesheets/print.css 
+2013-05-07 16:07:57     error sass/screen.sass (Line 57: Undefined variable: "$i".)
+2013-05-07 16:07:57 overwrite stylesheets/screen.css 
+2013-05-07 16:08:19 identical stylesheets/ie.css 
+2013-05-07 16:08:19 identical stylesheets/print.css 
+2013-05-07 16:08:20 overwrite stylesheets/screen.css 
+2013-05-07 16:09:00 identical stylesheets/ie.css 
+2013-05-07 16:09:00 identical stylesheets/print.css 
+2013-05-07 16:09:01 overwrite stylesheets/screen.css 
+2013-05-07 16:09:29 identical stylesheets/ie.css 
+2013-05-07 16:09:29 identical stylesheets/print.css 
+2013-05-07 16:09:30 overwrite stylesheets/screen.css 
+2013-05-07 16:09:42 identical stylesheets/ie.css 
+2013-05-07 16:09:42 identical stylesheets/print.css 
+2013-05-07 16:09:43 overwrite stylesheets/screen.css 
+2013-05-07 16:11:03 identical stylesheets/ie.css 
+2013-05-07 16:11:03 identical stylesheets/print.css 
+2013-05-07 16:11:03 overwrite stylesheets/screen.css 
+2013-05-07 16:11:11 identical stylesheets/ie.css 
+2013-05-07 16:11:11 identical stylesheets/print.css 
+2013-05-07 16:11:11 identical stylesheets/screen.css 
+2013-05-07 16:11:21 identical stylesheets/ie.css 
+2013-05-07 16:11:21 identical stylesheets/print.css 
+2013-05-07 16:11:21 overwrite stylesheets/screen.css 
+2013-05-07 16:11:28 identical stylesheets/ie.css 
+2013-05-07 16:11:28 identical stylesheets/print.css 
+2013-05-07 16:11:28 overwrite stylesheets/screen.css 
+2013-05-07 16:12:22 identical stylesheets/ie.css 
+2013-05-07 16:12:22 identical stylesheets/print.css 
+2013-05-07 16:12:22 overwrite stylesheets/screen.css 
+2013-05-07 16:12:39 identical stylesheets/ie.css 
+2013-05-07 16:12:39 identical stylesheets/print.css 
+2013-05-07 16:12:39 overwrite stylesheets/screen.css 
+2013-05-07 16:12:44 identical stylesheets/ie.css 
+2013-05-07 16:12:44 identical stylesheets/print.css 
+2013-05-07 16:12:44 identical stylesheets/screen.css 
+2013-05-07 16:12:58 identical stylesheets/ie.css 
+2013-05-07 16:12:58 identical stylesheets/print.css 
+2013-05-07 16:12:58 overwrite stylesheets/screen.css 
+2013-05-07 16:13:15 identical stylesheets/ie.css 
+2013-05-07 16:13:15 identical stylesheets/print.css 
+2013-05-07 16:13:15 overwrite stylesheets/screen.css 
+2013-05-07 16:13:23 identical stylesheets/ie.css 
+2013-05-07 16:13:23 identical stylesheets/print.css 
+2013-05-07 16:13:23 overwrite stylesheets/screen.css 
+2013-05-07 16:13:59 identical stylesheets/ie.css 
+2013-05-07 16:13:59 identical stylesheets/print.css 
+2013-05-07 16:13:59 overwrite stylesheets/screen.css 
+2013-05-07 16:14:29 identical stylesheets/ie.css 
+2013-05-07 16:14:29 identical stylesheets/print.css 
+2013-05-07 16:14:29 overwrite stylesheets/screen.css 
+2013-05-07 16:14:32 identical stylesheets/ie.css 
+2013-05-07 16:14:32 identical stylesheets/print.css 
+2013-05-07 16:14:32 identical stylesheets/screen.css 
+2013-05-07 16:18:26 identical stylesheets/ie.css 
+2013-05-07 16:18:26 identical stylesheets/print.css 
+2013-05-07 16:18:27 overwrite stylesheets/screen.css 
+2013-05-07 16:18:29 identical stylesheets/ie.css 
+2013-05-07 16:18:29 identical stylesheets/print.css 
+2013-05-07 16:18:30 identical stylesheets/screen.css 
+2013-05-07 16:19:08 identical stylesheets/ie.css 
+2013-05-07 16:19:08 identical stylesheets/print.css 
+2013-05-07 16:19:09 overwrite stylesheets/screen.css 
+2013-05-07 16:19:43 identical stylesheets/ie.css 
+2013-05-07 16:19:43 identical stylesheets/print.css 
+2013-05-07 16:19:44 overwrite stylesheets/screen.css 
+2013-05-07 16:19:57 identical stylesheets/ie.css 
+2013-05-07 16:19:57 identical stylesheets/print.css 
+2013-05-07 16:19:58 overwrite stylesheets/screen.css 
+2013-05-07 16:21:38 identical stylesheets/ie.css 
+2013-05-07 16:21:38 identical stylesheets/print.css 
+2013-05-07 16:21:39 overwrite stylesheets/screen.css 
+2013-05-07 16:22:21 identical stylesheets/ie.css 
+2013-05-07 16:22:21 identical stylesheets/print.css 
+2013-05-07 16:22:21 overwrite stylesheets/screen.css 
+2013-05-07 16:22:24 identical stylesheets/ie.css 
+2013-05-07 16:22:24 identical stylesheets/print.css 
+2013-05-07 16:22:24 identical stylesheets/screen.css 
+2013-05-07 16:23:10 identical stylesheets/ie.css 
+2013-05-07 16:23:10 identical stylesheets/print.css 
+2013-05-07 16:23:10 overwrite stylesheets/screen.css 
+2013-05-07 16:23:13 identical stylesheets/ie.css 
+2013-05-07 16:23:13 identical stylesheets/print.css 
+2013-05-07 16:23:13 overwrite stylesheets/screen.css 
+2013-05-07 16:23:37 identical stylesheets/ie.css 
+2013-05-07 16:23:37 identical stylesheets/print.css 
+2013-05-07 16:23:37 overwrite stylesheets/screen.css 
+2013-05-07 16:24:03 identical stylesheets/ie.css 
+2013-05-07 16:24:03 identical stylesheets/print.css 
+2013-05-07 16:24:03 overwrite stylesheets/screen.css 
+2013-05-07 16:24:32 identical stylesheets/ie.css 
+2013-05-07 16:24:32 identical stylesheets/print.css 
+2013-05-07 16:24:32 identical stylesheets/screen.css 
+2013-05-07 16:25:56 identical stylesheets/ie.css 
+2013-05-07 16:25:56 identical stylesheets/print.css 
+2013-05-07 16:25:56 identical stylesheets/screen.css 
+2013-05-07 16:30:05 identical stylesheets/ie.css 
+2013-05-07 16:30:05 identical stylesheets/print.css 
+2013-05-07 16:30:05 overwrite stylesheets/screen.css 
+2013-05-07 16:30:33 identical stylesheets/ie.css 
+2013-05-07 16:30:33 identical stylesheets/print.css 
+2013-05-07 16:30:33 overwrite stylesheets/screen.css 
+2013-05-07 16:32:17 identical stylesheets/ie.css 
+2013-05-07 16:32:17 identical stylesheets/print.css 
+2013-05-07 16:32:17 overwrite stylesheets/screen.css 
+2013-05-07 16:32:55 identical stylesheets/ie.css 
+2013-05-07 16:32:55 identical stylesheets/print.css 
+2013-05-07 16:32:55     error sass/screen.sass (Line 123: Undefined mixin 'fluidgrid'.)
+2013-05-07 16:32:55 overwrite stylesheets/screen.css 
+2013-05-07 16:33:06 identical stylesheets/ie.css 
+2013-05-07 16:33:06 identical stylesheets/print.css 
+2013-05-07 16:33:06 overwrite stylesheets/screen.css 
+2013-05-07 16:33:30 identical stylesheets/ie.css 
+2013-05-07 16:33:31 identical stylesheets/print.css 
+2013-05-07 16:33:31 overwrite stylesheets/screen.css 
+2013-05-07 16:33:36 identical stylesheets/ie.css 
+2013-05-07 16:33:36 identical stylesheets/print.css 
+2013-05-07 16:33:37 overwrite stylesheets/screen.css 
+2013-05-07 16:34:01 identical stylesheets/ie.css 
+2013-05-07 16:34:01 identical stylesheets/print.css 
+2013-05-07 16:34:02 overwrite stylesheets/screen.css 
+2013-05-07 16:34:08 identical stylesheets/ie.css 
+2013-05-07 16:34:08 identical stylesheets/print.css 
+2013-05-07 16:34:09 identical stylesheets/screen.css 
+2013-05-07 16:35:04 identical stylesheets/ie.css 
+2013-05-07 16:35:04 identical stylesheets/print.css 
+2013-05-07 16:35:04 overwrite stylesheets/screen.css 
+2013-05-07 16:36:31 identical stylesheets/ie.css 
+2013-05-07 16:36:31 identical stylesheets/print.css 
+2013-05-07 16:36:31 overwrite stylesheets/screen.css 
+2013-05-07 16:37:36 identical stylesheets/ie.css 
+2013-05-07 16:37:36 identical stylesheets/print.css 
+2013-05-07 16:37:36 overwrite stylesheets/screen.css 
+2013-05-07 16:39:30 identical stylesheets/ie.css 
+2013-05-07 16:39:30 identical stylesheets/print.css 
+2013-05-07 16:39:30 overwrite stylesheets/screen.css 
+2013-05-07 16:39:44 identical stylesheets/ie.css 
+2013-05-07 16:39:44 identical stylesheets/print.css 
+2013-05-07 16:39:44 overwrite stylesheets/screen.css 
+2013-05-07 16:40:33 identical stylesheets/ie.css 
+2013-05-07 16:40:33 identical stylesheets/print.css 
+2013-05-07 16:40:34 overwrite stylesheets/screen.css 
+2013-05-07 16:42:11 identical stylesheets/ie.css 
+2013-05-07 16:42:11 identical stylesheets/print.css 
+2013-05-07 16:42:11 overwrite stylesheets/screen.css 
+2013-05-07 16:43:05 identical stylesheets/ie.css 
+2013-05-07 16:43:05 identical stylesheets/print.css 
+2013-05-07 16:43:05 overwrite stylesheets/screen.css 
+2013-05-07 16:43:10 identical stylesheets/ie.css 
+2013-05-07 16:43:10 identical stylesheets/print.css 
+2013-05-07 16:43:10 overwrite stylesheets/screen.css 
+2013-05-07 16:43:20 identical stylesheets/ie.css 
+2013-05-07 16:43:20 identical stylesheets/print.css 
+2013-05-07 16:43:20 overwrite stylesheets/screen.css 
+2013-05-07 16:43:51 identical stylesheets/ie.css 
+2013-05-07 16:43:51 identical stylesheets/print.css 
+2013-05-07 16:43:51 overwrite stylesheets/screen.css 
+2013-05-07 16:44:05 identical stylesheets/ie.css 
+2013-05-07 16:44:05 identical stylesheets/print.css 
+2013-05-07 16:44:06 overwrite stylesheets/screen.css 
+2013-05-07 16:45:21 identical stylesheets/ie.css 
+2013-05-07 16:45:21 identical stylesheets/print.css 
+2013-05-07 16:45:21 overwrite stylesheets/screen.css 
+2013-05-07 16:45:32 identical stylesheets/ie.css 
+2013-05-07 16:45:32 identical stylesheets/print.css 
+2013-05-07 16:45:32 overwrite stylesheets/screen.css 
+2013-05-07 16:46:01 identical stylesheets/ie.css 
+2013-05-07 16:46:01 identical stylesheets/print.css 
+2013-05-07 16:46:01 overwrite stylesheets/screen.css 
+2013-05-07 16:46:58 identical stylesheets/ie.css 
+2013-05-07 16:46:58 identical stylesheets/print.css 
+2013-05-07 16:46:58 overwrite stylesheets/screen.css 
+2013-05-07 16:49:00 identical stylesheets/ie.css 
+2013-05-07 16:49:00 identical stylesheets/print.css 
+2013-05-07 16:49:01 overwrite stylesheets/screen.css 
+2013-05-07 16:49:28 identical stylesheets/ie.css 
+2013-05-07 16:49:28 identical stylesheets/print.css 
+2013-05-07 16:49:29 identical stylesheets/screen.css 
+2013-05-07 16:49:33 identical stylesheets/ie.css 
+2013-05-07 16:49:33 identical stylesheets/print.css 
+2013-05-07 16:49:34 identical stylesheets/screen.css 
+2013-05-07 16:49:36 identical stylesheets/ie.css 
+2013-05-07 16:49:36 identical stylesheets/print.css 
+2013-05-07 16:49:37 identical stylesheets/screen.css 
+2013-05-07 16:50:35 identical stylesheets/ie.css 
+2013-05-07 16:50:35 identical stylesheets/print.css 
+2013-05-07 16:50:36 identical stylesheets/screen.css 
+2013-05-07 16:51:00 identical stylesheets/ie.css 
+2013-05-07 16:51:00 identical stylesheets/print.css 
+2013-05-07 16:51:01 identical stylesheets/screen.css 
+2013-05-07 16:51:57 identical stylesheets/ie.css 
+2013-05-07 16:51:57 identical stylesheets/print.css 
+2013-05-07 16:51:57 overwrite stylesheets/screen.css 
+2013-05-07 16:52:13 identical stylesheets/ie.css 
+2013-05-07 16:52:13 identical stylesheets/print.css 
+2013-05-07 16:52:13 identical stylesheets/screen.css 
+2013-05-07 16:53:08 identical stylesheets/ie.css 
+2013-05-07 16:53:08 identical stylesheets/print.css 
+2013-05-07 16:53:08 overwrite stylesheets/screen.css 
+2013-05-07 16:53:18 identical stylesheets/ie.css 
+2013-05-07 16:53:18 identical stylesheets/print.css 
+2013-05-07 16:53:18 identical stylesheets/screen.css 
+2013-05-07 16:53:39 identical stylesheets/ie.css 
+2013-05-07 16:53:39 identical stylesheets/print.css 
+2013-05-07 16:53:39 overwrite stylesheets/screen.css 
+2013-05-07 16:54:16 identical stylesheets/ie.css 
+2013-05-07 16:54:16 identical stylesheets/print.css 
+2013-05-07 16:54:16 overwrite stylesheets/screen.css 
+2013-05-07 16:57:40 identical stylesheets/ie.css 
+2013-05-07 16:57:40 identical stylesheets/print.css 
+2013-05-07 16:57:40 overwrite stylesheets/screen.css 
+2013-05-07 16:57:58 identical stylesheets/ie.css 
+2013-05-07 16:57:58 identical stylesheets/print.css 
+2013-05-07 16:57:58 overwrite stylesheets/screen.css 
+2013-05-07 16:58:50 identical stylesheets/ie.css 
+2013-05-07 16:58:50 identical stylesheets/print.css 
+2013-05-07 16:58:50 overwrite stylesheets/screen.css 
+2013-05-07 16:59:42 identical stylesheets/ie.css 
+2013-05-07 16:59:42 identical stylesheets/print.css 
+2013-05-07 16:59:42 overwrite stylesheets/screen.css 
+2013-05-07 17:00:16 identical stylesheets/ie.css 
+2013-05-07 17:00:16 identical stylesheets/print.css 
+2013-05-07 17:00:16 overwrite stylesheets/screen.css 
+2013-05-07 17:00:23 identical stylesheets/ie.css 
+2013-05-07 17:00:23 identical stylesheets/print.css 
+2013-05-07 17:00:23 overwrite stylesheets/screen.css 
+2013-05-07 17:04:12 identical stylesheets/ie.css 
+2013-05-07 17:04:12 identical stylesheets/print.css 
+2013-05-07 17:04:12 overwrite stylesheets/screen.css 
+2013-05-07 17:06:06 identical stylesheets/ie.css 
+2013-05-07 17:06:06 identical stylesheets/print.css 
+2013-05-07 17:06:06 overwrite stylesheets/screen.css 
+2013-05-07 17:08:14 identical stylesheets/ie.css 
+2013-05-07 17:08:14 identical stylesheets/print.css 
+2013-05-07 17:08:14 overwrite stylesheets/screen.css 
+2013-05-07 17:08:22 identical stylesheets/ie.css 
+2013-05-07 17:08:22 identical stylesheets/print.css 
+2013-05-07 17:08:22 overwrite stylesheets/screen.css 
+2013-05-07 17:23:37 identical stylesheets/ie.css 
+2013-05-07 17:23:37 identical stylesheets/print.css 
+2013-05-07 17:23:38 overwrite stylesheets/screen.css 
+2013-05-07 17:24:43 identical stylesheets/ie.css 
+2013-05-07 17:24:43 identical stylesheets/print.css 
+2013-05-07 17:24:44 overwrite stylesheets/screen.css 
+2013-05-07 17:24:56 identical stylesheets/ie.css 
+2013-05-07 17:24:56 identical stylesheets/print.css 
+2013-05-07 17:24:57 overwrite stylesheets/screen.css 
+2013-05-07 17:25:25 identical stylesheets/ie.css 
+2013-05-07 17:25:25 identical stylesheets/print.css 
+2013-05-07 17:25:26 overwrite stylesheets/screen.css 
+2013-05-07 17:30:12 identical stylesheets/ie.css 
+2013-05-07 17:30:12 identical stylesheets/print.css 
+2013-05-07 17:30:12 overwrite stylesheets/screen.css 
+2013-05-07 17:30:19 identical stylesheets/ie.css 
+2013-05-07 17:30:19 identical stylesheets/print.css 
+2013-05-07 17:30:19 overwrite stylesheets/screen.css 
+2013-05-07 17:30:22 identical stylesheets/ie.css 
+2013-05-07 17:30:22 identical stylesheets/print.css 
+2013-05-07 17:30:22 identical stylesheets/screen.css 
+2013-05-07 17:32:16 identical stylesheets/ie.css 
+2013-05-07 17:32:16 identical stylesheets/print.css 
+2013-05-07 17:32:16 overwrite stylesheets/screen.css 
+2013-05-07 17:33:50    remove .sass-cache/ 
+2013-05-07 17:33:50    remove stylesheets/ie.css 
+2013-05-07 17:33:50    remove stylesheets/print.css 
+2013-05-07 17:33:50    remove stylesheets/screen.css 
+2013-05-07 17:33:50    create stylesheets/ie.css 
+2013-05-07 17:33:50    create stylesheets/print.css 
+2013-05-07 17:33:52    create stylesheets/screen.css 
+2013-05-07 17:33:53 identical stylesheets/ie.css 
+2013-05-07 17:33:53 identical stylesheets/print.css 
+2013-05-07 17:33:53 identical stylesheets/screen.css 
+2013-05-07 17:34:50 identical stylesheets/ie.css 
+2013-05-07 17:34:50 identical stylesheets/print.css 
+2013-05-07 17:34:50 identical stylesheets/screen.css 
+2013-05-08 08:41:04 identical stylesheets/ie.css 
+2013-05-08 08:41:04 identical stylesheets/print.css 
+2013-05-08 08:41:06 identical stylesheets/screen.css 
+2013-05-08 08:46:11 identical stylesheets/ie.css 
+2013-05-08 08:46:11 identical stylesheets/print.css 
+2013-05-08 08:46:12 identical stylesheets/screen.css 
+2013-05-08 08:46:31 identical stylesheets/ie.css 
+2013-05-08 08:46:31 identical stylesheets/print.css 
+2013-05-08 08:46:32 overwrite stylesheets/screen.css 
+2013-05-08 08:48:53 identical stylesheets/ie.css 
+2013-05-08 08:48:53 identical stylesheets/print.css 
+2013-05-08 08:48:54 overwrite stylesheets/screen.css 
+2013-05-08 08:49:20 identical stylesheets/ie.css 
+2013-05-08 08:49:20 identical stylesheets/print.css 
+2013-05-08 08:49:20 overwrite stylesheets/screen.css 
+2013-05-08 08:54:09 identical stylesheets/ie.css 
+2013-05-08 08:54:09 identical stylesheets/print.css 
+2013-05-08 08:54:09     error sass/screen.sass (Line 122: Inconsistent indentation: "    \t" was used for indentation, but the rest of the document was indented using 1 tab.)
+2013-05-08 08:54:09 overwrite stylesheets/screen.css 
+2013-05-08 08:54:26 identical stylesheets/ie.css 
+2013-05-08 08:54:26 identical stylesheets/print.css 
+2013-05-08 08:54:26 overwrite stylesheets/screen.css 
+2013-05-08 08:55:11 identical stylesheets/ie.css 
+2013-05-08 08:55:11 identical stylesheets/print.css 
+2013-05-08 08:55:11 identical stylesheets/screen.css 
+2013-05-08 08:56:27 identical stylesheets/ie.css 
+2013-05-08 08:56:27 identical stylesheets/print.css 
+2013-05-08 08:56:27 identical stylesheets/screen.css 
+2013-05-08 08:59:24 identical stylesheets/ie.css 
+2013-05-08 08:59:24 identical stylesheets/print.css 
+2013-05-08 08:59:24 overwrite stylesheets/screen.css 
+2013-05-08 08:59:32 identical stylesheets/ie.css 
+2013-05-08 08:59:32 identical stylesheets/print.css 
+2013-05-08 08:59:32 overwrite stylesheets/screen.css 
+2013-05-08 08:59:40 identical stylesheets/ie.css 
+2013-05-08 08:59:40 identical stylesheets/print.css 
+2013-05-08 08:59:40 overwrite stylesheets/screen.css 
+2013-05-08 09:03:28 identical stylesheets/ie.css 
+2013-05-08 09:03:28 identical stylesheets/print.css 
+2013-05-08 09:03:28     error sass/screen.sass (Line 130: Invalid CSS after "relative": expected expression (e.g. 1px, bold), was ";")
+2013-05-08 09:03:28 overwrite stylesheets/screen.css 
+2013-05-08 09:03:34 identical stylesheets/ie.css 
+2013-05-08 09:03:34 identical stylesheets/print.css 
+2013-05-08 09:03:34 overwrite stylesheets/screen.css 
+2013-05-08 09:05:13 identical stylesheets/ie.css 
+2013-05-08 09:05:13 identical stylesheets/print.css 
+2013-05-08 09:05:13     error sass/screen.sass (Line 137: Invalid CSS after ""Example"": expected expression (e.g. 1px, bold), was ";")
+2013-05-08 09:05:13 overwrite stylesheets/screen.css 
+2013-05-08 09:05:23 identical stylesheets/ie.css 
+2013-05-08 09:05:23 identical stylesheets/print.css 
+2013-05-08 09:05:23     error sass/screen.sass (Line 135: Mixin "border-radius" does not accept a content block.)
+2013-05-08 09:05:23 overwrite stylesheets/screen.css 
+2013-05-08 09:05:47 identical stylesheets/ie.css 
+2013-05-08 09:05:47 identical stylesheets/print.css 
+2013-05-08 09:05:47     error sass/screen.sass (Line 135: Mixin "border-radius" does not accept a content block.)
+2013-05-08 09:05:47 identical stylesheets/screen.css 
+2013-05-08 09:06:43 identical stylesheets/ie.css 
+2013-05-08 09:06:43 identical stylesheets/print.css 
+2013-05-08 09:06:43     error sass/screen.sass (Line 135: Mixin "border-radius" does not accept a content block.)
+2013-05-08 09:06:43 identical stylesheets/screen.css 
+2013-05-08 09:06:56 identical stylesheets/ie.css 
+2013-05-08 09:06:56 identical stylesheets/print.css 
+2013-05-08 09:06:56 overwrite stylesheets/screen.css 
+2013-05-08 09:07:22 identical stylesheets/ie.css 
+2013-05-08 09:07:22 identical stylesheets/print.css 
+2013-05-08 09:07:22 overwrite stylesheets/screen.css 
+2013-05-08 09:08:09 identical stylesheets/ie.css 
+2013-05-08 09:08:09 identical stylesheets/print.css 
+2013-05-08 09:08:09 overwrite stylesheets/screen.css 
+2013-05-08 09:08:17 identical stylesheets/ie.css 
+2013-05-08 09:08:17 identical stylesheets/print.css 
+2013-05-08 09:08:17 overwrite stylesheets/screen.css 
+2013-05-08 09:08:41 identical stylesheets/ie.css 
+2013-05-08 09:08:41 identical stylesheets/print.css 
+2013-05-08 09:08:41 overwrite stylesheets/screen.css 
+2013-05-08 09:08:53 identical stylesheets/ie.css 
+2013-05-08 09:08:53 identical stylesheets/print.css 
+2013-05-08 09:08:53 overwrite stylesheets/screen.css 
+2013-05-08 09:08:59 identical stylesheets/ie.css 
+2013-05-08 09:08:59 identical stylesheets/print.css 
+2013-05-08 09:08:59 overwrite stylesheets/screen.css 
+2013-05-08 09:11:32 identical stylesheets/ie.css 
+2013-05-08 09:11:32 identical stylesheets/print.css 
+2013-05-08 09:11:32     error sass/screen.sass (Line 129: Invalid CSS after "...ent: "Example",": expected variable (e.g. $foo), was ")")
+2013-05-08 09:11:32 overwrite stylesheets/screen.css 
+2013-05-08 09:11:39 identical stylesheets/ie.css 
+2013-05-08 09:11:39 identical stylesheets/print.css 
+2013-05-08 09:11:39     error sass/screen.sass (Line 129: Invalid CSS after "...ent: "Example",": expected variable (e.g. $foo), was ")")
+2013-05-08 09:11:39 identical stylesheets/screen.css 
+2013-05-08 09:11:45 identical stylesheets/ie.css 
+2013-05-08 09:11:45 identical stylesheets/print.css 
+2013-05-08 09:11:45 overwrite stylesheets/screen.css 
+2013-05-08 09:11:55 identical stylesheets/ie.css 
+2013-05-08 09:11:55 identical stylesheets/print.css 
+2013-05-08 09:11:55 overwrite stylesheets/screen.css 
+2013-05-08 09:11:59 identical stylesheets/ie.css 
+2013-05-08 09:11:59 identical stylesheets/print.css 
+2013-05-08 09:11:59 overwrite stylesheets/screen.css 
+2013-05-08 09:16:18 identical stylesheets/ie.css 
+2013-05-08 09:16:18 identical stylesheets/print.css 
+2013-05-08 09:16:18 identical stylesheets/screen.css 
+2013-05-08 09:17:25 identical stylesheets/ie.css 
+2013-05-08 09:17:25 identical stylesheets/print.css 
+2013-05-08 09:17:25 overwrite stylesheets/screen.css 
+2013-05-08 09:17:50 identical stylesheets/ie.css 
+2013-05-08 09:17:50 identical stylesheets/print.css 
+2013-05-08 09:17:50 overwrite stylesheets/screen.css 
+2013-05-08 09:17:58 identical stylesheets/ie.css 
+2013-05-08 09:17:58 identical stylesheets/print.css 
+2013-05-08 09:17:58 overwrite stylesheets/screen.css 
+2013-05-08 09:18:19 identical stylesheets/ie.css 
+2013-05-08 09:18:19 identical stylesheets/print.css 
+2013-05-08 09:18:19 overwrite stylesheets/screen.css 
+2013-05-08 09:18:30 identical stylesheets/ie.css 
+2013-05-08 09:18:30 identical stylesheets/print.css 
+2013-05-08 09:18:30 overwrite stylesheets/screen.css 
+2013-05-08 09:18:36 identical stylesheets/ie.css 
+2013-05-08 09:18:36 identical stylesheets/print.css 
+2013-05-08 09:18:36 overwrite stylesheets/screen.css 
+2013-05-08 09:18:46 identical stylesheets/ie.css 
+2013-05-08 09:18:46 identical stylesheets/print.css 
+2013-05-08 09:18:46 overwrite stylesheets/screen.css 
+2013-05-08 09:19:26 identical stylesheets/ie.css 
+2013-05-08 09:19:26 identical stylesheets/print.css 
+2013-05-08 09:19:26 overwrite stylesheets/screen.css 
+2013-05-08 09:19:56 identical stylesheets/ie.css 
+2013-05-08 09:19:56 identical stylesheets/print.css 
+2013-05-08 09:19:56 overwrite stylesheets/screen.css 
+2013-05-08 09:20:04 identical stylesheets/ie.css 
+2013-05-08 09:20:04 identical stylesheets/print.css 
+2013-05-08 09:20:04 overwrite stylesheets/screen.css 
+2013-05-08 09:23:48 identical stylesheets/ie.css 
+2013-05-08 09:23:48 identical stylesheets/print.css 
+2013-05-08 09:23:48     error sass/screen.sass (Line 152: Invalid CSS after "8px": expected expression (e.g. 1px, bold), was ";")
+2013-05-08 09:23:48 overwrite stylesheets/screen.css 
+2013-05-08 09:23:55 identical stylesheets/ie.css 
+2013-05-08 09:23:55 identical stylesheets/print.css 
+2013-05-08 09:23:55     error sass/screen.sass (Line 152: Invalid CSS after "8px": expected expression (e.g. 1px, bold), was ";")
+2013-05-08 09:23:55 identical stylesheets/screen.css 
+2013-05-08 09:24:02 identical stylesheets/ie.css 
+2013-05-08 09:24:02 identical stylesheets/print.css 
+2013-05-08 09:24:02 overwrite stylesheets/screen.css 
+2013-05-08 09:25:50 identical stylesheets/ie.css 
+2013-05-08 09:25:50 identical stylesheets/print.css 
+2013-05-08 09:25:50 overwrite stylesheets/screen.css 
+2013-05-08 09:26:00 identical stylesheets/ie.css 
+2013-05-08 09:26:00 identical stylesheets/print.css 
+2013-05-08 09:26:00 overwrite stylesheets/screen.css 
+2013-05-08 09:26:08 identical stylesheets/ie.css 
+2013-05-08 09:26:08 identical stylesheets/print.css 
+2013-05-08 09:26:08 overwrite stylesheets/screen.css 
+2013-05-08 09:26:23 identical stylesheets/ie.css 
+2013-05-08 09:26:23 identical stylesheets/print.css 
+2013-05-08 09:26:23 overwrite stylesheets/screen.css 
+2013-05-08 09:26:53 identical stylesheets/ie.css 
+2013-05-08 09:26:53 identical stylesheets/print.css 
+2013-05-08 09:26:53 overwrite stylesheets/screen.css 
+2013-05-08 09:28:53 identical stylesheets/ie.css 
+2013-05-08 09:28:53 identical stylesheets/print.css 
+2013-05-08 09:28:53 overwrite stylesheets/screen.css 
+2013-05-08 09:33:48 identical stylesheets/ie.css 
+2013-05-08 09:33:48 identical stylesheets/print.css 
+2013-05-08 09:33:48 overwrite stylesheets/screen.css 
+2013-05-08 09:34:47 identical stylesheets/ie.css 
+2013-05-08 09:34:47 identical stylesheets/print.css 
+2013-05-08 09:34:47 overwrite stylesheets/screen.css 
+2013-05-08 09:35:05 identical stylesheets/ie.css 
+2013-05-08 09:35:05 identical stylesheets/print.css 
+2013-05-08 09:35:05 overwrite stylesheets/screen.css 
+2013-05-08 09:37:16 identical stylesheets/ie.css 
+2013-05-08 09:37:16 identical stylesheets/print.css 
+2013-05-08 09:37:16 overwrite stylesheets/screen.css 
+2013-05-08 09:37:29 identical stylesheets/ie.css 
+2013-05-08 09:37:29 identical stylesheets/print.css 
+2013-05-08 09:37:29 overwrite stylesheets/screen.css 
+2013-05-08 09:37:58 identical stylesheets/ie.css 
+2013-05-08 09:37:58 identical stylesheets/print.css 
+2013-05-08 09:37:58 overwrite stylesheets/screen.css 
+2013-05-08 09:38:24 identical stylesheets/ie.css 
+2013-05-08 09:38:24 identical stylesheets/print.css 
+2013-05-08 09:38:24 overwrite stylesheets/screen.css 
+2013-05-08 10:01:01 identical stylesheets/ie.css 
+2013-05-08 10:01:01 identical stylesheets/print.css 
+2013-05-08 10:01:01 identical stylesheets/screen.css 
+2013-05-08 10:01:13 identical stylesheets/ie.css 
+2013-05-08 10:01:13 identical stylesheets/print.css 
+2013-05-08 10:01:13 overwrite stylesheets/screen.css 
+2013-05-08 10:05:34 identical stylesheets/ie.css 
+2013-05-08 10:05:34 identical stylesheets/print.css 
+2013-05-08 10:05:34 identical stylesheets/screen.css 
+2013-05-08 10:05:44 identical stylesheets/ie.css 
+2013-05-08 10:05:44 identical stylesheets/print.css 
+2013-05-08 10:05:44 identical stylesheets/screen.css 
+2013-05-08 10:06:09 identical stylesheets/ie.css 
+2013-05-08 10:06:09 identical stylesheets/print.css 
+2013-05-08 10:06:09 identical stylesheets/screen.css 
+2013-05-08 10:07:16 identical stylesheets/ie.css 
+2013-05-08 10:07:16 identical stylesheets/print.css 
+2013-05-08 10:07:16 overwrite stylesheets/screen.css 
+2013-05-08 10:07:43 identical stylesheets/ie.css 
+2013-05-08 10:07:43 identical stylesheets/print.css 
+2013-05-08 10:07:43 overwrite stylesheets/screen.css 
+2013-05-08 10:07:57 identical stylesheets/ie.css 
+2013-05-08 10:07:57 identical stylesheets/print.css 
+2013-05-08 10:07:57 overwrite stylesheets/screen.css 
+2013-05-08 10:08:07 identical stylesheets/ie.css 
+2013-05-08 10:08:07 identical stylesheets/print.css 
+2013-05-08 10:08:07 overwrite stylesheets/screen.css 
+2013-05-08 10:08:46 identical stylesheets/ie.css 
+2013-05-08 10:08:46 identical stylesheets/print.css 
+2013-05-08 10:08:46 overwrite stylesheets/screen.css 
+2013-05-08 10:12:19 identical stylesheets/ie.css 
+2013-05-08 10:12:19 identical stylesheets/print.css 
+2013-05-08 10:12:19 identical stylesheets/screen.css 
+2013-05-08 10:12:25 identical stylesheets/ie.css 
+2013-05-08 10:12:25 identical stylesheets/print.css 
+2013-05-08 10:12:25 identical stylesheets/screen.css 
+2013-05-08 10:13:07 identical stylesheets/ie.css 
+2013-05-08 10:13:07 identical stylesheets/print.css 
+2013-05-08 10:13:07 identical stylesheets/screen.css 
+2013-05-08 10:13:15 identical stylesheets/ie.css 
+2013-05-08 10:13:15 identical stylesheets/print.css 
+2013-05-08 10:13:15 identical stylesheets/screen.css 
+2013-05-08 10:23:17 identical stylesheets/ie.css 
+2013-05-08 10:23:17 identical stylesheets/print.css 
+2013-05-08 10:23:17 overwrite stylesheets/screen.css 
+2013-05-08 10:26:34 identical stylesheets/ie.css 
+2013-05-08 10:26:34 identical stylesheets/print.css 
+2013-05-08 10:26:34 overwrite stylesheets/screen.css 
+2013-05-08 10:26:45 identical stylesheets/ie.css 
+2013-05-08 10:26:45 identical stylesheets/print.css 
+2013-05-08 10:26:45 overwrite stylesheets/screen.css 
+2013-05-08 10:33:27 identical stylesheets/ie.css 
+2013-05-08 10:33:27 identical stylesheets/print.css 
+2013-05-08 10:33:27 overwrite stylesheets/screen.css 
+2013-05-08 10:33:37 identical stylesheets/ie.css 
+2013-05-08 10:33:37 identical stylesheets/print.css 
+2013-05-08 10:33:37 overwrite stylesheets/screen.css 
+2013-05-08 10:33:47 identical stylesheets/ie.css 
+2013-05-08 10:33:47 identical stylesheets/print.css 
+2013-05-08 10:33:47 overwrite stylesheets/screen.css 
+2013-05-08 10:33:52 identical stylesheets/ie.css 
+2013-05-08 10:33:52 identical stylesheets/print.css 
+2013-05-08 10:33:52 overwrite stylesheets/screen.css 
+2013-05-08 10:34:02 identical stylesheets/ie.css 
+2013-05-08 10:34:02 identical stylesheets/print.css 
+2013-05-08 10:34:02 overwrite stylesheets/screen.css 
+2013-05-08 10:34:55 identical stylesheets/ie.css 
+2013-05-08 10:34:55 identical stylesheets/print.css 
+2013-05-08 10:34:55 overwrite stylesheets/screen.css 
+2013-05-08 10:35:11 identical stylesheets/ie.css 
+2013-05-08 10:35:11 identical stylesheets/print.css 
+2013-05-08 10:35:11 identical stylesheets/screen.css 
+2013-05-08 10:37:15 identical stylesheets/ie.css 
+2013-05-08 10:37:15 identical stylesheets/print.css 
+2013-05-08 10:37:15 overwrite stylesheets/screen.css 
+2013-05-08 10:43:45 identical stylesheets/ie.css 
+2013-05-08 10:43:45 identical stylesheets/print.css 
+2013-05-08 10:43:45 identical stylesheets/screen.css 
+2013-05-08 10:43:50 identical stylesheets/ie.css 
+2013-05-08 10:43:50 identical stylesheets/print.css 
+2013-05-08 10:43:51 identical stylesheets/screen.css 
+2013-05-08 10:44:02 identical stylesheets/ie.css 
+2013-05-08 10:44:02 identical stylesheets/print.css 
+2013-05-08 10:44:02 overwrite stylesheets/screen.css 
+2013-05-08 10:44:16 identical stylesheets/ie.css 
+2013-05-08 10:44:16 identical stylesheets/print.css 
+2013-05-08 10:44:16 identical stylesheets/screen.css 
+2013-05-08 10:53:57 identical stylesheets/ie.css 
+2013-05-08 10:53:57 identical stylesheets/print.css 
+2013-05-08 10:53:58 identical stylesheets/screen.css 
+2013-05-08 10:54:44 identical stylesheets/ie.css 
+2013-05-08 10:54:44 identical stylesheets/print.css 
+2013-05-08 10:54:45 identical stylesheets/screen.css 
+2013-05-08 10:55:07 identical stylesheets/ie.css 
+2013-05-08 10:55:07 identical stylesheets/print.css 
+2013-05-08 10:55:08 identical stylesheets/screen.css 
+2013-05-08 11:06:19 identical stylesheets/ie.css 
+2013-05-08 11:06:19 identical stylesheets/print.css 
+2013-05-08 11:06:20     error sass/screen.sass (Line 241: Mixin blockquote is missing argument $borderColor.)
+2013-05-08 11:06:20 overwrite stylesheets/screen.css 
+2013-05-08 11:06:42 identical stylesheets/ie.css 
+2013-05-08 11:06:42 identical stylesheets/print.css 
+2013-05-08 11:06:43     error sass/screen.sass (Line 244: Mixin blockquote is missing argument $borderColor.)
+2013-05-08 11:06:43 overwrite stylesheets/screen.css 
+2013-05-08 11:07:06 identical stylesheets/ie.css 
+2013-05-08 11:07:06 identical stylesheets/print.css 
+2013-05-08 11:07:07 overwrite stylesheets/screen.css 
+2013-05-08 11:10:26 identical stylesheets/ie.css 
+2013-05-08 11:10:26 identical stylesheets/print.css 
+2013-05-08 11:10:27 overwrite stylesheets/screen.css 
+2013-05-08 11:16:35 identical stylesheets/ie.css 
+2013-05-08 11:16:35 identical stylesheets/print.css 
+2013-05-08 11:16:36 overwrite stylesheets/screen.css 
+2013-05-08 11:18:22 identical stylesheets/ie.css 
+2013-05-08 11:18:22 identical stylesheets/print.css 
+2013-05-08 11:18:23 identical stylesheets/screen.css 
+2013-05-08 11:20:22 identical stylesheets/ie.css 
+2013-05-08 11:20:22 identical stylesheets/print.css 
+2013-05-08 11:20:23 overwrite stylesheets/screen.css 
+2013-05-08 11:20:38 identical stylesheets/ie.css 
+2013-05-08 11:20:38 identical stylesheets/print.css 
+2013-05-08 11:20:39 overwrite stylesheets/screen.css 
+2013-05-08 11:21:22 identical stylesheets/ie.css 
+2013-05-08 11:21:22 identical stylesheets/print.css 
+2013-05-08 11:21:23 identical stylesheets/screen.css 
+2013-05-08 11:21:26 identical stylesheets/ie.css 
+2013-05-08 11:21:26 identical stylesheets/print.css 
+2013-05-08 11:21:27 overwrite stylesheets/screen.css 
+2013-05-08 11:22:13 identical stylesheets/ie.css 
+2013-05-08 11:22:13 identical stylesheets/print.css 
+2013-05-08 11:22:14 identical stylesheets/screen.css 
+2013-05-08 11:23:43 identical stylesheets/ie.css 
+2013-05-08 11:23:43 identical stylesheets/print.css 
+2013-05-08 11:23:44 identical stylesheets/screen.css 
+2013-05-08 11:24:07 identical stylesheets/ie.css 
+2013-05-08 11:24:07 identical stylesheets/print.css 
+2013-05-08 11:24:08 overwrite stylesheets/screen.css 
+2013-05-08 11:24:19 identical stylesheets/ie.css 
+2013-05-08 11:24:19 identical stylesheets/print.css 
+2013-05-08 11:24:20 overwrite stylesheets/screen.css 
+2013-05-08 11:24:48 identical stylesheets/ie.css 
+2013-05-08 11:24:48 identical stylesheets/print.css 
+2013-05-08 11:24:49 overwrite stylesheets/screen.css 
+2013-05-08 11:25:19 identical stylesheets/ie.css 
+2013-05-08 11:25:19 identical stylesheets/print.css 
+2013-05-08 11:25:20 overwrite stylesheets/screen.css 
+2013-05-08 11:25:52 identical stylesheets/ie.css 
+2013-05-08 11:25:52 identical stylesheets/print.css 
+2013-05-08 11:25:53 overwrite stylesheets/screen.css 
+2013-05-08 11:26:28 identical stylesheets/ie.css 
+2013-05-08 11:26:28 identical stylesheets/print.css 
+2013-05-08 11:26:29 identical stylesheets/screen.css 
+2013-05-08 11:34:37 identical stylesheets/ie.css 
+2013-05-08 11:34:37 identical stylesheets/print.css 
+2013-05-08 11:34:38 overwrite stylesheets/screen.css 
+2013-05-08 11:34:52 identical stylesheets/ie.css 
+2013-05-08 11:34:52 identical stylesheets/print.css 
+2013-05-08 11:34:53 overwrite stylesheets/screen.css 
+2013-05-08 11:35:12 identical stylesheets/ie.css 
+2013-05-08 11:35:12 identical stylesheets/print.css 
+2013-05-08 11:35:13 overwrite stylesheets/screen.css 
+2013-05-08 11:35:20 identical stylesheets/ie.css 
+2013-05-08 11:35:20 identical stylesheets/print.css 
+2013-05-08 11:35:21 overwrite stylesheets/screen.css 
+2013-05-08 11:35:25 identical stylesheets/ie.css 
+2013-05-08 11:35:25 identical stylesheets/print.css 
+2013-05-08 11:35:26 overwrite stylesheets/screen.css 
+2013-05-08 11:38:44 identical stylesheets/ie.css 
+2013-05-08 11:38:44 identical stylesheets/print.css 
+2013-05-08 11:38:45 identical stylesheets/screen.css 
+2013-05-08 14:08:10 identical stylesheets/ie.css 
+2013-05-08 14:08:10 identical stylesheets/print.css 
+2013-05-08 14:08:10 identical stylesheets/screen.css 
+2013-05-08 14:08:33 identical stylesheets/ie.css 
+2013-05-08 14:08:33 identical stylesheets/print.css 
+2013-05-08 14:08:33 identical stylesheets/screen.css 
+2013-05-08 14:08:49 identical stylesheets/ie.css 
+2013-05-08 14:08:49 identical stylesheets/print.css 
+2013-05-08 14:08:49 overwrite stylesheets/screen.css 
+2013-05-08 14:11:19 identical stylesheets/ie.css 
+2013-05-08 14:11:19 identical stylesheets/print.css 
+2013-05-08 14:11:19 overwrite stylesheets/screen.css 
+2013-05-08 14:12:16 identical stylesheets/ie.css 
+2013-05-08 14:12:16 identical stylesheets/print.css 
+2013-05-08 14:12:16 overwrite stylesheets/screen.css 
+2013-05-08 14:12:50 identical stylesheets/ie.css 
+2013-05-08 14:12:50 identical stylesheets/print.css 
+2013-05-08 14:12:50 identical stylesheets/screen.css 
+2013-05-08 14:12:59 identical stylesheets/ie.css 
+2013-05-08 14:12:59 identical stylesheets/print.css 
+2013-05-08 14:12:59 overwrite stylesheets/screen.css 
+2013-05-08 14:15:06 identical stylesheets/ie.css 
+2013-05-08 14:15:06 identical stylesheets/print.css 
+2013-05-08 14:15:06 overwrite stylesheets/screen.css 
+2013-05-08 14:19:42 identical stylesheets/ie.css 
+2013-05-08 14:19:42 identical stylesheets/print.css 
+2013-05-08 14:19:42 overwrite stylesheets/screen.css 
+2013-05-08 14:20:16 identical stylesheets/ie.css 
+2013-05-08 14:20:16 identical stylesheets/print.css 
+2013-05-08 14:20:16 overwrite stylesheets/screen.css 
+2013-05-08 14:20:25 identical stylesheets/ie.css 
+2013-05-08 14:20:25 identical stylesheets/print.css 
+2013-05-08 14:20:25 overwrite stylesheets/screen.css 
+2013-05-08 14:20:58 identical stylesheets/ie.css 
+2013-05-08 14:20:58 identical stylesheets/print.css 
+2013-05-08 14:20:58 overwrite stylesheets/screen.css 
+2013-05-08 14:28:15 identical stylesheets/ie.css 
+2013-05-08 14:28:15 identical stylesheets/print.css 
+2013-05-08 14:28:15 overwrite stylesheets/screen.css 
+2013-05-08 14:28:48 identical stylesheets/ie.css 
+2013-05-08 14:28:48 identical stylesheets/print.css 
+2013-05-08 14:28:48 overwrite stylesheets/screen.css 
+2013-05-08 14:42:10 identical stylesheets/ie.css 
+2013-05-08 14:42:10 identical stylesheets/print.css 
+2013-05-08 14:42:10 overwrite stylesheets/screen.css 
+2013-05-08 14:43:08 identical stylesheets/ie.css 
+2013-05-08 14:43:08 identical stylesheets/print.css 
+2013-05-08 14:43:08 overwrite stylesheets/screen.css 
+2013-05-08 14:43:21 identical stylesheets/ie.css 
+2013-05-08 14:43:21 identical stylesheets/print.css 
+2013-05-08 14:43:21 overwrite stylesheets/screen.css 
+2013-05-08 14:50:49 identical stylesheets/ie.css 
+2013-05-08 14:50:49 identical stylesheets/print.css 
+2013-05-08 14:50:49 identical stylesheets/screen.css 
+2013-05-08 14:51:35 identical stylesheets/ie.css 
+2013-05-08 14:51:35 identical stylesheets/print.css 
+2013-05-08 14:51:35 overwrite stylesheets/screen.css 
+2013-05-08 14:51:43 identical stylesheets/ie.css 
+2013-05-08 14:51:43 identical stylesheets/print.css 
+2013-05-08 14:51:43 overwrite stylesheets/screen.css 
+2013-05-08 14:52:08 identical stylesheets/ie.css 
+2013-05-08 14:52:08 identical stylesheets/print.css 
+2013-05-08 14:52:08 overwrite stylesheets/screen.css 
+2013-05-08 14:53:04 identical stylesheets/ie.css 
+2013-05-08 14:53:04 identical stylesheets/print.css 
+2013-05-08 14:53:04 overwrite stylesheets/screen.css 
+2013-05-08 14:53:31 identical stylesheets/ie.css 
+2013-05-08 14:53:31 identical stylesheets/print.css 
+2013-05-08 14:53:31 overwrite stylesheets/screen.css 
+2013-05-08 14:54:58 identical stylesheets/ie.css 
+2013-05-08 14:54:58 identical stylesheets/print.css 
+2013-05-08 14:54:58     error sass/screen.sass (Line 237: Invalid CSS after "inline-block": expected expression (e.g. 1px, bold), was ";")
+2013-05-08 14:54:58 overwrite stylesheets/screen.css 
+2013-05-08 14:55:06 identical stylesheets/ie.css 
+2013-05-08 14:55:06 identical stylesheets/print.css 
+2013-05-08 14:55:06 overwrite stylesheets/screen.css 
+2013-05-08 14:55:28 identical stylesheets/ie.css 
+2013-05-08 14:55:28 identical stylesheets/print.css 
+2013-05-08 14:55:28 overwrite stylesheets/screen.css 
+2013-05-08 14:55:35 identical stylesheets/ie.css 
+2013-05-08 14:55:35 identical stylesheets/print.css 
+2013-05-08 14:55:35 overwrite stylesheets/screen.css 
+2013-05-08 14:55:47 identical stylesheets/ie.css 
+2013-05-08 14:55:47 identical stylesheets/print.css 
+2013-05-08 14:55:47 overwrite stylesheets/screen.css 
+2013-05-08 14:56:05 identical stylesheets/ie.css 
+2013-05-08 14:56:05 identical stylesheets/print.css 
+2013-05-08 14:56:05 overwrite stylesheets/screen.css 
+2013-05-08 14:56:11 identical stylesheets/ie.css 
+2013-05-08 14:56:11 identical stylesheets/print.css 
+2013-05-08 14:56:11 overwrite stylesheets/screen.css 
+2013-05-08 14:56:24 identical stylesheets/ie.css 
+2013-05-08 14:56:24 identical stylesheets/print.css 
+2013-05-08 14:56:24 identical stylesheets/screen.css 
+2013-05-08 14:56:32 identical stylesheets/ie.css 
+2013-05-08 14:56:32 identical stylesheets/print.css 
+2013-05-08 14:56:32 overwrite stylesheets/screen.css 
+2013-05-08 14:56:36 identical stylesheets/ie.css 
+2013-05-08 14:56:36 identical stylesheets/print.css 
+2013-05-08 14:56:36 overwrite stylesheets/screen.css 
+2013-05-08 14:56:41 identical stylesheets/ie.css 
+2013-05-08 14:56:41 identical stylesheets/print.css 
+2013-05-08 14:56:41 overwrite stylesheets/screen.css 
+2013-05-08 14:56:49 identical stylesheets/ie.css 
+2013-05-08 14:56:49 identical stylesheets/print.css 
+2013-05-08 14:56:49 overwrite stylesheets/screen.css 
+2013-05-08 14:56:58 identical stylesheets/ie.css 
+2013-05-08 14:56:58 identical stylesheets/print.css 
+2013-05-08 14:56:58 overwrite stylesheets/screen.css 
+2013-05-08 14:57:09 identical stylesheets/ie.css 
+2013-05-08 14:57:09 identical stylesheets/print.css 
+2013-05-08 14:57:09 overwrite stylesheets/screen.css 
+2013-05-08 14:57:24 identical stylesheets/ie.css 
+2013-05-08 14:57:24 identical stylesheets/print.css 
+2013-05-08 14:57:24 overwrite stylesheets/screen.css 
+2013-05-08 14:57:31 identical stylesheets/ie.css 
+2013-05-08 14:57:31 identical stylesheets/print.css 
+2013-05-08 14:57:31 overwrite stylesheets/screen.css 
+2013-05-08 14:57:39 identical stylesheets/ie.css 
+2013-05-08 14:57:39 identical stylesheets/print.css 
+2013-05-08 14:57:39 overwrite stylesheets/screen.css 
+2013-05-08 14:57:42 identical stylesheets/ie.css 
+2013-05-08 14:57:42 identical stylesheets/print.css 
+2013-05-08 14:57:42 overwrite stylesheets/screen.css 
+2013-05-08 14:57:53 identical stylesheets/ie.css 
+2013-05-08 14:57:53 identical stylesheets/print.css 
+2013-05-08 14:57:53 overwrite stylesheets/screen.css 
+2013-05-08 14:57:58 identical stylesheets/ie.css 
+2013-05-08 14:57:58 identical stylesheets/print.css 
+2013-05-08 14:57:58 overwrite stylesheets/screen.css 
+2013-05-08 14:58:09 identical stylesheets/ie.css 
+2013-05-08 14:58:09 identical stylesheets/print.css 
+2013-05-08 14:58:09 overwrite stylesheets/screen.css 
+2013-05-08 14:58:21 identical stylesheets/ie.css 
+2013-05-08 14:58:21 identical stylesheets/print.css 
+2013-05-08 14:58:21 overwrite stylesheets/screen.css 
+2013-05-08 14:58:47 identical stylesheets/ie.css 
+2013-05-08 14:58:47 identical stylesheets/print.css 
+2013-05-08 14:58:47 overwrite stylesheets/screen.css 
+2013-05-08 14:58:55 identical stylesheets/ie.css 
+2013-05-08 14:58:55 identical stylesheets/print.css 
+2013-05-08 14:58:55 overwrite stylesheets/screen.css 
+2013-05-08 14:59:00 identical stylesheets/ie.css 
+2013-05-08 14:59:00 identical stylesheets/print.css 
+2013-05-08 14:59:00 overwrite stylesheets/screen.css 
+2013-05-08 14:59:28 identical stylesheets/ie.css 
+2013-05-08 14:59:28 identical stylesheets/print.css 
+2013-05-08 14:59:28 overwrite stylesheets/screen.css 
+2013-05-08 14:59:50 identical stylesheets/ie.css 
+2013-05-08 14:59:50 identical stylesheets/print.css 
+2013-05-08 14:59:50 overwrite stylesheets/screen.css 
+2013-05-08 15:00:11 identical stylesheets/ie.css 
+2013-05-08 15:00:11 identical stylesheets/print.css 
+2013-05-08 15:00:11 overwrite stylesheets/screen.css 
+2013-05-08 15:00:43 identical stylesheets/ie.css 
+2013-05-08 15:00:43 identical stylesheets/print.css 
+2013-05-08 15:00:43 overwrite stylesheets/screen.css 
+2013-05-08 15:00:49 identical stylesheets/ie.css 
+2013-05-08 15:00:49 identical stylesheets/print.css 
+2013-05-08 15:00:49 identical stylesheets/screen.css 
+2013-05-08 15:00:59 identical stylesheets/ie.css 
+2013-05-08 15:00:59 identical stylesheets/print.css 
+2013-05-08 15:00:59 overwrite stylesheets/screen.css 
+2013-05-08 15:01:10 identical stylesheets/ie.css 
+2013-05-08 15:01:10 identical stylesheets/print.css 
+2013-05-08 15:01:10 identical stylesheets/screen.css 
+2013-05-08 15:01:21 identical stylesheets/ie.css 
+2013-05-08 15:01:21 identical stylesheets/print.css 
+2013-05-08 15:01:21 overwrite stylesheets/screen.css 
+2013-05-08 15:01:27 identical stylesheets/ie.css 
+2013-05-08 15:01:27 identical stylesheets/print.css 
+2013-05-08 15:01:27 overwrite stylesheets/screen.css 
+2013-05-08 15:01:49 identical stylesheets/ie.css 
+2013-05-08 15:01:49 identical stylesheets/print.css 
+2013-05-08 15:01:49 overwrite stylesheets/screen.css 
+2013-05-08 15:01:57 identical stylesheets/ie.css 
+2013-05-08 15:01:57 identical stylesheets/print.css 
+2013-05-08 15:01:57 overwrite stylesheets/screen.css 
+2013-05-08 15:02:05 identical stylesheets/ie.css 
+2013-05-08 15:02:05 identical stylesheets/print.css 
+2013-05-08 15:02:05 overwrite stylesheets/screen.css 
+2013-05-08 15:02:11 identical stylesheets/ie.css 
+2013-05-08 15:02:11 identical stylesheets/print.css 
+2013-05-08 15:02:11 overwrite stylesheets/screen.css 
+2013-05-08 15:02:15 identical stylesheets/ie.css 
+2013-05-08 15:02:15 identical stylesheets/print.css 
+2013-05-08 15:02:15 overwrite stylesheets/screen.css 
+2013-05-08 15:06:03 identical stylesheets/ie.css 
+2013-05-08 15:06:03 identical stylesheets/print.css 
+2013-05-08 15:06:03 overwrite stylesheets/screen.css 
+2013-05-08 15:07:36 identical stylesheets/ie.css 
+2013-05-08 15:07:36 identical stylesheets/print.css 
+2013-05-08 15:07:36 identical stylesheets/screen.css 
+2013-05-08 15:07:59 identical stylesheets/ie.css 
+2013-05-08 15:07:59 identical stylesheets/print.css 
+2013-05-08 15:07:59 identical stylesheets/screen.css 
+2013-05-08 15:08:41 identical stylesheets/ie.css 
+2013-05-08 15:08:41 identical stylesheets/print.css 
+2013-05-08 15:08:41 overwrite stylesheets/screen.css 
+2013-05-08 15:08:53 identical stylesheets/ie.css 
+2013-05-08 15:08:53 identical stylesheets/print.css 
+2013-05-08 15:08:53 overwrite stylesheets/screen.css 
+2013-05-08 15:09:07 identical stylesheets/ie.css 
+2013-05-08 15:09:07 identical stylesheets/print.css 
+2013-05-08 15:09:07 overwrite stylesheets/screen.css 
+2013-05-08 15:09:53 identical stylesheets/ie.css 
+2013-05-08 15:09:53 identical stylesheets/print.css 
+2013-05-08 15:09:53 overwrite stylesheets/screen.css 
+2013-05-08 15:10:05 identical stylesheets/ie.css 
+2013-05-08 15:10:05 identical stylesheets/print.css 
+2013-05-08 15:10:05 overwrite stylesheets/screen.css 
+2013-05-08 15:10:14 identical stylesheets/ie.css 
+2013-05-08 15:10:14 identical stylesheets/print.css 
+2013-05-08 15:10:14 overwrite stylesheets/screen.css 
+2013-05-08 15:10:27 identical stylesheets/ie.css 
+2013-05-08 15:10:27 identical stylesheets/print.css 
+2013-05-08 15:10:27 identical stylesheets/screen.css 
+2013-05-08 15:10:33 identical stylesheets/ie.css 
+2013-05-08 15:10:33 identical stylesheets/print.css 
+2013-05-08 15:10:33 identical stylesheets/screen.css 
+2013-05-08 15:10:38 identical stylesheets/ie.css 
+2013-05-08 15:10:38 identical stylesheets/print.css 
+2013-05-08 15:10:38 overwrite stylesheets/screen.css 
+2013-05-08 15:10:53 identical stylesheets/ie.css 
+2013-05-08 15:10:53 identical stylesheets/print.css 
+2013-05-08 15:10:53 overwrite stylesheets/screen.css 
+2013-05-08 15:11:06 identical stylesheets/ie.css 
+2013-05-08 15:11:06 identical stylesheets/print.css 
+2013-05-08 15:11:06 overwrite stylesheets/screen.css 
+2013-05-08 15:11:15 identical stylesheets/ie.css 
+2013-05-08 15:11:15 identical stylesheets/print.css 
+2013-05-08 15:11:15 overwrite stylesheets/screen.css 
+2013-05-08 15:11:57 identical stylesheets/ie.css 
+2013-05-08 15:11:57 identical stylesheets/print.css 
+2013-05-08 15:11:57 overwrite stylesheets/screen.css 
+2013-05-08 15:12:18 identical stylesheets/ie.css 
+2013-05-08 15:12:18 identical stylesheets/print.css 
+2013-05-08 15:12:18 overwrite stylesheets/screen.css 
+2013-05-08 15:12:34 identical stylesheets/ie.css 
+2013-05-08 15:12:34 identical stylesheets/print.css 
+2013-05-08 15:12:34 overwrite stylesheets/screen.css 
+2013-05-08 15:13:36 identical stylesheets/ie.css 
+2013-05-08 15:13:36 identical stylesheets/print.css 
+2013-05-08 15:13:36 identical stylesheets/screen.css 
+2013-05-08 15:13:58 identical stylesheets/ie.css 
+2013-05-08 15:13:58 identical stylesheets/print.css 
+2013-05-08 15:13:58 overwrite stylesheets/screen.css 
+2013-05-08 16:10:08 identical stylesheets/ie.css 
+2013-05-08 16:10:08 identical stylesheets/print.css 
+2013-05-08 16:10:09 identical stylesheets/screen.css 
+2013-05-08 16:11:11 identical stylesheets/ie.css 
+2013-05-08 16:11:11 identical stylesheets/print.css 
+2013-05-08 16:11:12 identical stylesheets/screen.css 
+2013-05-08 16:11:53 identical stylesheets/ie.css 
+2013-05-08 16:11:53 identical stylesheets/print.css 
+2013-05-08 16:11:54 identical stylesheets/screen.css 
+2013-05-08 16:12:07 identical stylesheets/ie.css 
+2013-05-08 16:12:07 identical stylesheets/print.css 
+2013-05-08 16:12:08 identical stylesheets/screen.css 
+2013-05-08 16:13:26 identical stylesheets/ie.css 
+2013-05-08 16:13:26 identical stylesheets/print.css 
+2013-05-08 16:13:27 overwrite stylesheets/screen.css 
+2013-05-08 16:14:11 identical stylesheets/ie.css 
+2013-05-08 16:14:11 identical stylesheets/print.css 
+2013-05-08 16:14:12 overwrite stylesheets/screen.css 
+2013-05-08 16:14:38 identical stylesheets/ie.css 
+2013-05-08 16:14:38 identical stylesheets/print.css 
+2013-05-08 16:14:39 overwrite stylesheets/screen.css 
+2013-05-08 16:16:24 identical stylesheets/ie.css 
+2013-05-08 16:16:24 identical stylesheets/print.css 
+2013-05-08 16:16:25 overwrite stylesheets/screen.css 
+2013-05-08 16:16:32 identical stylesheets/ie.css 
+2013-05-08 16:16:32 identical stylesheets/print.css 
+2013-05-08 16:16:33 overwrite stylesheets/screen.css 
+2013-05-08 16:16:45 identical stylesheets/ie.css 
+2013-05-08 16:16:45 identical stylesheets/print.css 
+2013-05-08 16:16:46 overwrite stylesheets/screen.css 
+2013-05-08 16:16:50 identical stylesheets/ie.css 
+2013-05-08 16:16:50 identical stylesheets/print.css 
+2013-05-08 16:16:51 overwrite stylesheets/screen.css 
+2013-05-08 16:17:19 identical stylesheets/ie.css 
+2013-05-08 16:17:19 identical stylesheets/print.css 
+2013-05-08 16:17:20 overwrite stylesheets/screen.css 
+2013-05-08 16:17:51 identical stylesheets/ie.css 
+2013-05-08 16:17:51 identical stylesheets/print.css 
+2013-05-08 16:17:52 overwrite stylesheets/screen.css 
+2013-05-08 16:18:08 identical stylesheets/ie.css 
+2013-05-08 16:18:08 identical stylesheets/print.css 
+2013-05-08 16:18:09 overwrite stylesheets/screen.css 
+2013-05-08 16:18:15 identical stylesheets/ie.css 
+2013-05-08 16:18:15 identical stylesheets/print.css 
+2013-05-08 16:18:16 overwrite stylesheets/screen.css 
+2013-05-08 16:18:19 identical stylesheets/ie.css 
+2013-05-08 16:18:19 identical stylesheets/print.css 
+2013-05-08 16:18:20 overwrite stylesheets/screen.css 
+2013-05-08 16:18:43 identical stylesheets/ie.css 
+2013-05-08 16:18:43 identical stylesheets/print.css 
+2013-05-08 16:18:44 overwrite stylesheets/screen.css 
+2013-05-08 16:19:14 identical stylesheets/ie.css 
+2013-05-08 16:19:14 identical stylesheets/print.css 
+2013-05-08 16:19:15 overwrite stylesheets/screen.css 
+2013-05-08 16:19:26 identical stylesheets/ie.css 
+2013-05-08 16:19:26 identical stylesheets/print.css 
+2013-05-08 16:19:27 overwrite stylesheets/screen.css 
+2013-05-08 16:19:36 identical stylesheets/ie.css 
+2013-05-08 16:19:36 identical stylesheets/print.css 
+2013-05-08 16:19:37 overwrite stylesheets/screen.css 
+2013-05-08 16:19:45 identical stylesheets/ie.css 
+2013-05-08 16:19:45 identical stylesheets/print.css 
+2013-05-08 16:19:46 overwrite stylesheets/screen.css 
+2013-05-08 16:20:11 identical stylesheets/ie.css 
+2013-05-08 16:20:11 identical stylesheets/print.css 
+2013-05-08 16:20:12 overwrite stylesheets/screen.css 
+2013-05-08 16:20:32 identical stylesheets/ie.css 
+2013-05-08 16:20:32 identical stylesheets/print.css 
+2013-05-08 16:20:33 overwrite stylesheets/screen.css 
+2013-05-08 16:20:47 identical stylesheets/ie.css 
+2013-05-08 16:20:47 identical stylesheets/print.css 
+2013-05-08 16:20:48     error sass/screen.sass (Line 339: Invalid CSS after "margin-bottom:": expected pseudoclass or pseudoelement, was "15px")
+2013-05-08 16:20:48 overwrite stylesheets/screen.css 
+2013-05-08 16:20:50 identical stylesheets/ie.css 
+2013-05-08 16:20:50 identical stylesheets/print.css 
+2013-05-08 16:20:51 overwrite stylesheets/screen.css 
+2013-05-08 16:21:57 identical stylesheets/ie.css 
+2013-05-08 16:21:57 identical stylesheets/print.css 
+2013-05-08 16:21:58 identical stylesheets/screen.css 
+2013-05-08 16:22:17 identical stylesheets/ie.css 
+2013-05-08 16:22:17 identical stylesheets/print.css 
+2013-05-08 16:22:18 identical stylesheets/screen.css 
+2013-05-08 16:23:46 identical stylesheets/ie.css 
+2013-05-08 16:23:46 identical stylesheets/print.css 
+2013-05-08 16:23:47 identical stylesheets/screen.css 
+2013-05-08 16:24:02 identical stylesheets/ie.css 
+2013-05-08 16:24:02 identical stylesheets/print.css 
+2013-05-08 16:24:03 overwrite stylesheets/screen.css 
+2013-05-08 16:24:26 identical stylesheets/ie.css 
+2013-05-08 16:24:26 identical stylesheets/print.css 
+2013-05-08 16:24:27 overwrite stylesheets/screen.css 
+2013-05-08 16:24:35 identical stylesheets/ie.css 
+2013-05-08 16:24:35 identical stylesheets/print.css 
+2013-05-08 16:24:36 overwrite stylesheets/screen.css 
+2013-05-08 16:24:50 identical stylesheets/ie.css 
+2013-05-08 16:24:50 identical stylesheets/print.css 
+2013-05-08 16:24:51     error sass/screen.sass (Line 281: Mixin "atransition" does not accept a content block.)
+2013-05-08 16:24:51 overwrite stylesheets/screen.css 
+2013-05-08 16:25:01 identical stylesheets/ie.css 
+2013-05-08 16:25:01 identical stylesheets/print.css 
+2013-05-08 16:25:02 overwrite stylesheets/screen.css 
+2013-05-08 16:25:17 identical stylesheets/ie.css 
+2013-05-08 16:25:17 identical stylesheets/print.css 
+2013-05-08 16:25:18 overwrite stylesheets/screen.css 
+2013-05-08 16:25:34 identical stylesheets/ie.css 
+2013-05-08 16:25:34 identical stylesheets/print.css 
+2013-05-08 16:25:35 overwrite stylesheets/screen.css 
+2013-05-08 16:29:52 identical stylesheets/ie.css 
+2013-05-08 16:29:52 identical stylesheets/print.css 
+2013-05-08 16:29:52     error sass/screen.sass (Line 263: Invalid CSS after "($padding: 6px,": expected variable (e.g. $foo), was ")")
+2013-05-08 16:29:52 overwrite stylesheets/screen.css 
+2013-05-08 16:30:01 identical stylesheets/ie.css 
+2013-05-08 16:30:01 identical stylesheets/print.css 
+2013-05-08 16:30:02 overwrite stylesheets/screen.css 
+2013-05-08 16:34:07 identical stylesheets/ie.css 
+2013-05-08 16:34:07 identical stylesheets/print.css 
+2013-05-08 16:34:08 overwrite stylesheets/screen.css 
+2013-05-08 16:34:19 identical stylesheets/ie.css 
+2013-05-08 16:34:19 identical stylesheets/print.css 
+2013-05-08 16:34:20 overwrite stylesheets/screen.css 
+2013-05-08 16:35:18 identical stylesheets/ie.css 
+2013-05-08 16:35:18 identical stylesheets/print.css 
+2013-05-08 16:35:19 overwrite stylesheets/screen.css 
+2013-05-08 16:35:28 identical stylesheets/ie.css 
+2013-05-08 16:35:28 identical stylesheets/print.css 
+2013-05-08 16:35:29 overwrite stylesheets/screen.css 
+2013-05-08 16:35:33 identical stylesheets/ie.css 
+2013-05-08 16:35:33 identical stylesheets/print.css 
+2013-05-08 16:35:34 overwrite stylesheets/screen.css 
+2013-05-08 16:35:37 identical stylesheets/ie.css 
+2013-05-08 16:35:37 identical stylesheets/print.css 
+2013-05-08 16:35:38 overwrite stylesheets/screen.css 
+2013-05-08 16:36:09 identical stylesheets/ie.css 
+2013-05-08 16:36:09 identical stylesheets/print.css 
+2013-05-08 16:36:09     error sass/screen.sass (Line 263: Required argument $Color must come before any optional arguments.)
+2013-05-08 16:36:09 overwrite stylesheets/screen.css 
+2013-05-08 16:36:16 identical stylesheets/ie.css 
+2013-05-08 16:36:16 identical stylesheets/print.css 
+2013-05-08 16:36:17 overwrite stylesheets/screen.css 
+2013-05-08 16:38:16 identical stylesheets/ie.css 
+2013-05-08 16:38:16 identical stylesheets/print.css 
+2013-05-08 16:38:17 overwrite stylesheets/screen.css 
+2013-05-08 16:38:33 identical stylesheets/ie.css 
+2013-05-08 16:38:33 identical stylesheets/print.css 
+2013-05-08 16:38:34 overwrite stylesheets/screen.css 
+2013-05-08 16:48:00 identical stylesheets/ie.css 
+2013-05-08 16:48:00 identical stylesheets/print.css 
+2013-05-08 16:48:01 overwrite stylesheets/screen.css 
+2013-05-08 16:48:54 identical stylesheets/ie.css 
+2013-05-08 16:48:54 identical stylesheets/print.css 
+2013-05-08 16:48:55 overwrite stylesheets/screen.css 
+2013-05-08 16:49:29 identical stylesheets/ie.css 
+2013-05-08 16:49:29 identical stylesheets/print.css 
+2013-05-08 16:49:30 identical stylesheets/screen.css 
+2013-05-08 16:49:56 identical stylesheets/ie.css 
+2013-05-08 16:49:56 identical stylesheets/print.css 
+2013-05-08 16:49:57 overwrite stylesheets/screen.css 
+2013-05-08 16:51:26 identical stylesheets/ie.css 
+2013-05-08 16:51:26 identical stylesheets/print.css 
+2013-05-08 16:51:27 overwrite stylesheets/screen.css 
+2013-05-08 16:51:37 identical stylesheets/ie.css 
+2013-05-08 16:51:37 identical stylesheets/print.css 
+2013-05-08 16:51:38 overwrite stylesheets/screen.css 
+2013-05-08 16:51:42 identical stylesheets/ie.css 
+2013-05-08 16:51:42 identical stylesheets/print.css 
+2013-05-08 16:51:43 overwrite stylesheets/screen.css 
+2013-05-08 16:51:48 identical stylesheets/ie.css 
+2013-05-08 16:51:48 identical stylesheets/print.css 
+2013-05-08 16:51:49 overwrite stylesheets/screen.css 
+2013-05-08 16:53:10 identical stylesheets/ie.css 
+2013-05-08 16:53:10 identical stylesheets/print.css 
+2013-05-08 16:53:11 overwrite stylesheets/screen.css 
+2013-05-08 16:53:21 identical stylesheets/ie.css 
+2013-05-08 16:53:21 identical stylesheets/print.css 
+2013-05-08 16:53:22 overwrite stylesheets/screen.css 
+2013-05-08 17:10:28 identical stylesheets/ie.css 
+2013-05-08 17:10:28 identical stylesheets/print.css 
+2013-05-08 17:10:29 overwrite stylesheets/screen.css 
+2013-05-08 17:10:41 identical stylesheets/ie.css 
+2013-05-08 17:10:41 identical stylesheets/print.css 
+2013-05-08 17:10:42 overwrite stylesheets/screen.css 
+2013-05-08 17:10:46 identical stylesheets/ie.css 
+2013-05-08 17:10:46 identical stylesheets/print.css 
+2013-05-08 17:10:47 overwrite stylesheets/screen.css 
+2013-05-08 17:10:53 identical stylesheets/ie.css 
+2013-05-08 17:10:53 identical stylesheets/print.css 
+2013-05-08 17:10:54 overwrite stylesheets/screen.css 
+2013-05-13 11:32:44 identical stylesheets/ie.css 
+2013-05-13 11:32:44 identical stylesheets/print.css 
+2013-05-13 11:32:45 identical stylesheets/screen.css 
+2013-05-13 11:44:40 identical stylesheets/ie.css 
+2013-05-13 11:44:40 identical stylesheets/print.css 
+2013-05-13 11:44:44 identical stylesheets/screen.css 
+2013-05-13 11:45:00    remove .sass-cache/ 
+2013-05-13 11:45:00    remove stylesheets/ie.css 
+2013-05-13 11:45:00    remove stylesheets/print.css 
+2013-05-13 11:45:00    remove stylesheets/screen.css 
+2013-05-13 11:45:00    create stylesheets/ie.css 
+2013-05-13 11:45:00    create stylesheets/print.css 
+2013-05-13 11:45:02    create stylesheets/screen.css 
+2013-05-13 11:45:03 identical stylesheets/ie.css 
+2013-05-13 11:45:03 identical stylesheets/print.css 
+2013-05-13 11:45:03 identical stylesheets/screen.css 
+2013-05-13 11:49:08 identical stylesheets/ie.css 
+2013-05-13 11:49:08 identical stylesheets/print.css 
+2013-05-13 11:49:09 overwrite stylesheets/screen.css 
+2013-05-13 11:49:39 identical stylesheets/ie.css 
+2013-05-13 11:49:39 identical stylesheets/print.css 
+2013-05-13 11:49:40 overwrite stylesheets/screen.css 
+2013-05-13 11:55:28 identical stylesheets/ie.css 
+2013-05-13 11:55:28 identical stylesheets/print.css 
+2013-05-13 11:55:30 identical stylesheets/screen.css 
+2013-05-13 14:07:38 identical stylesheets/ie.css 
+2013-05-13 14:07:38 identical stylesheets/print.css 
+2013-05-13 14:07:39     error sass/screen.sass (Line 353: Invalid CSS after ".cubicButton": expected selector, was "()")
+2013-05-13 14:07:39 overwrite stylesheets/screen.css 
+2013-05-13 14:09:22 identical stylesheets/ie.css 
+2013-05-13 14:09:22 identical stylesheets/print.css 
+2013-05-13 14:09:23 overwrite stylesheets/screen.css 
+2013-05-13 14:10:44 identical stylesheets/ie.css 
+2013-05-13 14:10:44 identical stylesheets/print.css 
+2013-05-13 14:10:45 identical stylesheets/screen.css 
+2013-05-13 14:11:12 identical stylesheets/ie.css 
+2013-05-13 14:11:12 identical stylesheets/print.css 
+2013-05-13 14:11:13 identical stylesheets/screen.css 
+2013-05-13 14:13:57 identical stylesheets/ie.css 
+2013-05-13 14:13:57 identical stylesheets/print.css 
+2013-05-13 14:13:58     error sass/screen.sass (Line 295: wrong number of arguments (2 for 3) for `hsl')
+2013-05-13 14:13:58 overwrite stylesheets/screen.css 
+2013-05-13 14:14:31 identical stylesheets/ie.css 
+2013-05-13 14:14:31 identical stylesheets/print.css 
+2013-05-13 14:14:32 overwrite stylesheets/screen.css 
+2013-05-13 14:14:52 identical stylesheets/ie.css 
+2013-05-13 14:14:52 identical stylesheets/print.css 
+2013-05-13 14:14:53 identical stylesheets/screen.css 
+2013-05-13 14:17:02 identical stylesheets/ie.css 
+2013-05-13 14:17:02 identical stylesheets/print.css 
+2013-05-13 14:17:03 overwrite stylesheets/screen.css 
+2013-05-13 14:22:41 identical stylesheets/ie.css 
+2013-05-13 14:22:41 identical stylesheets/print.css 
+2013-05-13 14:22:42 overwrite stylesheets/screen.css 
+2013-05-13 14:23:56 identical stylesheets/ie.css 
+2013-05-13 14:23:56 identical stylesheets/print.css 
+2013-05-13 14:23:57 overwrite stylesheets/screen.css 
+2013-05-13 14:24:48 identical stylesheets/ie.css 
+2013-05-13 14:24:48 identical stylesheets/print.css 
+2013-05-13 14:24:49     error sass/screen.sass (Line 299: Undefined mixin 'boxshadow'.)
+2013-05-13 14:24:49 overwrite stylesheets/screen.css 
+2013-05-13 14:25:55 identical stylesheets/ie.css 
+2013-05-13 14:25:56 identical stylesheets/print.css 
+2013-05-13 14:25:56     error sass/screen.sass (Line 299: Undefined mixin 'boxshadow'.)
+2013-05-13 14:25:56 identical stylesheets/screen.css 
+2013-05-13 14:26:14 identical stylesheets/ie.css 
+2013-05-13 14:26:14 identical stylesheets/print.css 
+2013-05-13 14:26:15 overwrite stylesheets/screen.css 
+2013-05-13 14:26:26 identical stylesheets/ie.css 
+2013-05-13 14:26:26 identical stylesheets/print.css 
+2013-05-13 14:26:27 overwrite stylesheets/screen.css 
+2013-05-13 14:26:43 identical stylesheets/ie.css 
+2013-05-13 14:26:43 identical stylesheets/print.css 
+2013-05-13 14:26:44 overwrite stylesheets/screen.css 
+2013-05-13 14:26:48 identical stylesheets/ie.css 
+2013-05-13 14:26:48 identical stylesheets/print.css 
+2013-05-13 14:26:49 overwrite stylesheets/screen.css 
+2013-05-13 14:26:51 identical stylesheets/ie.css 
+2013-05-13 14:26:51 identical stylesheets/print.css 
+2013-05-13 14:26:52 overwrite stylesheets/screen.css 
+2013-05-13 14:26:56 identical stylesheets/ie.css 
+2013-05-13 14:26:56 identical stylesheets/print.css 
+2013-05-13 14:26:57 overwrite stylesheets/screen.css 
+2013-05-13 14:27:00 identical stylesheets/ie.css 
+2013-05-13 14:27:00 identical stylesheets/print.css 
+2013-05-13 14:27:01 overwrite stylesheets/screen.css 
+2013-05-13 14:27:06 identical stylesheets/ie.css 
+2013-05-13 14:27:06 identical stylesheets/print.css 
+2013-05-13 14:27:07 overwrite stylesheets/screen.css 
+2013-05-13 14:28:57 identical stylesheets/ie.css 
+2013-05-13 14:28:57 identical stylesheets/print.css 
+2013-05-13 14:28:58 overwrite stylesheets/screen.css 
+2013-05-13 14:30:09 identical stylesheets/ie.css 
+2013-05-13 14:30:09 identical stylesheets/print.css 
+2013-05-13 14:30:10     error sass/screen.sass (Line 300: Invalid CSS after "...gb(62,184,229))": expected ")", was "")
+2013-05-13 14:30:10 overwrite stylesheets/screen.css 
+2013-05-13 14:30:48 identical stylesheets/ie.css 
+2013-05-13 14:30:48 identical stylesheets/print.css 
+2013-05-13 14:30:49     error sass/screen.sass (Line 300: Invalid CSS after "...(62,184,229,0))": expected ")", was "")
+2013-05-13 14:30:49 overwrite stylesheets/screen.css 
+2013-05-13 14:31:01 identical stylesheets/ie.css 
+2013-05-13 14:31:01 identical stylesheets/print.css 
+2013-05-13 14:31:02 overwrite stylesheets/screen.css 
+2013-05-13 14:31:22 identical stylesheets/ie.css 
+2013-05-13 14:31:22 identical stylesheets/print.css 
+2013-05-13 14:31:23 overwrite stylesheets/screen.css 
+2013-05-13 14:31:45 identical stylesheets/ie.css 
+2013-05-13 14:31:45 identical stylesheets/print.css 
+2013-05-13 14:31:46 overwrite stylesheets/screen.css 
+2013-05-13 14:32:22 identical stylesheets/ie.css 
+2013-05-13 14:32:22 identical stylesheets/print.css 
+2013-05-13 14:32:23 overwrite stylesheets/screen.css 
+2013-05-13 14:34:33 identical stylesheets/ie.css 
+2013-05-13 14:34:33 identical stylesheets/print.css 
+2013-05-13 14:34:33 overwrite stylesheets/screen.css 
+2013-05-13 14:34:38 identical stylesheets/ie.css 
+2013-05-13 14:34:39 identical stylesheets/print.css 
+2013-05-13 14:34:39 overwrite stylesheets/screen.css 
+2013-05-13 14:34:46 identical stylesheets/ie.css 
+2013-05-13 14:34:46 identical stylesheets/print.css 
+2013-05-13 14:34:46 overwrite stylesheets/screen.css 
+2013-05-13 14:38:01 identical stylesheets/ie.css 
+2013-05-13 14:38:02 identical stylesheets/print.css 
+2013-05-13 14:38:02     error sass/screen.sass (Line 302: Invalid CSS after "...,160,202) 100%)": expected expression (e.g. 1px, bold), was ";")
+2013-05-13 14:38:02 overwrite stylesheets/screen.css 
+2013-05-13 14:38:06 identical stylesheets/ie.css 
+2013-05-13 14:38:07 identical stylesheets/print.css 
+2013-05-13 14:38:07     error sass/screen.sass (Line 302: Invalid CSS after "...,160,202) 100%)": expected expression (e.g. 1px, bold), was ";")
+2013-05-13 14:38:07 identical stylesheets/screen.css 
+2013-05-13 14:38:28 identical stylesheets/ie.css 
+2013-05-13 14:38:29 identical stylesheets/print.css 
+2013-05-13 14:38:29     error sass/screen.sass (Line 302: Invalid CSS after "...,160,202) 100%)": expected expression (e.g. 1px, bold), was ";")
+2013-05-13 14:38:29 overwrite stylesheets/screen.css 
+2013-05-13 14:40:07 identical stylesheets/ie.css 
+2013-05-13 14:40:08 identical stylesheets/print.css 
+2013-05-13 14:40:08     error sass/screen.sass (Line 305: Invalid CSS after "...,160,202) 100%)": expected expression (e.g. 1px, bold), was ";")
+2013-05-13 14:40:08 overwrite stylesheets/screen.css 
+2013-05-13 14:40:20 identical stylesheets/ie.css 
+2013-05-13 14:40:21 identical stylesheets/print.css 
+2013-05-13 14:40:21 overwrite stylesheets/screen.css 
+2013-05-13 14:40:47 identical stylesheets/ie.css 
+2013-05-13 14:40:47 identical stylesheets/print.css 
+2013-05-13 14:40:47 identical stylesheets/screen.css 
+2013-05-13 14:40:53 identical stylesheets/ie.css 
+2013-05-13 14:40:53 identical stylesheets/print.css 
+2013-05-13 14:40:53 overwrite stylesheets/screen.css 
+2013-05-13 14:41:03 identical stylesheets/ie.css 
+2013-05-13 14:41:03 identical stylesheets/print.css 
+2013-05-13 14:41:03 overwrite stylesheets/screen.css 
+2013-05-13 14:41:42 identical stylesheets/ie.css 
+2013-05-13 14:41:42 identical stylesheets/print.css 
+2013-05-13 14:41:42 overwrite stylesheets/screen.css 
+2013-05-13 14:41:53 identical stylesheets/ie.css 
+2013-05-13 14:41:53 identical stylesheets/print.css 
+2013-05-13 14:41:53 overwrite stylesheets/screen.css 
+2013-05-13 14:42:03 identical stylesheets/ie.css 
+2013-05-13 14:42:03 identical stylesheets/print.css 
+2013-05-13 14:42:03 overwrite stylesheets/screen.css 
+2013-05-13 14:42:08 identical stylesheets/ie.css 
+2013-05-13 14:42:08 identical stylesheets/print.css 
+2013-05-13 14:42:08 overwrite stylesheets/screen.css 
+2013-05-13 14:42:17 identical stylesheets/ie.css 
+2013-05-13 14:42:17 identical stylesheets/print.css 
+2013-05-13 14:42:17 overwrite stylesheets/screen.css 
+2013-05-13 14:42:20 identical stylesheets/ie.css 
+2013-05-13 14:42:20 identical stylesheets/print.css 
+2013-05-13 14:42:20 overwrite stylesheets/screen.css 
+2013-05-13 14:42:54 identical stylesheets/ie.css 
+2013-05-13 14:42:54 identical stylesheets/print.css 
+2013-05-13 14:42:54     error sass/screen.sass (Line 298: Invalid CSS after "...10px 5px #999 )": expected ")", was "")
+2013-05-13 14:42:54 overwrite stylesheets/screen.css 
+2013-05-13 14:43:10 identical stylesheets/ie.css 
+2013-05-13 14:43:10 identical stylesheets/print.css 
+2013-05-13 14:43:10     error sass/screen.sass (Line 303: Invalid CSS after "...x 5px 3px #999)": expected ")", was "")
+2013-05-13 14:43:10 overwrite stylesheets/screen.css 
+2013-05-13 14:43:19 identical stylesheets/ie.css 
+2013-05-13 14:43:19 identical stylesheets/print.css 
+2013-05-13 14:43:19     error sass/screen.sass (Line 303: Invalid CSS after "...x 5px 3px #999)": expected ")", was "")
+2013-05-13 14:43:19 identical stylesheets/screen.css 
+2013-05-13 14:43:25 identical stylesheets/ie.css 
+2013-05-13 14:43:26 identical stylesheets/print.css 
+2013-05-13 14:43:26     error sass/screen.sass (Line 303: Invalid CSS after "...x 5px 3px #999)": expected ")", was "")
+2013-05-13 14:43:26 identical stylesheets/screen.css 
+2013-05-13 14:43:28 identical stylesheets/ie.css 
+2013-05-13 14:43:28 identical stylesheets/print.css 
+2013-05-13 14:43:28 overwrite stylesheets/screen.css 
+2013-05-13 14:43:44 identical stylesheets/ie.css 
+2013-05-13 14:43:45 identical stylesheets/print.css 
+2013-05-13 14:43:45 overwrite stylesheets/screen.css 
+2013-05-13 14:48:31 identical stylesheets/ie.css 
+2013-05-13 14:48:32 identical stylesheets/print.css 
+2013-05-13 14:48:32 identical stylesheets/screen.css 
+2013-05-13 14:50:02 identical stylesheets/ie.css 
+2013-05-13 14:50:03 identical stylesheets/print.css 
+2013-05-13 14:50:03     error sass/screen.sass (Line 309: Invalid CSS after "background-color:": expected pseudoclass or pseudoelement, was "#2561b4")
+2013-05-13 14:50:03 overwrite stylesheets/screen.css 
+2013-05-13 14:50:30 identical stylesheets/ie.css 
+2013-05-13 14:50:31 identical stylesheets/print.css 
+2013-05-13 14:50:31 overwrite stylesheets/screen.css 
+2013-05-13 14:51:30 identical stylesheets/ie.css 
+2013-05-13 14:51:31 identical stylesheets/print.css 
+2013-05-13 14:51:31 overwrite stylesheets/screen.css 
+2013-05-13 14:51:47 identical stylesheets/ie.css 
+2013-05-13 14:51:48 identical stylesheets/print.css 
+2013-05-13 14:51:48 overwrite stylesheets/screen.css 
+2013-05-13 14:51:59 identical stylesheets/ie.css 
+2013-05-13 14:52:00 identical stylesheets/print.css 
+2013-05-13 14:52:00 overwrite stylesheets/screen.css 
+2013-05-13 14:52:08 identical stylesheets/ie.css 
+2013-05-13 14:52:09 identical stylesheets/print.css 
+2013-05-13 14:52:09 overwrite stylesheets/screen.css 
+2013-05-13 14:52:36 identical stylesheets/ie.css 
+2013-05-13 14:52:37 identical stylesheets/print.css 
+2013-05-13 14:52:37 overwrite stylesheets/screen.css 
+2013-05-13 14:52:42 identical stylesheets/ie.css 
+2013-05-13 14:52:42 identical stylesheets/print.css 
+2013-05-13 14:52:43 overwrite stylesheets/screen.css 
+2013-05-13 14:53:09 identical stylesheets/ie.css 
+2013-05-13 14:53:10 identical stylesheets/print.css 
+2013-05-13 14:53:10 overwrite stylesheets/screen.css 
+2013-05-13 14:53:50 identical stylesheets/ie.css 
+2013-05-13 14:53:50 identical stylesheets/print.css 
+2013-05-13 14:53:50 overwrite stylesheets/screen.css 
+2013-05-13 14:54:57 identical stylesheets/ie.css 
+2013-05-13 14:54:57 identical stylesheets/print.css 
+2013-05-13 14:54:57     error sass/screen.sass (Line 326: Invalid CSS after "linear-gradient": expected selector, was "(bottom, rgb(10...")
+2013-05-13 14:54:57 overwrite stylesheets/screen.css 
+2013-05-13 14:55:03 identical stylesheets/ie.css 
+2013-05-13 14:55:03 identical stylesheets/print.css 
+2013-05-13 14:55:03 overwrite stylesheets/screen.css 
+2013-05-13 14:55:54 identical stylesheets/ie.css 
+2013-05-13 14:55:54 identical stylesheets/print.css 
+2013-05-13 14:55:54 overwrite stylesheets/screen.css 
+2013-05-13 14:56:01 identical stylesheets/ie.css 
+2013-05-13 14:56:01 identical stylesheets/print.css 
+2013-05-13 14:56:01 overwrite stylesheets/screen.css 
+2013-05-13 14:57:18 identical stylesheets/ie.css 
+2013-05-13 14:57:18 identical stylesheets/print.css 
+2013-05-13 14:57:18 overwrite stylesheets/screen.css 
+2013-05-13 14:57:30 identical stylesheets/ie.css 
+2013-05-13 14:57:30 identical stylesheets/print.css 
+2013-05-13 14:57:30 overwrite stylesheets/screen.css 
+2013-05-13 14:58:14 identical stylesheets/ie.css 
+2013-05-13 14:58:14 identical stylesheets/print.css 
+2013-05-13 14:58:14 overwrite stylesheets/screen.css 
+2013-05-13 15:29:17 identical stylesheets/ie.css 
+2013-05-13 15:29:17 identical stylesheets/print.css 
+2013-05-13 15:29:18 overwrite stylesheets/screen.css 
+2013-05-13 15:32:16 identical stylesheets/ie.css 
+2013-05-13 15:32:16 identical stylesheets/print.css 
+2013-05-13 15:32:16 overwrite stylesheets/screen.css 
+2013-05-13 15:32:49 identical stylesheets/ie.css 
+2013-05-13 15:32:49 identical stylesheets/print.css 
+2013-05-13 15:32:49 overwrite stylesheets/screen.css 
+2013-05-13 15:33:00 identical stylesheets/ie.css 
+2013-05-13 15:33:00 identical stylesheets/print.css 
+2013-05-13 15:33:00 overwrite stylesheets/screen.css 
+2013-05-13 15:33:06 identical stylesheets/ie.css 
+2013-05-13 15:33:06 identical stylesheets/print.css 
+2013-05-13 15:33:06 overwrite stylesheets/screen.css 
+2013-05-13 15:34:05 identical stylesheets/ie.css 
+2013-05-13 15:34:05 identical stylesheets/print.css 
+2013-05-13 15:34:05 overwrite stylesheets/screen.css 
+2013-05-13 15:34:21 identical stylesheets/ie.css 
+2013-05-13 15:34:21 identical stylesheets/print.css 
+2013-05-13 15:34:21 overwrite stylesheets/screen.css 
+2013-05-13 15:34:57 identical stylesheets/ie.css 
+2013-05-13 15:34:57 identical stylesheets/print.css 
+2013-05-13 15:34:57 overwrite stylesheets/screen.css 
+2013-05-13 15:35:09 identical stylesheets/ie.css 
+2013-05-13 15:35:09 identical stylesheets/print.css 
+2013-05-13 15:35:09 overwrite stylesheets/screen.css 
+2013-05-13 15:35:17 identical stylesheets/ie.css 
+2013-05-13 15:35:17 identical stylesheets/print.css 
+2013-05-13 15:35:17 overwrite stylesheets/screen.css 
+2013-05-13 15:35:35 identical stylesheets/ie.css 
+2013-05-13 15:35:35 identical stylesheets/print.css 
+2013-05-13 15:35:36 identical stylesheets/screen.css 
+2013-05-13 15:36:01 identical stylesheets/ie.css 
+2013-05-13 15:36:01 identical stylesheets/print.css 
+2013-05-13 15:36:01 overwrite stylesheets/screen.css 
+2013-05-13 15:36:15 identical stylesheets/ie.css 
+2013-05-13 15:36:15 identical stylesheets/print.css 
+2013-05-13 15:36:15 overwrite stylesheets/screen.css 
+2013-05-13 15:36:54 identical stylesheets/ie.css 
+2013-05-13 15:36:54 identical stylesheets/print.css 
+2013-05-13 15:36:54 overwrite stylesheets/screen.css 
+2013-05-13 15:37:33 identical stylesheets/ie.css 
+2013-05-13 15:37:33 identical stylesheets/print.css 
+2013-05-13 15:37:33 overwrite stylesheets/screen.css 
+2013-05-13 15:38:07 identical stylesheets/ie.css 
+2013-05-13 15:38:07 identical stylesheets/print.css 
+2013-05-13 15:38:07 identical stylesheets/screen.css 
+2013-05-13 15:38:15 identical stylesheets/ie.css 
+2013-05-13 15:38:15 identical stylesheets/print.css 
+2013-05-13 15:38:15 overwrite stylesheets/screen.css 
+2013-05-13 15:38:25 identical stylesheets/ie.css 
+2013-05-13 15:38:25 identical stylesheets/print.css 
+2013-05-13 15:38:25 overwrite stylesheets/screen.css 
+2013-05-13 15:39:24 identical stylesheets/ie.css 
+2013-05-13 15:39:24 identical stylesheets/print.css 
+2013-05-13 15:39:24 overwrite stylesheets/screen.css 
+2013-05-13 15:39:43 identical stylesheets/ie.css 
+2013-05-13 15:39:43 identical stylesheets/print.css 
+2013-05-13 15:39:43 overwrite stylesheets/screen.css 
+2013-05-13 15:39:56 identical stylesheets/ie.css 
+2013-05-13 15:39:56 identical stylesheets/print.css 
+2013-05-13 15:39:56 overwrite stylesheets/screen.css 
+2013-05-13 15:39:59 identical stylesheets/ie.css 
+2013-05-13 15:39:59 identical stylesheets/print.css 
+2013-05-13 15:39:59 overwrite stylesheets/screen.css 
+2013-05-13 15:43:05 identical stylesheets/ie.css 
+2013-05-13 15:43:05 identical stylesheets/print.css 
+2013-05-13 15:43:05     error sass/screen.sass (Line 322: Undefined variable: "$leftWidth-1".)
+2013-05-13 15:43:05 overwrite stylesheets/screen.css 
+2013-05-13 15:43:09 identical stylesheets/ie.css 
+2013-05-13 15:43:09 identical stylesheets/print.css 
+2013-05-13 15:43:09 overwrite stylesheets/screen.css 
+2013-05-13 15:43:20 identical stylesheets/ie.css 
+2013-05-13 15:43:20 identical stylesheets/print.css 
+2013-05-13 15:43:20 identical stylesheets/screen.css 
+2013-05-13 15:43:27 identical stylesheets/ie.css 
+2013-05-13 15:43:27 identical stylesheets/print.css 
+2013-05-13 15:43:27 identical stylesheets/screen.css 
+2013-05-13 15:43:46 identical stylesheets/ie.css 
+2013-05-13 15:43:46 identical stylesheets/print.css 
+2013-05-13 15:43:46 identical stylesheets/screen.css 
+2013-05-13 15:43:58 identical stylesheets/ie.css 
+2013-05-13 15:43:58 identical stylesheets/print.css 
+2013-05-13 15:43:58 overwrite stylesheets/screen.css 
+2013-05-13 15:44:10 identical stylesheets/ie.css 
+2013-05-13 15:44:10 identical stylesheets/print.css 
+2013-05-13 15:44:10 identical stylesheets/screen.css 
+2013-05-13 15:44:19 identical stylesheets/ie.css 
+2013-05-13 15:44:19 identical stylesheets/print.css 
+2013-05-13 15:44:19 overwrite stylesheets/screen.css 
+2013-05-13 15:44:27 identical stylesheets/ie.css 
+2013-05-13 15:44:27 identical stylesheets/print.css 
+2013-05-13 15:44:27 overwrite stylesheets/screen.css 
+2013-05-13 15:44:38 identical stylesheets/ie.css 
+2013-05-13 15:44:38 identical stylesheets/print.css 
+2013-05-13 15:44:38 overwrite stylesheets/screen.css 
+2013-05-13 15:48:21 identical stylesheets/ie.css 
+2013-05-13 15:48:21 identical stylesheets/print.css 
+2013-05-13 15:48:21 overwrite stylesheets/screen.css 
+2013-05-13 15:48:53 identical stylesheets/ie.css 
+2013-05-13 15:48:53 identical stylesheets/print.css 
+2013-05-13 15:48:53 overwrite stylesheets/screen.css 
+2013-05-13 15:49:18 identical stylesheets/ie.css 
+2013-05-13 15:49:18 identical stylesheets/print.css 
+2013-05-13 15:49:18 overwrite stylesheets/screen.css 
+2013-05-13 15:49:37 identical stylesheets/ie.css 
+2013-05-13 15:49:37 identical stylesheets/print.css 
+2013-05-13 15:49:37 overwrite stylesheets/screen.css 
+2013-05-13 15:50:10 identical stylesheets/ie.css 
+2013-05-13 15:50:10 identical stylesheets/print.css 
+2013-05-13 15:50:10 overwrite stylesheets/screen.css 
+2013-05-13 15:51:20 identical stylesheets/ie.css 
+2013-05-13 15:51:20 identical stylesheets/print.css 
+2013-05-13 15:51:20 overwrite stylesheets/screen.css 
+2013-05-13 15:51:46 identical stylesheets/ie.css 
+2013-05-13 15:51:46 identical stylesheets/print.css 
+2013-05-13 15:51:46 identical stylesheets/screen.css 
+2013-05-13 15:53:46 identical stylesheets/ie.css 
+2013-05-13 15:53:46 identical stylesheets/print.css 
+2013-05-13 15:53:47 overwrite stylesheets/screen.css 
+2013-05-13 15:54:27 identical stylesheets/ie.css 
+2013-05-13 15:54:27 identical stylesheets/print.css 
+2013-05-13 15:54:28 overwrite stylesheets/screen.css 
+2013-05-13 15:55:00 identical stylesheets/ie.css 
+2013-05-13 15:55:00 identical stylesheets/print.css 
+2013-05-13 15:55:01 overwrite stylesheets/screen.css 
+2013-05-13 15:55:34 identical stylesheets/ie.css 
+2013-05-13 15:55:34 identical stylesheets/print.css 
+2013-05-13 15:55:35 overwrite stylesheets/screen.css 
+2013-05-13 15:57:37 identical stylesheets/ie.css 
+2013-05-13 15:57:37 identical stylesheets/print.css 
+2013-05-13 15:57:38 overwrite stylesheets/screen.css 
+2013-05-13 15:57:53 identical stylesheets/ie.css 
+2013-05-13 15:57:53 identical stylesheets/print.css 
+2013-05-13 15:57:54 identical stylesheets/screen.css 
+2013-05-13 15:58:08 identical stylesheets/ie.css 
+2013-05-13 15:58:08 identical stylesheets/print.css 
+2013-05-13 15:58:09 identical stylesheets/screen.css 
+2013-05-13 15:58:27 identical stylesheets/ie.css 
+2013-05-13 15:58:27 identical stylesheets/print.css 
+2013-05-13 15:58:28 overwrite stylesheets/screen.css 
+2013-05-13 15:58:59 identical stylesheets/ie.css 
+2013-05-13 15:58:59 identical stylesheets/print.css 
+2013-05-13 15:59:00 overwrite stylesheets/screen.css 
+2013-05-13 16:01:28 identical stylesheets/ie.css 
+2013-05-13 16:01:28 identical stylesheets/print.css 
+2013-05-13 16:01:29 overwrite stylesheets/screen.css 
+2013-05-13 16:01:41 identical stylesheets/ie.css 
+2013-05-13 16:01:41 identical stylesheets/print.css 
+2013-05-13 16:01:42 overwrite stylesheets/screen.css 
+2013-05-13 16:01:58 identical stylesheets/ie.css 
+2013-05-13 16:01:58 identical stylesheets/print.css 
+2013-05-13 16:01:59 overwrite stylesheets/screen.css 
+2013-05-13 16:02:08 identical stylesheets/ie.css 
+2013-05-13 16:02:08 identical stylesheets/print.css 
+2013-05-13 16:02:09 overwrite stylesheets/screen.css 
+2013-05-13 17:10:05 identical stylesheets/ie.css 
+2013-05-13 17:10:05 identical stylesheets/print.css 
+2013-05-13 17:10:06 overwrite stylesheets/screen.css 
+2013-05-13 17:15:51 identical stylesheets/ie.css 
+2013-05-13 17:15:51 identical stylesheets/print.css 
+2013-05-13 17:15:51 overwrite stylesheets/screen.css 
+2013-05-13 17:18:07 identical stylesheets/ie.css 
+2013-05-13 17:18:07 identical stylesheets/print.css 
+2013-05-13 17:18:08 overwrite stylesheets/screen.css 
+2013-05-13 17:19:03 identical stylesheets/ie.css 
+2013-05-13 17:19:03 identical stylesheets/print.css 
+2013-05-13 17:19:03 overwrite stylesheets/screen.css 
+2013-05-13 17:21:14 identical stylesheets/ie.css 
+2013-05-13 17:21:14 identical stylesheets/print.css 
+2013-05-13 17:21:15 overwrite stylesheets/screen.css 
+2013-05-13 17:21:23 identical stylesheets/ie.css 
+2013-05-13 17:21:23 identical stylesheets/print.css 
+2013-05-13 17:21:23 overwrite stylesheets/screen.css 
+2013-05-13 17:22:21 identical stylesheets/ie.css 
+2013-05-13 17:22:21 identical stylesheets/print.css 
+2013-05-13 17:22:21 overwrite stylesheets/screen.css 
+2013-05-13 17:22:48 identical stylesheets/ie.css 
+2013-05-13 17:22:48 identical stylesheets/print.css 
+2013-05-13 17:22:48 overwrite stylesheets/screen.css 
+2013-05-13 17:22:57 identical stylesheets/ie.css 
+2013-05-13 17:22:57 identical stylesheets/print.css 
+2013-05-13 17:22:57 overwrite stylesheets/screen.css 
+2013-05-13 17:23:03 identical stylesheets/ie.css 
+2013-05-13 17:23:03 identical stylesheets/print.css 
+2013-05-13 17:23:04 overwrite stylesheets/screen.css 
+2013-05-13 17:33:05 identical stylesheets/ie.css 
+2013-05-13 17:33:05 identical stylesheets/print.css 
+2013-05-13 17:33:06 overwrite stylesheets/screen.css 
+2013-05-14 09:09:37 identical stylesheets/ie.css 
+2013-05-14 09:09:38 identical stylesheets/print.css 
+2013-05-14 09:09:41 overwrite stylesheets/screen.css 
+2013-05-14 09:10:33 identical stylesheets/ie.css 
+2013-05-14 09:10:33 identical stylesheets/print.css 
+2013-05-14 09:10:34 overwrite stylesheets/screen.css 
+2013-05-14 09:11:15 identical stylesheets/ie.css 
+2013-05-14 09:11:15 identical stylesheets/print.css 
+2013-05-14 09:11:16 overwrite stylesheets/screen.css 
+2013-05-14 09:11:32 identical stylesheets/ie.css 
+2013-05-14 09:11:32 identical stylesheets/print.css 
+2013-05-14 09:11:33 overwrite stylesheets/screen.css 
+2013-05-14 09:11:51 identical stylesheets/ie.css 
+2013-05-14 09:11:51 identical stylesheets/print.css 
+2013-05-14 09:11:52 overwrite stylesheets/screen.css 
+2013-05-14 09:12:14 identical stylesheets/ie.css 
+2013-05-14 09:12:15 identical stylesheets/print.css 
+2013-05-14 09:12:15 overwrite stylesheets/screen.css 
+2013-05-14 09:12:20 identical stylesheets/ie.css 
+2013-05-14 09:12:20 identical stylesheets/print.css 
+2013-05-14 09:12:21 overwrite stylesheets/screen.css 
+2013-05-14 09:12:36 identical stylesheets/ie.css 
+2013-05-14 09:12:36 identical stylesheets/print.css 
+2013-05-14 09:12:36 overwrite stylesheets/screen.css 
+2013-05-14 09:13:41 identical stylesheets/ie.css 
+2013-05-14 09:13:41 identical stylesheets/print.css 
+2013-05-14 09:13:41 overwrite stylesheets/screen.css 
+2013-05-14 09:18:34 identical stylesheets/ie.css 
+2013-05-14 09:18:34 identical stylesheets/print.css 
+2013-05-14 09:18:34 overwrite stylesheets/screen.css 
+2013-05-14 09:21:14 identical stylesheets/ie.css 
+2013-05-14 09:21:14 identical stylesheets/print.css 
+2013-05-14 09:21:14 overwrite stylesheets/screen.css 
+2013-05-14 09:21:40 identical stylesheets/ie.css 
+2013-05-14 09:21:40 identical stylesheets/print.css 
+2013-05-14 09:21:40 overwrite stylesheets/screen.css 
+2013-05-14 09:22:06 identical stylesheets/ie.css 
+2013-05-14 09:22:06 identical stylesheets/print.css 
+2013-05-14 09:22:06 overwrite stylesheets/screen.css 
+2013-05-14 09:22:20 identical stylesheets/ie.css 
+2013-05-14 09:22:20 identical stylesheets/print.css 
+2013-05-14 09:22:20 overwrite stylesheets/screen.css 
+2013-05-14 09:22:39 identical stylesheets/ie.css 
+2013-05-14 09:22:39 identical stylesheets/print.css 
+2013-05-14 09:22:40 overwrite stylesheets/screen.css 
+2013-05-14 09:22:58 identical stylesheets/ie.css 
+2013-05-14 09:22:58 identical stylesheets/print.css 
+2013-05-14 09:22:59 overwrite stylesheets/screen.css 
+2013-05-14 09:23:20 identical stylesheets/ie.css 
+2013-05-14 09:23:20 identical stylesheets/print.css 
+2013-05-14 09:23:21 overwrite stylesheets/screen.css 
+2013-05-14 09:23:30 identical stylesheets/ie.css 
+2013-05-14 09:23:30 identical stylesheets/print.css 
+2013-05-14 09:23:30 overwrite stylesheets/screen.css 
+2013-05-14 09:23:44 identical stylesheets/ie.css 
+2013-05-14 09:23:44 identical stylesheets/print.css 
+2013-05-14 09:23:45 overwrite stylesheets/screen.css 
+2013-05-14 09:24:06 identical stylesheets/ie.css 
+2013-05-14 09:24:06 identical stylesheets/print.css 
+2013-05-14 09:24:07 overwrite stylesheets/screen.css 
+2013-05-14 09:26:00 identical stylesheets/ie.css 
+2013-05-14 09:26:00 identical stylesheets/print.css 
+2013-05-14 09:26:01 overwrite stylesheets/screen.css 
+2013-05-14 09:28:06 identical stylesheets/ie.css 
+2013-05-14 09:28:06 identical stylesheets/print.css 
+2013-05-14 09:28:07 overwrite stylesheets/screen.css 
+2013-05-14 09:28:13 identical stylesheets/ie.css 
+2013-05-14 09:28:13 identical stylesheets/print.css 
+2013-05-14 09:28:14 overwrite stylesheets/screen.css 
+2013-05-14 09:28:20 identical stylesheets/ie.css 
+2013-05-14 09:28:20 identical stylesheets/print.css 
+2013-05-14 09:28:21 overwrite stylesheets/screen.css 
+2013-05-14 09:28:25 identical stylesheets/ie.css 
+2013-05-14 09:28:25 identical stylesheets/print.css 
+2013-05-14 09:28:26 overwrite stylesheets/screen.css 
+2013-05-14 09:28:36 identical stylesheets/ie.css 
+2013-05-14 09:28:36 identical stylesheets/print.css 
+2013-05-14 09:28:37 overwrite stylesheets/screen.css 
+2013-05-14 09:29:01 identical stylesheets/ie.css 
+2013-05-14 09:29:01 identical stylesheets/print.css 
+2013-05-14 09:29:02 overwrite stylesheets/screen.css 
+2013-05-14 09:29:02 identical stylesheets/ie.css 
+2013-05-14 09:29:02 identical stylesheets/print.css 
+2013-05-14 09:29:03 identical stylesheets/screen.css 
+2013-05-14 09:29:43 identical stylesheets/ie.css 
+2013-05-14 09:29:43 identical stylesheets/print.css 
+2013-05-14 09:29:44 identical stylesheets/screen.css 
+2013-05-14 09:35:34 identical stylesheets/ie.css 
+2013-05-14 09:35:34 identical stylesheets/print.css 
+2013-05-14 09:35:34     error sass/screen.sass (Line 334: Invalid CSS after "...60px,$control: ": expected expression (e.g. 1px, bold), was ".control)")
+2013-05-14 09:35:34 overwrite stylesheets/screen.css 
+2013-05-14 09:37:09 identical stylesheets/ie.css 
+2013-05-14 09:37:09 identical stylesheets/print.css 
+2013-05-14 09:37:09     error sass/screen.sass (Line 334: Invalid CSS after "...60px,$control: ": expected expression (e.g. 1px, bold), was ".control)")
+2013-05-14 09:37:09 identical stylesheets/screen.css 
+2013-05-14 09:37:17 identical stylesheets/ie.css 
+2013-05-14 09:37:17 identical stylesheets/print.css 
+2013-05-14 09:37:18 overwrite stylesheets/screen.css 
+2013-05-14 09:37:40 identical stylesheets/ie.css 
+2013-05-14 09:37:40 identical stylesheets/print.css 
+2013-05-14 09:37:41 identical stylesheets/screen.css 
+2013-05-14 09:39:01 identical stylesheets/ie.css 
+2013-05-14 09:39:01 identical stylesheets/print.css 
+2013-05-14 09:39:02 overwrite stylesheets/screen.css 
+2013-05-14 09:39:57 identical stylesheets/ie.css 
+2013-05-14 09:39:57 identical stylesheets/print.css 
+2013-05-14 09:39:58 overwrite stylesheets/screen.css 
+2013-05-14 09:41:01 identical stylesheets/ie.css 
+2013-05-14 09:41:01 identical stylesheets/print.css 
+2013-05-14 09:41:02 identical stylesheets/screen.css 
+2013-05-14 09:45:47 identical stylesheets/ie.css 
+2013-05-14 09:45:47 identical stylesheets/print.css 
+2013-05-14 09:45:48 overwrite stylesheets/screen.css 
+2013-05-14 09:50:27 identical stylesheets/ie.css 
+2013-05-14 09:50:27 identical stylesheets/print.css 
+2013-05-14 09:50:28 overwrite stylesheets/screen.css 
+2013-05-14 09:50:31 identical stylesheets/ie.css 
+2013-05-14 09:50:31 identical stylesheets/print.css 
+2013-05-14 09:50:32 overwrite stylesheets/screen.css 
+2013-05-14 09:51:09 identical stylesheets/ie.css 
+2013-05-14 09:51:09 identical stylesheets/print.css 
+2013-05-14 09:51:10 overwrite stylesheets/screen.css 
+2013-05-14 09:52:04 identical stylesheets/ie.css 
+2013-05-14 09:52:04 identical stylesheets/print.css 
+2013-05-14 09:52:05 overwrite stylesheets/screen.css 
+2013-05-14 09:52:15 identical stylesheets/ie.css 
+2013-05-14 09:52:15 identical stylesheets/print.css 
+2013-05-14 09:52:16 overwrite stylesheets/screen.css 
+2013-05-14 09:52:30 identical stylesheets/ie.css 
+2013-05-14 09:52:30 identical stylesheets/print.css 
+2013-05-14 09:52:31 overwrite stylesheets/screen.css 
+2013-05-14 09:52:38 identical stylesheets/ie.css 
+2013-05-14 09:52:38 identical stylesheets/print.css 
+2013-05-14 09:52:39 overwrite stylesheets/screen.css 
+2013-05-14 09:52:48 identical stylesheets/ie.css 
+2013-05-14 09:52:48 identical stylesheets/print.css 
+2013-05-14 09:52:49 overwrite stylesheets/screen.css 
+2013-05-14 09:52:53 identical stylesheets/ie.css 
+2013-05-14 09:52:53 identical stylesheets/print.css 
+2013-05-14 09:52:54 overwrite stylesheets/screen.css 
+2013-05-14 09:53:09 identical stylesheets/ie.css 
+2013-05-14 09:53:09 identical stylesheets/print.css 
+2013-05-14 09:53:10 overwrite stylesheets/screen.css 
+2013-05-14 09:53:22 identical stylesheets/ie.css 
+2013-05-14 09:53:22 identical stylesheets/print.css 
+2013-05-14 09:53:23 overwrite stylesheets/screen.css 
+2013-05-14 09:55:24 identical stylesheets/ie.css 
+2013-05-14 09:55:24 identical stylesheets/print.css 
+2013-05-14 09:55:25 overwrite stylesheets/screen.css 
+2013-05-14 10:01:06 identical stylesheets/ie.css 
+2013-05-14 10:01:06 identical stylesheets/print.css 
+2013-05-14 10:01:07 overwrite stylesheets/screen.css 
+2013-05-14 10:01:54 identical stylesheets/ie.css 
+2013-05-14 10:01:54 identical stylesheets/print.css 
+2013-05-14 10:01:55 overwrite stylesheets/screen.css 
+2013-05-14 10:02:28 identical stylesheets/ie.css 
+2013-05-14 10:02:28 identical stylesheets/print.css 
+2013-05-14 10:02:29 overwrite stylesheets/screen.css 
+2013-05-14 10:02:59 identical stylesheets/ie.css 
+2013-05-14 10:02:59 identical stylesheets/print.css 
+2013-05-14 10:03:00 overwrite stylesheets/screen.css 
+2013-05-14 10:03:37 identical stylesheets/ie.css 
+2013-05-14 10:03:37 identical stylesheets/print.css 
+2013-05-14 10:03:37 overwrite stylesheets/screen.css 
+2013-05-14 10:03:47 identical stylesheets/ie.css 
+2013-05-14 10:03:47 identical stylesheets/print.css 
+2013-05-14 10:03:48 overwrite stylesheets/screen.css 
+2013-05-14 10:03:53 identical stylesheets/ie.css 
+2013-05-14 10:03:53 identical stylesheets/print.css 
+2013-05-14 10:03:54 overwrite stylesheets/screen.css 
+2013-05-14 10:04:25 identical stylesheets/ie.css 
+2013-05-14 10:04:25 identical stylesheets/print.css 
+2013-05-14 10:04:26 overwrite stylesheets/screen.css 
+2013-05-14 10:04:32 identical stylesheets/ie.css 
+2013-05-14 10:04:32 identical stylesheets/print.css 
+2013-05-14 10:04:32 overwrite stylesheets/screen.css 
+2013-05-14 10:04:39 identical stylesheets/ie.css 
+2013-05-14 10:04:39 identical stylesheets/print.css 
+2013-05-14 10:04:40 overwrite stylesheets/screen.css 
+2013-05-14 10:04:49 identical stylesheets/ie.css 
+2013-05-14 10:04:49 identical stylesheets/print.css 
+2013-05-14 10:04:50 overwrite stylesheets/screen.css 
+2013-05-14 10:05:02 identical stylesheets/ie.css 
+2013-05-14 10:05:02 identical stylesheets/print.css 
+2013-05-14 10:05:03 overwrite stylesheets/screen.css 
+2013-05-14 10:08:23 identical stylesheets/ie.css 
+2013-05-14 10:08:23 identical stylesheets/print.css 
+2013-05-14 10:08:24 overwrite stylesheets/screen.css 
+2013-05-14 10:08:31 identical stylesheets/ie.css 
+2013-05-14 10:08:31 identical stylesheets/print.css 
+2013-05-14 10:08:32 overwrite stylesheets/screen.css 
+2013-05-14 10:08:38 identical stylesheets/ie.css 
+2013-05-14 10:08:38 identical stylesheets/print.css 
+2013-05-14 10:08:39 overwrite stylesheets/screen.css 
+2013-05-14 10:08:43 identical stylesheets/ie.css 
+2013-05-14 10:08:43 identical stylesheets/print.css 
+2013-05-14 10:08:44 overwrite stylesheets/screen.css 
+2013-05-14 10:08:52 identical stylesheets/ie.css 
+2013-05-14 10:08:52 identical stylesheets/print.css 
+2013-05-14 10:08:53 overwrite stylesheets/screen.css 
+2013-05-14 10:10:30 identical stylesheets/ie.css 
+2013-05-14 10:10:30 identical stylesheets/print.css 
+2013-05-14 10:10:31 overwrite stylesheets/screen.css 
+2013-05-14 10:12:06 identical stylesheets/ie.css 
+2013-05-14 10:12:06 identical stylesheets/print.css 
+2013-05-14 10:12:07 overwrite stylesheets/screen.css 
+2013-05-14 10:12:31 identical stylesheets/ie.css 
+2013-05-14 10:12:31 identical stylesheets/print.css 
+2013-05-14 10:12:32 overwrite stylesheets/screen.css 
+2013-05-14 10:12:39 identical stylesheets/ie.css 
+2013-05-14 10:12:39 identical stylesheets/print.css 
+2013-05-14 10:12:40 overwrite stylesheets/screen.css 
+2013-05-14 10:13:01 identical stylesheets/ie.css 
+2013-05-14 10:13:01 identical stylesheets/print.css 
+2013-05-14 10:13:02 overwrite stylesheets/screen.css 
+2013-05-14 10:13:09 identical stylesheets/ie.css 
+2013-05-14 10:13:09 identical stylesheets/print.css 
+2013-05-14 10:13:10 overwrite stylesheets/screen.css 
+2013-05-14 10:13:18 identical stylesheets/ie.css 
+2013-05-14 10:13:18 identical stylesheets/print.css 
+2013-05-14 10:13:19 overwrite stylesheets/screen.css 
+2013-05-14 10:13:28 identical stylesheets/ie.css 
+2013-05-14 10:13:28 identical stylesheets/print.css 
+2013-05-14 10:13:29 overwrite stylesheets/screen.css 
+2013-05-14 10:14:44 identical stylesheets/ie.css 
+2013-05-14 10:14:44 identical stylesheets/print.css 
+2013-05-14 10:14:45 overwrite stylesheets/screen.css 
+2013-05-14 10:16:24 identical stylesheets/ie.css 
+2013-05-14 10:16:24 identical stylesheets/print.css 
+2013-05-14 10:16:25 overwrite stylesheets/screen.css 
+2013-05-14 10:18:50 identical stylesheets/ie.css 
+2013-05-14 10:18:50 identical stylesheets/print.css 
+2013-05-14 10:18:51 overwrite stylesheets/screen.css 
+2013-05-14 10:19:03 identical stylesheets/ie.css 
+2013-05-14 10:19:03 identical stylesheets/print.css 
+2013-05-14 10:19:04 overwrite stylesheets/screen.css 
+2013-05-14 10:23:16 identical stylesheets/ie.css 
+2013-05-14 10:23:16 identical stylesheets/print.css 
+2013-05-14 10:23:17 overwrite stylesheets/screen.css 
+2013-05-14 10:23:25 identical stylesheets/ie.css 
+2013-05-14 10:23:25 identical stylesheets/print.css 
+2013-05-14 10:23:26 overwrite stylesheets/screen.css 
+2013-05-14 10:23:52 identical stylesheets/ie.css 
+2013-05-14 10:23:52 identical stylesheets/print.css 
+2013-05-14 10:23:53 overwrite stylesheets/screen.css 
+2013-05-14 10:24:21 identical stylesheets/ie.css 
+2013-05-14 10:24:21 identical stylesheets/print.css 
+2013-05-14 10:24:22 overwrite stylesheets/screen.css 
+2013-05-14 10:24:54 identical stylesheets/ie.css 
+2013-05-14 10:24:54 identical stylesheets/print.css 
+2013-05-14 10:24:55 overwrite stylesheets/screen.css 
+2013-05-14 10:25:05 identical stylesheets/ie.css 
+2013-05-14 10:25:05 identical stylesheets/print.css 
+2013-05-14 10:25:06 overwrite stylesheets/screen.css 
+2013-05-14 10:25:25 identical stylesheets/ie.css 
+2013-05-14 10:25:25 identical stylesheets/print.css 
+2013-05-14 10:25:26 overwrite stylesheets/screen.css 
+2013-05-14 10:25:42 identical stylesheets/ie.css 
+2013-05-14 10:25:42 identical stylesheets/print.css 
+2013-05-14 10:25:43 overwrite stylesheets/screen.css 
+2013-05-14 10:26:12 identical stylesheets/ie.css 
+2013-05-14 10:26:12 identical stylesheets/print.css 
+2013-05-14 10:26:13 overwrite stylesheets/screen.css 
+2013-05-14 10:29:39 identical stylesheets/ie.css 
+2013-05-14 10:29:39 identical stylesheets/print.css 
+2013-05-14 10:29:40 overwrite stylesheets/screen.css 
+2013-05-14 10:29:53 identical stylesheets/ie.css 
+2013-05-14 10:29:53 identical stylesheets/print.css 
+2013-05-14 10:29:54 overwrite stylesheets/screen.css 
+2013-05-14 10:30:15 identical stylesheets/ie.css 
+2013-05-14 10:30:15 identical stylesheets/print.css 
+2013-05-14 10:30:16 overwrite stylesheets/screen.css 
+2013-05-14 10:36:44 identical stylesheets/ie.css 
+2013-05-14 10:36:44 identical stylesheets/print.css 
+2013-05-14 10:36:45 overwrite stylesheets/screen.css 
+2013-05-14 10:41:11 identical stylesheets/ie.css 
+2013-05-14 10:41:11 identical stylesheets/print.css 
+2013-05-14 10:41:12 overwrite stylesheets/screen.css 
+2013-05-14 10:42:23 identical stylesheets/ie.css 
+2013-05-14 10:42:23 identical stylesheets/print.css 
+2013-05-14 10:42:23     error sass/screen.sass (Line 368: Invalid CSS after "center": expected expression (e.g. 1px, bold), was ";")
+2013-05-14 10:42:23 overwrite stylesheets/screen.css 
+2013-05-14 10:42:28 identical stylesheets/ie.css 
+2013-05-14 10:42:28 identical stylesheets/print.css 
+2013-05-14 10:42:29 overwrite stylesheets/screen.css 
+2013-05-14 10:43:04 identical stylesheets/ie.css 
+2013-05-14 10:43:04 identical stylesheets/print.css 
+2013-05-14 10:43:05 overwrite stylesheets/screen.css 
+2013-05-14 10:44:16 identical stylesheets/ie.css 
+2013-05-14 10:44:16 identical stylesheets/print.css 
+2013-05-14 10:44:17 overwrite stylesheets/screen.css 
+2013-05-14 10:45:04 identical stylesheets/ie.css 
+2013-05-14 10:45:04 identical stylesheets/print.css 
+2013-05-14 10:45:05     error sass/screen.sass (Line 368: At least two color stops are required for a linear-gradient)
+2013-05-14 10:45:05 overwrite stylesheets/screen.css 
+2013-05-14 10:45:12 identical stylesheets/ie.css 
+2013-05-14 10:45:12 identical stylesheets/print.css 
+2013-05-14 10:45:13     error sass/screen.sass (Line 368: At least two color stops are required for a linear-gradient)
+2013-05-14 10:45:13 identical stylesheets/screen.css 
+2013-05-14 10:45:33 identical stylesheets/ie.css 
+2013-05-14 10:45:33 identical stylesheets/print.css 
+2013-05-14 10:45:34 overwrite stylesheets/screen.css 
+2013-05-14 10:46:50 identical stylesheets/ie.css 
+2013-05-14 10:46:50 identical stylesheets/print.css 
+2013-05-14 10:46:51 overwrite stylesheets/screen.css 
+2013-05-14 10:47:08 identical stylesheets/ie.css 
+2013-05-14 10:47:08 identical stylesheets/print.css 
+2013-05-14 10:47:09 overwrite stylesheets/screen.css 
+2013-05-14 10:51:07 identical stylesheets/ie.css 
+2013-05-14 10:51:07 identical stylesheets/print.css 
+2013-05-14 10:51:08 overwrite stylesheets/screen.css 
+2013-05-14 10:51:25 identical stylesheets/ie.css 
+2013-05-14 10:51:25 identical stylesheets/print.css 
+2013-05-14 10:51:26 overwrite stylesheets/screen.css 
+2013-05-14 10:51:38 identical stylesheets/ie.css 
+2013-05-14 10:51:38 identical stylesheets/print.css 
+2013-05-14 10:51:39 overwrite stylesheets/screen.css 
+2013-05-14 10:51:49 identical stylesheets/ie.css 
+2013-05-14 10:51:49 identical stylesheets/print.css 
+2013-05-14 10:51:50 overwrite stylesheets/screen.css 
+2013-05-14 10:51:56 identical stylesheets/ie.css 
+2013-05-14 10:51:56 identical stylesheets/print.css 
+2013-05-14 10:51:57 overwrite stylesheets/screen.css 
+2013-05-14 10:53:38 identical stylesheets/ie.css 
+2013-05-14 10:53:38 identical stylesheets/print.css 
+2013-05-14 10:53:38     error sass/screen.sass (Line 370: Invalid CSS after "...(0, 0, 0, 0.05)": expected ")", was ";)")
+2013-05-14 10:53:38 overwrite stylesheets/screen.css 
+2013-05-14 10:53:43 identical stylesheets/ie.css 
+2013-05-14 10:53:43 identical stylesheets/print.css 
+2013-05-14 10:53:44 overwrite stylesheets/screen.css 
+2013-05-14 10:54:43 identical stylesheets/ie.css 
+2013-05-14 10:54:43 identical stylesheets/print.css 
+2013-05-14 10:54:44 overwrite stylesheets/screen.css 
+2013-05-14 10:55:03 identical stylesheets/ie.css 
+2013-05-14 10:55:03 identical stylesheets/print.css 
+2013-05-14 10:55:04 overwrite stylesheets/screen.css 
+2013-05-14 10:55:15 identical stylesheets/ie.css 
+2013-05-14 10:55:15 identical stylesheets/print.css 
+2013-05-14 10:55:16 overwrite stylesheets/screen.css 
+2013-05-14 10:55:41 identical stylesheets/ie.css 
+2013-05-14 10:55:41 identical stylesheets/print.css 
+2013-05-14 10:55:42 overwrite stylesheets/screen.css 
+2013-05-14 10:56:24 identical stylesheets/ie.css 
+2013-05-14 10:56:24 identical stylesheets/print.css 
+2013-05-14 10:56:25 overwrite stylesheets/screen.css 
+2013-05-14 10:57:23 identical stylesheets/ie.css 
+2013-05-14 10:57:23 identical stylesheets/print.css 
+2013-05-14 10:57:24 overwrite stylesheets/screen.css 
+2013-05-14 10:57:45 identical stylesheets/ie.css 
+2013-05-14 10:57:45 identical stylesheets/print.css 
+2013-05-14 10:57:46 overwrite stylesheets/screen.css 
+2013-05-14 10:58:08 identical stylesheets/ie.css 
+2013-05-14 10:58:08 identical stylesheets/print.css 
+2013-05-14 10:58:09 overwrite stylesheets/screen.css 
+2013-05-14 13:52:37 identical stylesheets/ie.css 
+2013-05-14 13:52:38 identical stylesheets/print.css 
+2013-05-14 13:52:41 identical stylesheets/screen.css 
+2013-05-14 13:53:22 identical stylesheets/ie.css 
+2013-05-14 13:53:22 identical stylesheets/print.css 
+2013-05-14 13:53:23 overwrite stylesheets/screen.css 
+2013-05-14 13:53:39 identical stylesheets/ie.css 
+2013-05-14 13:53:39 identical stylesheets/print.css 
+2013-05-14 13:53:39 overwrite stylesheets/screen.css 
+2013-05-14 13:54:42 identical stylesheets/ie.css 
+2013-05-14 13:54:42 identical stylesheets/print.css 
+2013-05-14 13:54:42 identical stylesheets/screen.css 
+2013-05-14 13:55:15 identical stylesheets/ie.css 
+2013-05-14 13:55:15 identical stylesheets/print.css 
+2013-05-14 13:55:15 identical stylesheets/screen.css 
+2013-05-14 13:56:56 identical stylesheets/ie.css 
+2013-05-14 13:56:56 identical stylesheets/print.css 
+2013-05-14 13:56:56 overwrite stylesheets/screen.css 
+2013-05-14 13:57:45 identical stylesheets/ie.css 
+2013-05-14 13:57:45 identical stylesheets/print.css 
+2013-05-14 13:57:45 identical stylesheets/screen.css 
+2013-05-14 13:57:59 identical stylesheets/ie.css 
+2013-05-14 13:57:59 identical stylesheets/print.css 
+2013-05-14 13:58:00 overwrite stylesheets/screen.css 
+2013-05-14 13:58:37 identical stylesheets/ie.css 
+2013-05-14 13:58:37 identical stylesheets/print.css 
+2013-05-14 13:58:37 overwrite stylesheets/screen.css 
+2013-05-14 13:59:20 identical stylesheets/ie.css 
+2013-05-14 13:59:20 identical stylesheets/print.css 
+2013-05-14 13:59:21 overwrite stylesheets/screen.css 
+2013-05-14 14:00:20 identical stylesheets/ie.css 
+2013-05-14 14:00:20 identical stylesheets/print.css 
+2013-05-14 14:00:21 overwrite stylesheets/screen.css 
+2013-05-14 14:00:40 identical stylesheets/ie.css 
+2013-05-14 14:00:40 identical stylesheets/print.css 
+2013-05-14 14:00:41 overwrite stylesheets/screen.css 
+2013-05-14 14:00:59 identical stylesheets/ie.css 
+2013-05-14 14:00:59 identical stylesheets/print.css 
+2013-05-14 14:00:59 overwrite stylesheets/screen.css 
+2013-05-14 14:01:22 identical stylesheets/ie.css 
+2013-05-14 14:01:22 identical stylesheets/print.css 
+2013-05-14 14:01:22 overwrite stylesheets/screen.css 
+2013-05-14 14:02:01 identical stylesheets/ie.css 
+2013-05-14 14:02:01 identical stylesheets/print.css 
+2013-05-14 14:02:01 overwrite stylesheets/screen.css 
+2013-05-14 14:07:27 identical stylesheets/ie.css 
+2013-05-14 14:07:27 identical stylesheets/print.css 
+2013-05-14 14:07:27 identical stylesheets/screen.css 
+2013-05-14 14:12:28 identical stylesheets/ie.css 
+2013-05-14 14:12:28 identical stylesheets/print.css 
+2013-05-14 14:12:28 overwrite stylesheets/screen.css 
+2013-05-14 14:12:53 identical stylesheets/ie.css 
+2013-05-14 14:12:53 identical stylesheets/print.css 
+2013-05-14 14:12:53 overwrite stylesheets/screen.css 
+2013-05-14 14:13:00 identical stylesheets/ie.css 
+2013-05-14 14:13:00 identical stylesheets/print.css 
+2013-05-14 14:13:00 overwrite stylesheets/screen.css 
+2013-05-14 14:13:10 identical stylesheets/ie.css 
+2013-05-14 14:13:10 identical stylesheets/print.css 
+2013-05-14 14:13:10 overwrite stylesheets/screen.css 
+2013-05-14 14:13:36 identical stylesheets/ie.css 
+2013-05-14 14:13:36 identical stylesheets/print.css 
+2013-05-14 14:13:36 overwrite stylesheets/screen.css 
+2013-05-14 14:14:14 identical stylesheets/ie.css 
+2013-05-14 14:14:14 identical stylesheets/print.css 
+2013-05-14 14:14:14 overwrite stylesheets/screen.css 
+2013-05-14 14:15:09 identical stylesheets/ie.css 
+2013-05-14 14:15:09 identical stylesheets/print.css 
+2013-05-14 14:15:09 overwrite stylesheets/screen.css 
+2013-05-14 14:15:15 identical stylesheets/ie.css 
+2013-05-14 14:15:15 identical stylesheets/print.css 
+2013-05-14 14:15:15 overwrite stylesheets/screen.css 
+2013-05-14 14:15:24 identical stylesheets/ie.css 
+2013-05-14 14:15:24 identical stylesheets/print.css 
+2013-05-14 14:15:24 overwrite stylesheets/screen.css 
+2013-05-14 14:16:23 identical stylesheets/ie.css 
+2013-05-14 14:16:23 identical stylesheets/print.css 
+2013-05-14 14:16:23 identical stylesheets/screen.css 
+2013-05-14 14:17:00 identical stylesheets/ie.css 
+2013-05-14 14:17:00 identical stylesheets/print.css 
+2013-05-14 14:17:00 overwrite stylesheets/screen.css 
+2013-05-14 14:17:11 identical stylesheets/ie.css 
+2013-05-14 14:17:11 identical stylesheets/print.css 
+2013-05-14 14:17:11 overwrite stylesheets/screen.css 
+2013-05-14 14:17:30 identical stylesheets/ie.css 
+2013-05-14 14:17:30 identical stylesheets/print.css 
+2013-05-14 14:17:30 overwrite stylesheets/screen.css 
+2013-05-14 14:17:38 identical stylesheets/ie.css 
+2013-05-14 14:17:38 identical stylesheets/print.css 
+2013-05-14 14:17:38 overwrite stylesheets/screen.css 
+2013-05-14 14:18:23 identical stylesheets/ie.css 
+2013-05-14 14:18:23 identical stylesheets/print.css 
+2013-05-14 14:18:23 identical stylesheets/screen.css 
+2013-05-14 14:18:36 identical stylesheets/ie.css 
+2013-05-14 14:18:36 identical stylesheets/print.css 
+2013-05-14 14:18:36 identical stylesheets/screen.css 
+2013-05-14 14:19:06 identical stylesheets/ie.css 
+2013-05-14 14:19:06 identical stylesheets/print.css 
+2013-05-14 14:19:06 overwrite stylesheets/screen.css 
+2013-05-14 14:19:18 identical stylesheets/ie.css 
+2013-05-14 14:19:18 identical stylesheets/print.css 
+2013-05-14 14:19:18 overwrite stylesheets/screen.css 
+2013-05-14 14:19:34 identical stylesheets/ie.css 
+2013-05-14 14:19:34 identical stylesheets/print.css 
+2013-05-14 14:19:34 overwrite stylesheets/screen.css 
+2013-05-14 14:19:46 identical stylesheets/ie.css 
+2013-05-14 14:19:46 identical stylesheets/print.css 
+2013-05-14 14:19:46 overwrite stylesheets/screen.css 
+2013-05-14 14:20:58 identical stylesheets/ie.css 
+2013-05-14 14:20:58 identical stylesheets/print.css 
+2013-05-14 14:20:58 overwrite stylesheets/screen.css 
+2013-05-14 14:21:25 identical stylesheets/ie.css 
+2013-05-14 14:21:25 identical stylesheets/print.css 
+2013-05-14 14:21:25 overwrite stylesheets/screen.css 
+2013-05-14 14:22:06 identical stylesheets/ie.css 
+2013-05-14 14:22:06 identical stylesheets/print.css 
+2013-05-14 14:22:06 overwrite stylesheets/screen.css 
+2013-05-14 14:22:38 identical stylesheets/ie.css 
+2013-05-14 14:22:38 identical stylesheets/print.css 
+2013-05-14 14:22:38 overwrite stylesheets/screen.css 
+2013-05-14 14:22:47 identical stylesheets/ie.css 
+2013-05-14 14:22:47 identical stylesheets/print.css 
+2013-05-14 14:22:47 overwrite stylesheets/screen.css 
+2013-05-14 15:10:02 identical stylesheets/ie.css 
+2013-05-14 15:10:02 identical stylesheets/print.css 
+2013-05-14 15:10:02 overwrite stylesheets/screen.css 
+2013-05-14 15:10:21 identical stylesheets/ie.css 
+2013-05-14 15:10:21 identical stylesheets/print.css 
+2013-05-14 15:10:21 overwrite stylesheets/screen.css 
+2013-05-14 15:10:49 identical stylesheets/ie.css 
+2013-05-14 15:10:49 identical stylesheets/print.css 
+2013-05-14 15:10:49 overwrite stylesheets/screen.css 
+2013-05-14 15:10:53 identical stylesheets/ie.css 
+2013-05-14 15:10:53 identical stylesheets/print.css 
+2013-05-14 15:10:53 identical stylesheets/screen.css 
+2013-05-14 15:11:13 identical stylesheets/ie.css 
+2013-05-14 15:11:13 identical stylesheets/print.css 
+2013-05-14 15:11:13 overwrite stylesheets/screen.css 
+2013-05-14 15:24:30 identical stylesheets/ie.css 
+2013-05-14 15:24:30 identical stylesheets/print.css 
+2013-05-14 15:24:30 overwrite stylesheets/screen.css 
+2013-05-14 15:24:59 identical stylesheets/ie.css 
+2013-05-14 15:24:59 identical stylesheets/print.css 
+2013-05-14 15:24:59 overwrite stylesheets/screen.css 
+2013-05-14 15:28:45 identical stylesheets/ie.css 
+2013-05-14 15:28:45 identical stylesheets/print.css 
+2013-05-14 15:28:45 overwrite stylesheets/screen.css 
+2013-05-14 15:28:51 identical stylesheets/ie.css 
+2013-05-14 15:28:51 identical stylesheets/print.css 
+2013-05-14 15:28:51 overwrite stylesheets/screen.css 
+2013-05-14 15:29:15 identical stylesheets/ie.css 
+2013-05-14 15:29:15 identical stylesheets/print.css 
+2013-05-14 15:29:16 overwrite stylesheets/screen.css 
+2013-05-14 15:35:50 identical stylesheets/ie.css 
+2013-05-14 15:35:50 identical stylesheets/print.css 
+2013-05-14 15:35:50 overwrite stylesheets/screen.css 
+2013-05-14 15:36:10 identical stylesheets/ie.css 
+2013-05-14 15:36:10 identical stylesheets/print.css 
+2013-05-14 15:36:10 overwrite stylesheets/screen.css 
+2013-05-14 15:51:53 identical stylesheets/ie.css 
+2013-05-14 15:51:53 identical stylesheets/print.css 
+2013-05-14 15:51:54 identical stylesheets/screen.css 
+2013-05-14 15:52:18 identical stylesheets/ie.css 
+2013-05-14 15:52:18 identical stylesheets/print.css 
+2013-05-14 15:52:19 overwrite stylesheets/screen.css 
+2013-05-14 15:52:23 identical stylesheets/ie.css 
+2013-05-14 15:52:23 identical stylesheets/print.css 
+2013-05-14 15:52:24 overwrite stylesheets/screen.css 
+2013-05-14 15:54:30 identical stylesheets/ie.css 
+2013-05-14 15:54:30 identical stylesheets/print.css 
+2013-05-14 15:54:31 overwrite stylesheets/screen.css 
+2013-05-29 16:56:44 identical stylesheets/ie.css 
+2013-05-29 16:56:44 identical stylesheets/print.css 
+2013-05-29 16:56:47     error sass/screen.sass (Line 3: File to import not found or unreadable: module.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 16:56:47 overwrite stylesheets/screen.css 
+2013-05-29 16:56:50    create stylesheets/not finishing/menu交通局.css 
+2013-05-29 16:56:51    create stylesheets/not finishing/screenTalee.css 
+2013-05-29 16:57:13 identical stylesheets/ie.css 
+2013-05-29 16:57:13 identical stylesheets/print.css 
+2013-05-29 16:57:13     error sass/screen.sass (Line 3: File to import not found or unreadable: sass/module.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 16:57:13 overwrite stylesheets/screen.css 
+2013-05-29 16:57:14 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 16:57:15 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 16:57:53 identical stylesheets/ie.css 
+2013-05-29 16:57:53 identical stylesheets/print.css 
+2013-05-29 16:57:54     error sass/screen.sass (Line 3: File to import not found or unreadable: module.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 16:57:54 overwrite stylesheets/screen.css 
+2013-05-29 16:57:55 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 16:57:55 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 16:58:29 identical stylesheets/ie.css 
+2013-05-29 16:58:29 identical stylesheets/print.css 
+2013-05-29 16:58:29     error sass/screen.sass (Line 3: File to import not found or unreadable: modlue.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 16:58:29 overwrite stylesheets/screen.css 
+2013-05-29 16:58:30 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 16:58:30 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 16:58:44 identical stylesheets/ie.css 
+2013-05-29 16:58:44 identical stylesheets/print.css 
+2013-05-29 16:58:44     error sass/screen.sass (Line 3: File to import not found or unreadable: modlue.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 16:58:44 overwrite stylesheets/screen.css 
+2013-05-29 16:58:45 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 16:58:46 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 16:58:46 identical stylesheets/ie.css 
+2013-05-29 16:58:46 identical stylesheets/print.css 
+2013-05-29 16:58:47     error sass/screen.sass (Line 3: File to import not found or unreadable: modlue.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 16:58:47 identical stylesheets/screen.css 
+2013-05-29 16:58:48 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 16:58:48 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 16:59:14 identical stylesheets/ie.css 
+2013-05-29 16:59:14 identical stylesheets/print.css 
+2013-05-29 16:59:14     error sass/screen.sass (Line 3: File to import not found or unreadable: _modlue.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 16:59:14 overwrite stylesheets/screen.css 
+2013-05-29 16:59:15 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 16:59:15 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:01:25 identical stylesheets/ie.css 
+2013-05-29 17:01:25    create stylesheets/module.css 
+2013-05-29 17:01:25 identical stylesheets/print.css 
+2013-05-29 17:01:25     error sass/screen.sass (Line 3: File to import not found or unreadable: _modlue.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:01:25 overwrite stylesheets/screen.css 
+2013-05-29 17:01:26 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:01:27 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:01:27 identical stylesheets/ie.css 
+2013-05-29 17:01:27 identical stylesheets/module.css 
+2013-05-29 17:01:27 identical stylesheets/print.css 
+2013-05-29 17:01:28     error sass/screen.sass (Line 3: File to import not found or unreadable: _modlue.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:01:28 identical stylesheets/screen.css 
+2013-05-29 17:01:29 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:01:29 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:01:39 identical stylesheets/ie.css 
+2013-05-29 17:01:39 identical stylesheets/module.css 
+2013-05-29 17:01:39 identical stylesheets/print.css 
+2013-05-29 17:01:39     error sass/screen.sass (Line 3: File to import not found or unreadable: module.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:01:39 overwrite stylesheets/screen.css 
+2013-05-29 17:01:40 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:01:40 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:02:17 identical stylesheets/ie.css 
+2013-05-29 17:02:17 identical stylesheets/module.css 
+2013-05-29 17:02:17 identical stylesheets/print.css 
+2013-05-29 17:02:17     error sass/screen.sass (Line 3: File to import not found or unreadable: module.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:02:17 overwrite stylesheets/screen.css 
+2013-05-29 17:02:18 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:02:18 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:02:27 identical stylesheets/ie.css 
+2013-05-29 17:02:27 identical stylesheets/print.css 
+2013-05-29 17:02:27     error sass/screen.sass (Line 3: File to import not found or unreadable: module.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:02:27 overwrite stylesheets/screen.css 
+2013-05-29 17:02:28 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:02:28 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:02:29 identical stylesheets/ie.css 
+2013-05-29 17:02:29 identical stylesheets/print.css 
+2013-05-29 17:02:29     error sass/screen.sass (Line 3: File to import not found or unreadable: module.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:02:29 identical stylesheets/screen.css 
+2013-05-29 17:02:30 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:02:30 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:02:41 identical stylesheets/ie.css 
+2013-05-29 17:02:41 identical stylesheets/print.css 
+2013-05-29 17:02:41     error sass/screen.sass (Line 3: File to import not found or unreadable: module.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:02:41 overwrite stylesheets/screen.css 
+2013-05-29 17:02:42 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:02:42 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:02:57 identical stylesheets/ie.css 
+2013-05-29 17:02:58 identical stylesheets/print.css 
+2013-05-29 17:02:58     error sass/screen.sass (Line 3: File to import not found or unreadable: module.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:02:58 identical stylesheets/screen.css 
+2013-05-29 17:02:58 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:02:59 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:04:38     error sass/aBase.sass (Line 1: File to import not found or unreadable: setup.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:04:38    create stylesheets/aBase.css 
+2013-05-29 17:04:38 identical stylesheets/ie.css 
+2013-05-29 17:04:38 identical stylesheets/print.css 
+2013-05-29 17:04:38     error sass/screen.sass (Line 3: File to import not found or unreadable: module.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:04:38 overwrite stylesheets/screen.css 
+2013-05-29 17:04:39 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:04:39 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:04:40     error sass/aBase.sass (Line 1: File to import not found or unreadable: setup.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:04:40 identical stylesheets/aBase.css 
+2013-05-29 17:04:40 identical stylesheets/ie.css 
+2013-05-29 17:04:40 identical stylesheets/print.css 
+2013-05-29 17:04:40     error sass/screen.sass (Line 3: File to import not found or unreadable: module.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:04:40 identical stylesheets/screen.css 
+2013-05-29 17:04:41 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:04:41 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:04:55 identical stylesheets/ie.css 
+2013-05-29 17:04:55 identical stylesheets/print.css 
+2013-05-29 17:04:55     error sass/screen.sass (Line 3: File to import not found or unreadable: module.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:04:55 overwrite stylesheets/screen.css 
+2013-05-29 17:04:56 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:04:56 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:04:57 identical stylesheets/ie.css 
+2013-05-29 17:04:57 identical stylesheets/print.css 
+2013-05-29 17:04:57     error sass/screen.sass (Line 3: File to import not found or unreadable: module.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:04:57 identical stylesheets/screen.css 
+2013-05-29 17:04:58 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:04:58 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:05:07 identical stylesheets/ie.css 
+2013-05-29 17:05:07 identical stylesheets/module.css 
+2013-05-29 17:05:07 identical stylesheets/print.css 
+2013-05-29 17:05:08     error sass/screen.sass (Line 3: File to import not found or unreadable: module.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:05:08 overwrite stylesheets/screen.css 
+2013-05-29 17:05:08 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:05:09 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:05:10 identical stylesheets/ie.css 
+2013-05-29 17:05:10 identical stylesheets/module.css 
+2013-05-29 17:05:10 identical stylesheets/print.css 
+2013-05-29 17:05:10     error sass/screen.sass (Line 3: File to import not found or unreadable: module.sass.
+Load paths:
+  C:/志誠/pg_framework/pg_cs/wccFramework/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/susy-1.0.5/sass
+  C:/Users/agito723/Desktop/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  C:/Users/agito723/Desktop/vendor/assets/stylesheets)
+2013-05-29 17:05:10 identical stylesheets/screen.css 
+2013-05-29 17:05:11 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:05:11 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:06:14 identical stylesheets/ie.css 
+2013-05-29 17:06:14 identical stylesheets/module.css 
+2013-05-29 17:06:14 identical stylesheets/print.css 
+2013-05-29 17:06:32    remove .sass-cache/ 
+2013-05-29 17:06:32    remove stylesheets/ie.css 
+2013-05-29 17:06:32    remove stylesheets/module.css 
+2013-05-29 17:06:32    remove stylesheets/print.css 
+2013-05-29 17:06:32    remove stylesheets/screen.css 
+2013-05-29 17:06:32    remove stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:06:32    remove stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:06:32    create stylesheets/ie.css 
+2013-05-29 17:06:32    create stylesheets/module.css 
+2013-05-29 17:06:32    create stylesheets/print.css 
+2013-05-29 17:06:34 identical stylesheets/ie.css 
+2013-05-29 17:06:34 identical stylesheets/module.css 
+2013-05-29 17:06:34 identical stylesheets/print.css 
+2013-05-29 17:06:57 identical stylesheets/ie.css 
+2013-05-29 17:06:57 identical stylesheets/module.css 
+2013-05-29 17:06:57 identical stylesheets/print.css 
+2013-05-29 17:06:58    create stylesheets/screen.css 
+2013-05-29 17:06:58    create stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:06:59    create stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:08:55 identical stylesheets/ie.css 
+2013-05-29 17:08:55 identical stylesheets/module.css 
+2013-05-29 17:08:55 identical stylesheets/print.css 
+2013-05-29 17:08:56     error sass/screen.sass (Line 399: Mixin "single-box-shadow" does not accept a content block.)
+2013-05-29 17:08:56 overwrite stylesheets/screen.css 
+2013-05-29 17:08:56 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:08:57 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:09:10 identical stylesheets/ie.css 
+2013-05-29 17:09:10 identical stylesheets/module.css 
+2013-05-29 17:09:10 identical stylesheets/print.css 
+2013-05-29 17:09:11     error sass/screen.sass (Line 400: Undefined variable: "$imagePath".)
+2013-05-29 17:09:11 overwrite stylesheets/screen.css 
+2013-05-29 17:09:11 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:09:12 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:09:37 identical stylesheets/ie.css 
+2013-05-29 17:09:37 identical stylesheets/module.css 
+2013-05-29 17:09:37 identical stylesheets/print.css 
+2013-05-29 17:09:38 overwrite stylesheets/screen.css 
+2013-05-29 17:09:38 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:09:39 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:10:21 identical stylesheets/ie.css 
+2013-05-29 17:10:21 identical stylesheets/module.css 
+2013-05-29 17:10:21 identical stylesheets/print.css 
+2013-05-29 17:10:22 overwrite stylesheets/screen.css 
+2013-05-29 17:10:23 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:10:23 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:11:07 identical stylesheets/ie.css 
+2013-05-29 17:11:07 identical stylesheets/module.css 
+2013-05-29 17:11:07 identical stylesheets/print.css 
+2013-05-29 17:11:08 overwrite stylesheets/screen.css 
+2013-05-29 17:11:08 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:11:08 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:22:54 identical stylesheets/ie.css 
+2013-05-29 17:22:54 identical stylesheets/module.css 
+2013-05-29 17:22:54 identical stylesheets/print.css 
+2013-05-29 17:22:54     error sass/screen.sass (Line 431: Invalid CSS after "... vm //vm or vh)": expected ")", was "")
+2013-05-29 17:22:54 overwrite stylesheets/screen.css 
+2013-05-29 17:22:55 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:22:55 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:23:41 identical stylesheets/ie.css 
+2013-05-29 17:23:41 identical stylesheets/module.css 
+2013-05-29 17:23:41 identical stylesheets/print.css 
+2013-05-29 17:23:42     error sass/screen.sass (Line 431: Invalid CSS after "... vm //vm or vh)": expected ")", was "")
+2013-05-29 17:23:42 identical stylesheets/screen.css 
+2013-05-29 17:23:43 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:23:43 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:23:53 identical stylesheets/ie.css 
+2013-05-29 17:23:53 identical stylesheets/module.css 
+2013-05-29 17:23:53 identical stylesheets/print.css 
+2013-05-29 17:23:53     error sass/screen.sass (Line 431: Invalid CSS after "... vm //vm or vh)": expected ")", was "")
+2013-05-29 17:23:54 identical stylesheets/screen.css 
+2013-05-29 17:23:54 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:23:55 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:24:20 identical stylesheets/ie.css 
+2013-05-29 17:24:20 identical stylesheets/module.css 
+2013-05-29 17:24:21 identical stylesheets/print.css 
+2013-05-29 17:24:21     error sass/screen.sass (Line 431: Invalid CSS after "...vm" //vm or vh)": expected ")", was "")
+2013-05-29 17:24:21 overwrite stylesheets/screen.css 
+2013-05-29 17:24:21 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:24:22 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:24:32 identical stylesheets/ie.css 
+2013-05-29 17:24:33 identical stylesheets/module.css 
+2013-05-29 17:24:33 identical stylesheets/print.css 
+2013-05-29 17:24:34 overwrite stylesheets/screen.css 
+2013-05-29 17:24:35 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:24:35 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:25:09 identical stylesheets/ie.css 
+2013-05-29 17:25:09 identical stylesheets/module.css 
+2013-05-29 17:25:09 identical stylesheets/print.css 
+2013-05-29 17:25:10 identical stylesheets/screen.css 
+2013-05-29 17:25:11 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:25:12 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:25:50 identical stylesheets/ie.css 
+2013-05-29 17:25:50 identical stylesheets/module.css 
+2013-05-29 17:25:50 identical stylesheets/print.css 
+2013-05-29 17:25:51 overwrite stylesheets/screen.css 
+2013-05-29 17:25:52 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:25:52 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:26:24 identical stylesheets/ie.css 
+2013-05-29 17:26:24 identical stylesheets/module.css 
+2013-05-29 17:26:24 identical stylesheets/print.css 
+2013-05-29 17:26:25 identical stylesheets/screen.css 
+2013-05-29 17:26:26 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:26:27 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:26:54 identical stylesheets/ie.css 
+2013-05-29 17:26:54 identical stylesheets/module.css 
+2013-05-29 17:26:54 identical stylesheets/print.css 
+2013-05-29 17:26:56 identical stylesheets/screen.css 
+2013-05-29 17:26:56 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:26:57 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:27:13 identical stylesheets/ie.css 
+2013-05-29 17:27:13 identical stylesheets/module.css 
+2013-05-29 17:27:13 identical stylesheets/print.css 
+2013-05-29 17:27:14 overwrite stylesheets/screen.css 
+2013-05-29 17:27:15 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:27:15 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:27:42 identical stylesheets/ie.css 
+2013-05-29 17:27:42 identical stylesheets/module.css 
+2013-05-29 17:27:42 identical stylesheets/print.css 
+2013-05-29 17:27:44 overwrite stylesheets/screen.css 
+2013-05-29 17:27:45 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:27:46 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:27:59 identical stylesheets/ie.css 
+2013-05-29 17:27:59 identical stylesheets/module.css 
+2013-05-29 17:27:59 identical stylesheets/print.css 
+2013-05-29 17:28:01 overwrite stylesheets/screen.css 
+2013-05-29 17:28:02 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:28:02 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:28:41 identical stylesheets/ie.css 
+2013-05-29 17:28:41 identical stylesheets/module.css 
+2013-05-29 17:28:41 identical stylesheets/print.css 
+2013-05-29 17:28:43 overwrite stylesheets/screen.css 
+2013-05-29 17:28:44 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:28:44 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:28:58 identical stylesheets/ie.css 
+2013-05-29 17:28:58 identical stylesheets/module.css 
+2013-05-29 17:28:58 identical stylesheets/print.css 
+2013-05-29 17:28:59 overwrite stylesheets/screen.css 
+2013-05-29 17:29:00 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:29:01 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:31:47 identical stylesheets/ie.css 
+2013-05-29 17:31:48 identical stylesheets/module.css 
+2013-05-29 17:31:48 identical stylesheets/print.css 
+2013-05-29 17:31:49 overwrite stylesheets/screen.css 
+2013-05-29 17:31:49 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:31:50 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:32:22 identical stylesheets/ie.css 
+2013-05-29 17:32:22 identical stylesheets/module.css 
+2013-05-29 17:32:22 identical stylesheets/print.css 
+2013-05-29 17:32:23 overwrite stylesheets/screen.css 
+2013-05-29 17:32:23 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:32:24 identical stylesheets/not finishing/screenTalee.css 
+2013-05-29 17:38:44 identical stylesheets/ie.css 
+2013-05-29 17:38:45 identical stylesheets/module.css 
+2013-05-29 17:38:45 identical stylesheets/print.css 
+2013-05-29 17:38:45 identical stylesheets/screen.css 
+2013-05-29 17:38:46 identical stylesheets/not finishing/menu交通局.css 
+2013-05-29 17:38:47 identical stylesheets/not finishing/screenTalee.css 

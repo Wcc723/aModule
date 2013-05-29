@@ -1,0 +1,258 @@
+@import compass/reset
+@import compass/css3
+
+
+$wrapWidth: 750px
+$fontSize: 15px
+$fontSizeL: 20px
+$lineheight: 22px
+$imgPath: "../images/"
+$orange: #FF8700
+$green: #007A00
+$defaultColorRed: #E60044
+//$defaultColorBlue: #00a9ba #777777 #3A8035
+$defaultColorBlue: #3A8035
+$defaultColorGreen: #8FC31F
+
+@mixin bg($name,$bg) 
+	background: url("#{$imgPath}#{$name}.#{$bg}")
+	width: image-width("../images/#{$name}.#{$bg}")
+	height: image-height("../images/#{$name}.#{$bg}")
+
+@mixin atransition($type,$duration: 0.5s)
+	+transition-property($type)
+	+transition-duration($duration)
+
+@mixin clearfix
+	&:before,&:after
+		content: ""
+		display: table
+	&:after
+		clear: both
+	zoom: 1
+
+@mixin bottomLine ($color: $orange, $height: 2px)
+	position: relative
+	&:after
+		position: absolute
+		width: 100%
+		height: $height
+		left: 0
+		bottom: 0
+		background-color: $color
+
+@mixin aForms()
+	label
+		margin: 4px 4px 2px 0
+		display: block
+	option		
+		outline: none	
+	input, textarea,select
+		background-color: #fefefe	
+		vertical-align: middle	
+		padding: 5px 6px
+		color: #333
+		outline: none
+		font-size: $fontSize
+		+box-shadow(inset 0 1px 3px rgba(0, 0, 0, 0.075))		
+	textarea,  select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
+		border: 1px solid #cccccc
+		min-width: 200px
+		//margin-bottom: 8px
+		+border-radius(2px)	
+		+atransition(+box-shadow)	
+		&:hover
+			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.00))	
+		&:focus,&:active
+			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.050),0 0 4px $defaultColorBlue)
+			background-color: #ffffff
+			border: 1px solid $defaultColorBlue
+@mixin aButton($color: $defaultColorBlue)
+	button, a.button, input[type="submit"]
+		font-size: $fontSize
+		color: #333
+		border: 1px solid #aaa
+		text-decoration: none
+		padding: 4px 12px
+		//zmargin-top: -2px
+		display: inline-block
+		margin-bottom: 0
+		text-align: center
+		line-height: $lineheight
+		+text-shadow(1 -1px 1px rgba(255, 255, 255, 0.75))
+		vertical-align: middle
+		cursor: pointer
+		+border-radius(4px)	
+		+box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05))
+		background: #e6e6e6
+		+atransition(+box-shadow +background-image(linear-gradient))
+		+background-image(linear-gradient(#ffffff, #e6e6e6))
+		&[type="submit"]
+			$darkenColor: saturate(darken($color, 10%),30%)
+			$lightenColor: saturate($color, 30%)
+			border: 1px solid $darkenColor
+			color: #fff			
+			background-color: $lightenColor
+			+background-image(linear-gradient($lightenColor, $darkenColor))
+			&:hover
+				background-color: $darkenColor
+				+background-image(linear-gradient(darken($lightenColor, 3%), darken($darkenColor, 3%)))
+		&:hover
+			background: #e6e6e6
+			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.30),0 1px 2px rgba(0, 0, 0, 0.05))
+		&:focus,&:active
+			+box-shadow(inset 0 1px 2px rgba(0, 0, 0, 0.60),0 1px 2px rgba(0, 0, 0, 0.05))
+
+@mixin atable($padding: 6px,$color1: #ffffcc,$color2: $defaultColorBlue,$textAlign: left)
+	$darkenColor: saturate(darken($color2, 10%),30%)
+	$lightenColor: saturate($color2, 30%)
+	width: 100%
+	border: 1px solid #dddddd	
+	border-left: none
+	border-bottom: none
+	border-collapse: separate	
+	+border-radius(5px)
+	overflow: hidden
+	th,td
+		text-align: $textAlign
+		padding: $padding
+		border-left: 1px solid #dddddd
+		border-bottom: 1px solid #dddddd
+		border-collapse: collapse
+	thead
+		th
+			font-weight: bolder
+			background-color: $darkenColor
+			+background-image(linear-gradient($darkenColor, $lightenColor))
+			text-align: center
+			color: #fff
+			font-size: $fontSizeL			
+	tbody
+		tr
+			color: #333
+			+atransition(background-color)
+			&:nth-child(odd)
+				background-color: lighten($color1,5%)
+			&:hover
+				background-color: $color1
+		th
+			background: $darkenColor
+			color: #fff
+			text-align: right
+			font-weight: bolder
+			padding-right: 15px
+
+@mixin tpl($color: $defaultColorBlue)
+	$darkenColor: saturate(darken($color, 10%),30%)
+	$lightenColor: saturate($color, 30%)
+	+aForms
+	+aButton
+	margin-bottom: 10px
+	font-size: $fontSize
+	p
+		width: 100%
+	em
+		font-weight: normal
+		color: #F00
+	cite
+		color: #555
+	a
+		color: $color
+		text-decoration: none
+		&:hover
+			color: #FF0088
+	legend
+		color: #555
+	label
+		color: #555
+	fieldset
+		border: 1px #CCC dashed
+		padding: 10px
+		background: #ffffef
+	.page
+		padding-top: 15px
+		text-align: center
+		a
+			border: 1px #EEE solid
+			background: #fff
+			display: inline
+			margin: 5px
+			padding: 1px 5px 1px 5px
+			&:hover
+				background: $color
+				color: #FFF
+		span
+			border: 0
+			color: $color
+			display: inline
+			margin: 5px
+			padding: 1px 5px 1px 5px
+	table.tpl
+		margin-top: 10px
+		+atable
+		input,button,select,textarea
+			margin: 0
+
+
+
+
+
+
+
+
+
+
+body
+	background: #FAFAFA
+
+.wrap
+	margin: 0 auto
+	width: $wrapWidth
+	line-height: $lineheight
+	background: #FAFAFA
+
+
+
+.sectionTitle
+	margin-top: 20px
+	margin-bottom: 10px
+	padding-left: 40px
+	padding-top: 12px
+	height: 35px - 10px
+	background: url($imgPath+"tooth.png") left top no-repeat
+
+	+bottomLine()
+	+clearfix
+	
+	h1
+		float: left
+		font-size: $fontSizeL
+		font-weight: bolder
+		color: $defaultColorBlue
+	.select
+		float: right
+		height: 100%
+		width: 250px
+		text-align: right
+		margin-top: -8px
+		select
+			margin-right: 0
+	&:before
+		position: absolute
+		width: 200px
+		height: 2px
+		right: 0
+		bottom: 0
+		background-color: #555	
+		z-index: 5
+
+.tpl
+	+tpl
+	fieldset
+		width: 100%
+		max-width: $wrapWidth - 20px
+	select
+		margin: 0
+		
+.cancel
+	+aButton($defaultColorRed)

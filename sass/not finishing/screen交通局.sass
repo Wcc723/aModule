@@ -1,0 +1,462 @@
+@import compass/reset
+@import compass/css3
+
+$imgPath: "/images/"
+$htcPath: "/stylesheets/"
+$linkColor: #4792b5
+$menuFontColor: #434343
+$fontSize: 13px
+$lineheight: 22px
+$fontFamily: "Arial"
+$defaultColorRed: #E60044
+$defaultColorBlue: #00a9ba
+$defaultColorGreen: #8FC31F
+$dateColor: #0065ac
+$maxWidth: 970px
+
+
+@mixin bg($name,$bg) 
+	background: url("#{$imgPath}#{$name}.#{$bg}")
+	width: image-width("../images/#{$name}.#{$bg}")
+	height: image-height("../images/#{$name}.#{$bg}")
+
+%clearfix
+	&:before,&:after
+		content: ""
+		display: table
+	&:after
+		clear: both
+	zoom: 1
+
+@mixin atransition($type,$duration: 0.5s)
+	+transition-property($type)
+	+transition-duration($duration)
+
+@mixin aForms($font-family: $fontFamily)
+	label
+		margin: 4px 4px 2px 0
+		display: block
+		font-family: $font-family
+	option		
+		outline: none	
+		font-family: $font-family
+	input, textarea,select
+		font-family: $font-family
+		background-color: #fcfcfc
+		padding: 2px 4px
+		line-height: 16px
+		color: #777
+		outline: none
+		+box-shadow(inset 0 1px 3px rgba(0, 0, 0, 0.075))		
+	textarea,  select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
+		border: 1px solid #cccccc
+		width: 110px
+		margin-bottom: 8px
+		+border-radius(2px)	
+		+atransition(+box-shadow)	
+		&:hover
+			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.00))	
+		&:focus,&:active
+			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.050),0 0 4px $defaultColorBlue)
+			background-color: #ffffff
+			border: 1px solid $defaultColorBlue
+
+
+@mixin aButton($color: $defaultColorBlue,$font-family: $fontFamily)
+	button, a.button,input[type="submit"]
+		color: #555
+		border: 1px solid #aaa
+		font-family: $font-family
+		text-decoration: none
+		padding: 2px 4px
+		display: inline-block
+		margin-bottom: 0
+		text-align: center
+		line-height: 16px
+		+text-shadow(1 -1px 1px rgba(255, 255, 255, 0.75))
+		vertical-align: middle
+		cursor: pointer
+		+border-radius(4px)	
+		+box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05))
+		background: #e6e6e6
+		+atransition(+box-shadow +background-image(linear-gradient))
+		+background-image(linear-gradient(#ffffff, #e6e6e6))
+		&[type="submit"]
+			$darkenColor: saturate(darken($color, 10%),30%)
+			$lightenColor: saturate($color, 30%)
+			border: 1px solid $darkenColor
+			color: #fff			
+			background-color: $lightenColor
+			+background-image(linear-gradient($lightenColor, $darkenColor))
+			&:hover
+				background-color: $darkenColor
+				+background-image(linear-gradient(darken($lightenColor, 3%), darken($darkenColor, 3%)))
+		&:hover
+			background: #e6e6e6
+			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.30),0 1px 2px rgba(0, 0, 0, 0.05))
+		&:focus,&:active
+			+box-shadow(inset 0 1px 2px rgba(0, 0, 0, 0.60),0 1px 2px rgba(0, 0, 0, 0.05))	
+
+@mixin aBanner($width: 100%,$height: auto)
+	overflow: hidden
+	position: relative
+	width: $width
+	height: $height
+	.wrap
+		position: relative
+	ul
+		position: absolute
+	li
+		width: $width
+		height: $height
+	.pre,.next
+		position: absolute
+		text-indent: -99999px
+	.pre
+		left: 0
+	.next
+		right: 0
+	.control
+		z-index: 50
+
+
+
+//start
+body,html
+	font-size: $fontSize
+	background: url($imgPath+"bg_01.jpg") top center no-repeat
+a
+	text-decoration: none
+	color: $linkColor
+	&:hover
+		text-decoration: underline
+p
+	line-height: $lineheight
+	text-align: justify
+.wrap
+	width: $maxWidth
+	margin: 0 auto
+	position: relative
+
+.nav
+	@extend %clearfix
+	background-color: #fff
+	.logo
+		float: left
+		text-indent: -9999px
+		+bg($name: theme_tw_01,$bg: jpg)
+		position: relative
+		a
+			display: block
+			width: 100%
+			height: 100%
+	.topNav
+		float: right
+		.topNavList,.navService
+			text-align: right
+			margin: 6px 0
+			a,div
+				display: inline-block
+		.topNavList
+			a,div
+				padding-left: 12px
+.weather
+	max-width: 200px
+	float: right
+.fontsize 
+	float: right
+
+
+.aBanner
+	+aBanner(960px, 285px)
+	.control
+		position: absolute
+		width: 360px - 48px
+		right: 48px
+		bottom: 5px
+		text-align: center
+		a
+			display: inline-block
+			text-indent: -99999px
+			+bg(i13_bannerNormal,png)
+			margin: 3px
+			&.on
+				+bg(i13_bannerActive,png)
+
+.banner
+	min-height: 300px
+	background: url($imgPath+"i13_bannerBg.png") repeat-x center
+	li	
+		padding: 15px 48px
+		width: 	960px - 48px*2
+		height: 285px - 15px*2
+		background: url($imgPath+"i13_bannerBg.png") repeat-x center
+		img
+			float: left
+			max-width: 500px
+			+single-box-shadow()
+		.article
+			color: #333
+			padding-left: 500px + 15px
+			a.bannerMore	
+				+box-shadow(rgba(00,00,00,0.2)0 0 2px)
+				+border-radius(3px)	
+				background: url($imgPath+"i13_bannerMoreBg.png") repeat-x center
+				color: #fff
+				float: right
+				display: block
+				padding: 2px
+			h2
+				color: #00a9ba
+				font-size: 24px
+				line-height: 32px
+				font-weight: bold
+			h3
+				color: #777
+				font-size: 18px
+				line-height: 24px
+				padding-bottom: 12px
+			p
+				padding-bottom: 8px	
+
+
+.clearFix
+	clear: both
+.container
+	background-color: #EFEFEF
+	position: relative
+	z-index: 1
+	margin-top: 1px
+	padding: 20px 22px
+	.date
+		color: $dateColor
+		margin-right: 4px
+	.broad,.achievements,.links,.commonly
+		background: url($imgPath+"i13_containerBg.png") top left repeat-x #f0f0f0
+		//border: 1px solid #aeaeae
+		padding: 15px 25px	
+		+border-radius(5px)
+		behavior: url($htcPath+"PIE.htc")	
+	.contentNav	
+		position: relative	
+		padding-top: 6px
+		color: #2062b3
+		overflow: hidden
+		background: url($imgPath+"i13_contentTitle.png") center left no-repeat
+
+		h2
+			position: relative
+			font-weight: bolder
+			font-size: 18px	
+			padding-bottom: 6px
+			padding-left: 16px
+			float: left
+			&:before
+				content: " "
+				position: absolute
+				bottom: 0
+				left: 0
+				width: 100%
+				height: 3px
+				background: #2062b3	
+		&:before
+			content: " "
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 100%
+			height: 3px
+			background: #ccc	
+	.commonlyList
+		margin-left: 4px
+		li
+			float: left
+			margin-right: 1px
+			margin-top: 2px
+	.article
+		margin-top: 14px
+		p
+			padding: 0 2px
+	.buildImg
+		width: 100%
+		height: auto
+		margin-bottom: 8px
+	.broad
+		float: left
+		width: 570px - 25px*2
+		min-height: 380px
+	.broadNav			
+		position: relative
+		background: url($imgPath+"i13_contentTitle.png") center left no-repeat
+		@extend %clearfix
+		$grayWidth: 420px
+		.shareto	
+			position: absolute
+			top: 0
+			right: 0	
+		&:before
+			content: " "
+			position: absolute
+			bottom: 0
+			left: 0
+			width: $grayWidth
+			height: 3px
+			background: #ccc			
+		ul
+			padding-top: 6px
+			@extend %clearfix
+			width: $grayWidth
+		li
+			float: left
+			text-align: center
+			font-weight: bolder
+			font-size: 18px
+			display: block
+			width: 100px
+			position: relative
+			&:after
+				content: " "
+				position: absolute
+				top: 0
+				right: 0
+				height: 100%
+				width: 1px
+				background: #ccc	
+			&.news
+				a
+					color: #2062b3
+				.active,&.ui-state-active
+					&:before
+						background: #2062b3
+			&.topic
+				a
+					color: #ee7322	
+				.active,&.ui-state-active
+					&:before
+						background: #ee7322	
+			&.bulletin
+				a
+					color: #097c25
+				.active,&.ui-state-active
+					&:before
+						background: #097c25		
+			a
+				position: relative 
+				display: inline-block
+				padding-bottom: 6px	
+				width: 100%
+			
+			.active,&.ui-state-active
+				&:before
+					content: " "
+					position: absolute
+					bottom: 0
+					left: 0
+					width: 100%
+					height: 3px
+	.broad_topic, .broad_bulletin
+		display: none
+	.broad_news	,.broad_topic, .broad_bulletin
+		border-bottom: #b7b7b7 dotted 1px
+		margin-top: 8px
+		padding: 0 5px 8px 5px
+		li	
+			padding: 7px 10px 6px 40px
+			background: url($imgPath+"i13_contentDot.png") 10px center no-repeat
+			&.hot
+				background: url($imgPath+"i13_contentHot.png") 0px center no-repeat
+			&:hover
+				background-color: $defaultColorBlue
+				a
+					color: #fff
+			a
+				color: #333
+
+	.achievements
+		float: right
+		//width: 330px - 25px*2
+		width: 340px - 25px*2
+		min-height: 380px
+	.links
+		//margin-top: 22px
+		margin-top: 16px
+		float: left
+		//width: 300px - 25px*2
+		width: 315px - 25px*2
+		min-height: 370px
+
+	.commonly
+		//margin-top: 22px
+		margin-top: 16px
+		float: right
+		width: 595px - 25px*2
+		min-height: 370px
+.more
+	float: right
+	font-size: $fontSize
+	color: #fff
+	display: inline-block
+	padding: 2px
+	background-color: #027faf
+	+border-radius(3px)
+	behavior: url($htcPath+"PIE.htc")
+
+.sidebar
+	@extend %clearfix
+	background: url($imgPath+"i13_sidebarBg.jpg") repeat-x top
+	//min-height: 150px - 10px
+	width: 970px - 40px*2
+	padding: 20px 40px
+	margin: 0 auto
+	div[class*="side"]
+		float: left
+		margin: 0 70px 0 15px
+		//*margin: 0 75px 0 15px
+		//min-width: 120px
+		ul
+			margin-top: 8px
+			padding-left: 15px
+			border-left: #e3f2e0 dotted 1px
+			li
+				line-height: $lineheight + 2px
+			a
+				color: #e3f2e0
+				&:hover
+					text-decoration: underline
+
+	.sidebarTitle
+		font-size: 18px
+		color: #fff
+		font-weight: bolder
+		padding-left: 10px		
+	.yellow
+		border-left: 6px solid #fdcd35
+	.orange
+		border-left: 6px solid #f15b49
+	.blue
+		border-left: 6px solid #13b5b1
+	.green
+		border-left: 6px solid #6bdc7f
+
+.marginLeft
+	margin-left: 8px
+	margin-right: 3px
+.footer
+	@extend %clearfix
+	font-size: $fontSize
+	color: #555
+	margin: 0 auto
+	width: 970px - 30px*2
+	padding: 10px 30px
+	background: url($imgPath+"i13_footerBg.png") repeat-x top
+	line-height: $lineheight
+	ul
+		float: left
+	.rightBlock
+		margin-top: 18px
+		display: table-cell
+		float: right
+		text-align: right
+		vertical-align: bottom
+		table
+			float: right
