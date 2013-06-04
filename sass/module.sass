@@ -2,7 +2,6 @@
 
 
 $fontSize: 13px
-$fontSizeL: $fontSize + 2px
 $lineheight: 22px
 $fontColor: #3a3a3a
 $defaultColorRed: #E60044
@@ -264,7 +263,7 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 	dd
 		padding-left: $dtWidth + $gap
 
-@mixin atableLight($padding: 6px,$Color: #eee,$textAlign: left)
+@mixin atable($padding: 6px,$Color: #eee,$textAlign: left)
 	width: 100%
 	//border: 1px solid #dddddd	
 	border-left: none
@@ -297,23 +296,22 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 	border-left: solid 1px darken($color,20%)
 	margin-left: $leftWidth
 	text-decoration: none
-	+atransition(all,0.5s)
 	+border-top-right-radius(5px)
 	+border-bottom-right-radius(5px)
 	+box-shadow(inset 0px 1px 0px darken($color,10%), 0px 5px 0px 0px darken($color,30%), 0px 10px 5px #999 )
 	+background-image(linear-gradient(lighten($color,5%), darken($color,10%)))
 	&:hover
-		//top: 1px
+		top: 1px
 		+background-image(linear-gradient(darken($color,10%),lighten($color,5%)))
 		+box-shadow(inset 0px 1px 0px darken($color,10%), 0px 4px 0px 0px darken($color,30%), 0px 5px 4px #999)
 		& > i
-			//top: -2px
+			top: -2px
 	&:active
-		//top: 3px
+		top: 3px
 		+background-image(linear-gradient(darken($color,20%),lighten($color,10%)))
 		+box-shadow(inset 0px 1px 0px darken($color,10%), 0px 2px 0px 0px darken($color,30%), 0px 5px 3px #999)
 		& > i
-			//top: -3px	
+			top: -3px	
 	&>i
 		background-color: darken($color,20%)
 		width: $leftWidth
@@ -335,38 +333,40 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 		+box-shadow(inset 0px 1px 0px darken($color,30%), 0px 5px 0px 0px darken($color,40%), 0px 10px 5px #999)
 		+background-image(linear-gradient(darken($color,10%), darken($color,30%)))
 
-@mixin aForms($color: $defaultColorBlue)
+@mixin aForms($font-family: $fontFamily)
 	label
 		margin: 4px 4px 2px 0
 		display: block
+		font-family: $fontFamily
 	option		
 		outline: none	
+		font-family: $fontFamily
 	input, textarea,select
-		background-color: #fcfcfc
-		vertical-align: middle		
+		font-family: $fontFamily
+		background-color: #fcfcfc		
 		padding: 5px 6px
-		color: #333
+		color: #777
 		outline: none
 		+box-shadow(inset 0 1px 3px rgba(0, 0, 0, 0.075))		
 	textarea,  select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
 		border: 1px solid #cccccc
 		min-width: 200px
-		//margin-bottom: 8px
+		margin-bottom: 8px
 		+border-radius(2px)	
 		+atransition(+box-shadow)	
 		&:hover
 			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.00))	
 		&:focus,&:active
-			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.050),0 0 4px $color)
+			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.050),0 0 4px $defaultColorBlue)
 			background-color: #ffffff
-			border: 1px solid $color
-@mixin aButton($color: $defaultColorBlue)
-	button, a.button, input[type="submit"]
-		font-size: $fontSize
-		color: #333
+			border: 1px solid $defaultColorBlue
+@mixin aButton($color: $defaultColorBlue,$font-family: $fontFamily)
+	button, a.button
+		color: #555
 		border: 1px solid #aaa
+		font-family: $fontFamily
 		text-decoration: none
-		padding: 4px 12px
+		padding: 5px 12px
 		display: inline-block
 		margin-bottom: 0
 		text-align: center
@@ -394,96 +394,6 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.30),0 1px 2px rgba(0, 0, 0, 0.05))
 		&:focus,&:active
 			+box-shadow(inset 0 1px 2px rgba(0, 0, 0, 0.60),0 1px 2px rgba(0, 0, 0, 0.05))	
-
-@mixin atable($padding: 6px,$color1: #ffffcc,$color2: $defaultColorBlue,$textAlign: left)
-	$darkenColor: saturate(darken($color2, 10%),30%)
-	$lightenColor: saturate($color2, 30%)
-	width: 100%
-	border: 1px solid #dddddd	
-	border-left: none
-	border-bottom: none
-	border-collapse: separate	
-	+border-radius(5px)
-	overflow: hidden
-	th,td
-		text-align: $textAlign
-		padding: $padding
-		border-left: 1px solid #dddddd
-		border-bottom: 1px solid #dddddd
-		border-collapse: collapse
-	thead
-		th
-			font-weight: bolder
-			background-color: $darkenColor
-			+background-image(linear-gradient($darkenColor, $lightenColor))
-			text-align: center
-			color: #fff
-			font-size: $fontSizeL			
-	tbody
-		tr
-			color: #333
-			+atransition(background-color)
-			&:nth-child(odd)
-				background-color: lighten($color1,5%)
-			&:hover
-				background-color: $color1
-		th
-			background: $darkenColor
-			color: #fff
-			text-align: right
-			font-weight: bolder
-			padding-right: 15px
-
-@mixin tpl($color: $defaultColorBlue,$className: tpl)
-	$darkenColor: saturate(darken($color, 10%),30%)
-	$lightenColor: saturate($color, 30%)
-	.#{$className}
-		+aForms($color: $color)
-		+aButton($color: $color)
-		margin-bottom: 10px
-		font-size: $fontSize
-		em
-			font-weight: normal
-			color: #F00
-		cite,legend,label
-			color: #555
-		a
-			color: $color
-			text-decoration: none
-			&:hover
-				color: #FF0088
-
-	fieldset.#{$className},.#{$className} fieldset,.#{$className}fieldset
-		border: 1px #CCC dashed
-		padding: 10px
-		background: #ffffef
-	.#{$className}page
-		padding-top: 10px
-		text-align: center
-		a
-			border: 1px #EEE solid
-			color: $color
-			text-decoration: none
-			background: #fff
-			display: inline-block
-			margin: 5px
-			padding: 1px 5px 1px 5px
-			&:hover
-				background: $color
-				color: #FFF
-		span
-			border: 0
-			color: $color
-			display: inline-block
-			margin: 5px
-			padding: 1px 5px 1px 5px
-	table.#{$className}
-		margin-top: 10px
-		+atable($color2: $color)
-		input,button,select,textarea
-			margin: 0
-
-
 
 @mixin cabinet()
 	+single-box-shadow

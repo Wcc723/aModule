@@ -264,9 +264,119 @@
 					<a class="button">Login In</a>
 				</div>
 			</div>		
-				<button type="submit" class="success">Login In</button>
 			</div>
 			<pre class="sass">+aForms()</pre>
+		</section>
+		<section >
+			<h2>tpl</h2>
+			<div class="example">
+				<code>+tpl</code>
+				<fieldset id=''  data-step="1" class="tpl">
+     			   <legend>搜尋</legend>
+     			   <!--<label for="">搜尋條件</label>-->
+     			   <input type="text" placeholder="請輸入搜尋條件">
+     			 <select>
+     			   <option>衛生局審核中</option>
+     			   <option>衛生局審查不合格</option>
+     			   <option>民政局/社會局審核中</option>
+     			   <option>民政局/社會局審查不合格</option>
+     			   <option>通知書寄發</option>
+     			 </select>
+     			   <input type="submit" value="送出">
+     			 </fieldset>
+				<table class="tpl">
+        			<thead>
+        			  <tr>
+        			    <th width="20%">thead th</th>
+        			    <th valign="middle">thead th</th>
+        			            </tr>   
+        			            </thead>
+        			            <tbody>  
+        			            	<tr>
+        			    <th width="20%">tbody th</th>
+        			    <td>tbody td
+        			    </td>
+        			            </tr>  
+        			                 <tr>
+        			    <th width="20%">tbody th</th>
+        			    <td>
+        			     <fieldset id=''  data-step="1" data-intro="權限修改" style="width:auto">
+        					<legend>表格內表單</legend>
+        					<label>textarea</label>
+							<textarea></textarea>
+							<label>input text</label>
+        					<input type="text" placeholder="placeholder">
+        					
+        			        <input type="submit" value="確定">
+
+        			     </fieldset>
+        			    </td>
+        			            </tr>    
+        			             <tr>
+        			    <th width="20%">tbody th</th>
+        			    <td>
+        			    	<input type="text" placeholder="placeholder">
+        			    	<input type="submit" value="表格內按鈕">
+        			    </td>
+        			            </tr>         			                
+        			</tbody>
+     			 </table>
+     			  <div class="tplpage"> <a href="#">Back</a> <span>1</span> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">Next</a> </div>
+     			  <hr>
+     			  <code>+tpl(green,tpl2)</code>
+     			  <fieldset id=''  data-step="1" class="tpl2">
+     			   <legend>搜尋</legend>
+     			   <!--<label for="">搜尋條件</label>-->
+     			   <input type="text" placeholder="請輸入搜尋條件">
+     			 <select>
+     			   <option>衛生局審核中</option>
+     			   <option>衛生局審查不合格</option>
+     			   <option>民政局/社會局審核中</option>
+     			   <option>民政局/社會局審查不合格</option>
+     			   <option>通知書寄發</option>
+     			 </select>
+     			   <input type="submit" value="送出">
+     			 </fieldset>
+				<table class="tpl2">
+        			<thead>
+        			  <tr>
+        			    <th width="20%">thead th</th>
+        			    <th valign="middle">thead th</th>
+        			            </tr>   
+        			            </thead>
+        			            <tbody>  
+        			            	<tr>
+        			    <th width="20%">tbody th</th>
+        			    <td>tbody td
+        			    </td>
+        			            </tr>  
+        			                 <tr>
+        			    <th width="20%">tbody th</th>
+        			    <td>
+        			     <fieldset id=''  data-step="1" data-intro="權限修改" style="width:auto">
+        					<legend>表格內表單</legend>
+        					<label>textarea</label>
+							<textarea></textarea>
+							<label>input text</label>
+        					<input type="text" placeholder="placeholder">
+        					
+        			        <input type="submit" value="確定">
+
+        			     </fieldset>
+        			    </td>
+        			            </tr>    
+        			             <tr>
+        			    <th width="20%">tbody th</th>
+        			    <td>
+        			    	<input type="text" placeholder="placeholder">
+        			    	<input type="submit" value="表格內按鈕">
+        			    </td>
+        			            </tr>         			                
+        			</tbody>
+     			 </table>
+     			  <div class="tpl2page"> <a href="#">Back</a> <span>1</span> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">Next</a> </div>
+				</div>
+			<pre class="sass">+tpl($color: $defaultColorBlue,$className: tpl)</pre>
 		</section>
 
 		<section >

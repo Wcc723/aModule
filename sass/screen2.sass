@@ -5,10 +5,13 @@
 +fluidGrid
 +fontFace  
 +heading
-
++tpl()
++tpl(green,tpl2)
 //layout
-html, body
+html, body, input, button, select, textarea, a
 	font-family: $fontFamily
+	font-size: $fontSize
+html, body
 	font-size: $fontSize
 	*font-size: $fontSize +1px
 	line-height: $lineheight
@@ -75,10 +78,10 @@ dl.horizontal
 	+aButton($defaultColorGreen)	
 
 table.table
-	+atable
+	+atableLight
 	margin-bottom: 15px
 table.table2
-	+atable(4px,#ffffcc,center)
+	+atableLight(4px,#ffffcc,center)
 	margin-bottom: 15px
 
 .cabinet
