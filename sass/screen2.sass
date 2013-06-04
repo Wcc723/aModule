@@ -1,0 +1,96 @@
+@import compass/reset
+@import module.sass
+
+
++fluidGrid
++fontFace  
++heading
+
+//layout
+html, body
+	font-family: $fontFamily
+	font-size: $fontSize
+	*font-size: $fontSize +1px
+	line-height: $lineheight
+	color: $fontColor
+	word-break: break-all
+	word-wrap: break-word
+header	
+	height: 150px
+	background: $fontColor
+	color: #fff
+	div
+		+container(0)
+hr
+	+hr
+p
+	+paragraph
+	strong
+		+strong
+.clearFix
+	+clearFix
+code
+	+code
+
+abbr
+	+abbr
+
+blockquote.normal
+	+blockquote
+
+blockquote.right
+	+blockquote($textAlign: right)
+
+.container
+	+container
+
+.sass
+	+sassCode
+
+.example
+	+example
+
+ul.ullist
+	+ullist
+ul.ullist2
+	+ullist(square)
+
+ol.ollist
+	+ullist(upper-roman,lower-roman)
+
+dl.normal
+	+dlList
+dl.horizontal
+	+dlHorizontal
+
+.cubicButton
+	+cubicButton()
+.cubicButton2
+	+cubicButton($defaultColorRed)
+
+.aForms
+	+aForms
+	+aButton
+.success
+	+aButton($defaultColorGreen)	
+
+table.table
+	+atable
+	margin-bottom: 15px
+table.table2
+	+atable(4px,#ffffcc,center)
+	margin-bottom: 15px
+
+.cabinet
+	+cabinet
+.sizeRelative
+	float: left
+	margin: 10px
+	background-color: #000
+	+sizeRelative
+
+footer
+	width: 100%
+	min-height: 100px
+	background: #eee
+	border-top: #ccc 1px solid
