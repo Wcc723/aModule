@@ -21,6 +21,10 @@ $imagePath: "../images/"
 
 $fontFamily: "Muli-Regular","Tw Cen MT"
 
+@mixin sizeRelative($size: 10, $unit: vw) //vw(idth), vh(eight), vmin and vmax. 
+	width: $size#{$unit}
+	height: $size#{$unit}
+
 @mixin heading()
 	$fontSize: 13px
 	h1,h2,h3,h4,h5,h6
@@ -427,6 +431,6 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 				width: auto
 			//background: url($imagePath+"cabinet_mid.png") top left repeat-x
 
-@mixin sizeRelative($size: 10, $unit: vw) //vw(idth), vh(eight), vmin and vmax. 
-	width: $size#{$unit}
-	height: $size#{$unit}
+@mixin imgStack()
+	img
+		padding: 8px

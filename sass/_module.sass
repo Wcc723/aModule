@@ -520,3 +520,57 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 @mixin sizeRelative($size: 10, $unit: vw) //vw(idth), vh(eight), vmin and vmax. 
 	width: $size#{$unit}
 	height: $size#{$unit}
+
+@mixin imgStack($style: rotated) //from http://inspectelement.com/demos/css3/stacks/
+	img
+		max-width: 100%
+		height: auto
+		border: 10px solid #fff
+		vertical-align: bottom
+		+border-radius(3px)
+		+box-shadow(0 1px 4px rgba(0, 0, 0, 0.4))
+		+box-sizing(border-box)
+	position: relative
+	z-index: 10
+	
+	&:before, &:after
+		content: " "
+		left: 0
+		height: 100%
+		width: 100%
+		border: 10px solid #fff
+		background-color: #Fff
+		position: absolute
+		+border-radius(3px)
+		+box-shadow(0 1px 4px rgba(0, 0, 0, 0.4))
+		+atransition(all, 0.3s)
+		+box-sizing(border-box)
+	&:before
+		top: 2px
+		z-index: -1
+	&:after
+		top: 4px
+		z-index: -2
+	&:hover:before, &:hover:after
+		+transform(rotate(0deg))
+	@if $style == rotated
+		&:before
+			+transform-origin(bottom left)
+			+transform(rotate(2deg))
+		&:after
+			+transform-origin(bottom left)
+			+transform(rotate(4deg))
+	@if $style == twisted
+		&:before
+			+transform(rotate(4deg))
+		&:after
+			+transform(rotate(-4deg))
+	@if $style == rotated-left
+		&:before
+			+transform-origin(bottom left)
+			+transform(rotate(-3deg))
+		&:after
+			+transform-origin(bottom left)
+			+transform(rotate(-6deg))
+
+

@@ -9,7 +9,7 @@
 +tpl(green,tpl2)
 //layout
 html, body, input, button, select, textarea, a
-	font-family: $fontFamily
+	font-family: Arial
 	font-size: $fontSize
 html, body
 	font-size: $fontSize
@@ -91,7 +91,12 @@ table.table2
 	margin: 10px
 	background-color: #000
 	+sizeRelative
-
+.imgStack
+	+imgStack
+.imgStack2
+	+imgStack(twisted)
+.imgStack3
+	+imgStack(rotated-left)
 footer
 	width: 100%
 	min-height: 100px
