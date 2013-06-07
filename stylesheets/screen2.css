@@ -279,13 +279,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 300%;
-  font-weight: bolder;
+  font-size: 260%;
+  font-weight: bold;
   margin-bottom: 22px;
 }
 
 h2 {
-  font-size: 240%;
+  font-size: 220%;
   font-weight: bold;
   margin-bottom: 22px;
 }
@@ -296,18 +296,18 @@ h3 {
 }
 
 h4 {
-  font-size: 150%;
+  font-size: 140%;
   margin-bottom: 17.6px;
 }
 
 h5 {
   font-size: 120%;
-  margin-bottom: 8.8px;
+  margin-bottom: 17.6px;
 }
 
 h6 {
-  font-size: 100%;
-  margin-bottom: 8.8px;
+  font-size: 120%;
+  margin-bottom: 17.6px;
 }
 
 .tpl {
@@ -322,11 +322,15 @@ h6 {
   outline: none;
 }
 .tpl input, .tpl textarea, .tpl select {
-  background-color: #fcfcfc;
+  line-height: 22px;
+  background-color: #fefefe;
   vertical-align: middle;
   padding: 5px 6px;
   color: #333333;
   outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075);
@@ -378,6 +382,9 @@ h6 {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -458,6 +465,10 @@ fieldset.tpl, .tpl fieldset, .tplfieldset {
   display: inline-block;
   margin: 5px;
   padding: 1px 5px 1px 5px;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
 }
 .tplpage a:hover {
   background: #00a0e9;
@@ -516,10 +527,10 @@ table.tpl tbody tr {
   transition-duration: 0.5s;
 }
 table.tpl tbody tr:nth-child(odd) {
-  background-color: #ffffe5;
+  background-color: #fbfbfb;
 }
 table.tpl tbody tr:hover {
-  background-color: #ffffcc;
+  background-color: #eeeeee;
 }
 table.tpl tbody th {
   background: #007db6;
@@ -544,11 +555,15 @@ table.tpl input, table.tpl button, table.tpl select, table.tpl textarea {
   outline: none;
 }
 .tpl2 input, .tpl2 textarea, .tpl2 select {
-  background-color: #fcfcfc;
+  line-height: 22px;
+  background-color: #fefefe;
   vertical-align: middle;
   padding: 5px 6px;
   color: #333333;
   outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075);
@@ -600,6 +615,9 @@ table.tpl input, table.tpl button, table.tpl select, table.tpl textarea {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -680,6 +698,10 @@ fieldset.tpl2, .tpl2 fieldset, .tpl2fieldset {
   display: inline-block;
   margin: 5px;
   padding: 1px 5px 1px 5px;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
 }
 .tpl2page a:hover {
   background: green;
@@ -738,10 +760,10 @@ table.tpl2 tbody tr {
   transition-duration: 0.5s;
 }
 table.tpl2 tbody tr:nth-child(odd) {
-  background-color: #ffffe5;
+  background-color: #fbfbfb;
 }
 table.tpl2 tbody tr:hover {
-  background-color: #ffffcc;
+  background-color: #eeeeee;
 }
 table.tpl2 tbody th {
   background: #004d00;
@@ -766,6 +788,7 @@ html, body {
   color: #3a3a3a;
   word-break: break-all;
   word-wrap: break-word;
+  background: #fbfbfb;
 }
 
 header {
@@ -1160,11 +1183,15 @@ dl.horizontal dd {
   outline: none;
 }
 .aForms input, .aForms textarea, .aForms select {
-  background-color: #fcfcfc;
+  line-height: 22px;
+  background-color: #fefefe;
   vertical-align: middle;
   padding: 5px 6px;
   color: #333333;
   outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075);
@@ -1216,6 +1243,9 @@ dl.horizontal dd {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -1282,6 +1312,9 @@ dl.horizontal dd {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -1492,14 +1525,10 @@ table.table2 tbody tr:hover {
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1581,14 +1610,10 @@ table.table2 tbody tr:hover {
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1660,14 +1685,10 @@ table.table2 tbody tr:hover {
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;

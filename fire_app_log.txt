@@ -3449,3 +3449,81 @@ Load paths:
   Compass::SpriteImporter
   C:/Users/agito723/Desktop/vendor/assets/stylesheets)
 2013-06-04 16:16:13 overwrite stylesheets/screen2.css 
+2013-06-07 10:59:55 identical stylesheets/screen.css 
+2013-06-07 11:00:10     error sass/screen.sass (Line 204: Undefined mixin 'border-radius'.)
+2013-06-07 11:00:10 overwrite stylesheets/screen.css 
+2013-06-07 11:00:24 overwrite stylesheets/screen.css 
+2013-06-07 11:12:29     error sass/screen.sass (Line 204: Undefined mixin 'border-radius'.)
+2013-06-07 11:12:29 overwrite stylesheets/screen.css 
+2013-06-07 11:12:43 overwrite stylesheets/screen.css 
+2013-06-07 11:12:45     error sass/screen2.sass (Line 5: Undefined mixin 'fluidGrid'.)
+2013-06-07 11:12:45 overwrite stylesheets/screen2.css 
+2013-06-07 11:12:52 overwrite stylesheets/screen2.css 
+2013-06-07 11:12:56 identical stylesheets/screen2.css 
+2013-06-07 11:13:15 overwrite stylesheets/screen2.css 
+2013-06-07 11:13:26     error sass/screen2.sass (Line 5: Undefined mixin 'fluidGrid'.)
+2013-06-07 11:13:26 overwrite stylesheets/screen2.css 
+2013-06-07 11:14:18 overwrite stylesheets/screen2.css 
+2013-06-07 11:14:41     error sass/screen2.sass (Line 5: Undefined mixin 'fluidGrid'.)
+2013-06-07 11:14:41 overwrite stylesheets/screen2.css 
+2013-06-07 11:14:47 overwrite stylesheets/screen2.css 
+2013-06-07 16:54:55 identical stylesheets/module.css 
+2013-06-07 16:54:58 overwrite stylesheets/screen2.css 
+2013-06-07 16:56:03 identical stylesheets/module.css 
+2013-06-07 16:56:04     error sass/screen2.sass (Line 379 of sass/_module.sass: Invalid CSS after "": expected expression (e.g. 1px, bold), was ": border-box")
+2013-06-07 16:56:04 overwrite stylesheets/screen2.css 
+2013-06-07 16:56:40 identical stylesheets/module.css 
+2013-06-07 16:56:41     error sass/screen2.sass (Line 380 of sass/_module.sass: Invalid CSS after "": expected expression (e.g. 1px, bold), was ": border-box")
+2013-06-07 16:56:41 overwrite stylesheets/screen2.css 
+2013-06-07 16:57:44 identical stylesheets/module.css 
+2013-06-07 16:57:46 overwrite stylesheets/screen2.css 
+2013-06-07 16:58:32 identical stylesheets/module.css 
+2013-06-07 16:58:33 overwrite stylesheets/screen2.css 
+2013-06-07 16:58:50 identical stylesheets/module.css 
+2013-06-07 16:58:52 identical stylesheets/screen2.css 
+2013-06-07 16:58:58 identical stylesheets/module.css 
+2013-06-07 16:58:59 overwrite stylesheets/screen2.css 
+2013-06-07 17:02:34 overwrite stylesheets/screen2.css 
+2013-06-07 17:02:47 overwrite stylesheets/screen2.css 
+2013-06-07 17:02:53 identical stylesheets/screen2.css 
+2013-06-07 17:03:06 overwrite stylesheets/screen2.css 
+2013-06-07 17:03:30 overwrite stylesheets/screen2.css 
+2013-06-07 17:03:42 overwrite stylesheets/screen2.css 
+2013-06-07 17:17:32 identical stylesheets/module.css 
+2013-06-07 17:17:33 overwrite stylesheets/screen2.css 
+2013-06-07 17:18:18 identical stylesheets/module.css 
+2013-06-07 17:18:20 overwrite stylesheets/screen2.css 
+2013-06-07 17:18:57 identical stylesheets/module.css 
+2013-06-07 17:18:58 overwrite stylesheets/screen2.css 
+2013-06-07 17:19:11 identical stylesheets/module.css 
+2013-06-07 17:19:13 overwrite stylesheets/screen2.css 
+2013-06-07 17:21:03 identical stylesheets/module.css 
+2013-06-07 17:21:04 overwrite stylesheets/screen2.css 
+2013-06-07 17:21:36 identical stylesheets/module.css 
+2013-06-07 17:21:38 overwrite stylesheets/screen2.css 
+2013-06-07 17:22:02 identical stylesheets/module.css 
+2013-06-07 17:22:03 overwrite stylesheets/screen2.css 
+2013-06-07 17:22:33 identical stylesheets/module.css 
+2013-06-07 17:22:34 overwrite stylesheets/screen2.css 
+2013-06-07 17:23:37 identical stylesheets/module.css 
+2013-06-07 17:23:38 overwrite stylesheets/screen2.css 
+2013-06-07 17:23:57 identical stylesheets/module.css 
+2013-06-07 17:23:58 overwrite stylesheets/screen2.css 
+2013-06-07 17:24:08 identical stylesheets/module.css 
+2013-06-07 17:24:09 overwrite stylesheets/screen2.css 
+2013-06-07 17:24:32 identical stylesheets/module.css 
+2013-06-07 17:24:34 overwrite stylesheets/screen2.css 
+2013-06-07 17:24:59 identical stylesheets/module.css 
+2013-06-07 17:25:00 overwrite stylesheets/screen2.css 
+2013-06-07 17:25:13 identical stylesheets/module.css 
+2013-06-07 17:25:15 overwrite stylesheets/screen2.css 
+2013-06-07 17:25:44 identical stylesheets/module.css 
+2013-06-07 17:25:46 overwrite stylesheets/screen2.css 
+2013-06-07 17:25:57 identical stylesheets/module.css 
+2013-06-07 17:25:58 overwrite stylesheets/screen2.css 
+2013-06-07 17:53:39 identical stylesheets/module.css 
+2013-06-07 17:53:40 overwrite stylesheets/screen2.css 
+2013-06-07 17:56:35 overwrite stylesheets/screen2.css 
+2013-06-07 17:56:44 overwrite stylesheets/screen2.css 
+2013-06-07 17:56:52 overwrite stylesheets/screen2.css 
+2013-06-07 17:57:01 overwrite stylesheets/screen2.css 

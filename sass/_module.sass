@@ -27,25 +27,25 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 	h1,h2,h3,h4,h5,h6
 		line-height: 100%
 	h1
-		font-size: 300%
-		font-weight: bolder
+		font-size: 260%
+		font-weight: bold
 		margin-bottom: $lineheight*1
 	h2
-		font-size: 240%
+		font-size: 220%
 		font-weight: bold
 		margin-bottom: $lineheight*1
 	h3
 		font-size: 200%
 		margin-bottom: $lineheight*0.8
 	h4
-		font-size: 150%
+		font-size: 140%
 		margin-bottom: $lineheight*0.8
 	h5
 		font-size: 120%
-		margin-bottom: $lineheight*0.4
+		margin-bottom: $lineheight*0.8
 	h6
-		font-size: 100%	
-		margin-bottom: $lineheight*0.4
+		font-size: 120%
+		margin-bottom: $lineheight*0.8
 
 @mixin fluidGrid($maxWidth:1200px,$wrapWidth:100%,$wrapMargin:3%)
 	$wrapWidth: $wrapWidth + $wrapMargin
@@ -342,11 +342,13 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 	option		
 		outline: none	
 	input, textarea,select
-		background-color: #fcfcfc
+		line-height: $lineheight
+		background-color: #fefefe
 		vertical-align: middle		
 		padding: 5px 6px
 		color: #333
 		outline: none
+		+box-sizing(border-box)
 		+box-shadow(inset 0 1px 3px rgba(0, 0, 0, 0.075))		
 	textarea,  select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
 		border: 1px solid #cccccc
@@ -375,6 +377,7 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 		vertical-align: middle
 		cursor: pointer
 		+border-radius(4px)	
+		+box-sizing(border-box)
 		+box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05))
 		background: #e6e6e6
 		+atransition(+box-shadow +background-image(linear-gradient))
@@ -395,7 +398,7 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 		&:focus,&:active
 			+box-shadow(inset 0 1px 2px rgba(0, 0, 0, 0.60),0 1px 2px rgba(0, 0, 0, 0.05))	
 
-@mixin atable($padding: 6px,$color1: #ffffcc,$color2: $defaultColorBlue,$textAlign: left)
+@mixin atable($padding: 6px,$color1: #eeeeee,$color2: $defaultColorBlue,$textAlign: left)
 	$darkenColor: saturate(darken($color2, 10%),30%)
 	$lightenColor: saturate($color2, 30%)
 	width: 100%
@@ -468,6 +471,7 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 			display: inline-block
 			margin: 5px
 			padding: 1px 5px 1px 5px
+			+transition(all,0.3s)
 			&:hover
 				background: $color
 				color: #FFF
@@ -543,7 +547,7 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 		position: absolute
 		+border-radius(3px)
 		+box-shadow(0 1px 4px rgba(0, 0, 0, 0.4))
-		+atransition(all, 0.3s)
+		+transition(all, 0.3s)
 		+box-sizing(border-box)
 	&:before
 		top: 2px
