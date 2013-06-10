@@ -275,38 +275,48 @@ img.col12.polaroid {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 100%;
+  line-height: 1.2em;
+  font-weight: bold;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  text-rendering: optimizeLegibility;
+}
+h1.subheader, h2.subheader, h3.subheader, h4.subheader, h5.subheader, h6.subheader {
+  color: #555555;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  font-weight: normal;
+  color: #666666;
+  font-size: 80%;
 }
 
 h1 {
-  font-size: 260%;
-  font-weight: bold;
+  font-size: 2.8em;
   margin-bottom: 22px;
 }
 
 h2 {
-  font-size: 220%;
-  font-weight: bold;
+  font-size: 2.4em;
   margin-bottom: 22px;
 }
 
 h3 {
-  font-size: 200%;
+  font-size: 2.2em;
   margin-bottom: 17.6px;
 }
 
 h4 {
-  font-size: 140%;
+  font-size: 1.6em;
   margin-bottom: 17.6px;
 }
 
 h5 {
-  font-size: 120%;
+  font-size: 1.4em;
   margin-bottom: 17.6px;
 }
 
 h6 {
-  font-size: 120%;
+  font-size: 1.4em;
   margin-bottom: 17.6px;
 }
 
@@ -811,8 +821,38 @@ p {
   text-align: justify;
   margin: 0 0 1em;
 }
-p strong {
+
+strong, b {
   font-weight: bolder;
+}
+
+em, i {
+  font-style: italic;
+  line-height: inherit;
+}
+
+a {
+  color: #00a0e9;
+  text-decoration: none;
+}
+a:hover {
+  color: #006b9d;
+}
+
+sub, sup {
+  font-size: smaller;
+}
+
+sup {
+  vertical-align: super;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+u {
+  text-decoration: underline;
 }
 
 .clearFix {
@@ -855,7 +895,6 @@ blockquote.normal p, blockquote.normal ul, blockquote.normal ol {
   color: #555555;
 }
 blockquote.normal small, blockquote.normal em {
-  font-size: 90%;
   color: #999999;
 }
 
@@ -869,7 +908,6 @@ blockquote.right p, blockquote.right ul, blockquote.right ol {
   color: #555555;
 }
 blockquote.right small, blockquote.right em {
-  font-size: 90%;
   color: #999999;
 }
 blockquote.right p {
@@ -1049,6 +1087,7 @@ dl.horizontal dd {
   -webkit-box-shadow: inset 0px 1px 0px #007db6, 0px 4px 0px 0px #003750, 0px 5px 4px #999999;
   -moz-box-shadow: inset 0px 1px 0px #007db6, 0px 4px 0px 0px #003750, 0px 5px 4px #999999;
   box-shadow: inset 0px 1px 0px #007db6, 0px 4px 0px 0px #003750, 0px 5px 4px #999999;
+  color: white;
 }
 .cubicButton:active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #005a83), color-stop(100%, #1db8ff));
@@ -1132,6 +1171,7 @@ dl.horizontal dd {
   -webkit-box-shadow: inset 0px 1px 0px #b30035, 0px 4px 0px 0px #4d0017, 0px 5px 4px #999999;
   -moz-box-shadow: inset 0px 1px 0px #b30035, 0px 4px 0px 0px #4d0017, 0px 5px 4px #999999;
   box-shadow: inset 0px 1px 0px #b30035, 0px 4px 0px 0px #4d0017, 0px 5px 4px #999999;
+  color: white;
 }
 .cubicButton2:active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #800026), color-stop(100%, #ff1a5e));
@@ -1731,6 +1771,29 @@ table.table2 tbody tr:hover {
   -ms-transform: rotate(-6deg);
   -o-transform: rotate(-6deg);
   transform: rotate(-6deg);
+}
+
+.menu li {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  border: solid 1px #3b3b3b;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.menu li a {
+  padding: 5%;
+  display: block;
+  color: white;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  background-color: #555555;
+}
+.menu li a:hover {
+  background-color: #3b3b3b;
 }
 
 footer {

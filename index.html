@@ -15,18 +15,31 @@
 	</header>
 	<div class="container row">
 		<aside class="col3">
-			<nav>menu</nav>
+			<nav>
+				<menu class="menu">
+				<ul>
+					<li><a href="#base">Base</a></li>
+					<li><a href="#advence">Advence</a></li>
+				</ul>
+			</menu>
+		</nav>
 		</aside>
 	<div class="col9">
+		<h1 id="base">aModule Base</h1>
 		<section>
 			<h2>Headings</h2>
 			<div class="example">
-				<h1>Heading 1</h1>
-				<h2>Heading 2</h2>
-				<h3>Heading 3</h3>
-				<h4>Heading 4</h4>
-				<h5>Heading 5</h5>
-				<h6>Heading 6</h6>
+				<h1>h1. La.....large header <small>Small header</small></h1>
+				<h2>h2. Midium header <small>Small header</small></h2>
+				<h3>h3. Heading 3 <small>Small header</small></h3>
+				<h4>h4. Heading 4 <small>Small header</small></h4>
+				<h5>h5. Heading 5 <small>Small header</small></h5>
+				<h6>h6. Heading 6 <small>Small header</small></h6>
+				<hr>
+				<blockquote class="normal"><p>with <code>class="subheader"</code></p></blockquote>
+				
+				<h1 class="subheader">h1. La.....large header <small>Small header</small></h1>
+				<h2 class="subheader">h2. Midium header <small>Small header</small></h2>
 			</div>
 			<pre class="sass">+heading</pre>
 		</section>
@@ -34,19 +47,13 @@
 			<h2>Paragraphs</h2>
 			<div class="example">
 			<p>冤冤相報何時了，往事知多少。</p>
-			<p>本季從天使轉隊到國民的右投哈倫(Dan Haren)，開季前3役表現不如預期，特別是防禦率飆高到7.31，直至前一役表現才稍為回穩。3日迎戰勇士隊，哈倫顯然在心態上有所調整，主投8局只被敲出4支安打，僅失1分，賽後哈倫也表示，「就是投我的，不會再被球速影響。」
-			<p>拿下本季第3勝的哈倫，3日總算走出防禦率過高的陰霾，此役賽後他也談到影響自己的關鍵因素，就是太在乎球速。「我不會再去理會球速了；不管球速是88英哩(141公里)還是85英哩(136公里)，我都不在乎。只要知道我還是能讓打者出局，這就夠了。」</p>
+			<p>本季從天使轉隊到國民的右投 <code>strong</code> <strong>哈倫(Dan Haren)</strong>，開季前3役表現不如預期，特別是防禦率飆高到7.31，直至前一役表現才稍為回穩。3日迎戰勇士隊，哈倫顯然在心態上有所調整，主投8局只被敲出4支安打，僅失1分，賽後哈倫也表示，「就是投我的，不會再被球速影響。」
+			<p>拿下本季第3勝的 <code>a</code> <a href="#">哈倫</a>，3日總算走出防禦率過高的陰霾，此役賽後他也談到影響自己的關鍵因素，就是太在乎球速。「<code>em</code><em>我不會再去理會球速了；不管球速是88英哩(141公里)還是85英哩(136公里)，我都不在乎。只要知道我還是能讓打者出局，這就夠了。</em>	」</p>
+			<p>離開<code>sub</code> <sub>洋基</sub>、離開<code>sup</code> <sup>紐約</sup>、只拿底薪不拿激勵獎金，這些因素在過去，可能都會讓建仔猶豫，況且紐約的資源絕對比多倫多來的豐富，但這次從接獲通知到最後答應，他花不到一個禮拜就下決定轉隊，看得出來，<code>u</code> <u>建仔真想在大聯盟登板，即便不是為洋基。</u></p>
 			</div>
-			<pre class="sass">+paragraph($marginBottom)</pre>
+			<pre class="sass">+Paragraphs($linkColor)</pre>
 		</section>
-		<hr>
-		<section >
-			<h2>bold</h2>
-			<div class="example">
-			<p>冤冤相報何時了，<strong>往事知多少。</strong></p>			
-			</div>
-			<pre class="sass">+strong</pre>
-		</section>
+		<hr>		
 		<section >
 			<h2>code</h2>
 			<div class="example">
@@ -140,7 +147,7 @@
 			<p>This is a <code>Javascript</code>.</p>			
 			</div>
 			<pre class="sass">+code($color)</pre>
-		</section>
+		</section>		
 		<section>
 			<h2>Table</h2>
 			<div class="example">
@@ -210,8 +217,9 @@
 			<pre class="sass">+atable($padding,$Color,$textAlign)</pre>
 		</section>
 		<hr>
+		<h1 id="advence">aModule Advence</h1>
 		<section >
-			<h2>Button</h2>
+			<h2>Cubic Button</h2>
 			<div class="example">
 			<a class="cubicButton" href="#"><i>A2</i>I need a help.</a> <a class="cubicButton2" href="#"><i>A2</i>Warring!!</a><br><br>			
 			</div>
@@ -276,11 +284,7 @@
      			   <!--<label for="">搜尋條件</label>-->
      			   <input type="text" placeholder="請輸入搜尋條件">
      			 <select>
-     			   <option>衛生局審核中</option>
-     			   <option>衛生局審查不合格</option>
-     			   <option>民政局/社會局審核中</option>
-     			   <option>民政局/社會局審查不合格</option>
-     			   <option>通知書寄發</option>
+     			   <option>範例選單</option>
      			 </select>
      			   <input type="submit" value="送出">
      			 </fieldset>
@@ -329,11 +333,7 @@
      			   <!--<label for="">搜尋條件</label>-->
      			   <input type="text" placeholder="請輸入搜尋條件">
      			 <select>
-     			   <option>衛生局審核中</option>
-     			   <option>衛生局審查不合格</option>
-     			   <option>民政局/社會局審核中</option>
-     			   <option>民政局/社會局審查不合格</option>
-     			   <option>通知書寄發</option>
+     			   <option>範例選單</option>
      			 </select>
      			   <input type="submit" value="送出">
      			 </fieldset>

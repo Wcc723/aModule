@@ -20,31 +20,46 @@ $imagePath: "../images/"
 		font-family: $fontName
 		src: url($fontsPath+$fontName+".ttf") 
 
-$fontFamily: "Muli-Regular","Tw Cen MT"
+$fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
+
+@mixin bg($name,$bg) 
+	background: url("#{$imgPath}#{$name}.#{$bg}")
+	width: image-width("../images/#{$name}.#{$bg}")
+	height: image-height("../images/#{$name}.#{$bg}")
+
 
 @mixin heading()
 	$fontSize: 13px
 	h1,h2,h3,h4,h5,h6
-		line-height: 100%
-	h1
-		font-size: 260%
+		line-height: 1.2em
 		font-weight: bold
+		margin-top: 0.2em
+		margin-bottom: 0.5em
+		text-rendering: optimizeLegibility
+		&.subheader
+			color: #555
+		small
+			font-weight: normal
+			color: #666
+			font-size: 80%
+	h1
+		font-size: 2.8em
+		
 		margin-bottom: $lineheight*1
 	h2
-		font-size: 220%
-		font-weight: bold
+		font-size: 2.4em		
 		margin-bottom: $lineheight*1
 	h3
-		font-size: 200%
+		font-size: 2.2em
 		margin-bottom: $lineheight*0.8
 	h4
-		font-size: 140%
+		font-size: 1.6em
 		margin-bottom: $lineheight*0.8
 	h5
-		font-size: 120%
+		font-size: 1.4em
 		margin-bottom: $lineheight*0.8
 	h6
-		font-size: 120%
+		font-size: 1.4em
 		margin-bottom: $lineheight*0.8
 
 @mixin fluidGrid($maxWidth:1200px,$wrapWidth:100%,$wrapMargin:3%)
@@ -187,9 +202,29 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 	border-top: 1px solid #eeeeee
 	border-bottom: 1px solid #ffffff
 
-@mixin paragraph($marginBottom: 1em)
-	text-align: justify
-	margin: 0 0 $marginBottom
+@mixin Paragraphs($linkColor: $defaultColorBlue)
+	p
+		text-align: justify
+		margin: 0 0 1em
+	strong,b
+		font-weight: bolder
+	em,i
+		font-style: italic
+		line-height: inherit
+	a
+		color: $linkColor
+		text-decoration: none
+		&:hover
+			color: darken($linkColor,15%)
+	sub,sup
+		font-size: smaller
+	sup
+		vertical-align: super
+	sub
+		vertical-align: sub
+	u
+		text-decoration: underline
+
 
 @mixin strong($weight:bolder)
 	font-weight: $weight
@@ -207,8 +242,6 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 	cursor: help
 	border-bottom: 1px dotted #a1a1a1
 
-@mixin smallFont($size: 90%)
-	font-size: $size
 
 @mixin blockquote($borderColor: #eee,$textAlign: left)
 	margin: 0 0 15px
@@ -216,7 +249,6 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 		margin-bottom: 0
 		color: #555	
 	small,em
-		+smallFont
 		color: #999	
 	@if $textAlign == left
 		padding: 0 0 0 15px	
@@ -306,6 +338,7 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 		//top: 1px
 		+background-image(linear-gradient(darken($color,10%),lighten($color,5%)))
 		+box-shadow(inset 0px 1px 0px darken($color,10%), 0px 4px 0px 0px darken($color,30%), 0px 5px 4px #999)
+		color: #fff
 		& > i
 			//top: -2px
 	&:active
@@ -577,4 +610,20 @@ $fontFamily: "Muli-Regular","Tw Cen MT"
 			+transform-origin(bottom left)
 			+transform(rotate(-6deg))
 
+
+@mixin aMenu($color: $defaultColorBlue)
+	li	
+		width: 100%		
+		text-align: center	
+		margin-top: 10px
+		border: solid 1px darken($color,10%)
+		+box-sizing(border-box)
+		a
+			padding: 5%
+			display: block
+			color: #fff
+			+transition(all,0.3s)
+			background-color: $color
+			&:hover
+				background-color: darken($color,10%)
 
