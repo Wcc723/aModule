@@ -62,6 +62,7 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		font-size: 1.4em
 		margin-bottom: $lineheight*0.8
 
+
 @mixin fluidGrid($maxWidth:1200px,$wrapWidth:100%,$wrapMargin:3%)
 	$wrapWidth: $wrapWidth + $wrapMargin
 	@for $i from 1 through 12	
@@ -101,6 +102,17 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		overflow: hidden
 		clear: both
 		zoom: 1 //IE 7
+	@media (max-width: 700px)
+		.container
+			max-width: 100%	- $wrapMargin*2
+			padding: $wrapMargin
+		[class*='col']
+			margin-left: 0
+		@for $i from 1 through 12	
+			.col#{$i}
+				width: 100%
+				max-width: 100%
+
 
 @mixin grid($wrapWidth:1200px,$wrapMargin:25px)
 	@for $i from 1 through 12	
@@ -150,7 +162,7 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		clear: both
 		visibility: hidden
 
-@mixin example ($content: "Example")
+@mixin exampleOrigin ($content: "Example")
 	position: relative
 	margin: 15px 0
 	padding: 39px 19px 16px
@@ -178,6 +190,45 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		color: #777
 		+border-radius(5px)
 
+@mixin example ($content: "Example")
+	position: relative
+	margin: 15px 0
+	padding: 39px 19px 16px 19px
+	background-color: #fff
+	//border: 1px solid #ddd
+	//+border-radius(5px)
+	+box-shadow(rgba(00,00,00,0.3)0 2px 5px inset)
+	&:hover
+		border-left: 3px solid $defaultColorBlue
+		padding: 39px 19px 16px 16px
+		+box-sizing(border-box)
+		&:hover:before
+			left: -3px
+		&:hover + pre
+			padding: 8px 18px 8px 15px 
+			border-left: 3px solid darken($defaultColorBlue, 10%)
+	&:before
+		content: "Example"
+		position: absolute
+		top: 0px
+		left: 0px
+		padding: 1px 7px
+		font-size: 90%
+		background-color: #f5f5f5
+		border: 1px solid #ddd
+		color: #9da0a4
+		//+border-corner-radius(top, left, 5px)
+		//+border-corner-radius(bottom, right, 5px)
+	& + pre
+		margin-top: -20px
+		padding: 8px 18px 8px 18px 
+		margin-bottom: 30px
+		background-color: #f7f7f9
+		//border: 1px solid #e1e1e8
+		+box-shadow(rgba(00,00,00,0.2)0 -2px 5px inset)
+		color: #777
+		//+border-radius(5px)
+
 @mixin sassCode($content: "sassCode")
 	position: relative
 	color: #d14 !important
@@ -186,15 +237,15 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 	&:before
 		content: $content
 		position: absolute
-		top: -1px
-		right: -1px
+		top: 0px
+		right: 0px
 		padding: 1px 7px
 		font-size: 90%
 		background-color: #f5f5f5
 		border: 1px solid #ddd
 		color: #9da0a4
-		+border-corner-radius(top, right, 5px)
-		+border-corner-radius(bottom, left, 5px)	
+		//+border-corner-radius(top, right, 5px)
+		//+border-corner-radius(bottom, left, 5px)	
 
 @mixin hr
 	margin: $lineheight 0 $lineheight
@@ -541,7 +592,7 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 	ul
 		background: url($imagePath+"cabinet_left.png") top left repeat-y,url($imagePath+"cabinet_right.png") top right repeat-y,url($imagePath+"cabinet_mid.png")
 		padding: 0 20px 0 21px
-		overflow: hidden
+		+clearFix
 		text-align: center
 		li
 			height: 109px - 19px
@@ -552,6 +603,11 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 				+single-box-shadow
 				height: 80px
 				width: auto
+				+transition(all,0.5s)
+				&:hover
+					+transform(scale(2) translateY(-5px))
+					z-index: 10
+
 			//background: url($imagePath+"cabinet_mid.png") top left repeat-x
 
 @mixin sizeRelative($size: 10, $unit: vw) //vw(idth), vh(eight), vmin and vmax. 
@@ -593,22 +649,22 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 	@if $style == rotated
 		&:before
 			+transform-origin(bottom left)
-			+transform(rotate(2deg))
+			+transform(rotate(4deg))
 		&:after
 			+transform-origin(bottom left)
-			+transform(rotate(4deg))
+			+transform(rotate(8deg))
 	@if $style == twisted
 		&:before
-			+transform(rotate(4deg))
+			+transform(rotate(6deg))
 		&:after
-			+transform(rotate(-4deg))
+			+transform(rotate(-6deg))
 	@if $style == rotated-left
 		&:before
 			+transform-origin(bottom left)
-			+transform(rotate(-3deg))
+			+transform(rotate(-4deg))
 		&:after
 			+transform-origin(bottom left)
-			+transform(rotate(-6deg))
+			+transform(rotate(-8deg))
 
 
 @mixin aMenu($color: $defaultColorBlue)
@@ -619,11 +675,77 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		border: solid 1px darken($color,10%)
 		+box-sizing(border-box)
 		a
-			padding: 5%
+			padding: 5% 1%
 			display: block
 			color: #fff
 			+transition(all,0.3s)
 			background-color: $color
 			&:hover
 				background-color: darken($color,10%)
+
+@mixin turn180($zIndex: 10)
+	position: relative
+	//+perspective(1000)
+	+transform-style(preserve-3d)
+	+transition(all,0.5s)
+	&:hover
+		+transform(rotateY(180deg))
+		&:first-child
+			z-index: $zIndex + 1
+			& + *
+				z-index: $zIndex + 2
+	& > *
+		position: absolute
+		top: 0
+		
+		+transform-style(preserve-3d)
+		&:first-child
+			z-index: $zIndex + 2
+			left: 0
+			+backface-visibility(hidden)
+			& + *
+				z-index: $zIndex + 1
+				right: 0
+				+transform(rotateY(180deg))
+				+backface-visibility(hidden)
+@mixin motionInput($widthS: 100px,$widthL: 200px,$color: $defaultColorBlue)
+	$darkenColor: saturate(darken($color, 10%),30%)
+	$lightenColor: saturate($color, 30%)
+	label
+		margin: 4px 4px 2px 0
+		display: block
+	option		
+		outline: none	
+	input, textarea,select
+		line-height: $lineheight
+		background-color: #fefefe
+		vertical-align: middle		
+		padding: 5px 6px 5px
+		color: #333
+		outline: none
+		+box-sizing(border-box)
+		+box-shadow(inset 0 1px 3px rgba(0, 0, 0, 0.075))		
+	textarea,  select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
+		border: 1px solid #cccccc
+		//margin-bottom: 8px
+		+border-radius(2px)	
+		+atransition(+box-shadow)	
+		&:hover
+			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.00))	
+		&:focus,&:active
+			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.050),0 0 4px $color)
+			background-color: #ffffff
+			border: 1px solid $color
+	input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]
+		$darkenColor: saturate(darken($color, 10%),30%)
+		$lightenColor: saturate($color, 30%)
+		position: relative
+		width: $widthS
+		&:hover,&:focus
+			width: $widthL
+			&:after
+				content: "123"
+
+
+
 
