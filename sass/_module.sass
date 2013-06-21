@@ -108,10 +108,8 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 			padding: $wrapMargin
 		[class*='col']
 			margin-left: 0
-		@for $i from 1 through 12	
-			.col#{$i}
-				width: 100%
-				max-width: 100%
+			width: 100%
+			max-width: 100%
 
 
 @mixin grid($wrapWidth:1200px,$wrapMargin:25px)
@@ -680,12 +678,12 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 			color: #fff
 			+transition(all,0.3s)
 			background-color: $color
-			&:hover
+			&:hover,&:focus
 				background-color: darken($color,10%)
 
 @mixin turn180($zIndex: 10)
 	position: relative
-	//+perspective(1000)
+	+perspective(1000)
 	+transform-style(preserve-3d)
 	+transition(all,0.5s)
 	&:hover
@@ -743,8 +741,7 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		width: $widthS
 		&:hover,&:focus
 			width: $widthL
-			&:after
-				content: "123"
+
 
 
 

@@ -9,7 +9,7 @@
 	<!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
 <![endif]-->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script> 
 </head>
 <body>
 	<header>
@@ -19,17 +19,22 @@
 	<div class="container row">
 		<aside class="col3">
 			<nav>
-				<menu class="menu cart">
+				<menu class="menu cart aTypeFilter">
 				<ul>
-					<li><a href="#base">Base</a></li>
-					<li><a href="#advence">Advence</a></li>
+					<li><a href="#">All</a></li>	
+					<li><a href="#">Base</a></li>
+					<li><a href="#">Advence</a></li>
+					<li><a href="#">Button</a></li>
+					<li><a href="#">Translate</a></li>
 				</ul>
 			</menu>
 		</nav>
 		</aside>
 	<div class="col9">
+		<section data-styletype="All">
 		<h1 id="base">aModule Base</h1>
-		<section>
+		</section>
+		<section data-styletype="All Base">
 			<h2>Headings</h2>
 			<div class="example">
 				<h1>h1. La.....large header <small>Small header</small></h1>
@@ -46,7 +51,7 @@
 			</div>
 			<pre class="sass">+heading</pre>
 		</section>
-		<section >
+		<section data-styletype="All Base">
 			<h2>Paragraphs</h2>
 			<div class="example">
 			<p>冤冤相報何時了，往事知多少。</p>
@@ -56,22 +61,21 @@
 			</div>
 			<pre class="sass">+Paragraphs($linkColor)</pre>
 		</section>
-		<hr>		
-		<section >
+		<section data-styletype="All Base">
 			<h2>code</h2>
 			<div class="example">
 			<p>This is a <code>code</code>.</p>			
 			</div>
 			<pre class="sass">+code($color)</pre>
 		</section>
-		<section >
+		<section data-styletype="All Base">
 			<h2>Abbreviations</h2>
 			<div class="example">
 			<p>I need a <abbr title="Are you OK?">help</abbr>.</p>			
 			</div>
 			<pre class="sass">+abbr</pre>
 		</section>
-		<section >
+		<section data-styletype="All Base">
 			<h2>Blockquote</h2>
 			<div class="example">
 				<p><code>default</code>
@@ -88,7 +92,7 @@
 			</div>
 			<pre class="sass">+blockquote($borderColor,$textAlign)</pre>
 		</section>
-		<section>
+		<section data-styletype="All Base">
 			<h2>Lists</h2>
 			<h3>Unordered & Ordered</h3>
 			<div class="example">
@@ -118,7 +122,7 @@
 			</div>
 			<pre class="sass">+ullist($listStyle,$listStyle2)</pre>
 		</section>
-		<section>
+		<section data-styletype="All Base">
 			<h2>Defition List</h2>
 			<h3>Normal</h3>
 			<div class="example">
@@ -143,15 +147,14 @@
 			</div>
 			<pre class="sass">+dlHorizontal($dtWidth,$gap)</pre>
 		</section>
-		<hr>
-		<section >
+		<section data-styletype="All Base">
 			<h2>Code</h2>
 			<div class="example">
 			<p>This is a <code>Javascript</code>.</p>			
 			</div>
 			<pre class="sass">+code($color)</pre>
 		</section>		
-		<section>
+		<section data-styletype="All Base">
 			<h2>Table</h2>
 			<div class="example">
 				<code>default</code>
@@ -219,17 +222,17 @@
 			</div>
 			<pre class="sass">+atable($padding,$Color,$textAlign)</pre>
 		</section>
-		<hr>
-		<h1 id="advence">aModule Advence</h1>
-		<section >
+		<section data-styletype="All">
+		<h1 id="base">aModule Advence</h1>
+		</section>
+		<section data-styletype="All Advence Button">
 			<h2>Cubic Button</h2>
 			<div class="example">
 			<a class="cubicButton" href="#"><i>A2</i>I need a help.</a> <a class="cubicButton2" href="#"><i>A2</i>Warring!!</a><br><br>			
 			</div>
 			<pre class="sass">+cubicButton($color,$leftWidth)</pre>
 		</section>
-		<hr>
-		<section >
+		<section data-styletype="All Advence Button">
 			<h2>Forms</h2>
 			<div class="example">
 			<div class="aForms">
@@ -266,7 +269,7 @@
 			</div>
 			<pre class="sass">+aForms()</pre>
 		</section>
-		<section >
+		<section data-styletype="All Advence Button">
 			<h2>aButton</h2>
 			<div class="example">
 			<div class="aForms">
@@ -278,7 +281,7 @@
 			</div>
 			<pre class="sass">+aForms()</pre>
 		</section>
-		<section >
+		<section data-styletype="All Advence">
 			<h2>tpl</h2>
 			<div class="example">
 				<code>+tpl</code>
@@ -382,7 +385,7 @@
 			<pre class="sass">+tpl($color: $defaultColorBlue,$className: tpl)</pre>
 		</section>
 
-		<section >
+		<section data-styletype="All Advence">
 			<h2>cabinet</h2>
 			<div class="example">
 				<div class="cabinet" style="width:380px">
@@ -413,7 +416,7 @@
 			<pre class="sass">+cabinet()</pre>
 		</section>
 
-		<section >
+		<section data-styletype="All Advence">
 			<h2>Sizing relatively</h2>
 			<div class="example">
 				<ul style="overflow: hidden">
@@ -425,7 +428,7 @@
 			<pre class="sass">+sizeRelative($size: 30, $unit: vw) //vw(idth), vh(eight), vmin and vmax.</pre>
 		</section>
 
-		<section >
+		<section data-styletype="All Advence Translate">
 			<h2>Img Stack</h2>
 			<cite>//from <a href="http://inspectelement.com/demos/css3/stacks/">http://inspectelement.com/demos/css3/stacks/</a></cite>
 			<div class="example clearFix">
@@ -442,7 +445,7 @@
 			<pre class="sass">+imgStack($style: rotated)//rotated twisted rotated-left</pre>
 		</section>
 
-		<section >
+		<section data-styletype="All Advence Translate">
 			<h2>turn180</h2>
 			<div class="example">
 				<div class="turn180" style="width:180px;height: 300px;">
@@ -453,7 +456,7 @@
 			<pre class="sass">+turn180($zIndex: 10)</pre>
 		</section>
 
-		<section >
+		<section data-styletype="All Advence">
 			<h2>Motion input</h2>
 			<div class="example">
 				<div class="motionInput">
@@ -467,7 +470,7 @@
 	</div>
 	<footer></footer>
 </body>
-
+<script type="text/javascript" src="js/aTypeFilter.js"></script> 
 <script type="text/javascript" src="js/aCart.js"></script> 
 <script type="text/javascript">
 	$(document).ready(function() {	
@@ -475,9 +478,13 @@
 	    $('.cart').pg_cart({
 	    	SmoothSliding: true, //Window Event
             TopController: '.scrolltop',
+            scrollBtn:'._scrollBtn',
             AnchorPoint:'.cart'
 	    });
-	    //-->					
+	    //-->	
+	    $('.aTypeFilter').aTypeFilter({
+
+	    })
 	});
 </script>
 </html>

@@ -277,64 +277,6 @@ img.col12.polaroid {
 
   [class*='col'] {
     margin-left: 0;
-  }
-
-  .col1 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .col2 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .col3 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .col4 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .col5 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .col6 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .col7 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .col8 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .col9 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .col10 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .col11 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .col12 {
     width: 100%;
     max-width: 100%;
   }
@@ -1885,12 +1827,17 @@ aside nav {
   transition: all, 0.3s;
   background-color: #00a0e9;
 }
-.menu li a:hover {
+.menu li a:hover, .menu li a:focus {
   background-color: #007db6;
 }
 
 .turn180 {
   position: relative;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
@@ -2005,9 +1952,6 @@ aside nav {
 }
 .motionInput input[type="text"]:hover, .motionInput input[type="text"]:focus, .motionInput input[type="password"]:hover, .motionInput input[type="password"]:focus, .motionInput input[type="datetime"]:hover, .motionInput input[type="datetime"]:focus, .motionInput input[type="datetime-local"]:hover, .motionInput input[type="datetime-local"]:focus, .motionInput input[type="date"]:hover, .motionInput input[type="date"]:focus, .motionInput input[type="month"]:hover, .motionInput input[type="month"]:focus, .motionInput input[type="time"]:hover, .motionInput input[type="time"]:focus, .motionInput input[type="week"]:hover, .motionInput input[type="week"]:focus, .motionInput input[type="number"]:hover, .motionInput input[type="number"]:focus, .motionInput input[type="email"]:hover, .motionInput input[type="email"]:focus, .motionInput input[type="url"]:hover, .motionInput input[type="url"]:focus, .motionInput input[type="search"]:hover, .motionInput input[type="search"]:focus, .motionInput input[type="tel"]:hover, .motionInput input[type="tel"]:focus, .motionInput input[type="color"]:hover, .motionInput input[type="color"]:focus {
   width: 200px;
-}
-.motionInput input[type="text"]:hover:after, .motionInput input[type="text"]:focus:after, .motionInput input[type="password"]:hover:after, .motionInput input[type="password"]:focus:after, .motionInput input[type="datetime"]:hover:after, .motionInput input[type="datetime"]:focus:after, .motionInput input[type="datetime-local"]:hover:after, .motionInput input[type="datetime-local"]:focus:after, .motionInput input[type="date"]:hover:after, .motionInput input[type="date"]:focus:after, .motionInput input[type="month"]:hover:after, .motionInput input[type="month"]:focus:after, .motionInput input[type="time"]:hover:after, .motionInput input[type="time"]:focus:after, .motionInput input[type="week"]:hover:after, .motionInput input[type="week"]:focus:after, .motionInput input[type="number"]:hover:after, .motionInput input[type="number"]:focus:after, .motionInput input[type="email"]:hover:after, .motionInput input[type="email"]:focus:after, .motionInput input[type="url"]:hover:after, .motionInput input[type="url"]:focus:after, .motionInput input[type="search"]:hover:after, .motionInput input[type="search"]:focus:after, .motionInput input[type="tel"]:hover:after, .motionInput input[type="tel"]:focus:after, .motionInput input[type="color"]:hover:after, .motionInput input[type="color"]:focus:after {
-  content: "123";
 }
 
 footer {
