@@ -233,6 +233,13 @@
 			<pre class="sass">+cubicButton($color,$leftWidth)</pre>
 		</section>
 		<section data-styletype="All Advence Button">
+			<h2>Texture Button</h2>
+			<div class="example textureWove">
+			<a class="textureWove" href="#"><i>A2</i>I need a help.</a> 			
+			</div>
+			<pre class="sass">+textureWove($className: textureWove,$btnFile: btn_blue,$borderPadding: 4px)</pre>
+		</section>
+		<section data-styletype="All Advence Button">
 			<h2>Forms</h2>
 			<div class="example">
 			<div class="aForms">
@@ -449,8 +456,10 @@
 			<h2>turn180</h2>
 			<div class="example">
 				<div class="turn180" style="width:180px;height: 300px;">
-					<div><img src="images/testimage.jpg"></div>
-					<div><img src="images/fat.jpg"></div>				
+					<div class="flipper">
+						<div><img src="images/testimage.jpg"></div>
+						<div><img src="images/fat.jpg"></div>
+					</div>				
 				</div>
 			</div>
 			<pre class="sass">+turn180($zIndex: 10)</pre>
@@ -466,6 +475,7 @@
 			</div>
 			<pre class="sass">motionInput($widthS: 100px,$widthL: 200px,$color: $defaultColorBlue)</pre>
 		</section>
+
 		</div>
 	</div>
 	<footer></footer>
