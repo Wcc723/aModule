@@ -1,0 +1,524 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	<title>Wcc CSS FrameWork</title>
+
+	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script> 
+</head>
+<body>
+	<header>
+		<div class="row"><h1>Wcc CSS FrameWork</h1>
+			<menu id="mainMenu" class="mainMenu">
+				<ul id="pjaxMenu">
+					<li><a href="base.html" class="pjax">Base</a></li>
+					<li><a href="advence.html" class="pjax">Advence</a></li>
+					<li><a href="jquery.html" class="pjax">jquery</a></li>
+				</ul>
+			</menu>
+		</div>
+	</header>
+	<div class="container row">
+		<aside class="col3">
+			<nav>
+				<menu class="navMenu cart aTypeFilter">
+				<ul>
+					<li><a href="#">All</a></li>	
+					<li><a href="#">Base</a></li>
+					<li><a href="#">Advence</a></li>
+					<li><a href="#">Button</a></li>
+					<li><a href="#">Translate</a></li>
+				</ul>
+			</menu>
+		</nav>
+		</aside>
+	<div id="pjax-container" class="col9">
+		<section data-styletype="All">
+		<h1 id="base">aModule Base</h1>
+		</section>
+		<section data-styletype="All Base">
+			<h2>Headings</h2>
+			<div class="example">
+				<h1>h1. La.....large header <small>Small header</small></h1>
+				<h2>h2. Midium header <small>Small header</small></h2>
+				<h3>h3. Heading 3 <small>Small header</small></h3>
+				<h4>h4. Heading 4 <small>Small header</small></h4>
+				<h5>h5. Heading 5 <small>Small header</small></h5>
+				<h6>h6. Heading 6 <small>Small header</small></h6>
+				<hr>
+				<blockquote class="normal"><p>with <code>class="subheader"</code></p></blockquote>
+				
+				<h1 class="subheader">h1. La.....large header <small>Small header</small></h1>
+				<h2 class="subheader">h2. Midium header <small>Small header</small></h2>
+			</div>
+			<pre class="sass">+heading</pre>
+		</section>
+		<section data-styletype="All Base">
+			<h2>Paragraphs</h2>
+			<div class="example">
+			<p>冤冤相報何時了，往事知多少。</p>
+			<p>本季從天使轉隊到國民的右投 <code>strong</code> <strong>哈倫(Dan Haren)</strong>，開季前3役表現不如預期，特別是防禦率飆高到7.31，直至前一役表現才稍為回穩。3日迎戰勇士隊，哈倫顯然在心態上有所調整，主投8局只被敲出4支安打，僅失1分，賽後哈倫也表示，「就是投我的，不會再被球速影響。」
+			<p>拿下本季第3勝的 <code>a</code> <a href="#">哈倫</a>，3日總算走出防禦率過高的陰霾，此役賽後他也談到影響自己的關鍵因素，就是太在乎球速。「<code>em</code><em>我不會再去理會球速了；不管球速是88英哩(141公里)還是85英哩(136公里)，我都不在乎。只要知道我還是能讓打者出局，這就夠了。</em>	」</p>
+			<p>離開<code>sub</code> <sub>洋基</sub>、離開<code>sup</code> <sup>紐約</sup>、只拿底薪不拿激勵獎金，這些因素在過去，可能都會讓建仔猶豫，況且紐約的資源絕對比多倫多來的豐富，但這次從接獲通知到最後答應，他花不到一個禮拜就下決定轉隊，看得出來，<code>u</code> <u>建仔真想在大聯盟登板，即便不是為洋基。</u></p>
+			</div>
+			<pre class="sass">+Paragraphs($linkColor)</pre>
+		</section>
+		<section data-styletype="All Base">
+			<h2>code</h2>
+			<div class="example">
+			<p>This is a <code>code</code>.</p>			
+			</div>
+			<pre class="sass">+code($color)</pre>
+		</section>
+		<section data-styletype="All Base">
+			<h2>Abbreviations</h2>
+			<div class="example">
+			<p>I need a <abbr title="Are you OK?">help</abbr>.</p>			
+			</div>
+			<pre class="sass">+abbr</pre>
+		</section>
+		<section data-styletype="All Base">
+			<h2>Blockquote</h2>
+			<div class="example">
+				<p><code>default</code>
+				<blockquote class="normal clearFix">
+					<p>冤冤相報何時了，往事知多少。</p>	
+					<small>作者：<abbr title="不詳">不詳</abbr></small>	
+				</blockquote>
+
+				<p><code>($textAlign: right)</code></p>
+				<blockquote class="right clearFix">				 
+					<p>冤冤相報何時了，往事知多少。</p>	
+					<p><small>作者：<abbr title="不詳">不詳</abbr></small></p>	
+				</blockquote>			
+			</div>
+			<pre class="sass">+blockquote($borderColor,$textAlign)</pre>
+		</section>
+		<section data-styletype="All Base">
+			<h2>Lists</h2>
+			<h3>Unordered & Ordered</h3>
+			<div class="example">
+				<code>ul > li</code>
+				<ul class="ullist">
+					<li>冤冤相報何時了</li>
+					<li>往事知多少
+						<ul><li>知了歡聲響多少</li>
+						<li>只見樹下屎不少</li></ul>
+					</li>
+				</ul>
+				<ul class="ullist2">
+					<li>冤冤相報何時了</li>
+					<li>往事知多少
+						<ul><li>知了歡聲響多少</li>
+						<li>只見樹下屎不少</li></ul>
+					</li>
+				</ul>
+				<code>ol > li</code>
+				<ol class="ollist">
+					<li>冤冤相報何時了</li>
+					<li>往事知多少
+						<ol><li>知了歡聲響多少</li>
+						<li>只見樹下屎不少</li></ol>
+					</li>
+				</ol>
+			</div>
+			<pre class="sass">+ullist($listStyle,$listStyle2)</pre>
+		</section>
+		<section data-styletype="All Base">
+			<h2>Defition List</h2>
+			<h3>Normal</h3>
+			<div class="example">
+				<dl class="normal">
+				    <dt><small>作者：<abbr title="不詳">不詳</abbr></small></dt>
+				    <dd>冤冤相報何時了 <br>	往事知多少</dd>
+				    <dt>Description lists</dt>
+				    <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. <br>
+					Donec id elit non mi porta gravida at eget metus.</dd>
+				</dl>	
+			</div>
+			<pre class="sass">+dlList</pre>
+			<h3>Horizontal description</h3>
+			<div class="example">
+				<dl class="horizontal">
+				    <dt><small>作者：<abbr title="不詳">不詳</abbr></small></dt>
+				    <dd>冤冤相報何時了 <br>	往事知多少</dd>
+				    <dt>Description lists</dt>
+				    <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. <br>
+					Donec id elit non mi porta gravida at eget metus.</dd>
+				</dl>	
+			</div>
+			<pre class="sass">+dlHorizontal($dtWidth,$gap)</pre>
+		</section>
+		<section data-styletype="All Base">
+			<h2>Code</h2>
+			<div class="example">
+			<p>This is a <code>Javascript</code>.</p>			
+			</div>
+			<pre class="sass">+code($color)</pre>
+		</section>		
+		<section data-styletype="All Base">
+			<h2>Table</h2>
+			<div class="example">
+				<code>default</code>
+				<table class="table">
+              		<thead>
+              		  <tr>
+              		    <th>#</th>
+              		    <th>First Name</th>
+              		    <th>Last Name</th>
+              		    <th>Username</th>
+              		  </tr>
+              		</thead>
+              		<tbody>
+              		  <tr>
+              		    <td>1</td>
+              		    <td>Mark</td>
+              		    <td>Otto</td>
+              		    <td>@mdo</td>
+              		  </tr>
+              		  <tr>
+              		    <td>2</td>
+              		    <td>Jacob</td>
+              		    <td>Thornton</td>
+              		    <td>@fat</td>
+              		  </tr>
+              		  <tr>
+              		    <td>3</td>
+              		    <td>Larry</td>
+              		    <td>the Bird</td>
+              		    <td>@twitter</td>
+              		</tr>
+              	</tbody>
+            </table>
+            <code>(4px,#ffffcc,center)</code>
+            <table class="table2">
+              		<thead>
+              		  <tr>
+              		    <th>#</th>
+              		    <th>First Name</th>
+              		    <th>Last Name</th>
+              		    <th>Username</th>
+              		  </tr>
+              		</thead>
+              		<tbody>
+              		  <tr>
+              		    <td>1</td>
+              		    <td>Mark</td>
+              		    <td>Otto</td>
+              		    <td>@mdo</td>
+              		  </tr>
+              		  <tr>
+              		    <td>2</td>
+              		    <td>Jacob</td>
+              		    <td>Thornton</td>
+              		    <td>@fat</td>
+              		  </tr>
+              		  <tr>
+              		    <td>3</td>
+              		    <td>Larry</td>
+              		    <td>the Bird</td>
+              		    <td>@twitter</td>
+              		</tr>
+              	</tbody>
+            </table>
+			</div>
+			<pre class="sass">+atable($padding,$Color,$textAlign)</pre>
+		</section>
+		<section data-styletype="All">
+		<h1 id="base">aModule Advence</h1>
+		</section>
+		<section data-styletype="All Advence Button">
+			<h2>Cubic Button</h2>
+			<div class="example">
+			<a class="cubicButton" href="#"><i>A2</i>I need a help.</a> <a class="cubicButton2" href="#"><i>A2</i>Warring!!</a><br><br>			
+			</div>
+			<pre class="sass">+cubicButton($color,$leftWidth)</pre>
+		</section>
+		<section data-styletype="All Advence Button">
+			<h2>Texture Button</h2>
+			<div class="example textureWove">
+			<a class="textureWove" href="#"><i>A2</i>I need a help.</a> 			
+			</div>
+			<pre class="sass">+textureWove($className: textureWove,$btnFile: btn_blue,$borderPadding: 4px)</pre>
+		</section>
+		<section data-styletype="All Advence Button">
+			<h2>Forms</h2>
+			<div class="example">
+			<div class="aForms">
+				<div class="controlGroup">					
+				<label for="aFroms">E-mail</label><input id="aFroms" type="text" placeholder="Email"></div>
+				<div class="controlGroup">
+				<label for="aPassword">Password</label><input id="aPassword" type="password" placeholder="password"></div>
+				<div class="controlGroup">
+				<label for="aContent">Content</label><textarea id="aContent"></textarea>
+				</div>
+				<div class="controlGroup">
+					<label>Select</label>
+					<select>
+						<option>Select</option>
+						<option></option>
+						<option></option>
+					</select>					
+				</div>
+				<div class="controlGroup">
+					<label>Select</label>
+					<select multiple="multiple">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>				
+				</div>				
+				<div class="controlGroup">
+					<label><input type="checkbox">Ok!</label>
+					<label><input type="checkbox">NO!</label>
+				</div>
+			</div>		
+			</div>
+			<pre class="sass">+aForms()</pre>
+		</section>
+		<section data-styletype="All Advence Button">
+			<h2>aButton</h2>
+			<div class="example">
+			<div class="aForms">
+				<div class="controlGroup">
+					<button type="submit">Login In</button>
+					<a class="button">Login In</a>
+				</div>
+			</div>		
+			</div>
+			<pre class="sass">+aForms()</pre>
+		</section>
+		<section data-styletype="All Advence">
+			<h2>tpl</h2>
+			<div class="example">
+				<code>+tpl</code>
+				<fieldset id=''  data-step="1" class="tpl">
+     			   <legend>搜尋</legend>
+     			   <!--<label for="">搜尋條件</label>-->
+     			   <input type="text" placeholder="請輸入搜尋條件">
+     			 <select>
+     			   <option>範例選單</option>
+     			 </select>
+     			   <input type="submit" value="送出">
+     			 </fieldset>
+				<table class="tpl">
+        			<thead>
+        			  <tr>
+        			    <th width="20%">thead th</th>
+        			    <th valign="middle">thead th</th>
+        			            </tr>   
+        			            </thead>
+        			            <tbody>  
+        			            	<tr>
+        			    <th width="20%">tbody th</th>
+        			    <td>tbody td
+        			    </td>
+        			            </tr>  
+        			                 <tr>
+        			    <th width="20%">tbody th</th>
+        			    <td>
+        			     <fieldset id=''  data-step="1" data-intro="權限修改" style="width:auto">
+        					<legend>表格內表單</legend>
+        					<label>textarea</label>
+							<textarea></textarea>
+							<label>input text</label>
+        					<input type="text" placeholder="placeholder">
+        					
+        			        <input type="submit" value="確定">
+
+        			     </fieldset>
+        			    </td>
+        			            </tr>    
+        			             <tr>
+        			    <th width="20%">tbody th</th>
+        			    <td>
+        			    	<input type="text" placeholder="placeholder">
+        			    	<input type="submit" value="表格內按鈕">
+        			    </td>
+        			            </tr>         			                
+        			</tbody>
+     			 </table>
+     			  <div class="tplpage"> <a href="#">Back</a> <span>1</span> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">Next</a> </div>
+     			  <hr>
+     			  <code>+tpl(green,tpl2)</code>
+     			  <fieldset id=''  data-step="1" class="tpl2">
+     			   <legend>搜尋</legend>
+     			   <!--<label for="">搜尋條件</label>-->
+     			   <input type="text" placeholder="請輸入搜尋條件">
+     			 <select>
+     			   <option>範例選單</option>
+     			 </select>
+     			   <input type="submit" value="送出">
+     			 </fieldset>
+				<table class="tpl2">
+        			<thead>
+        			  <tr>
+        			    <th width="20%">thead th</th>
+        			    <th valign="middle">thead th</th>
+        			            </tr>   
+        			            </thead>
+        			            <tbody>  
+        			            	<tr>
+        			    <th width="20%">tbody th</th>
+        			    <td>tbody td
+        			    </td>
+        			            </tr>  
+        			                 <tr>
+        			    <th width="20%">tbody th</th>
+        			    <td>
+        			     <fieldset id=''  data-step="1" data-intro="權限修改" style="width:auto">
+        					<legend>表格內表單</legend>
+        					<label>textarea</label>
+							<textarea></textarea>
+							<label>input text</label>
+        					<input type="text" placeholder="placeholder">
+        					
+        			        <input type="submit" value="確定">
+
+        			     </fieldset>
+        			    </td>
+        			            </tr>    
+        			             <tr>
+        			    <th width="20%">tbody th</th>
+        			    <td>
+        			    	<input type="text" placeholder="placeholder">
+        			    	<input type="submit" value="表格內按鈕">
+        			    </td>
+        			            </tr>         			                
+        			</tbody>
+     			 </table>
+     			  <div class="tpl2page"> <a href="#">Back</a> <span>1</span> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">Next</a> </div>
+				</div>
+			<pre class="sass">+tpl($color: $defaultColorBlue,$className: tpl)</pre>
+		</section>
+
+		<section data-styletype="All Advence">
+			<h2>cabinet</h2>
+			<div class="example">
+				<div class="cabinet" style="width:380px">
+				<ul>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+				</ul>
+			</div>
+			<div class="cabinet">
+				<ul>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+				</ul>
+			</div>
+			</div>
+			<pre class="sass">+cabinet()</pre>
+		</section>
+
+		<section data-styletype="All Advence">
+			<h2>Sizing relatively</h2>
+			<div class="example">
+				<ul style="overflow: hidden">
+					<li class="sizeRelative">123</li>
+					<li class="sizeRelative"></li>
+					<li class="sizeRelative"></li>
+				</ul>
+			</div>
+			<pre class="sass">+sizeRelative($size: 30, $unit: vw) //vw(idth), vh(eight), vmin and vmax.</pre>
+		</section>
+
+		<section data-styletype="All Advence Translate">
+			<h2>Img Stack</h2>
+			<cite>//from <a href="http://inspectelement.com/demos/css3/stacks/">http://inspectelement.com/demos/css3/stacks/</a></cite>
+			<div class="example clearFix">
+				<div class="imgStack" style="float:left; width: 25%; margin: 0 4%;">
+					<img src="images/fat.jpg" >
+				</div>
+				<div class="imgStack2" style="float:left; width: 25%; margin: 0 4%;">
+					<img src="images/fat.jpg" >
+				</div>
+				<div class="imgStack3" style="float:left; width: 25%; margin: 0 4%;">
+					<img src="images/fat.jpg" >
+				</div>
+			</div>
+			<pre class="sass">+imgStack($style: rotated)//rotated twisted rotated-left</pre>
+		</section>
+
+		<section data-styletype="All Advence Translate">
+			<h2>turn180</h2>
+			<div class="example">
+				<div class="turn180" style="width:180px;height: 300px;">
+					<div class="flipper">
+						<div><img src="images/testimage.jpg"></div>
+						<div><img src="images/fat.jpg"></div>
+					</div>				
+				</div>
+			</div>
+			<pre class="sass">+turn180($zIndex: 10)</pre>
+		</section>
+
+		<section data-styletype="All Advence">
+			<h2>Motion input</h2>
+			<div class="example">
+				<div class="motionInput">
+					<input type="text" placeholder="search">
+
+				</div>
+			</div>
+			<pre class="sass">motionInput($widthS: 100px,$widthL: 200px,$color: $defaultColorBlue)</pre>
+		</section>
+
+		</div>
+	</div>
+	<footer></footer>
+</body>
+<script type="text/javascript" src="js/aTypeFilter.js"></script> 
+<script type="text/javascript" src="js/aCart.js"></script> 
+<script type="text/javascript">
+	$(document).ready(function() {	
+	    <!-- power by aCart.js
+	    $('.cart').pg_cart({
+	    	SmoothSliding: true, //Window Event
+            TopController: '.scrolltop',
+            scrollBtn:'._scrollBtn',
+            AnchorPoint:'.cart'
+	    });
+	    //-->	
+	    $('.aTypeFilter').aTypeFilter({
+
+	    })
+	});
+</script>
+<script type="text/javascript" src="js/pjax.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() {
+  $.pjax({
+        selector: '.pjax',
+        container: '#pjax-container', //內容替換的容器
+        show: 'fade',  //展現的動畫，支持默認和fade, 可以自定義動畫方式，這里為自定義的function即可。
+        cache: false,  //是否使用緩存
+        storage: true,  //是否使用本地存儲
+        titleSuffix: '', //標題後綴
+        filter: function(){},
+        callback: function(){}
+    })
+})
+</script>
+</html>
+
+
