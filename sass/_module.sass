@@ -203,8 +203,8 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		&:hover:before
 			left: -3px
 		&:hover + pre
-			padding: 8px 18px 8px 15px 
-			border-left: 3px solid darken($defaultColorBlue, 10%)
+			//padding: 8px 18px 8px 15px 
+			//border-left: 3px solid darken($defaultColorBlue, 10%)
 	&:before
 		content: "Example"
 		position: absolute
@@ -217,10 +217,11 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		color: #9da0a4
 		//+border-corner-radius(top, left, 5px)
 		//+border-corner-radius(bottom, right, 5px)
-	& + pre
+
+	& + pre ,& + pre + pre
 		margin-top: -20px
 		padding: 8px 18px 8px 18px 
-		margin-bottom: 30px
+		margin-bottom: 20px
 		background-color: #f7f7f9
 		//border: 1px solid #e1e1e8
 		+box-shadow(rgba(00,00,00,0.2)0 -2px 5px inset)
@@ -774,3 +775,48 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 			bottom: $borderPadding
 
 
+//jquery
+@mixin aBanner($width: 640px,$height: 360px,$overflow: hidden)
+	overflow: $overflow
+	background-color: #000
+	position: relative
+	width: $width
+	height: $height
+
+	.pre,.next
+		text-indent: -9999px
+		height: 100%
+		width: 60px
+		position: absolute
+		z-index: 100
+	.pre
+		left: 0
+	.next
+		right: 0
+	.wrap
+		position: relative
+	ul
+		position: absolute
+	li
+		width: $width
+		height: $height
+	.control
+		position: absolute
+		right: 60px
+		bottom: 10px
+		z-index: 50
+		a
+			display: inline-block
+			padding: 3px
+			margin: 0 3px
+			width: 16px
+			color: #fff
+			background: #000
+			text-align: center
+			font-size: 16px
+			text-decoration: none
+			+border-radius(3px)
+			&.on
+				font-weight: bold
+				z-index: 15
+				color: #f00

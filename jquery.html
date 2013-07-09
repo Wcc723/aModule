@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	<title>Wcc CSS FrameWork</title>
+	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+	<script data-main="js/add" src="js/require.js"></script>
+</head>
+<body>
+	<header>
+		<div class="row"><h1>Wcc CSS FrameWork</h1>
+			<menu id="mainMenu" class="mainMenu">
+				<ul id="pjaxMenu">
+					<li><a href="index.html" class="pjax">Home</a></li>
+					<li><a href="base.html" class="pjax">Base</a></li>
+					<li><a href="advence.html" class="pjax">Advence</a></li>
+					<li><a href="jquery.html" class="pjax">Jquery</a></li>
+				</ul>
+			</menu>
+		</div>
+	</header>
+	<div class="container row">
+		<aside class="col3">
+			<nav>
+				<menu class="navMenu cart aTypeFilter">
+				<ul>
+					<li><a href="#">All</a></li>	
+				</ul>
+			</menu>
+		</nav>
+		</aside>
+	<div id="pjax-container" class="col9">		
+		<section data-styletype="All">
+		<h1 id="base">aModule Jquery</h1>
+		</section>
+		<section data-styletype="All facebook">
+			<h2>Facebook plugin <small>Auto Catch Url</small></h2>
+			<div class="example">
+					
+			<div class="fb-like" data-href="" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true"></div>
+			</div>
+<pre class="javascript prettyprint linenums:4 lang-javascript">
+ $('document').ready(function($) {
+     var url=window.location.toString();
+     $('.fb-like').attr('data-href',url);
+ });
+ (function(d, s, id) {
+ 	var js, fjs = d.getElementsByTagName(s)[0];
+ 	if (d.getElementById(id)) return;
+ 	js = d.createElement(s); js.id = id;
+ 	js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";
+ 	fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));
+</pre>
+			<script type="text/javascript">
+				//facebook
+				(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+		</section>	
+		<section data-styletype="All facebook">
+			<h2>a_Banner <small>Auto Catch Url</small></h2>
+			<div class="example">
+					
+			<div class="a_banner"> <a href="#" class="next">next</a> <a href="#" class="pre">pre</a>
+        		  <div class="wrap">
+            		<ul>
+            		  <li><img src="/images/photo_01.jpg"></li>
+            		  <li><img src="/images/photo_02.jpg"></li>
+            		  <li><img src="/images/photo_03.jpg"></li>
+            		  <li><img src="/images/photo_04.jpg"></li>
+            		  <li><img src="/images/photo_05.jpg"></li>
+            		  <li><img src="/images/photo_06.jpg"></li>
+            		  <li><img src="/images/photo_07.jpg"></li>
+            		  <li><img src="/images/photo_08.jpg"></li>
+            		</ul>
+        	  </div>
+        		  <div class="control"><a href="#">1</a></div>
+      		  </div>
+			</div>
+<pre class="javascript prettyprint linenums:4 lang-javascript">
+ $(document).ready(function() {	
+ 	$('.a_banner').a_banner_ani({
+ 		animateMode: 'slider' //動畫模式 fade , slider
+ 	});
+ });
+</pre>
+<pre class="sass">
++aBanner($width: 640px,$height: 360px,$overflow: hidden)
+</pre>	
+
+		</section>	
+	</div>
+		</div>
+	<footer></footer>
+</body>
+
+</html>

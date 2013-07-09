@@ -1,7 +1,9 @@
 require([
   'lib/jquery-2.0.2.min',
   'aTypeFilter',
-  'aCart'
+  'run_prettify',
+  'aCart',
+  'demo/a_banner'
 ], function () {
   console.log($);
   //aCart 
@@ -15,6 +17,17 @@ require([
 	//aTypeFilter 
 	    $('.aTypeFilter').aTypeFilter({
 	});
+
+  //facebook auto catch url
+  $('document').ready(function($) {
+    var url=window.location.toString();
+    $('.fb-like').attr('data-href',url);
+  });
+
+  //abanner
+  $('.a_banner').a_banner_ani({
+            animateMode: 'slider' 
+    });
 	
 	
 });

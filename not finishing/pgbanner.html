@@ -1,0 +1,260 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery套件 動畫輪播</title>
+<link href="../css/demo.css" rel="stylesheet" type="text/css" />
+<!--<link href="css/pg_banner.css" rel="stylesheet" type="text/css" />-->
+<style>
+/* CSS Document */
+/*css reset 如果有reset過 可以將此段刪除*/
+body, html {
+}
+ul, li, a, img {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+/*css reset 如果有reset過 可以將此段刪除*/
+a img {
+	border: none;
+}
+/*css reset End*/
+.pg_banner .pre, .pg_banner .next {
+	text-indent:-9999px;
+	height:100%;
+	width:60px;
+	position:absolute;
+	z-index:100;
+}
+.pg_banner .pre {
+	left:0;
+	background:url(images/left.png) left center;
+}
+.pg_banner .next {
+	right:0;
+	background:url(images/right.png) right center;
+}
+.pg_banner {
+	overflow:hidden;/* 去邊*/
+	background-color:#000;
+	position: relative;
+	width:640px;
+	height: 320px;
+	border: 1px solid #ccc;/* 不要外框可以刪除這個值*/
+}
+.pg_banner .wrap { /*內層定位外框*/
+	position: relative;
+}
+.pg_banner ul {
+	/*width:999999px;寬度設定最大值，slider mode用*/
+	position: absolute;/*IE 7如不設定為absolute 則無法顯示*/
+}
+.pg_banner li {
+	width:640px;
+	height: 320px;
+}
+.pg_banner .control {
+	position: absolute;
+	right: 60px;
+	bottom: 10px;
+	z-index:50;
+}
+.pg_banner .control a {
+	display: inline-block;
+	padding: 3px;
+	margin: 0 3px;
+	width: 16px;
+	color: #fff;
+	background: #000;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.pg_banner .control a.on {
+	font-weight: bold;
+	z-index:15;
+	color: #f00;
+}
+.size2, .size2 li {
+	width:640px;
+	height: 320px;
+}
+</style>
+<link href='http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css' type='text/css' rel='stylesheet' />
+</head>
+<body onload='prettyPrint();'>
+<header>
+  <hgroup>
+    <h1></h1>
+  </hgroup>
+</header>
+<nav> <menu class="main"></menu> </nav>
+<div class="content">
+  <article>
+    <header>
+      <time datetime="2012-11-23">2012-11-23</time>
+      <h1>jQuery套件 動畫輪播</h1>
+      <address>
+      by Wcc
+      </address>
+    </header>
+    <div class="entry-content">
+      <h2>範例1</h2>
+      <div class="docs_sample">
+        <div class="pg_banner01 pg_banner"> <a href="#" class="next">next</a> <a href="#" class="pre">pre</a>
+          <div class="wrap">
+            <ul>
+              <li><img src="/images/photo_01.jpg"></li>
+              <li><img src="/images/photo_02.jpg"></li>
+              <li><img src="/images/photo_03.jpg"></li>
+              <li><img src="/images/photo_04.jpg"></li>
+              <li><img src="/images/photo_05.jpg"></li>
+              <li><img src="/images/photo_06.jpg"></li>
+              <li><img src="/images/photo_07.jpg"></li>
+              <li><img src="/images/photo_08.jpg"></li>
+            </ul>
+          </div>
+          <div class="control"><a href="#">1</a></div>
+        </div>
+      </div>
+      <!--<h2>範例2</h2>
+      <div class="docs_sample">
+        <div class="pg_banner size2 power2"> <a href="#" class="next">next</a> <a href="#" class="pre">pre</a>
+          <div class="wrap">
+            <ul>
+              <li><a href="#" ><img src="../images/sampleImages/photo_01.jpg"  alt="" /></a>
+                <div style=" position:absolute; top:150px; left:40px; color:#fff; background-color:#666;">
+                  <h1>Hello world!</h1>
+                  <p>You are so beautiful.</p>
+                </div>
+              </li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_02.jpg"  alt="" /></a></li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_03.jpg"  alt="" /></a></li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_04.jpg"  alt="" /></a></li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_05.jpg"  alt="" /></a></li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_06.jpg"  alt="" /></a></li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_07.jpg"  alt="" /></a></li>
+             <li><a href="#" ><img src="../images/sampleImages/photo_08.jpg"  alt="" /></a></li>
+            </ul>
+          </div>
+          <div class="control"><a href="#">1</a></div>
+        </div>
+      </div>-->
+      <h3>如何使用</h3>
+      <figure class="code"> <cite>1.請將以下原始碼加在 &lt;head&gt;&lt;/head&gt;之間</cite>
+        <pre class="prettyprint">
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js&quot;&gt;&lt;/script&gt;<br>&lt;script type=&quot;text/javascript&quot; src=&quot;http://wcc-demo.googlecode.com/files/pg_banner.js&quot;&gt;&lt;/script&gt;<br>&lt;script type=&quot;text/javascript&quot;&gt;	
+$('.power2').pg_banner_ani({
+		animateMode: 'slider', //動畫模式 fade , slider
+		seamlessMode : true ,//slider 下的無接縫模式,fade版無此功能
+		Responsive : true
+	});<br>&lt;/script&gt;
+        </pre>
+        <cite>2.請將以下原始碼加在&lt;body&gt;&lt;/body&gt;之間</cite>
+        <pre class="prettyprint">&lt;div class=&quot;pg_banner01 pg_banner&quot;&gt; &lt;a href=&quot;#&quot; class=&quot;next&quot;&gt;next&lt;/a&gt; &lt;a href=&quot;#&quot; class=&quot;pre&quot;&gt;pre&lt;/a&gt;<br>  &lt;div class=&quot;wrap&quot;&gt;<br>    &lt;ul&gt;<br>      &lt;li&gt;&lt;img src=&quot;../images/sampleImages/640/photo_01.jpg&quot;&gt;&lt;/li&gt;<br>      &lt;li&gt;&lt;img src=&quot;../images/sampleImages/640/photo_02.jpg&quot;&gt;&lt;/li&gt;<br>      &lt;li&gt;&lt;img src=&quot;../images/sampleImages/640/photo_03.jpg&quot;&gt;&lt;/li&gt;<br>      &lt;li&gt;&lt;img src=&quot;../images/sampleImages/640/photo_04.jpg&quot;&gt;&lt;/li&gt;<br>      &lt;li&gt;&lt;img src=&quot;../images/sampleImages/640/photo_05.jpg&quot;&gt;&lt;/li&gt;<br>      &lt;li&gt;&lt;img src=&quot;../images/sampleImages/640/photo_06.jpg&quot;&gt;&lt;/li&gt;<br>      &lt;li&gt;&lt;img src=&quot;../images/sampleImages/640/photo_07.jpg&quot;&gt;&lt;/li&gt;<br>      &lt;li&gt;&lt;img src=&quot;../images/sampleImages/640/photo_08.jpg&quot;&gt;&lt;/li&gt;<br>    &lt;/ul&gt;<br>  &lt;/div&gt;<br>  &lt;div class=&quot;control&quot;&gt;&lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/div&gt;<br>&lt;/div&gt;</pre>
+        <cite>3.請將以下原始碼加在CSS</cite>
+        <pre class="prettyprint">
+     /* CSS Document */
+  /*css reset 如果有reset過 可以將此段刪除*/
+  body,html {
+  } 
+  ul,li,a,img {
+  padding:0;
+  margin:0;
+  list-style-type:none;}
+  a img{
+  border: none;
+  }
+  /*css reset end */
+  .pg_banner .pre ,.pg_banner .next {
+  text-indent:-9999px;
+  height:100%;
+  width:60px;
+  position:absolute;
+  z-index:100;
+  }
+  .pg_banner .pre{/* 上一頁的外觀*/
+  left:0;
+  background:url(images/left.png) left center; 
+  }.pg_banner .next{/* 下一頁的外觀*/
+  right:0;
+  background:url(images/right.png) right center;
+  }
+  .pg_banner {
+  overflow:hidden;/* 去邊*/
+  background-color:#000;
+  position: relative;
+  width:640px;
+  height: 320px;
+  border: 1px solid #ccc;/* 不要外框可以刪除這個值*/ 
+  }
+  .pg_banner .wrap { /*內層定位外框*/
+  position: relative;
+  }
+  .pg_banner ul{
+  /*width:999999px;寬度設定最大值，slider mode用*/
+  position: absolute;/*IE 7如不設定為absolute 則無法顯示*/
+  }
+  .pg_banner li { 
+  width:640px;
+  height: 320px;
+  }
+  .pg_banner .control {
+  position: absolute;
+  right: 60px;
+  bottom: 10px;
+  z-index:50;
+  }
+  .pg_banner .control a {
+  display: inline-block;
+  padding: 3px;
+  margin: 0 3px;
+  width: 16px;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  }</pre>
+      </figure>
+      <footer></footer>
+    </div>
+  </article>
+</div>
+<aside> <menu class="classify"></menu> </aside>
+<footer></footer>
+<script type='text/javascript' src='http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.js'></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/pg_banner.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {	
+	 <!-- power by pg_banner.js
+	$('.pg_banner01').pg_banner_ani({
+		animateMode: 'slider', //動畫模式 fade , slider
+		seamlessMode : true ,//slider 下的無接縫模式,fade版無此功能
+		startIndex : 1,			// 預設要先顯示那一張
+		fadeOutSpeed : 2000,	// 淡出的速度
+		fadeInSpeed : 3000,		// 淡入的速度
+		animateSpeed :500 , //slider動畫速度
+		defaultZ : 10,		// 預設的 z-index
+		isHover :false,		//在滑鼠移入後才會開始動畫
+		isAutoplay:true, // 自動撥放
+		controlA : true, //數字選單是否顯示
+		controlA_num :true,// 顯示數字或是圖片
+		controlB : true, //左右切換選單是否顯示
+		powerSlider : false ,//按壓滑動功能,不要開 開了你會怕
+		speed : 2000, //自動撥放速率 , slider 的每張停留時間
+		wrapTag:'.wrap', //動畫框預設class
+		contentTag: 'ul', //動會內框
+		showTag : 'li', //播放之圖片或內容框
+		Responsive : true
+	});
+	//-->
+});
+</script>
+</body>
+</html>
