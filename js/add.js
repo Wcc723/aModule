@@ -1,5 +1,5 @@
 require([
-  'lib/jquery-2.0.2.min',
+  'jquery-2.0.2.min',
   'aTypeFilter',
   'run_prettify',
   'aCart',
@@ -26,9 +26,8 @@ require([
 
   //abanner
   $('.a_banner').a_banner_ani({
-            animateMode: 'slider' 
+      animateMode: 'slider' 
     });
-	
 	
 });
 
