@@ -11,6 +11,7 @@
 	<script data-main="js/main" src="js/require.js"></script>
 </head>
 <body>
+
 	<header>
 		<div class="row"><h1>Wcc CSS FrameWork</h1>
 			<menu id="mainMenu" class="mainMenu">
@@ -290,6 +291,26 @@
 				</div>
 			</div>
 			<pre class="sass">motionInput($widthS: 100px,$widthL: 200px,$color: $defaultColorBlue)</pre>
+		</section>
+
+		<section data-styletype="All Advence">
+			<h2>iOS checked <small>only for webkit</small></h2>
+			<div class="example">
+				<div >
+				<input type="checkbox" class="ios7checkbox">
+				</div>
+			</div>
+			<pre class="sass">+ios7checkbox($className: ios7checkbox)</pre>
+		</section>
+
+		<section data-styletype="All Advence">
+			<h2>Paper Shadow</h2>
+			<div class="example">
+				<div class="paperShadow">
+				This parent element needs to set "z-index".
+				</div>
+			</div>
+			<pre class="sass">+paperShadow()</pre>
 		</section>
 	</div>
 		</div>

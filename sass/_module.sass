@@ -774,7 +774,67 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 			right: $borderPadding
 			bottom: $borderPadding
 
+@mixin ios7checkbox($className: ios7checkbox)
+	$className: ios7checkbox
+	$white: #fff
+	$green: #53d76a
+	$grey: #d3d3d3
+	.#{$className}
+		+appearance(none)
+		background-color: darken($white, 2%)
+		border: 1px solid $grey
+		border-radius: 26px		
+		cursor: pointer
+		height: 28px
+		position: relative
+		width: 44px
+		vertical-align: top
+		+box-shadow($grey 0 0 0 1px inset)
+		+transition(border .25s .15s,box-shadow .25s .3s,padding .25s)
+		&:after
+			content: ''
+			background-color: $white
+			border: 1px solid $grey
+			border-radius: 24px
+			+box-shadow(inset 0 -3px 3px rgba(0,0%,0%,.025),0 1px 4px rgba(0,0%,0%,.150), 4px 4px rgba(0,0%,0%,.1))
+			display: block
+			height: 24px
+			left: 0
+			position: absolute
+			right: 16px
+			top: 0
+			+transition(border .25s .15s,left .25s .1s,right .15s .175s)
+		&:checked
+			border-color: $green
+			+box-shadow(inset 0 0 0 13px $green)
+			padding-left: 18px
+			+transition(border .25s,box-shadow .25s,padding .25s .15s)
+			&:after 
+				border-color: $green
+				left: 16px
+				right: 0
+				+transition(border .25s,left .15s .25s,right .25s .175s)
 
+@mixin paperShadow()
+	position: relative
+	display: block
+	&:after,&:before
+		content: ""
+		position: absolute
+		background: rgba(00,00,00,0.2)
+		opacity: 0.9
+		bottom: 6px
+		width: 50%
+		height: 20%
+		z-index: -1
+		+box-shadow(rgba(00,00,00,0.6) 0 0 15px)
+	&:after
+		right: 5px
+		left: auto
+		+rotate(2deg)
+	&:before
+		left: 5px
+		+rotate(-2deg)
 //jquery
 @mixin aBanner($width: 640px,$height: 360px,$overflow: hidden)
 	overflow: $overflow
