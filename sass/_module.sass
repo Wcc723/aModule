@@ -65,17 +65,6 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 
 @mixin fluidGrid($maxWidth:1200px,$wrapWidth:100%,$wrapMargin:3%)
 	$wrapWidth: $wrapWidth + $wrapMargin
-	@for $i from 1 through 12	
-		.col#{$i}
-			width: ($wrapWidth*($i/12))-$wrapMargin
-			max-width: ($wrapWidth*($i/12))-$wrapMargin
-			margin-left: $wrapMargin
-			*margin-bottom: $wrapMargin //IE7			
-		img.col#{$i}
-			&.polaroid
-				width: ($wrapWidth*($i/12))-$wrapMargin - 20
-		.offset#{$i}
-			margin-left: ($wrapWidth*($i/12))
 	.row
 		width: $maxWidth
 		max-width: 100%	
@@ -84,6 +73,8 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 			float: left
 			min-height: 1px
 			margin-bottom: 8px
+			margin-left: $wrapMargin
+			*margin-bottom: $wrapMargin //IE7	
 			zoom: 1
 			&:first-child
 				margin-left: 0
@@ -91,40 +82,56 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 			float: none
 			margin-left: 0
 		img[class*='col']	
-			height: auto			
+			height: auto
+	.row
+		@for $i from 1 through 12	
+			.col#{$i}
+				width: ($wrapWidth*($i/12))-$wrapMargin
+				max-width: ($wrapWidth*($i/12))-$wrapMargin					
+			img.col#{$i}
+				&.polaroid
+					width: ($wrapWidth*($i/12))-$wrapMargin - 20
+			.offset#{$i}
+				margin-left: ($wrapWidth*($i/12)) + $wrapMargin
+			.offset#{$i}:first-child
+				margin-left: ($wrapWidth*($i/12))
 	.container
 		width: $maxWidth
 		max-width: 100%		
 		margin: 0 auto
 	.row
-		margin-bottom: $wrapMargin
+		margin-bottom: $wrapMargin/2
 		//display: table
 		overflow: hidden
 		clear: both
 		zoom: 1 //IE 7
-	@media (max-width: 700px)
+	@media (max-width: 767px)
 		.container
 			max-width: 100%	- $wrapMargin*2
 			padding: $wrapMargin
-		[class*='col']
-			margin-left: 0
-			width: 100%
-			max-width: 100%
+		.row
+			[class*='col']
+				margin-left: 0
+				width: 100%
+				max-width: 100%
+			[class*='offset']
+				margin-left: 0 !important
 
 
 @mixin grid($wrapWidth:1200px,$wrapMargin:25px)
-	@for $i from 1 through 12	
-		.col#{$i}
-			width: ($wrapWidth*($i/12))-$wrapMargin
-			max-width: ($wrapWidth*($i/12))-$wrapMargin
-			margin-left: $wrapMargin
-			*margin-bottom: $wrapMargin //IE7			
-		img.col#{$i}
-			&.polaroid
-				width: ($wrapWidth*($i/12))-$wrapMargin - 20
-		.offset#{$i}
-			margin-left: ($wrapWidth*($i/12))
-	.row	
+	.grid-row
+		@for $i from 1 through 12	
+			.col#{$i}
+				width: ($wrapWidth*($i/12))-$wrapMargin
+				max-width: ($wrapWidth*($i/12))-$wrapMargin
+				margin-left: $wrapMargin
+				*margin-bottom: $wrapMargin //IE7			
+			img.col#{$i}
+				&.polaroid
+					width: ($wrapWidth*($i/12))-$wrapMargin - 20
+			.offset#{$i}
+				margin-left: ($wrapWidth*($i/12)) + $wrapMargin
+	.grid-row	
 		margin-left: -$wrapMargin		
 		[class*="col"]
 			float: left
@@ -142,11 +149,12 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		width: $wrapWidth - $wrapMargin
 		max-width: 100%		
 		margin: 0 auto
-	.row
-		margin-bottom: $wrapMargin
+	.grid-row
+		margin-bottom: $wrapMargin / 2
 		display: table
 		clear: both
 		zoom: 1 //IE 7
+	@media (max-width: 767px)
 
 @mixin container($marginTop: 20px)
 	margin: $marginTop auto

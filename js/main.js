@@ -4,7 +4,8 @@ require.config({
 		aTypeFilter: 'aTypeFilter',
 		run_prettify: 'run_prettify',
 		aCart:  'aCart',
-		a_banner: 'demo/a_banner'
+		a_banner: 'demo/a_banner',
+		forAll: 'all'
 	}
 
 });

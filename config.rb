@@ -18,4 +18,4 @@ line_comments = false
 preferred_syntax = :sass
 
 
-output_style = :compressed # by Fire.app 
+output_style = :nested # by Fire.app 

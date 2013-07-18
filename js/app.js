@@ -1,4 +1,4 @@
-define(['jquery','run_prettify','a_banner','aCart','aTypeFilter'], function(){
+define(['jquery','run_prettify','a_banner','aCart','aTypeFilter','forAll'], function(){
 	var initialize=function(){
 	$(document).ready(
 			function(){
