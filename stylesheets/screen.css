@@ -1,3 +1,4 @@
+@charset "utf-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,16 +46,15 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-.buttonColor .color-btn, .buttonColor .color-btn-orange, .buttonColor .color-btn-green, .buttonColor .color-btn-blue, .buttonColor .color-btn-red, .buttonColor .color-btn-purple, .buttonColor .color-btn-gray {
+.buttonColor .color-btn-orange, .buttonColor .color-btn-green, .buttonColor .color-btn-blue, .buttonColor .color-btn-red, .buttonColor .color-btn-deepblue, .buttonColor .color-btn-purple, .buttonColor .color-btn-gray, .buttonColor .color-btn-magenta, .buttonColor .color-btn-aqua, .buttonColor .color-btn-skyblue, .buttonColor .color-btn {
   color: #333333;
-  text-shadow: -1px -1px rgba(0, 0, 0, 0.3);
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
   text-decoration: none;
   padding: 3px 8px;
   display: inline-block;
   margin-bottom: 0;
   text-align: center;
   line-height: 22px;
-  text-shadow: 1 -1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
   cursor: pointer;
   -webkit-border-radius: 3px;
@@ -73,9 +73,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-transition: all, 0.2s;
   transition: all, 0.2s;
   color: white; }
-  .buttonColor .color-btn:hover, .buttonColor .color-btn-orange:hover, .buttonColor .color-btn-green:hover, .buttonColor .color-btn-blue:hover, .buttonColor .color-btn-red:hover, .buttonColor .color-btn-purple:hover, .buttonColor .color-btn-gray:hover {
+  .buttonColor .color-btn-orange:hover, .buttonColor .color-btn-green:hover, .buttonColor .color-btn-blue:hover, .buttonColor .color-btn-red:hover, .buttonColor .color-btn-deepblue:hover, .buttonColor .color-btn-purple:hover, .buttonColor .color-btn-gray:hover, .buttonColor .color-btn-magenta:hover, .buttonColor .color-btn-aqua:hover, .buttonColor .color-btn-skyblue:hover, .buttonColor .color-btn:hover {
     color: white; }
-  .buttonColor .color-btn:focus, .buttonColor .color-btn-orange:focus, .buttonColor .color-btn-green:focus, .buttonColor .color-btn-blue:focus, .buttonColor .color-btn-red:focus, .buttonColor .color-btn-purple:focus, .buttonColor .color-btn-gray:focus, .buttonColor .color-btn:active, .buttonColor .color-btn-orange:active, .buttonColor .color-btn-green:active, .buttonColor .color-btn-blue:active, .buttonColor .color-btn-red:active, .buttonColor .color-btn-purple:active, .buttonColor .color-btn-gray:active {
+  .buttonColor .color-btn-orange:focus, .buttonColor .color-btn-green:focus, .buttonColor .color-btn-blue:focus, .buttonColor .color-btn-red:focus, .buttonColor .color-btn-deepblue:focus, .buttonColor .color-btn-purple:focus, .buttonColor .color-btn-gray:focus, .buttonColor .color-btn-magenta:focus, .buttonColor .color-btn-aqua:focus, .buttonColor .color-btn-skyblue:focus, .buttonColor .color-btn:focus, .buttonColor .color-btn-orange:active, .buttonColor .color-btn-green:active, .buttonColor .color-btn-blue:active, .buttonColor .color-btn-red:active, .buttonColor .color-btn-deepblue:active, .buttonColor .color-btn-purple:active, .buttonColor .color-btn-gray:active, .buttonColor .color-btn-magenta:active, .buttonColor .color-btn-aqua:active, .buttonColor .color-btn-skyblue:active, .buttonColor .color-btn:active {
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.05); }
+
+.buttonFlat .flat-btn-orange, .buttonFlat .flat-btn-green, .buttonFlat .flat-btn-blue, .buttonFlat .flat-btn-red, .buttonFlat .flat-btn-deepblue, .buttonFlat .flat-btn-purple, .buttonFlat .flat-btn-gray, .buttonFlat .flat-btn-magenta, .buttonFlat .flat-btn-aqua, .buttonFlat .flat-btn-skyblue, .buttonFlat .flat-btn {
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  padding: 4px 8px;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 22px;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all, 0.2s;
+  -moz-transition: all, 0.2s;
+  -o-transition: all, 0.2s;
+  transition: all, 0.2s;
+  color: white; }
+  .buttonFlat .flat-btn-orange:hover, .buttonFlat .flat-btn-green:hover, .buttonFlat .flat-btn-blue:hover, .buttonFlat .flat-btn-red:hover, .buttonFlat .flat-btn-deepblue:hover, .buttonFlat .flat-btn-purple:hover, .buttonFlat .flat-btn-gray:hover, .buttonFlat .flat-btn-magenta:hover, .buttonFlat .flat-btn-aqua:hover, .buttonFlat .flat-btn-skyblue:hover, .buttonFlat .flat-btn:hover {
+    color: white; }
+  .buttonFlat .flat-btn-orange:focus, .buttonFlat .flat-btn-green:focus, .buttonFlat .flat-btn-blue:focus, .buttonFlat .flat-btn-red:focus, .buttonFlat .flat-btn-deepblue:focus, .buttonFlat .flat-btn-purple:focus, .buttonFlat .flat-btn-gray:focus, .buttonFlat .flat-btn-magenta:focus, .buttonFlat .flat-btn-aqua:focus, .buttonFlat .flat-btn-skyblue:focus, .buttonFlat .flat-btn:focus, .buttonFlat .flat-btn-orange:active, .buttonFlat .flat-btn-green:active, .buttonFlat .flat-btn-blue:active, .buttonFlat .flat-btn-red:active, .buttonFlat .flat-btn-deepblue:active, .buttonFlat .flat-btn-purple:active, .buttonFlat .flat-btn-gray:active, .buttonFlat .flat-btn-magenta:active, .buttonFlat .flat-btn-aqua:active, .buttonFlat .flat-btn-skyblue:active, .buttonFlat .flat-btn:active {
     -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.05);
     -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.05);
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.05); }
@@ -241,8 +271,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2em;
   font-weight: bold;
-  margin-top: 0.2em;
-  margin-bottom: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.5em;
   text-rendering: optimizeLegibility; }
   h1.subheader, h2.subheader, h3.subheader, h4.subheader, h5.subheader, h6.subheader {
     color: #555555; }
@@ -253,27 +283,27 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.8em;
-  margin-bottom: 22px; }
+  padding-bottom: 22px; }
 
 h2 {
   font-size: 2.4em;
-  margin-bottom: 22px; }
+  padding-bottom: 22px; }
 
 h3 {
   font-size: 2.2em;
-  margin-bottom: 17.6px; }
+  padding-bottom: 17.6px; }
 
 h4 {
   font-size: 1.6em;
-  margin-bottom: 17.6px; }
+  padding-bottom: 17.6px; }
 
 h5 {
   font-size: 1.4em;
-  margin-bottom: 17.6px; }
+  padding-bottom: 17.6px; }
 
 h6 {
   font-size: 1.4em;
-  margin-bottom: 17.6px; }
+  padding-bottom: 17.6px; }
 
 .tpl {
   margin-bottom: 10px;
@@ -298,7 +328,6 @@ h6 {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075); }
   .tpl textarea, .tpl select, .tpl input[type="text"], .tpl input[type="password"], .tpl input[type="datetime"], .tpl input[type="datetime-local"], .tpl input[type="date"], .tpl input[type="month"], .tpl input[type="time"], .tpl input[type="week"], .tpl input[type="number"], .tpl input[type="email"], .tpl input[type="url"], .tpl input[type="search"], .tpl input[type="tel"], .tpl input[type="color"], .tpl .uneditable-input {
     border: 1px solid #cccccc;
-    min-width: 200px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -499,7 +528,6 @@ table.tpl {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075); }
   .tpl2 textarea, .tpl2 select, .tpl2 input[type="text"], .tpl2 input[type="password"], .tpl2 input[type="datetime"], .tpl2 input[type="datetime-local"], .tpl2 input[type="date"], .tpl2 input[type="month"], .tpl2 input[type="time"], .tpl2 input[type="week"], .tpl2 input[type="number"], .tpl2 input[type="email"], .tpl2 input[type="url"], .tpl2 input[type="search"], .tpl2 input[type="tel"], .tpl2 input[type="color"], .tpl2 .uneditable-input {
     border: 1px solid #cccccc;
-    min-width: 200px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -1558,7 +1586,6 @@ dl.horizontal {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.075); }
 .aForms textarea, .aForms select, .aForms input[type="text"], .aForms input[type="password"], .aForms input[type="datetime"], .aForms input[type="datetime-local"], .aForms input[type="date"], .aForms input[type="month"], .aForms input[type="time"], .aForms input[type="week"], .aForms input[type="number"], .aForms input[type="email"], .aForms input[type="url"], .aForms input[type="search"], .aForms input[type="tel"], .aForms input[type="color"], .aForms .uneditable-input {
   border: 1px solid #cccccc;
-  min-width: 200px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -2056,23 +2083,14 @@ table.table2 {
     display: table;
     clear: both;
     visibility: hidden; }
-  .buttonColor .color-btn {
-    border: 1px solid #cc8400;
-    background-color: orange;
-    background-color: orange;
-    margin: 1px; }
-    .buttonColor .color-btn:hover {
-      background-color: #cc8400; }
   .buttonColor .color-btn-orange {
     border: 1px solid #cc5b00;
-    background-color: #ff7200;
     background-color: #ff7200;
     margin: 1px; }
     .buttonColor .color-btn-orange:hover {
       background-color: #cc5b00; }
   .buttonColor .color-btn-green {
     border: 1px solid #278318;
-    background-color: #3f9e30;
     background-color: #3ea02e;
     margin: 1px; }
     .buttonColor .color-btn-green:hover {
@@ -2080,31 +2098,143 @@ table.table2 {
   .buttonColor .color-btn-blue {
     border: 1px solid #00657f;
     background-color: #008db2;
-    background-color: #008db2;
     margin: 1px; }
     .buttonColor .color-btn-blue:hover {
       background-color: #00657f; }
   .buttonColor .color-btn-red {
     border: 1px solid #a10900;
     background-color: #d40c00;
-    background-color: #d40c00;
     margin: 1px; }
     .buttonColor .color-btn-red:hover {
       background-color: #a10900; }
+  .buttonColor .color-btn-deepblue {
+    border: 1px solid #004d94;
+    background-color: #0068c7;
+    margin: 1px; }
+    .buttonColor .color-btn-deepblue:hover {
+      background-color: #004d94; }
   .buttonColor .color-btn-purple {
     border: 1px solid #652d75;
-    background-color: #7c4b8a;
     background-color: #7d498c;
     margin: 1px; }
     .buttonColor .color-btn-purple:hover {
       background-color: #652d75; }
   .buttonColor .color-btn-gray {
     border: 1px solid #443333;
-    background-color: #555555;
     background-color: #575353;
     margin: 1px; }
     .buttonColor .color-btn-gray:hover {
       background-color: #443333; }
+  .buttonColor .color-btn-magenta {
+    border: 1px solid #b51a53;
+    background-color: #cf336c;
+    margin: 1px; }
+    .buttonColor .color-btn-magenta:hover {
+      background-color: #b51a53; }
+  .buttonColor .color-btn-aqua {
+    border: 1px solid #009999;
+    background-color: #00cccc;
+    margin: 1px; }
+    .buttonColor .color-btn-aqua:hover {
+      background-color: #009999; }
+  .buttonColor .color-btn-skyblue {
+    border: 1px solid #0099cc;
+    background-color: deepskyblue;
+    margin: 1px; }
+    .buttonColor .color-btn-skyblue:hover {
+      background-color: #0099cc; }
+  .buttonColor .color-btn {
+    border: 1px solid #cc8400;
+    background-color: orange;
+    margin: 1px; }
+    .buttonColor .color-btn:hover {
+      background-color: #cc8400; }
+
+.buttonFlat {
+  *zoom: 1;
+  *overflow: hidden; }
+  .buttonFlat:after {
+    content: " ";
+    display: table;
+    clear: both;
+    visibility: hidden; }
+  .buttonFlat .flat-btn-orange {
+    border: 1px solid #e66700;
+    background-color: #ff801a;
+    margin: 1px; }
+    .buttonFlat .flat-btn-orange:hover {
+      background-color: #e66700;
+      border: 1px solid #b35000; }
+  .buttonFlat .flat-btn-green {
+    border: 1px solid #2d981d;
+    background-color: #47b236;
+    margin: 1px; }
+    .buttonFlat .flat-btn-green:hover {
+      background-color: #2d981d;
+      border: 1px solid #216d14; }
+  .buttonFlat .flat-btn-blue {
+    border: 1px solid #007999;
+    background-color: #00a1cb;
+    margin: 1px; }
+    .buttonFlat .flat-btn-blue:hover {
+      background-color: #007999;
+      border: 1px solid #005065; }
+  .buttonFlat .flat-btn-red {
+    border: 1px solid #bb0b00;
+    background-color: #ee0d00;
+    margin: 1px; }
+    .buttonFlat .flat-btn-red:hover {
+      background-color: #bb0b00;
+      border: 1px solid #880800; }
+  .buttonFlat .flat-btn-deepblue {
+    border: 1px solid #005bae;
+    background-color: #0075e1;
+    margin: 1px; }
+    .buttonFlat .flat-btn-deepblue:hover {
+      background-color: #005bae;
+      border: 1px solid #00407b; }
+  .buttonFlat .flat-btn-purple {
+    border: 1px solid #753488;
+    background-color: #8b549b;
+    margin: 1px; }
+    .buttonFlat .flat-btn-purple:hover {
+      background-color: #753488;
+      border: 1px solid #552663; }
+  .buttonFlat .flat-btn-gray {
+    border: 1px solid #533d3d;
+    background-color: #626262;
+    margin: 1px; }
+    .buttonFlat .flat-btn-gray:hover {
+      background-color: #533d3d;
+      border: 1px solid #362828; }
+  .buttonFlat .flat-btn-magenta {
+    border: 1px solid #cb1e5d;
+    background-color: #d14a7c;
+    margin: 1px; }
+    .buttonFlat .flat-btn-magenta:hover {
+      background-color: #cb1e5d;
+      border: 1px solid #9e1749; }
+  .buttonFlat .flat-btn-aqua {
+    border: 1px solid #00b2b3;
+    background-color: #00e5e6;
+    margin: 1px; }
+    .buttonFlat .flat-btn-aqua:hover {
+      background-color: #00b2b3;
+      border: 1px solid #007f80; }
+  .buttonFlat .flat-btn-skyblue {
+    border: 1px solid #00ace6;
+    background-color: #1ac5ff;
+    margin: 1px; }
+    .buttonFlat .flat-btn-skyblue:hover {
+      background-color: #00ace6;
+      border: 1px solid #0086b3; }
+  .buttonFlat .flat-btn {
+    border: 1px solid #e69500;
+    background-color: #ffae1a;
+    margin: 1px; }
+    .buttonFlat .flat-btn:hover {
+      background-color: #e69500;
+      border: 1px solid #b37300; }
 
 .turn180 {
   position: relative;
@@ -2326,7 +2456,7 @@ table.table2 {
     opacity: 0.9;
     bottom: 6px;
     width: 50%;
-    height: 20%;
+    height: 10px;
     z-index: -1;
     -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0 0 15px;
     -moz-box-shadow: rgba(0, 0, 0, 0.6) 0 0 15px;

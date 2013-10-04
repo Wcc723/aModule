@@ -3585,3 +3585,100 @@ Load paths:
   C:/vendor/assets/stylesheets)
 2013-07-08 16:24:56 identical stylesheets/screen.css 
 2013-07-08 16:24:56 identical stylesheets/screen3.css 
+2013-10-04 15:31:05 identical stylesheets/module.css 
+2013-10-04 15:31:07 overwrite stylesheets/screen.css 
+2013-10-04 15:32:21     error sass/screen.sass (Line 16 of sass/_module.sass: File to import not found or unreadable: moduleAdvence.sass.
+Load paths:
+  C:/Wcc_Casper/DropBox/Dropbox/aModule/sass
+  C:/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/fire.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  C:/fire.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  C:/fire.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  C:/fire.app/lib/ruby/compass_extensions/susy-1.0.9/sass
+  C:/fire.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  C:/vendor/assets/stylesheets
+  C:/vendor/assets/stylesheets)
+2013-10-04 15:32:21 overwrite stylesheets/screen.css 
+2013-10-04 15:32:42 overwrite stylesheets/screen.css 
+2013-10-04 15:33:43     error sass/screen.sass (Line 6: Undefined mixin 'fluidGrid'.)
+2013-10-04 15:33:43 overwrite stylesheets/screen.css 
+2013-10-04 15:33:46 overwrite stylesheets/screen.css 
+2013-10-04 15:34:06     error sass/screen.sass (Line 69: Undefined mixin 'aMenu'.)
+2013-10-04 15:34:06 overwrite stylesheets/screen.css 
+2013-10-04 15:34:09 overwrite stylesheets/screen.css 
+2013-10-04 15:42:32 identical stylesheets/screen.css 
+2013-10-04 15:42:42     error sass/screen.sass (Line 739 of sass/_moduleBase.sass: $color: (color-btn-orange, #ff7200) is not a color for `darken')
+2013-10-04 15:42:42 overwrite stylesheets/screen.css 
+2013-10-04 15:43:14     error sass/screen.sass (Line 756 of sass/_moduleBase.sass: List index is 2 but list is only 1 item long for `nth')
+2013-10-04 15:43:14 overwrite stylesheets/screen.css 
+2013-10-04 15:43:34     error sass/screen.sass (Line 756 of sass/_moduleBase.sass: List index is 2 but list is only 1 item long for `nth')
+2013-10-04 15:43:34 identical stylesheets/screen.css 
+2013-10-04 15:43:43     error sass/screen.sass (Line 756 of sass/_moduleBase.sass: List index is 2 but list is only 1 item long for `nth')
+2013-10-04 15:43:43 identical stylesheets/screen.css 
+2013-10-04 15:43:50     error sass/screen.sass (Line 756 of sass/_moduleBase.sass: List index is 2 but list is only 1 item long for `nth')
+2013-10-04 15:43:50 identical stylesheets/screen.css 
+2013-10-04 15:44:17     error sass/screen.sass (Line 757 of sass/_moduleBase.sass: Undefined variable: "$thisClass".)
+2013-10-04 15:44:17 overwrite stylesheets/screen.css 
+2013-10-04 15:44:39     error sass/screen.sass (Line 757 of sass/_moduleBase.sass: Undefined variable: "$thisClass".)
+2013-10-04 15:44:39 overwrite stylesheets/screen.css 
+2013-10-04 15:45:05     error sass/screen.sass (Line 757 of sass/_moduleBase.sass: Undefined variable: "$thisClass".)
+2013-10-04 15:45:05 overwrite stylesheets/screen.css 
+2013-10-04 15:45:39     error sass/screen.sass (Line 757 of sass/_moduleBase.sass: Undefined variable: "$thisClass".)
+2013-10-04 15:45:39 overwrite stylesheets/screen.css 
+2013-10-04 15:47:19 overwrite stylesheets/screen.css 
+2013-10-04 15:49:42 overwrite stylesheets/screen.css 
+2013-10-04 15:51:33 overwrite stylesheets/screen.css 
+2013-10-04 15:51:44 overwrite stylesheets/screen.css 
+2013-10-04 15:58:53     error sass/screen.sass (Line 739 of sass/_moduleBase.sass: $color: "auua" is not a color for `darken')
+2013-10-04 15:58:53 overwrite stylesheets/screen.css 
+2013-10-04 15:59:03 overwrite stylesheets/screen.css 
+2013-10-04 15:59:55 overwrite stylesheets/screen.css 
+2013-10-04 16:00:04 overwrite stylesheets/screen.css 
+2013-10-04 16:01:14 overwrite stylesheets/screen.css 
+2013-10-04 16:04:49 overwrite stylesheets/screen.css 
+2013-10-04 16:07:19 identical stylesheets/screen.css 
+2013-10-04 16:07:53 identical stylesheets/screen.css 
+2013-10-04 16:09:42     error sass/screen.sass (Line 753 of sass/_moduleBase.sass: Invalid CSS after "(": expected ")", was ",orange) (-oran...")
+2013-10-04 16:09:42 overwrite stylesheets/screen.css 
+2013-10-04 16:10:10     error sass/screen.sass (Line 753 of sass/_moduleBase.sass: Invalid CSS after "(": expected ")", was ",orange) (-oran...")
+2013-10-04 16:10:10 identical stylesheets/screen.css 
+2013-10-04 16:10:31     error sass/screen.sass (Line 753 of sass/_moduleBase.sass: Invalid CSS after "(": expected ")", was ",orange) (-oran...")
+2013-10-04 16:10:31 identical stylesheets/screen.css 
+2013-10-04 16:18:08     error sass/screen.sass (Line 753 of sass/_moduleBase.sass: Invalid CSS after "(": expected ")", was ",orange) (-oran...")
+2013-10-04 16:18:08 identical stylesheets/screen.css 
+2013-10-04 16:18:26     error sass/screen.sass (Line 753 of sass/_moduleBase.sass: Invalid CSS after "(-": expected expression (e.g. 1px, bold), was ",orange) (-oran...")
+2013-10-04 16:18:26 overwrite stylesheets/screen.css 
+2013-10-04 16:18:44     error sass/screen.sass (Line 759 of sass/_moduleBase.sass: Invalid null operation: ""color-btn-" plus null".)
+2013-10-04 16:18:44 overwrite stylesheets/screen.css 
+2013-10-04 16:18:59 overwrite stylesheets/screen.css 
+2013-10-04 16:19:55 overwrite stylesheets/screen.css 
+2013-10-04 16:20:05 overwrite stylesheets/screen.css 
+2013-10-04 16:20:51 overwrite stylesheets/screen.css 
+2013-10-04 16:27:04 identical stylesheets/screen.css 
+2013-10-04 16:27:28 identical stylesheets/screen.css 
+2013-10-04 16:35:52 overwrite stylesheets/screen.css 
+2013-10-04 16:36:07 overwrite stylesheets/screen.css 
+2013-10-04 16:36:25 overwrite stylesheets/screen.css 
+2013-10-04 16:38:04 identical stylesheets/screen.css 
+2013-10-04 16:38:17 overwrite stylesheets/screen.css 
+2013-10-04 16:39:21 overwrite stylesheets/screen.css 
+2013-10-04 16:40:30 overwrite stylesheets/screen.css 
+2013-10-04 16:40:37 overwrite stylesheets/screen.css 
+2013-10-04 16:40:51 overwrite stylesheets/screen.css 
+2013-10-04 16:42:40 overwrite stylesheets/screen.css 
+2013-10-04 16:45:49 overwrite stylesheets/screen.css 
+2013-10-04 16:46:24 overwrite stylesheets/screen.css 
+2013-10-04 16:46:41 overwrite stylesheets/screen.css 
+2013-10-04 16:46:59 overwrite stylesheets/screen.css 
+2013-10-04 16:47:14 overwrite stylesheets/screen.css 
+2013-10-04 16:47:35 overwrite stylesheets/screen.css 
+2013-10-04 16:47:42 identical stylesheets/screen.css 
+2013-10-04 16:47:57 overwrite stylesheets/screen.css 
+2013-10-04 16:48:41 overwrite stylesheets/screen.css 
+2013-10-04 16:54:20 overwrite stylesheets/screen.css 
+2013-10-04 16:59:48 overwrite stylesheets/screen.css 
+2013-10-04 17:02:09 overwrite stylesheets/screen.css 
+2013-10-04 17:06:37 overwrite stylesheets/screen.css 

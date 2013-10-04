@@ -266,6 +266,10 @@
 				<div class="controlGroup">
 					<button type="submit">Login In</button>
 					<a class="button">Login In</a>
+					<div class="aForms">
+					<br>
+					<a href="#" class="button"><i class="icon-ok icon-white"></i> Normal button can use bootstrap Icon,too.</a>
+					</div>	
 				</div>
 			</div>		
 			</div>
@@ -377,28 +381,55 @@
 		<section data-styletype="All Base Button">
 			<h2 class="title">Color Button <small>With Bootstrap Icon </small></h2>
 			<p>If you need to use bootstrap icons,please <a href="http://twitter.github.io/bootstrap/customize.html#download">downloads</a> it.</p>
-			<div class="example">			
+			<div class="example">	
 			<div class="buttonColor">
-					<div class="color-btn-orange"><i class="icon-ok icon-white"></i> It is orange</div>
-					<a class="color-btn"><i class="icon-download-alt icon-white"></i> Login In</a>
-					<div class="color-btn-green"><i class="icon-search icon-white"></i> It is green</div>
-					<div class="color-btn-red"><i class="icon-remove icon-white"></i> It is red</div>
-					<div class="color-btn-blue"> It is blue</div>
+				<div class="color-btn-green"><i class="icon-search icon-white"></i> It can use bootstrap Icon</div>
+			</div>	
+			<div class="buttonColor">
+				<div class="color-btn-magenta"> It is magenta</div> 
+				<div class="color-btn-red"> It is red</div>
+					<div class="color-btn-orange"> It is orange</div>
+					<a class="color-btn"> Login In</a>
+					<div class="color-btn-green"> It is green</div>
+					<div class="color-btn-aqua"> It is Aqua</div>
+					<div class="color-btn-skyblue"> It is skyblue</div>
+					<div class="color-btn-deepblue"> It is deepblue</div>
+					<div class="color-btn-blue"> It is blue</div>	
 					<a class="color-btn-purple"> It is purple</a>
 					<div class="color-btn-gray"> It is gray</div>
 			</div>
-			<div class="aForms">
-			<br>
-			<a href="#" class="button"><i class="icon-ok icon-white"></i> Normal button can use bootstrap Icon,too.</a>
+			<div class="buttonColor">
+				<input type="button" class="color-btn" value="This's a input">
 			</div>		
 			</div>
-			<pre class="sass">+buttonColor(color-btn)
-+buttonColor(color-btn-orange,#FF7200)
-+buttonColor(color-btn-green,#3F9E30)
-+buttonColor(color-btn-blue,#008DB2)
-+buttonColor(color-btn-red,#D40C00)
-+buttonColor(color-btn-purple,#7C4B8A)
-+buttonColor(color-btn-gray,#555)</pre>
+			<pre class="sass">+buttonColor($className: btn-orange,$color: orange)
++colorfullButton($prefix: color-btn)
+			</pre>
+		</section>
+
+
+
+		<section data-styletype="All Base Button">
+			<h2 class="title">Flat Button <small>With Bootstrap Icon </small></h2>
+			<p>If you need to use bootstrap icons,please <a href="http://twitter.github.io/bootstrap/customize.html#download">downloads</a> it.</p>
+			<div class="example">	
+			<div class="buttonFlat">
+				<div class="flat-btn-green"><i class="icon-search icon-white"></i> It can use bootstrap Icon</div>
+			</div>	
+			<div class="buttonFlat">
+				<div class="flat-btn-red"> It is red</div> 
+				<div class="flat-btn-orange"> It is orange</div>
+				<a class="flat-btn-purple"> It is purple</a> 
+			</div>
+			<div class="buttonFlat">
+				<input type="button" class="flat-btn" value="This's a input">
+			</div>
+				
+			</div>
+			<pre class="sass">
++buttonFlat($className: btn-orange,$color: orange)
++colorFlatButton($prefix: flat-btn)
+			</pre>
 		</section>
 
 		</div>
