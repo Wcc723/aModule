@@ -105,10 +105,14 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		overflow: hidden
 		clear: both
 		zoom: 1 //IE 7
+	@media (max-width: 1200px) 
+		.container
+			max-width: 100%	- $wrapMargin
+			padding: 0 $wrapMargin/2
 	@media (max-width: 767px)
 		.container
 			max-width: 100%	- $wrapMargin*2
-			padding: $wrapMargin
+			padding: 0 $wrapMargin
 		.row
 			[class*='col']
 				margin-left: 0
@@ -151,10 +155,58 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		margin: 0 auto
 	.grid-row
 		margin-bottom: $wrapMargin / 2
-		display: table
+		//display: table
 		clear: both
 		zoom: 1 //IE 7
+	@media (max-width: 1200px) and (min-width: 960px)
+		$wrapWidth: 960px
+		.container
+			width: $wrapWidth - $wrapMargin
+		.grid-row
+			@for $i from 1 through 12	
+				.col#{$i}
+					width: ($wrapWidth*($i/12))-$wrapMargin
+					max-width: ($wrapWidth*($i/12))-$wrapMargin
+					margin-left: $wrapMargin
+					*margin-bottom: $wrapMargin //IE7			
+				img.col#{$i}
+					&.polaroid
+						width: ($wrapWidth*($i/12))-$wrapMargin - 20
+				.offset#{$i}
+					margin-left: ($wrapWidth*($i/12)) + $wrapMargin
+	@media (max-width: 965px) and (min-width: 768px)
+		$wrapWidth: 768px
+		.container
+			width: $wrapWidth - $wrapMargin
+		.grid-row
+			@for $i from 1 through 12	
+				.col#{$i}
+					width: ($wrapWidth*($i/12))-$wrapMargin
+					max-width: ($wrapWidth*($i/12))-$wrapMargin
+					margin-left: $wrapMargin
+					*margin-bottom: $wrapMargin //IE7			
+				img.col#{$i}
+					&.polaroid
+						width: ($wrapWidth*($i/12))-$wrapMargin - 20
+				.offset#{$i}
+					margin-left: ($wrapWidth*($i/12)) + $wrapMargin
 	@media (max-width: 767px)
+		$wrapMargin: 2%		
+		.container
+			width: 100%	- $wrapMargin*2
+			margin: 0 auto
+			//max-width: 100%	- $wrapMargin*2
+			//padding: $wrapMargin
+		.grid-row		
+			margin-left: 0
+			[class*='col']
+				margin-left: 0
+				width: 100%
+				max-width: 100%
+				float: none
+			[class*='offset']
+				margin-left: 0 !important
+				float: none
 
 @mixin container($marginTop: 20px)
 	margin: $marginTop auto
@@ -582,6 +634,50 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 			margin: 0
 
 
+%buttonColor
+	//font-size: $fontSize
+	color: #333
+	text-shadow: -1px -1px rgba(00,00,00,0.3)
+	//border: 1px solid #aaa
+	text-decoration: none
+	padding: 3px 8px
+	display: inline-block
+	margin-bottom: 0
+	text-align: center
+	line-height: $lineheight
+	+text-shadow(1 -1px 1px rgba(255, 255, 255, 0.75))
+	vertical-align: middle
+	cursor: pointer
+	+border-radius(3px)	
+	+box-sizing(border-box)
+	+box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05))
+	//background: #e6e6e6
+	+transition(all,0.2s)
+	//+background-image(linear-gradient(#ffffff, #e6e6e6))
+	color: #fff	
+	&:hover
+		color: #fff
+	&:focus,&:active
+		+box-shadow(inset 0 1px 2px rgba(0, 0, 0, 0.60),0 1px 2px rgba(0, 0, 0, 0.05))		 		
+@mixin buttonColor($className: btn-orange,$color: orange)	
+	$darkenColor:  saturate(darken($color, 10%),15%)
+	$lightenColor: saturate($color, 2%)
+	.#{$className}	
+		@extend %buttonColor	
+		border: 1px solid $darkenColor 
+		background-color: $color
+		background-color: $lightenColor
+		margin: 1px
+		//+background-image(linear-gradient($lightenColor, $darkenColor))
+		&:hover
+			background-color: $darkenColor
+			//+background-image(linear-gradient($darkenColor, darken($lightenColor, 3%)))	
+
+
+
+
+
+//advence
 
 @mixin cabinet()
 	+single-box-shadow

@@ -5,6 +5,7 @@
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<title>Wcc CSS FrameWork</title>
 	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="stylesheets/bootstrap-icon.min.css" rel="stylesheet" type="text/css" />
 	<!--[if lt IE 9]>
 	<script src="js/html5shiv.js"></script>
 	<![endif]-->
@@ -24,7 +25,7 @@
 				<ul>
 					<li><a href="#">All</a></li>	
 					<li><a href="#">Button</a></li>
-					<li><a href="#">Translate</a></li>
+					<li><a href="#">Table</a></li>
 				</ul>
 			</menu>
 		</nav>
@@ -34,7 +35,7 @@
 		<h1 id="base">aModule Base</h1>
 		</section>
 		<section data-styletype="All Base">
-			<h2>Headings</h2>
+			<h2 class="title">Headings</h2>
 			<div class="example">
 				<h1>h1. La.....large header <small>Small header</small></h1>
 				<h2>h2. Midium header <small>Small header</small></h2>
@@ -51,7 +52,7 @@
 			<pre class="sass">+heading</pre>
 		</section>
 		<section data-styletype="All Base">
-			<h2>Paragraphs</h2>
+			<h2 class="title">Paragraphs</h2>
 			<div class="example">
 			<p>冤冤相報何時了，往事知多少。</p>
 			<p>本季從天使轉隊到國民的右投 <code>strong</code> <strong>哈倫(Dan Haren)</strong>，開季前3役表現不如預期，特別是防禦率飆高到7.31，直至前一役表現才稍為回穩。3日迎戰勇士隊，哈倫顯然在心態上有所調整，主投8局只被敲出4支安打，僅失1分，賽後哈倫也表示，「就是投我的，不會再被球速影響。」
@@ -61,21 +62,21 @@
 			<pre class="sass">+Paragraphs($linkColor)</pre>
 		</section>
 		<section data-styletype="All Base">
-			<h2>code</h2>
+			<h2 class="title">code</h2>
 			<div class="example">
 			<p>This is a <code>code</code>.</p>			
 			</div>
 			<pre class="sass">+code($color)</pre>
 		</section>
 		<section data-styletype="All Base">
-			<h2>Abbreviations</h2>
+			<h2 class="title">Abbreviations</h2>
 			<div class="example">
 			<p>I need a <abbr title="Are you OK?">help</abbr>.</p>			
 			</div>
 			<pre class="sass">+abbr</pre>
 		</section>
 		<section data-styletype="All Base">
-			<h2>Blockquote</h2>
+			<h2 class="title">Blockquote</h2>
 			<div class="example">
 				<p><code>default</code>
 				<blockquote class="normal clearFix">
@@ -92,7 +93,7 @@
 			<pre class="sass">+blockquote($borderColor,$textAlign)</pre>
 		</section>
 		<section data-styletype="All Base">
-			<h2>Lists</h2>
+			<h2 class="title">Lists</h2>
 			<h3>Unordered & Ordered</h3>
 			<div class="example">
 				<code>ul > li</code>
@@ -122,7 +123,7 @@
 			<pre class="sass">+ullist($listStyle,$listStyle2)</pre>
 		</section>
 		<section data-styletype="All Base">
-			<h2>Defition List</h2>
+			<h2 class="title">Defition List</h2>
 			<h3>Normal</h3>
 			<div class="example">
 				<dl class="normal">
@@ -147,14 +148,14 @@
 			<pre class="sass">+dlHorizontal($dtWidth,$gap)</pre>
 		</section>
 		<section data-styletype="All Base">
-			<h2>Code</h2>
+			<h2 class="title">Code</h2>
 			<div class="example">
 			<p>This is a <code>Javascript</code>.</p>			
 			</div>
 			<pre class="sass">+code($color)</pre>
 		</section>		
-		<section data-styletype="All Base">
-			<h2>Table</h2>
+		<section data-styletype="All Base Table">
+			<h2 class="title">Table</h2>
 			<div class="example">
 				<code>default</code>
 				<table class="table">
@@ -221,25 +222,8 @@
 			</div>
 			<pre class="sass">+atable($padding,$Color,$textAlign)</pre>
 		</section>
-		<section data-styletype="All">
-		<h1 id="base">aModule Advence</h1>
-		</section>
-		<section data-styletype="All Advence Button">
-			<h2>Cubic Button</h2>
-			<div class="example">
-			<a class="cubicButton" href="#"><i>A2</i>I need a help.</a> <a class="cubicButton2" href="#"><i>A2</i>Warring!!</a><br><br>			
-			</div>
-			<pre class="sass">+cubicButton($color,$leftWidth)</pre>
-		</section>
-		<section data-styletype="All Advence Button">
-			<h2>Texture Button</h2>
-			<div class="example textureWove">
-			<a class="textureWove" href="#"><i>A2</i>I need a help.</a> 			
-			</div>
-			<pre class="sass">+textureWove($className: textureWove,$btnFile: btn_blue,$borderPadding: 4px)</pre>
-		</section>
-		<section data-styletype="All Advence Button">
-			<h2>Forms</h2>
+		<section data-styletype="All Base Button">
+			<h2 class="title">Forms</h2>
 			<div class="example">
 			<div class="aForms">
 				<div class="controlGroup">					
@@ -275,8 +259,8 @@
 			</div>
 			<pre class="sass">+aForms()</pre>
 		</section>
-		<section data-styletype="All Advence Button">
-			<h2>aButton</h2>
+		<section data-styletype="All Base Button">
+			<h2 class="title">aButton</h2>
 			<div class="example">
 			<div class="aForms">
 				<div class="controlGroup">
@@ -287,8 +271,8 @@
 			</div>
 			<pre class="sass">+aForms()</pre>
 		</section>
-		<section data-styletype="All Advence">
-			<h2>tpl</h2>
+		<section data-styletype="All Base Table">
+			<h2 class="title">tpl</h2>
 			<div class="example">
 				<code>+tpl</code>
 				<fieldset id=''  data-step="1" class="tpl">
@@ -390,89 +374,31 @@
 				</div>
 			<pre class="sass">+tpl($color: $defaultColorBlue,$className: tpl)</pre>
 		</section>
-
-		<section data-styletype="All Advence">
-			<h2>cabinet</h2>
-			<div class="example">
-				<div class="cabinet" style="width:380px">
-				<ul>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-				</ul>
+		<section data-styletype="All Base Button">
+			<h2 class="title">Color Button <small>With Bootstrap Icon </small></h2>
+			<p>If you need to use bootstrap icons,please <a href="http://twitter.github.io/bootstrap/customize.html#download">downloads</a> it.</p>
+			<div class="example">			
+			<div class="buttonColor">
+					<div class="color-btn-orange"><i class="icon-ok icon-white"></i> It is orange</div>
+					<a class="color-btn"><i class="icon-download-alt icon-white"></i> Login In</a>
+					<div class="color-btn-green"><i class="icon-search icon-white"></i> It is green</div>
+					<div class="color-btn-red"><i class="icon-remove icon-white"></i> It is red</div>
+					<div class="color-btn-blue"> It is blue</div>
+					<a class="color-btn-purple"> It is purple</a>
+					<div class="color-btn-gray"> It is gray</div>
 			</div>
-			<div class="cabinet">
-				<ul>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-					<li><img src="images/testimage.jpg"></li>
-				</ul>
+			<div class="aForms">
+			<br>
+			<a href="#" class="button"><i class="icon-ok icon-white"></i> Normal button can use bootstrap Icon,too.</a>
+			</div>		
 			</div>
-			</div>
-			<pre class="sass">+cabinet()</pre>
-		</section>
-
-		<section data-styletype="All Advence">
-			<h2>Sizing relatively</h2>
-			<div class="example">
-				<ul style="overflow: hidden">
-					<li class="sizeRelative">123</li>
-					<li class="sizeRelative"></li>
-					<li class="sizeRelative"></li>
-				</ul>
-			</div>
-			<pre class="sass">+sizeRelative($size: 30, $unit: vw) //vw(idth), vh(eight), vmin and vmax.</pre>
-		</section>
-
-		<section data-styletype="All Advence Translate">
-			<h2>Img Stack</h2>
-			<cite>//from <a href="http://inspectelement.com/demos/css3/stacks/">http://inspectelement.com/demos/css3/stacks/</a></cite>
-			<div class="example clearFix">
-				<div class="imgStack" style="float:left; width: 25%; margin: 0 4%;">
-					<img src="images/fat.jpg" >
-				</div>
-				<div class="imgStack2" style="float:left; width: 25%; margin: 0 4%;">
-					<img src="images/fat.jpg" >
-				</div>
-				<div class="imgStack3" style="float:left; width: 25%; margin: 0 4%;">
-					<img src="images/fat.jpg" >
-				</div>
-			</div>
-			<pre class="sass">+imgStack($style: rotated)//rotated twisted rotated-left</pre>
-		</section>
-
-		<section data-styletype="All Advence Translate">
-			<h2>turn180</h2>
-			<div class="example">
-				<div class="turn180" style="width:180px;height: 300px;">
-					<div class="flipper">
-						<div><img src="images/testimage.jpg"></div>
-						<div><img src="images/fat.jpg"></div>
-					</div>				
-				</div>
-			</div>
-			<pre class="sass">+turn180($zIndex: 10)</pre>
-		</section>
-
-		<section data-styletype="All Advence">
-			<h2>Motion input</h2>
-			<div class="example">
-				<div class="motionInput">
-					<input type="text" placeholder="search">
-
-				</div>
-			</div>
-			<pre class="sass">motionInput($widthS: 100px,$widthL: 200px,$color: $defaultColorBlue)</pre>
+			<pre class="sass">+buttonColor(color-btn)
++buttonColor(color-btn-orange,#FF7200)
++buttonColor(color-btn-green,#3F9E30)
++buttonColor(color-btn-blue,#008DB2)
++buttonColor(color-btn-red,#D40C00)
++buttonColor(color-btn-purple,#7C4B8A)
++buttonColor(color-btn-gray,#555)</pre>
 		</section>
 
 		</div>

@@ -6,6 +6,7 @@ $imagePath: "../images/"
 +fluidGrid
 +fontFace  
 +heading
+
 +tpl()
 +tpl(green,tpl2)
 //layout
@@ -30,6 +31,9 @@ header
 		+container(0)
 		height: 100%
 		position: relative
+h2.title
+	color: $defaultColorBlue
+	border-bottom: 1px solid $defaultColorBlue
 .mainMenu
 	position: absolute
 	right: 0
@@ -170,8 +174,16 @@ table.table2
 .imgStack3
 	+imgStack(rotated-left)
 
-
-
+.buttonColor
+	+clearFix
+	+buttonColor(color-btn)
+	+buttonColor(color-btn-orange,#FF7200)
+	+buttonColor(color-btn-green,#3F9E30)
+	+buttonColor(color-btn-blue,#008DB2)
+	+buttonColor(color-btn-red,#D40C00)
+	+buttonColor(color-btn-purple,#7C4B8A)
+	+buttonColor(color-btn-gray,#555)
+	
 .turn180
 	+turn180
 	img
@@ -206,6 +218,6 @@ table.table2
 
 
 
-@media (max-width: 700px)
+@media (max-width: 767px)
 	.navMenu
 		display: none

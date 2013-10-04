@@ -5,6 +5,7 @@
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<title>Wcc CSS FrameWork</title>
 	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="stylesheets/bootstrap-icon.min.css" rel="stylesheet" type="text/css" />
 	<!--[if lt IE 9]>
 	<script src="js/html5shiv.js"></script>
 	<![endif]-->
@@ -35,174 +36,21 @@
 		<h1 id="base">aModule Advence</h1>
 		</section>
 		<section data-styletype="All Advence Button">
-			<h2>Cubic Button</h2>
+			<h2  class="title">Cubic Button</h2>
 			<div class="example">
 			<a class="cubicButton" href="#"><i>A2</i>I need a help.</a> <a class="cubicButton2" href="#"><i>A2</i>Warring!!</a><br><br>			
 			</div>
 			<pre class="sass">+cubicButton($color,$leftWidth)</pre>
 		</section>
 		<section data-styletype="All Advence Button">
-			<h2>Texture Button</h2>
+			<h2  class="title">Texture Button</h2>
 			<div class="example textureWove">
 			<a class="textureWove" href="#"><i>A2</i>I need a help.</a> 			
 			</div>
 			<pre class="sass">+textureWove($className: textureWove,$btnFile: btn_blue,$borderPadding: 4px)</pre>
 		</section>
-		<section data-styletype="All Advence Button">
-			<h2>Forms</h2>
-			<div class="example">
-			<div class="aForms">
-				<div class="controlGroup">					
-				<label for="aFroms">E-mail</label><input id="aFroms" type="text" placeholder="Email"></div>
-				<div class="controlGroup">
-				<label for="aPassword">Password</label><input id="aPassword" type="password" placeholder="password"></div>
-				<div class="controlGroup">
-				<label for="aContent">Content</label><textarea id="aContent"></textarea>
-				</div>
-				<div class="controlGroup">
-					<label>Select</label>
-					<select>
-						<option>Select</option>
-						<option></option>
-						<option></option>
-					</select>					
-				</div>
-				<div class="controlGroup">
-					<label>Select</label>
-					<select multiple="multiple">
-						<option>1</option>
-						<option>2</option>
-						<option>3</option>
-						<option>4</option>
-						<option>5</option>
-					</select>				
-				</div>				
-				<div class="controlGroup">
-					<label><input type="checkbox">Ok!</label>
-					<label><input type="checkbox">NO!</label>
-				</div>
-			</div>		
-			</div>
-			<pre class="sass">+aForms()</pre>
-		</section>
-		<section data-styletype="All Advence Button">
-			<h2>aButton</h2>
-			<div class="example">
-			<div class="aForms">
-				<div class="controlGroup">
-					<button type="submit">Login In</button>
-					<a class="button">Login In</a>
-				</div>
-			</div>		
-			</div>
-			<pre class="sass">+aForms()</pre>
-		</section>
 		<section data-styletype="All Advence">
-			<h2>tpl</h2>
-			<div class="example">
-				<code>+tpl</code>
-				<fieldset id=''  data-step="1" class="tpl">
-     			   <legend>搜尋</legend>
-     			   <!--<label for="">搜尋條件</label>-->
-     			   <input type="text" placeholder="請輸入搜尋條件">
-     			 <select>
-     			   <option>範例選單</option>
-     			 </select>
-     			   <input type="submit" value="送出">
-     			 </fieldset>
-				<table class="tpl">
-        			<thead>
-        			  <tr>
-        			    <th width="20%">thead th</th>
-        			    <th valign="middle">thead th</th>
-        			            </tr>   
-        			            </thead>
-        			            <tbody>  
-        			            	<tr>
-        			    <th width="20%">tbody th</th>
-        			    <td>tbody td
-        			    </td>
-        			            </tr>  
-        			                 <tr>
-        			    <th width="20%">tbody th</th>
-        			    <td>
-        			     <fieldset id=''  data-step="1" data-intro="權限修改" style="width:auto">
-        					<legend>表格內表單</legend>
-        					<label>textarea</label>
-							<textarea></textarea>
-							<label>input text</label>
-        					<input type="text" placeholder="placeholder">
-        					
-        			        <input type="submit" value="確定">
-
-        			     </fieldset>
-        			    </td>
-        			            </tr>    
-        			             <tr>
-        			    <th width="20%">tbody th</th>
-        			    <td>
-        			    	<input type="text" placeholder="placeholder">
-        			    	<input type="submit" value="表格內按鈕">
-        			    </td>
-        			            </tr>         			                
-        			</tbody>
-     			 </table>
-     			  <div class="tplpage"> <a href="#">Back</a> <span>1</span> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">Next</a> </div>
-     			  <hr>
-     			  <code>+tpl(green,tpl2)</code>
-     			  <fieldset id=''  data-step="1" class="tpl2">
-     			   <legend>搜尋</legend>
-     			   <!--<label for="">搜尋條件</label>-->
-     			   <input type="text" placeholder="請輸入搜尋條件">
-     			 <select>
-     			   <option>範例選單</option>
-     			 </select>
-     			   <input type="submit" value="送出">
-     			 </fieldset>
-				<table class="tpl2">
-        			<thead>
-        			  <tr>
-        			    <th width="20%">thead th</th>
-        			    <th valign="middle">thead th</th>
-        			            </tr>   
-        			            </thead>
-        			            <tbody>  
-        			            	<tr>
-        			    <th width="20%">tbody th</th>
-        			    <td>tbody td
-        			    </td>
-        			            </tr>  
-        			                 <tr>
-        			    <th width="20%">tbody th</th>
-        			    <td>
-        			     <fieldset id=''  data-step="1" data-intro="權限修改" style="width:auto">
-        					<legend>表格內表單</legend>
-        					<label>textarea</label>
-							<textarea></textarea>
-							<label>input text</label>
-        					<input type="text" placeholder="placeholder">
-        					
-        			        <input type="submit" value="確定">
-
-        			     </fieldset>
-        			    </td>
-        			            </tr>    
-        			             <tr>
-        			    <th width="20%">tbody th</th>
-        			    <td>
-        			    	<input type="text" placeholder="placeholder">
-        			    	<input type="submit" value="表格內按鈕">
-        			    </td>
-        			            </tr>         			                
-        			</tbody>
-     			 </table>
-     			  <div class="tpl2page"> <a href="#">Back</a> <span>1</span> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">Next</a> </div>
-				</div>
-			<pre class="sass">+tpl($color: $defaultColorBlue,$className: tpl)</pre>
-		</section>
-
-		<section data-styletype="All Advence">
-			<h2>cabinet</h2>
+			<h2 class="title">cabinet</h2>
 			<div class="example">
 				<div class="cabinet" style="width:380px">
 				<ul>
@@ -233,7 +81,7 @@
 		</section>
 
 		<section data-styletype="All Advence">
-			<h2>Sizing relatively</h2>
+			<h2 class="title">Sizing relatively</h2>
 			<div class="example">
 				<ul style="overflow: hidden">
 					<li class="sizeRelative">123</li>
@@ -245,7 +93,7 @@
 		</section>
 
 		<section data-styletype="All Advence Translate">
-			<h2>Img Stack</h2>
+			<h2 class="title">Img Stack</h2>
 			<cite>//from <a href="http://inspectelement.com/demos/css3/stacks/">http://inspectelement.com/demos/css3/stacks/</a></cite>
 			<div class="example clearFix">
 				<div class="imgStack" style="float:left; width: 25%; margin: 0 4%;">
@@ -262,7 +110,7 @@
 		</section>
 
 		<section data-styletype="All Advence Translate">
-			<h2>turn180</h2>
+			<h2 class="title">turn180</h2>
 			<div class="example">
 				<div class="turn180" style="width:180px;height: 300px;">
 					<div class="flipper">
@@ -275,7 +123,7 @@
 		</section>
 
 		<section data-styletype="All Advence">
-			<h2>Motion input</h2>
+			<h2 class="title">Motion input</h2>
 			<div class="example">
 				<div class="motionInput">
 					<input type="text" placeholder="search">
@@ -285,8 +133,8 @@
 			<pre class="sass">motionInput($widthS: 100px,$widthL: 200px,$color: $defaultColorBlue)</pre>
 		</section>
 
-		<section data-styletype="All Advence">
-			<h2>iOS checked <small>only for webkit</small></h2>
+		<section data-styletype="All Advence Translate">
+			<h2 class="title">iOS checked <small>only for webkit</small></h2>
 			<div class="example">
 				<div >
 				<input type="checkbox" class="ios7checkbox">
@@ -296,7 +144,7 @@
 		</section>
 
 		<section data-styletype="All Advence">
-			<h2>Paper Shadow</h2>
+			<h2 class="title">Paper Shadow</h2>
 			<div class="example">
 				<div class="paperShadow">
 				This parent element needs to set "z-index".
