@@ -3688,3 +3688,196 @@ Load paths:
 2013-10-21 17:41:16 overwrite stylesheets/screen.css 
 2013-10-21 17:41:25 identical stylesheets/screen.css 
 2013-10-21 17:42:24 overwrite stylesheets/screen.css 
+2013-11-15 14:44:55 overwrite stylesheets/screen.css 
+2013-11-15 15:32:57 overwrite stylesheets/screen.css 
+2013-11-15 15:36:29 overwrite stylesheets/screen.css 
+2013-11-15 15:36:48 identical stylesheets/screen.css 
+2013-11-15 15:42:48 overwrite stylesheets/screen.css 
+2013-11-15 15:44:12 overwrite stylesheets/screen.css 
+2013-11-15 15:45:58 overwrite stylesheets/screen.css 
+2013-11-15 15:51:56     error sass/screen.sass (Line 58: Undefined mixin 'atablelight'.)
+2013-11-15 15:51:56 overwrite stylesheets/screen.css 
+2013-11-15 15:52:12     error sass/screen.sass (Line 58: Undefined mixin 'atablelight'.)
+2013-11-15 15:52:12 identical stylesheets/screen.css 
+2013-11-15 15:52:58     error sass/screen.sass (Line 58: Undefined mixin 'atablelight'.)
+2013-11-15 15:52:58 identical stylesheets/screen.css 
+2013-11-15 15:53:06     error sass/screen.sass (Line 59: Undefined mixin 'atablelight'.)
+2013-11-15 15:53:06 overwrite stylesheets/screen.css 
+2013-11-15 15:53:09     error sass/screen.sass (Line 59: Undefined mixin 'atablelight'.)
+2013-11-15 15:53:09 identical stylesheets/screen.css 
+2013-11-15 15:53:17 overwrite stylesheets/screen.css 
+2013-11-15 15:53:37 overwrite stylesheets/screen.css 
+2013-11-15 15:56:46 overwrite stylesheets/screen.css 
+2013-11-15 15:57:07 overwrite stylesheets/screen.css 
+2013-11-15 15:57:23 overwrite stylesheets/screen.css 
+2013-11-15 15:57:54 overwrite stylesheets/screen.css 
+2013-11-15 15:58:45 overwrite stylesheets/screen.css 
+2013-11-15 15:59:19 overwrite stylesheets/screen.css 
+2013-11-15 16:00:38     error sass/screen.sass (Line 247 of sass/_moduleBase.sass: Expected a color. Got: 3px)
+2013-11-15 16:00:38 overwrite stylesheets/screen.css 
+2013-11-15 16:00:45     error sass/screen.sass (Line 247 of sass/_moduleBase.sass: Expected a color. Got: 0)
+2013-11-15 16:00:45 overwrite stylesheets/screen.css 
+2013-11-15 16:00:55     error sass/screen.sass (Line 247 of sass/_moduleBase.sass: Expected a color. Got: 3px)
+2013-11-15 16:00:55 overwrite stylesheets/screen.css 
+2013-11-15 16:01:04     error sass/screen.sass (Line 247 of sass/_moduleBase.sass: Not a valid color stop: Sass::Script::Number: 3px)
+2013-11-15 16:01:04 overwrite stylesheets/screen.css 
+2013-11-15 16:02:07     error sass/screen.sass (Line 247 of sass/_moduleBase.sass: Expected a color. Got: 0)
+2013-11-15 16:02:07 overwrite stylesheets/screen.css 
+2013-11-15 16:02:37     error sass/screen.sass (Line 247 of sass/_moduleBase.sass: Expected a color. Got: 0px)
+2013-11-15 16:02:37 overwrite stylesheets/screen.css 
+2013-11-15 16:03:14     error sass/screen.sass (Line 247 of sass/_moduleBase.sass: Expected a color. Got: 0px)
+2013-11-15 16:03:14 identical stylesheets/screen.css 
+2013-11-15 16:03:57 overwrite stylesheets/screen.css 
+2013-11-15 16:04:09     error sass/screen.sass (Line 247 of sass/_moduleBase.sass: Expected a color. Got: 0)
+2013-11-15 16:04:09 overwrite stylesheets/screen.css 
+2013-11-15 16:04:16     error sass/screen.sass (Line 247 of sass/_moduleBase.sass: Expected a color. Got: 3%)
+2013-11-15 16:04:16 overwrite stylesheets/screen.css 
+2013-11-15 16:04:54 overwrite stylesheets/screen.css 
+2013-11-15 16:05:06 overwrite stylesheets/screen.css 
+2013-11-15 16:05:28 overwrite stylesheets/screen.css 
+2013-11-15 16:06:22 overwrite stylesheets/screen.css 
+2013-11-15 16:08:05 overwrite stylesheets/screen.css 
+2013-11-15 16:10:04 overwrite stylesheets/screen.css 
+2013-11-15 16:10:24 overwrite stylesheets/screen.css 
+2013-11-15 16:11:23 overwrite stylesheets/screen.css 
+2013-11-15 16:22:32 overwrite stylesheets/screen.css 
+2013-11-15 16:23:23 overwrite stylesheets/screen.css 
+2013-11-15 16:23:55 overwrite stylesheets/screen.css 
+2013-11-15 16:24:37 overwrite stylesheets/screen.css 
+2013-11-15 16:29:22 overwrite stylesheets/screen.css 
+2013-11-15 16:29:31 overwrite stylesheets/screen.css 
+2013-11-15 16:29:57 overwrite stylesheets/screen.css 
+2013-11-15 16:33:59 overwrite stylesheets/screen.css 
+2013-11-15 16:34:18 identical stylesheets/screen.css 
+2013-11-15 16:35:58 identical stylesheets/screen.css 
+2013-11-15 16:36:09 overwrite stylesheets/screen.css 
+2013-11-15 16:38:20 identical stylesheets/screen.css 
+2013-11-15 16:39:25     error sass/screen.sass (Line 20 of sass/_moduleBase.sass: Illegal nesting: Nothing may be nested beneath extend directives.)
+2013-11-15 16:39:25 overwrite stylesheets/screen.css 
+2013-11-15 16:39:36     error sass/screen.sass (Line 20 of sass/_moduleBase.sass: Illegal nesting: Nothing may be nested beneath extend directives.)
+2013-11-15 16:39:36 identical stylesheets/screen.css 
+2013-11-15 16:39:46     error sass/screen.sass (Line 8: Extend directives may only be used within rules.)
+2013-11-15 16:39:46 overwrite stylesheets/screen.css 
+2013-11-15 16:40:06     error sass/screen.sass (Line 8: Extend directives may only be used within rules.)
+2013-11-15 16:40:06 identical stylesheets/screen.css 
+2013-11-15 16:40:22     error sass/screen.sass (Line 8: Extend directives may only be used within rules.)
+2013-11-15 16:40:22 identical stylesheets/screen.css 
+2013-11-15 16:40:30     error sass/screen.sass (Line 8: Extend directives may only be used within rules.)
+2013-11-15 16:40:30 identical stylesheets/screen.css 
+2013-11-15 16:40:46 overwrite stylesheets/screen.css 
+2013-11-15 16:41:56 overwrite stylesheets/screen.css 
+2013-11-15 16:42:23 overwrite stylesheets/screen.css 
+2013-11-15 17:07:26 overwrite stylesheets/screen.css 
+2013-11-15 17:07:59 overwrite stylesheets/screen.css 
+2013-11-15 17:26:32    Create base.html
+2013-11-15 17:26:32    Create layout.html
+2013-11-15 17:26:32    Create mainmenu.html
+2013-11-15 17:26:32      Copy /images/agsquare.png
+2013-11-15 17:26:33      Copy /images/btn_blue.png
+2013-11-15 17:26:33      Copy /images/btn_brown.png
+2013-11-15 17:26:33      Copy /images/btn_deepGreen.png
+2013-11-15 17:26:33      Copy /images/btn_midnightBlue.png
+2013-11-15 17:26:33      Copy /images/cabinet_left.png
+2013-11-15 17:26:33      Copy /images/cabinet_mid.png
+2013-11-15 17:26:33      Copy /images/cabinet_right.png
+2013-11-15 17:26:33      Copy /images/cabinet_tl.png
+2013-11-15 17:26:33      Copy /images/cabinet_top.png
+2013-11-15 17:26:33      Copy /images/cabinet_tr.png
+2013-11-15 17:26:33      Copy /images/fat.jpg
+2013-11-15 17:26:33      Copy /images/glyphicons-halflings-white.png
+2013-11-15 17:26:33      Copy /images/glyphicons-halflings.png
+2013-11-15 17:26:33      Copy /images/IrfanViewPortable_4.33_azo.exe
+2013-11-15 17:26:33      Copy /images/photo_01.jpg
+2013-11-15 17:26:33      Copy /images/photo_02.jpg
+2013-11-15 17:26:33      Copy /images/photo_03.jpg
+2013-11-15 17:26:33      Copy /images/photo_04.jpg
+2013-11-15 17:26:33      Copy /images/photo_05.jpg
+2013-11-15 17:26:33      Copy /images/photo_06.jpg
+2013-11-15 17:26:33      Copy /images/photo_07.jpg
+2013-11-15 17:26:34      Copy /images/photo_08.jpg
+2013-11-15 17:26:34      Copy /images/testimage.jpg
+2013-11-15 17:26:34      Copy /js/aCart.js
+2013-11-15 17:26:34      Copy /js/add.js
+2013-11-15 17:26:34      Copy /js/all.js
+2013-11-15 17:26:34      Copy /js/app.js
+2013-11-15 17:26:34      Copy /js/aTypeFilter.js
+2013-11-15 17:26:34      Copy /js/html5shiv.js
+2013-11-15 17:26:34      Copy /js/jquery-1.8.3.min.js
+2013-11-15 17:26:34      Copy /js/jquery-2.0.2.min.js
+2013-11-15 17:26:34      Copy /js/main.js
+2013-11-15 17:26:34      Copy /js/pjax.js
+2013-11-15 17:26:34      Copy /js/require.js
+2013-11-15 17:26:34      Copy /js/run_prettify.js
+2013-11-15 17:26:34      Copy /js/demo/a_banner.js
+2013-11-15 17:26:34      Copy /js/lib/jquery-1.9.1.min.js
+2013-11-15 17:26:34      Copy /stylesheets/bootstrap-icon.min.css
+2013-11-15 17:26:34      Copy /stylesheets/screen.css
+2013-11-15 17:26:34      Copy /stylesheets/screen2.css
+2013-11-15 17:26:34      Copy /stylesheets/fonts/Muli-Italic.ttf
+2013-11-15 17:26:34      Copy /stylesheets/fonts/Muli-Light.ttf
+2013-11-15 17:26:34      Copy /stylesheets/fonts/Muli-LightItalic.ttf
+2013-11-15 17:26:34      Copy /stylesheets/fonts/Muli-Regular.ttf
+2013-11-15 17:26:34      Copy /stylesheets/fonts/OFL.txt
+2013-11-15 17:26:34      Copy /stylesheets/fonts/Questrial-Regular.ttf
+2013-11-15 17:29:56 overwrite stylesheets/screen.css 
+2013-11-15 17:30:47 overwrite stylesheets/screen.css 
+2013-11-15 17:48:25 identical stylesheets/screen.css 
+2013-11-19 16:03:35 overwrite stylesheets/screen.css 
+2013-11-19 16:06:16 identical stylesheets/screen.css 
+2013-11-19 16:08:04 overwrite stylesheets/screen.css 
+2013-11-19 16:09:29 overwrite stylesheets/screen.css 
+2013-11-19 16:21:21 overwrite stylesheets/screen.css 
+2013-11-20 09:54:59    Create base.html
+2013-11-20 09:54:59    Create demoPage.html
+2013-11-20 09:54:59    Create layout.html
+2013-11-20 09:54:59    Create mainmenu.html
+2013-11-20 09:54:59      Copy /images/agsquare.png
+2013-11-20 09:54:59      Copy /images/btn_blue.png
+2013-11-20 09:54:59      Copy /images/btn_brown.png
+2013-11-20 09:54:59      Copy /images/btn_deepGreen.png
+2013-11-20 09:54:59      Copy /images/btn_midnightBlue.png
+2013-11-20 09:54:59      Copy /images/cabinet_left.png
+2013-11-20 09:54:59      Copy /images/cabinet_mid.png
+2013-11-20 09:55:00      Copy /images/cabinet_right.png
+2013-11-20 09:55:00      Copy /images/cabinet_tl.png
+2013-11-20 09:55:00      Copy /images/cabinet_top.png
+2013-11-20 09:55:00      Copy /images/cabinet_tr.png
+2013-11-20 09:55:00      Copy /images/fat.jpg
+2013-11-20 09:55:00      Copy /images/glyphicons-halflings-white.png
+2013-11-20 09:55:00      Copy /images/glyphicons-halflings.png
+2013-11-20 09:55:00      Copy /images/IrfanViewPortable_4.33_azo.exe
+2013-11-20 09:55:00      Copy /images/photo_01.jpg
+2013-11-20 09:55:00      Copy /images/photo_02.jpg
+2013-11-20 09:55:00      Copy /images/photo_03.jpg
+2013-11-20 09:55:00      Copy /images/photo_04.jpg
+2013-11-20 09:55:00      Copy /images/photo_05.jpg
+2013-11-20 09:55:00      Copy /images/photo_06.jpg
+2013-11-20 09:55:00      Copy /images/photo_07.jpg
+2013-11-20 09:55:00      Copy /images/photo_08.jpg
+2013-11-20 09:55:00      Copy /images/testimage.jpg
+2013-11-20 09:55:00      Copy /js/aCart.js
+2013-11-20 09:55:00      Copy /js/add.js
+2013-11-20 09:55:00      Copy /js/all.js
+2013-11-20 09:55:00      Copy /js/app.js
+2013-11-20 09:55:00      Copy /js/aTypeFilter.js
+2013-11-20 09:55:00      Copy /js/html5shiv.js
+2013-11-20 09:55:00      Copy /js/jquery-1.8.3.min.js
+2013-11-20 09:55:01      Copy /js/jquery-2.0.2.min.js
+2013-11-20 09:55:01      Copy /js/main.js
+2013-11-20 09:55:01      Copy /js/pjax.js
+2013-11-20 09:55:01      Copy /js/require.js
+2013-11-20 09:55:01      Copy /js/run_prettify.js
+2013-11-20 09:55:01      Copy /js/demo/a_banner.js
+2013-11-20 09:55:01      Copy /js/lib/jquery-1.9.1.min.js
+2013-11-20 09:55:01      Copy /stylesheets/bootstrap-icon.min.css
+2013-11-20 09:55:01      Copy /stylesheets/screen.css
+2013-11-20 09:55:01      Copy /stylesheets/screen2.css
+2013-11-20 09:55:01      Copy /stylesheets/fonts/Muli-Italic.ttf
+2013-11-20 09:55:01      Copy /stylesheets/fonts/Muli-Light.ttf
+2013-11-20 09:55:01      Copy /stylesheets/fonts/Muli-LightItalic.ttf
+2013-11-20 09:55:01      Copy /stylesheets/fonts/Muli-Regular.ttf
+2013-11-20 09:55:01      Copy /stylesheets/fonts/OFL.txt
+2013-11-20 09:55:01      Copy /stylesheets/fonts/Questrial-Regular.ttf
+2013-11-25 16:36:03 identical stylesheets/screen.css 
+2013-11-25 17:28:33 overwrite stylesheets/screen.css 
+2013-11-25 17:28:39 overwrite stylesheets/screen.css 

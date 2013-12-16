@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	<title>Wcc CSS FrameWork</title>
+	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="stylesheets/bootstrap-icon.min.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/aCart.js"></script>
+</head>
+<body>
+	<header>
+		<div class="row"><h1>Wcc CSS FrameWork</h1>
+			<menu id="mainMenu" class="mainMenu">
+				<ul id="pjaxMenu">
+	<li><a href="index.html" class="pjax">Home</a></li>
+	<li><a href="layout.html" class="pjax">Layout</a></li>
+	<li><a href="base.html" class="pjax">Base</a></li>
+	<li><a href="advence.html" class="pjax">Advence</a></li>
+	<li><a href="jquery.html" class="pjax">Jquery</a></li>
+</ul>
+			</menu>
+		</div>
+	</header>
+	<div class="container row">
+			<div id="pjax-container" class="column12">		
+		<section data-styletype="All">
+			<h2 class="title">Fluid Grid</h2>			
+			<h3>example</h3>
+				<div class="fluidGridDemo">
+					<div class="row">
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+					</div>
+					<div class="row">
+						<div class="column2">column2</div>
+						<div class="column2">column2</div>
+						<div class="column2">column2</div>
+						<div class="column6">column6</div>
+					</div>
+					<div class="row">
+						<div class="column4">column4</div>
+						<div class="column2">column2</div>
+						<div class="column6">column6</div>
+					</div>
+					<div class="row">
+						<div class="column12">column12</div>
+					</div>
+				</div>
+			<h3>offsetting</h3>
+			<div class="fluidGridDemo">
+					<div class="row">
+						<div class="column1 offset1">offset1</div>
+						<div class="column1">column1</div>
+						<div class="column1 offset8">offset8</div>
+					</div>
+					<div class="row">
+						<div class="column6 offset6">column6 offset6</div>
+					</div>
+				</div>
+		</section>
+		<section data-styletype="All">
+			<h2 class="title">Normal Grid</h2>			
+			<h3>example</h3>
+				<div class="gridDemo">
+				<div class="container">
+					<div class="grid-row">
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+						<div class="column1">column1</div>
+					</div>
+					<div class="grid-row">
+						<div class="column2">column2</div>
+						<div class="column2">column2</div>
+						<div class="column2">column2</div>
+						<div class="column6">column6</div>
+					</div>
+					<div class="grid-row">
+						<div class="column4">column4</div>
+						<div class="column2">column2</div>
+						<div class="column6">column6</div>
+					</div>
+					<div class="grid-row">
+						<div class="column12">column12</div>
+					</div>
+				</div>
+			</div>
+			<h3>offsetting</h3>
+			<div class="gridDemo">
+				<div class="container">
+					<div class="grid-row">
+						<div class="column1 offset1">offset1</div>
+						<div class="column1">column1</div>
+						<div class="column1 offset8">offset8</div>
+					</div>
+					<div class="grid-row">
+						<div class="column6 offset6">column6 offset6</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	</div>
+	
+	<footer></footer>
+</body>
+<script>
+$(document).ready(function(){
+	('.cart').pg_cart({
+	    SmoothSliding: true, //Window Event
+	    TopController: '.scrolltop',
+	    scrollBtn:'._scrollBtn',
+	    AnchorPoint:'.cart'
+	);       
+	//aTypeFilter 
+	$('.aTypeFilter').aTypeFilter({
+	});
+	//abanner
+	$('.a_banner').a_banner_ani({
+		animateMode: 'slider' 
+	});
+});
+</script>
+</html>

@@ -5,7 +5,7 @@ $imagePath: "../images/"
 
 +fluidGrid
 +fontFace  
-+heading
+
 
 +tpl()
 +tpl(green,tpl2)
@@ -21,6 +21,7 @@ html, body
 	word-break: break-all
 	word-wrap: break-word
 	background: url(../images/agsquare.png)
+	@extend %heading
 
 //header
 header	
@@ -54,6 +55,8 @@ h2.title
 //layout start
 hr
 	+hr
+	width: 100%
+
 
 +Paragraphs
 
@@ -153,7 +156,7 @@ dl.horizontal
 .success
 	+aButton($defaultColorGreen)	
 
-table.table
+table.table,.atablelight,.atableLight
 	+atableLight
 	margin-bottom: 15px
 table.table2
@@ -201,6 +204,8 @@ table.table2
 	border: dashed 1px #ccc
 	+paperShadow()
 	
+.nomargin
+	margin: 0
 
 //jquery
 .a_banner
@@ -209,6 +214,11 @@ table.table2
 
 
 
+//demo page
+.the-icons li 
+	float: left
+	width: 25%
+	line-height: 25px
 
 
 
