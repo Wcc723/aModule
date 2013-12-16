@@ -12,14 +12,16 @@
 		</nav>
 		</aside>
 	<div id="pjax-container" class="column9">
-		<section data-styletype="All">		
+		<p>aModule Base 基本模組都是可以符合個瀏覽器的，在高階瀏覽器能夠有較好的呈現，但在低階瀏覽器是不至於跑版。</p>
+		<section data-styletype="All">	
+
 		<h1>1.Typography <small>文字排版</small></h1>
 		</section>
 		<section data-styletype="All Base">
 			<h2 class="title">Headings <small>標題</small></h2>
 			<p>標準的標題模組，而文字大小使用的單位是<code>em</code>。</p>
 			<div class="example">
-				<blockquote class="normal"><p>demo <code>&lt;h1&gt;header... &lt;small&gt;Smaller&lt;/small&gt;&lt;/h1&gt;</code></p></blockquote>
+				<pre class="normal">&lt;h1&gt;header... &lt;small&gt;Smaller&lt;/small&gt;&lt;/h1&gt;</pre>
 				<h1>h1. La.....large header <small>Small header</small></h1>
 				<h2>h2. Midium header <small>Small header</small></h2>
 				<h3>h3. Heading 3 <small>Small header</small></h3>
@@ -27,31 +29,26 @@
 				<h5>h5. Heading 5 <small>Small header</small></h5>
 				<h6>h6. Heading 6 <small>Small header</small></h6>
 				<hr>
-				<blockquote class="normal">
-					<p>with <code>class="subheader"</code> <br>	
-						demo <code>&lt;h1 class="subheader"&gt;header... &lt;small&gt;Smaller&lt;/small&gt;&lt;/h1&gt;</code>
-					</p>
-				</blockquote>				
+<pre>with class="subheader"
+&lt;h1 class="subheader"&gt;header... &lt;small&gt;Smaller&lt;/small&gt;&lt;/h1&gt;</pre>			
 				<h1 class="subheader">h1. La.....large header <small>Small header</small></h1>
 				<h2 class="subheader nomargin">h2. Midium header <small>Small header</small></h2>
 			</div>
-			<pre class="sass">
-				<blockquote class="normal"><p>建議使用：html, body</p></blockquote>@extend %heading</pre>
+			<pre class="sass"><blockquote class="normal"><p>建議使用：html, body</p></blockquote>@extend %heading</pre>
 		</section>
 		<section data-styletype="All Base">
-			<h2 class="title">Paragraphs</h2>
+			<h2 class="title">Paragraphs <small>段落樣式</small></h2>
 			<p>段落樣式中的文字，盡量都不會去重新設定文字大小，所以規格都會依據其繼承，除了<code>sub,sup</code>有設定fontsize: smaller。</p>
 			<div class="example">
-			<blockquote class="normal"><p>demo <code>&lt;p&gt; 冤冤相報何時了，往事知多少。&lt;/p&gt;</code></p></blockquote>
+			<pre>&lt;p&gt; 冤冤相報何時了，往事知多少。&lt;/p&gt;</pre>
 			<p>冤冤相報何時了，往事知多少。</p>
-			<blockquote class="normal"><p>demo <br>冤冤相報何時了，<code>&lt;code&gt;往事知多少&lt;/code&gt;</code>。<br>
-				冤冤相報何時了，<code>&lt;strong&gt;往事知多少&lt;/strong&gt;</code>。(strong or b)<br>
-				冤冤相報何時了，<code>&lt;i&gt;往事知多少&lt;/i&gt;</code>。(em or i)<br>
-				冤冤相報何時了，<code>&lt;a&gt; 往事知多少&lt;/a&gt;</code>。<br>
-				冤冤相報何時了，<code>&lt;sub&gt;往事知多少&lt;/sub&gt;</code>。<br>
-				冤冤相報何時了，<code>&lt;sup&gt;往事知多少&lt;/sup&gt;</code>。
-				
-			</p></blockquote>
+			<hr>
+			<pre>冤冤相報何時了，&lt;code&gt;往事知多少&lt;/code&gt;。
+冤冤相報何時了，&lt;strong&gt;往事知多少&lt;/strong&gt;。(strong or b)
+冤冤相報何時了，&lt;i&gt;往事知多少&lt;/i&gt;。(em or i)
+冤冤相報何時了，&lt;a&gt; 往事知多少&lt;/a&gt;。
+冤冤相報何時了，&lt;sub&gt;往事知多少&lt;/sub&gt;。
+冤冤相報何時了，&lt;sup&gt;往事知多少&lt;/sup&gt;。</pre>
 			<p class="nomargin">冤冤相報何時了，<code>往事知多少</code>。<br>
 				冤冤相報何時了，<strong>往事知多少</strong>。<br>
 				冤冤相報何時了，<i>往事知多少</i>。<br>
@@ -62,43 +59,66 @@
 			</div>
 			<pre class="sass">+Paragraphs($linkColor)</pre>
 		</section>
+
+
 		<section data-styletype="All Base">
 			<h2 class="title">code</h2>
 			<p>單獨使用code標籤效果，而這沒有限制只能用在&lt;code&gt;</p>
 			<div class="example">
-			<blockquote class="normal"><p>demo <br>This is a <code>&lt;code&gt; code&lt;/code&gt;</code></p></blockquote>
+			<pre>This is a &lt;code&gt; code&lt;/code&gt;</pre>
 			<p class="nomargin">This is a <code>code</code>.</p>			
 			</div>
-			<pre class="sass">
-			<blockquote class="normal"><p>建議使用：code等行內標籤</p></blockquote>+code($color)</pre>
+			<pre class="sass"><blockquote class="normal"><p>建議使用：code等行內標籤</p></blockquote>+code($color)</pre>
 		</section>
+
+
 		<section data-styletype="All Base">
 			<h2 class="title">Abbreviations</h2>
 			<div class="example">
+			<pre>I need a &lt;abbr title="Are you OK?"&gt;help&lt;/abbr&gt;.</pre>
 			<p>I need a <abbr title="Are you OK?">help</abbr>.</p>			
 			</div>
-			<pre class="sass">+abbr</pre>
+			<pre class="sass"><blockquote class="normal"><p>建議使用：abbr 行內標籤</p></blockquote>+abbr</pre>
 		</section>
+
+
+
 		<section data-styletype="All Base">
 			<h2 class="title">Blockquote</h2>
 			<div class="example">
-				<p><code>default</code>
-				<blockquote class="normal clearFix">
+				<p><code>default</code> 模式</p>
+<pre>
+&lt;blockquote class="normal"&gt;
+    &lt;p&gt;冤冤相報何時了，往事知多少。&lt;/p&gt;
+    &lt;small&gt;作者：&lt;abbr title="不詳"&gt;不詳&lt;/abbr&gt;&lt;/small&gt;
+&lt;/blockquote&gt;
+</pre>
+				<blockquote class="normal">
 					<p>冤冤相報何時了，往事知多少。</p>	
 					<small>作者：<abbr title="不詳">不詳</abbr></small>	
 				</blockquote>
+				<hr>
 
-				<p><code>($textAlign: right)</code></p>
-				<blockquote class="right clearFix">				 
+				<p><code>($textAlign: right)</code> 模式</p>
+<pre>
+&lt;blockquote class="right"&gt;
+    &lt;p&gt;冤冤相報何時了，往事知多少。&lt;/p&gt;
+    &lt;small&gt;作者：&lt;abbr title="不詳"&gt;不詳&lt;/abbr&gt;&lt;/small&gt;
+&lt;/blockquote&gt;
+</pre>
+				<blockquote class="right">				 
 					<p>冤冤相報何時了，往事知多少。</p>	
 					<p><small>作者：<abbr title="不詳">不詳</abbr></small></p>	
 				</blockquote>			
 			</div>
-			<pre class="sass">+blockquote($borderColor,$textAlign)</pre>
+			<pre class="sass"><blockquote class="normal"><p>建議使用：blockquote 標籤</p></blockquote>+blockquote($borderColor,$textAlign)</pre>
 		</section>
+
+
+
 		<section data-styletype="All Base">
 			<h2 class="title">Lists</h2>
-			<h3>Unordered & Ordered</h3>
+			<p>這主要是增加了縮排，以及方便套用ul及ol樣式。</p>
 			<div class="example">
 				<code>ul > li</code>
 				<ul class="ullist">
@@ -124,12 +144,24 @@
 					</li>
 				</ol>
 			</div>
-			<pre class="sass">+ullist($listStyle,$listStyle2)</pre>
+			<pre class="sass"><blockquote class="normal"><p>限制使用：ul 及 ol 標籤</p></blockquote>+ullist($listStyle,$listStyle2)</pre>
 		</section>
+
 		<section data-styletype="All Base">
 			<h2 class="title">Defition List</h2>
-			<h3>Normal</h3>
+			<p>這是針對<code>dl</code>、<code>dt</code>、<code>dd</code>所設計的樣式。</p>
+			<h3>一般樣式</h3>
 			<div class="example">
+				<p><code>normal</code> 模式</p>
+<pre>
+&lt;dl class="normal"&gt;
+    &lt;dt&gt;&lt;small&gt;作者：&lt;abbr title="不詳"&gt;不詳&lt;/abbr&gt;&lt;/small&gt;&lt;/dt&gt;
+    &lt;dd&gt;冤冤相報何時了 &lt;br&gt; 往事知多少&lt;/dd&gt;
+    &lt;dt&gt;Description lists&lt;/dt&gt;
+    &lt;dd&gt;Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. &lt;br&gt;
+    Donec id elit non mi porta gravida at eget metus.&lt;/dd&gt;
+&lt;/dl&gt;
+</pre>
 				<dl class="normal">
 				    <dt><small>作者：<abbr title="不詳">不詳</abbr></small></dt>
 				    <dd>冤冤相報何時了 <br>	往事知多少</dd>
@@ -139,8 +171,18 @@
 				</dl>	
 			</div>
 			<pre class="sass">+dlList</pre>
-			<h3>Horizontal description</h3>
+			<h3>水平</h3>
 			<div class="example">
+			<p><code>horizontal</code> 模式</p>
+<pre>
+&lt;dl class="horizontal"&gt;
+    &lt;dt&gt;&lt;small&gt;作者：&lt;abbr title="不詳"&gt;不詳&lt;/abbr&gt;&lt;/small&gt;&lt;/dt&gt;
+    &lt;dd&gt;冤冤相報何時了 &lt;br&gt; 往事知多少&lt;/dd&gt;
+    &lt;dt&gt;Description lists&lt;/dt&gt;
+    &lt;dd&gt;Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. &lt;br&gt;
+    Donec id elit non mi porta gravida at eget metus.&lt;/dd&gt;
+&lt;/dl&gt;
+</pre>
 				<dl class="horizontal">
 				    <dt><small>作者：<abbr title="不詳">不詳</abbr></small></dt>
 				    <dd>冤冤相報何時了 <br>	往事知多少</dd>
@@ -151,17 +193,43 @@
 			</div>
 			<pre class="sass">+dlHorizontal($dtWidth,$gap)</pre>
 		</section>
+
+		<!--
 		<section data-styletype="All Base">
 			<h2 class="title">Code</h2>
 			<div class="example">
 			<p>This is a <code>Javascript</code>.</p>			
 			</div>
 			<pre class="sass">+code($color)</pre>
-		</section>		
+		</section>	
+		-->
+		<h1>Table 表格</h1>
 		<section data-styletype="All Base Table">
-			<h2 class="title">Table</h2>
+			<h2 class="title">Table light</h2>
+			<p>這是基本且輕巧型的表格，很適合在各種地方使用。</p>
 			<div class="example">
-				<code>default</code>
+				<p><code>default</code> 模式</p>
+<pre>
+&lt;table class="table"&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+    	&lt;th&gt;#&lt;/th&gt;
+    	&lt;th&gt;First Name&lt;/th&gt;
+    	&lt;th&gt;Last Name&lt;/th&gt;
+    	&lt;th&gt;Username&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+    	&lt;td&gt;1&lt;/td&gt;
+    	&lt;td&gt;Mark&lt;/td&gt;
+    	&lt;td&gt;Otto&lt;/td&gt;
+    	&lt;td&gt;@mdo&lt;/td&gt;
+    &lt;/tr&gt;
+    ...
+    &lt;/tbody&gt;
+&lt;/table&gt;			
+</pre>
 				<table class="table">
               		<thead>
               		  <tr>
@@ -192,7 +260,7 @@
               		</tr>
               	</tbody>
             </table>
-            <code>(4px,#ffffcc,center)</code>
+            <p><code>(4px,#ffffcc,center)</code> 模式</p>
             <table class="table2">
               		<thead>
               		  <tr>
@@ -224,28 +292,44 @@
               	</tbody>
             </table>
 			</div>
-			<pre class="sass">+atable($padding,$Color,$textAlign)</pre>
+			<pre class="sass"><blockquote class="normal"><p>限制使用：table 標籤</p></blockquote>+atablelight($padding,$Color,$textAlign)</pre>
 		</section>
+
+
 		<section data-styletype="All Base Button">
 			<h2 class="title">Forms</h2>
+			<p>表單樣式，外型上比較類似bootstrap 2</p>
 			<div class="example">
-			<div class="aForms">
-				<div class="controlGroup">					
-				<label for="aFroms">E-mail</label><input id="aFroms" type="text" placeholder="Email"></div>
-				<div class="controlGroup">
-				<label for="aPassword">Password</label><input id="aPassword" type="password" placeholder="password"></div>
-				<div class="controlGroup">
-				<label for="aContent">Content</label><textarea id="aContent"></textarea>
-				</div>
-				<div class="controlGroup">
+				<div class="aForms">
+				<p>input</p>
+				<pre>&lt;label for="aFroms"&gt;E-mail&lt;/label&gt;&lt;input id="aFroms" type="text" placeholder="Email"&gt;
+&lt;label for="aPassword"&gt;Password&lt;/label&gt;&lt;input id="aPassword" type="password" placeholder="password"&gt;
+&lt;label for="aContent"&gt;Content&lt;/label&gt;&lt;textarea id="aContent"&gt;&lt;/textarea&gt;</pre>
+				<label for="aFroms">E-mail</label><input id="aFroms" type="text" placeholder="Email">				
+				<label for="aPassword">Password</label><input id="aPassword" type="password" placeholder="password">				
+				<label for="aContent">Content</label><textarea id="aContent"></textarea>			
+				<hr>
+				<p>select</p>
+<pre>
+&lt;label&gt;Select&lt;/label&gt;
+&lt;select&gt;
+    &lt;option&gt;Select&lt;/option&gt;
+&lt;/select&gt;
+&lt;label&gt;Select&lt;/label&gt;
+&lt;select multiple="multiple"&gt;
+    &lt;option&gt;1&lt;/option&gt;
+    &lt;option&gt;2&lt;/option&gt;
+    &lt;option&gt;3&lt;/option&gt;
+    &lt;option&gt;4&lt;/option&gt;
+    &lt;option&gt;5&lt;/option&gt;
+&lt;/select&gt;
+</pre>
+
 					<label>Select</label>
 					<select>
 						<option>Select</option>
-						<option></option>
-						<option></option>
-					</select>					
-				</div>
-				<div class="controlGroup">
+					</select>
+				
 					<label>Select</label>
 					<select multiple="multiple">
 						<option>1</option>
@@ -253,32 +337,47 @@
 						<option>3</option>
 						<option>4</option>
 						<option>5</option>
-					</select>				
-				</div>				
-				<div class="controlGroup">
+					</select>
+					<hr>
+					<p>checkbox</p>
+<pre>
+&lt;label&gt;&lt;input type="checkbox"&gt;Ok!&lt;/label&gt;
+&lt;label&gt;&lt;input type="checkbox"&gt;NO!&lt;/label&gt;
+</pre>		
 					<label><input type="checkbox">Ok!</label>
 					<label><input type="checkbox">NO!</label>
-				</div>
-			</div>		
+				
+				</div>		
 			</div>
-			<pre class="sass">+aForms()</pre>
+			<pre class="sass"><blockquote class="normal"><p>建議使用：div 標籤(其內的表單都會被繼承)</p></blockquote>+aForms($color: $defaultColorBlue)</pre>
 		</section>
+
 		<section data-styletype="All Base Button">
 			<h2 class="title">aButton</h2>
+			<p>這也是類似bootstrap按鈕，可以另外改顏色，預設為藍色，只要自己增加顏色就可以了。</p>
 			<div class="example">
 			<div class="aForms">
-				<div class="controlGroup">
+			<p>這可以用在button、a.button, input[type="submit"]、input[type="button"]內。</p>
+			<pre>&lt;button type="submit"&gt;Login In&lt;/button&gt;
+&lt;a class="button"&gt;Login In&lt;/a&gt;</pre>
+				<p>
 					<button type="submit">Login In</button>
 					<a class="button">Login In</a>
-					<div class="aForms">
-					<br>
-					<a href="#" class="button"><i class="icon-ok icon-white"></i> Normal button can use bootstrap Icon,too.</a>
-					</div>	
-				</div>
+				</p>
+				<hr>
+				<p>而他也可以結合bootstrap 2的icon</p>
+				<pre>&lt;a href="#" class="button"&gt;&lt;i class="icon-ok icon-white"&gt;&lt;/i&gt; Normal button can use bootstrap Icon,too.&lt;/a&gt;</pre>
+				<p><a href="#" class="button"><i class="icon-ok icon-white"></i> Normal button can use bootstrap Icon,too.</a></p>
+				
+				<hr>
+				<p>如果想要自己增加顏色以及自己命名class，也可以像這樣。</p>
+				<p><code>+aButton($color: $defaultColorGreen, $className: "success")</code></p>
+				<p ><a href="#" class="success"><i class="icon-ok icon-white"></i> Normal button can use bootstrap Icon,too.</a></p>		
 			</div>		
 			</div>
 			<pre class="sass">+aForms()</pre>
 		</section>
+
 		<section data-styletype="All Base Table">
 			<h2 class="title">tpl</h2>
 			<div class="example">

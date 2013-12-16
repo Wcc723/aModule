@@ -2,7 +2,7 @@
 @import module.sass
 @charset "utf-8"
 $imagePath: "../images/"
-
+$grid-padding: 10px
 +fluidGrid
 +fontFace  
 
@@ -29,7 +29,7 @@ header
 	background: $fontColor
 	color: #fff
 	div
-		+container(0)
+		margin: 0 auto
 		height: 100%
 		position: relative
 h2.title
@@ -57,8 +57,19 @@ hr
 	+hr
 	width: 100%
 
-
+.example
+	p
+		margin-top: 0
 +Paragraphs
+
+pre
+	background: #777
+	background: rgba(black, .8)
+	padding: $grid-padding
+	margin-bottom: 1em
+	color: white
+	+border-radius(5px)
+	+box-shadow(rgba(black, .6) 0 0 5px inset)
 
 .clearFix
 	+clearFix
@@ -93,7 +104,7 @@ blockquote.right
 	+blockquote($textAlign: right)
 
 .container
-	+container
+	margin: 20px auto
 
 .fluidGridDemo
 	div[class*="col"]
@@ -153,8 +164,11 @@ dl.horizontal
 .aForms
 	+aForms
 	+aButton
-.success
-	+aButton($defaultColorGreen)	
+
+
++aButton($color: #00CC91, $className: "success")
+
+		
 
 table.table,.atablelight,.atableLight
 	+atableLight

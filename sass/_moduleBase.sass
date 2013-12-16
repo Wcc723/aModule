@@ -17,6 +17,8 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 
 
 %heading
+	
+
 	h1,h2,h3,h4,h5,h6
 		line-height: 1.16em
 		font-weight: bold
@@ -26,30 +28,31 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		small
 			font-weight: normal
 			color: #666
-			font-size: 80%		
+			font-size: 80%	
 	h1
-		font-size: 2.8em		
+		font-size: 2.6em		
 		margin-bottom: $lineheight*1
 	h2
-		font-size: 2.4em		
+		font-size: 2.2em		
 		margin-bottom: $lineheight*1
 	h3
-		font-size: 2.2em
+		font-size: 1.8em
 		margin-bottom: $lineheight*0.8
 	h4
-		font-size: 1.6em
+		font-size: 1.4em
 		margin-bottom: $lineheight*0.8
 	h5
-		font-size: 1.4em
+		font-size: 1.2em
 		margin-bottom: $lineheight*0.8
 	h6
-		font-size: 1.4em
+		font-size: 1.2em
 		margin-bottom: $lineheight*0.8
 @mixin heading
 	h1,h2,h3,h4,h5,h6
 		line-height: 1.16em
 		font-weight: bold
 		text-rendering: optimizeLegibility
+		margin-top: .5em
 		&.subheader
 			color: #666
 		small
@@ -76,8 +79,8 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		margin-bottom: $lineheight*0.8
 @mixin Paragraphs($linkColor: $defaultColorBlue)
 	p
-		text-align: justify
-		margin: 0 0 1em
+		//text-align: justify
+		margin: 1em 0 1.5em 0
 	strong,b
 		font-weight: bolder
 	em,i
@@ -243,8 +246,8 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 				margin-left: 0 !important
 				float: none
 
-@mixin container($marginTop: 20px)
-	margin: $marginTop auto
+//@mixin container($marginTop: 20px)
+//	margin: $marginTop auto
 
 @mixin clearFix()
 	*zoom: 1
@@ -316,7 +319,7 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 
 	& + pre ,& + pre + pre
 		margin-top: -$margin
-		padding: 0 18px 8px 18px 
+		padding: 8px 18px 8px 18px 
 		margin-bottom: 20px
 		background-color: #f3f3f2
 		//border: 1px solid #e1e1e8
@@ -522,9 +525,9 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 		//border-left: 1px solid #dddddd
 		border-bottom: 1px solid #dddddd
 		border-collapse: collapse
-	thead
-		th
-			font-weight: bolder
+	
+	th
+		font-weight: bolder
 	tbody
 		tr
 			+atransition(background-color)
@@ -608,45 +611,49 @@ $fontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 			+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.050),0 0 4px $color)
 			background-color: #ffffff
 			border: 1px solid $color
-@mixin aButton($color: $defaultColorBlue)
-	button, a.button, input[type="submit"],input[type="button"]
-		font-size: $fontSize
-		color: #333
-		border: 1px solid #aaa
-		text-decoration: none
-		padding: 4px 12px
-		display: inline-block
-		margin-bottom: 0
-		text-align: center
-		line-height: $lineheight
-		*line-height: $lineheight - 6px
-		overflow: visible
-		+text-shadow(1 -1px 1px rgba(255, 255, 255, 0.75))
-		vertical-align: middle
-		cursor: pointer
-		+border-radius(4px)	
-		+box-sizing(border-box)
-		+box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05))
-		background: #e6e6e6
-		+atransition(+box-shadow +background-image(linear-gradient))
-		+background-image(linear-gradient(#ffffff, #e6e6e6))
-		//&[type="submit"],&[type="button"]
+
+%aButton
+	
+	font-size: $fontSize
+	color: #333
+	border: 1px solid #aaa
+	text-decoration: none
+	padding: 4px 12px
+	display: inline-block
+	margin-bottom: 0
+	text-align: center
+	line-height: $lineheight
+	*line-height: $lineheight - 6px
+	overflow: visible
+	+text-shadow(1 -1px 1px rgba(255, 255, 255, 0.75))
+	vertical-align: middle
+	cursor: pointer
+	+border-radius(4px)	
+	+box-sizing(border-box)
+	+box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05))
+	background: #e6e6e6
+	+transition(all .3s)
+	+background-image(linear-gradient(#ffffff, #e6e6e6))
+	color: #fff	
+	&:hover
+		color: #fff
+	&:focus,&:active
+		+box-shadow(inset 0 1px 2px rgba(0, 0, 0, 0.60),0 1px 2px rgba(0, 0, 0, 0.05))	
+
+
+@mixin aButton($color: $defaultColorBlue, $className: "aButton")
+	
+	button, a.button, input[type="submit"],input[type="button"]	, .#{$className}
+		@extend %aButton
 		$darkenColor: saturate(darken($color, 10%),30%)
 		$lightenColor: saturate($color, 30%)
-		border: 1px solid $darkenColor
-		color: #fff			
+		border: 1px solid $darkenColor				
 		background-color: $lightenColor
 		+background-image(linear-gradient($lightenColor, $darkenColor))
 		&:hover
-			background-color: $darkenColor
-			color: #fff
+			background-color: $darkenColor			
 			+background-image(linear-gradient(darken($lightenColor, 3%), darken($darkenColor, 6%)))
-		//&:hover
-		//	background: #e6e6e6
-		//	+box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.30),0 1px 2px rgba(0, 0, 0, 0.05))
-		&:focus,&:active
-			+box-shadow(inset 0 1px 2px rgba(0, 0, 0, 0.60),0 1px 2px rgba(0, 0, 0, 0.05))	
-
+		
 @mixin atable($padding: 6px,$color1: #eeeeee,$color2: $defaultColorBlue,$textAlign: left)
 	$darkenColor: saturate(darken($color2, 10%),30%)
 	$lightenColor: saturate($color2, 30%)

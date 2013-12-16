@@ -3881,3 +3881,111 @@ Load paths:
 2013-11-25 16:36:03 identical stylesheets/screen.css 
 2013-11-25 17:28:33 overwrite stylesheets/screen.css 
 2013-11-25 17:28:39 overwrite stylesheets/screen.css 
+2013-12-16 15:01:22    create stylesheets/screen - 複製.css 
+2013-12-16 15:01:25 identical stylesheets/screen - 複製.css 
+2013-12-16 15:01:45     error sass/screen.sass (Line 32: Undefined mixin 'container'.)
+2013-12-16 15:01:45 overwrite stylesheets/screen.css 
+2013-12-16 15:03:39     error sass/screen.sass (Line 96: Undefined mixin 'container'.)
+2013-12-16 15:03:39 overwrite stylesheets/screen.css 
+2013-12-16 15:04:05 overwrite stylesheets/screen.css 
+2013-12-16 15:07:43     error sass/screen.sass (Line 66: Undefined variable: "$grid-padding".)
+2013-12-16 15:07:43 overwrite stylesheets/screen.css 
+2013-12-16 15:08:04 overwrite stylesheets/screen.css 
+2013-12-16 15:28:28 identical stylesheets/screen.css 
+2013-12-16 15:28:35 identical stylesheets/screen.css 
+2013-12-16 15:28:49 identical stylesheets/screen.css 
+2013-12-16 15:28:57 identical stylesheets/screen.css 
+2013-12-16 15:29:10 overwrite stylesheets/screen.css 
+2013-12-16 15:36:18 overwrite stylesheets/screen.css 
+2013-12-16 15:48:39 overwrite stylesheets/screen.css 
+2013-12-16 16:13:36 overwrite stylesheets/screen.css 
+2013-12-16 16:13:50 overwrite stylesheets/screen.css 
+2013-12-16 16:14:28 overwrite stylesheets/screen.css 
+2013-12-16 16:15:59 overwrite stylesheets/screen.css 
+2013-12-16 16:24:37 overwrite stylesheets/screen.css 
+2013-12-16 16:26:28 overwrite stylesheets/screen.css 
+2013-12-16 16:27:36 identical stylesheets/screen.css 
+2013-12-16 16:27:44 overwrite stylesheets/screen.css 
+2013-12-16 16:28:59     error sass/screen.sass (Line 646 of sass/_moduleBase.sass: Invalid CSS after "...="button"]	, a.": expected class name, was "&")
+2013-12-16 16:28:59 overwrite stylesheets/screen.css 
+2013-12-16 16:29:07     error sass/screen.sass (Line 646 of sass/_moduleBase.sass: Invalid CSS after "...e="button"]	, a": expected "{", was "&"
+
+"&" may only be used at the beginning of a compound selector.)
+2013-12-16 16:29:07 overwrite stylesheets/screen.css 
+2013-12-16 16:29:34 overwrite stylesheets/screen.css 
+2013-12-16 16:31:32 overwrite stylesheets/screen.css 
+2013-12-16 16:31:56 overwrite stylesheets/screen.css 
+2013-12-16 16:32:26 overwrite stylesheets/screen.css 
+2013-12-16 16:32:45 overwrite stylesheets/screen.css 
+2013-12-16 16:34:22 overwrite stylesheets/screen.css 
+2013-12-16 16:35:31 overwrite stylesheets/screen.css 
+2013-12-16 16:35:40 overwrite stylesheets/screen.css 
+2013-12-16 16:35:52     error sass/screen.sass (Line 167: Undefined variable: "$defaultColorgreen".)
+2013-12-16 16:35:52 overwrite stylesheets/screen.css 
+2013-12-16 16:36:00 overwrite stylesheets/screen.css 
+2013-12-16 16:36:22 overwrite stylesheets/screen.css 
+2013-12-16 16:36:41     error sass/screen.sass (Line 646 of sass/_moduleBase.sass: Invalid CSS after "...="button"]	, &.": expected class name, was ", .")
+2013-12-16 16:36:41 overwrite stylesheets/screen.css 
+2013-12-16 16:37:01 overwrite stylesheets/screen.css 
+2013-12-16 16:38:07 identical stylesheets/screen.css 
+2013-12-16 16:38:26 overwrite stylesheets/screen.css 
+2013-12-16 16:38:56 overwrite stylesheets/screen.css 
+2013-12-16 16:39:23 overwrite stylesheets/screen.css 
+2013-12-16 16:40:31     error sass/screen.sass (Line 646 of sass/_moduleBase.sass: Base-level rules cannot contain the parent-selector-referencing character '&'.)
+2013-12-16 16:40:31 overwrite stylesheets/screen.css 
+2013-12-16 16:40:49 overwrite stylesheets/screen.css 
+2013-12-16 16:46:00 overwrite stylesheets/screen.css 
+2013-12-16 16:51:28    Create advence.html
+2013-12-16 16:51:28    Create base.html
+2013-12-16 16:51:28    Create demoPage.html
+2013-12-16 16:51:28    Create index.html
+2013-12-16 16:51:28    Create layout.html
+2013-12-16 16:51:28    Create mainmenu.html
+2013-12-16 16:51:28      Copy /images/agsquare.png
+2013-12-16 16:51:28      Copy /images/btn_blue.png
+2013-12-16 16:51:28      Copy /images/btn_brown.png
+2013-12-16 16:51:28      Copy /images/btn_deepGreen.png
+2013-12-16 16:51:28      Copy /images/btn_midnightBlue.png
+2013-12-16 16:51:28      Copy /images/cabinet_left.png
+2013-12-16 16:51:28      Copy /images/cabinet_mid.png
+2013-12-16 16:51:28      Copy /images/cabinet_right.png
+2013-12-16 16:51:28      Copy /images/cabinet_tl.png
+2013-12-16 16:51:28      Copy /images/cabinet_top.png
+2013-12-16 16:51:28      Copy /images/cabinet_tr.png
+2013-12-16 16:51:28      Copy /images/fat.jpg
+2013-12-16 16:51:28      Copy /images/glyphicons-halflings-white.png
+2013-12-16 16:51:28      Copy /images/glyphicons-halflings.png
+2013-12-16 16:51:28      Copy /images/IrfanViewPortable_4.33_azo.exe
+2013-12-16 16:51:28      Copy /images/photo_01.jpg
+2013-12-16 16:51:28      Copy /images/photo_02.jpg
+2013-12-16 16:51:28      Copy /images/photo_03.jpg
+2013-12-16 16:51:28      Copy /images/photo_04.jpg
+2013-12-16 16:51:28      Copy /images/photo_05.jpg
+2013-12-16 16:51:28      Copy /images/photo_06.jpg
+2013-12-16 16:51:28      Copy /images/photo_07.jpg
+2013-12-16 16:51:28      Copy /images/photo_08.jpg
+2013-12-16 16:51:28      Copy /images/testimage.jpg
+2013-12-16 16:51:28      Copy /js/aCart.js
+2013-12-16 16:51:28      Copy /js/add.js
+2013-12-16 16:51:28      Copy /js/all.js
+2013-12-16 16:51:28      Copy /js/app.js
+2013-12-16 16:51:28      Copy /js/aTypeFilter.js
+2013-12-16 16:51:28      Copy /js/html5shiv.js
+2013-12-16 16:51:28      Copy /js/jquery-1.8.3.min.js
+2013-12-16 16:51:28      Copy /js/jquery-2.0.2.min.js
+2013-12-16 16:51:29      Copy /js/main.js
+2013-12-16 16:51:29      Copy /js/pjax.js
+2013-12-16 16:51:29      Copy /js/require.js
+2013-12-16 16:51:29      Copy /js/run_prettify.js
+2013-12-16 16:51:29      Copy /js/demo/a_banner.js
+2013-12-16 16:51:29      Copy /js/lib/jquery-1.9.1.min.js
+2013-12-16 16:51:29      Copy /stylesheets/bootstrap-icon.min.css
+2013-12-16 16:51:29      Copy /stylesheets/screen - 複製.css
+2013-12-16 16:51:29      Copy /stylesheets/screen.css
+2013-12-16 16:51:29      Copy /stylesheets/screen2.css
+2013-12-16 16:51:29      Copy /stylesheets/fonts/Muli-Italic.ttf
+2013-12-16 16:51:29      Copy /stylesheets/fonts/Muli-Light.ttf
+2013-12-16 16:51:29      Copy /stylesheets/fonts/Muli-LightItalic.ttf
+2013-12-16 16:51:29      Copy /stylesheets/fonts/Muli-Regular.ttf
+2013-12-16 16:51:29      Copy /stylesheets/fonts/OFL.txt
+2013-12-16 16:51:29      Copy /stylesheets/fonts/Questrial-Regular.ttf
