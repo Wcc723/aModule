@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	<title>Wcc CSS FrameWork</title>
+	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="stylesheets/bootstrap-icon.min.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/aCart.js"></script>
+</head>
+<body>
+	<header>
+		<div class="row"><h1>Wcc CSS FrameWork</h1>
+			<menu id="mainMenu" class="mainMenu">
+				<ul id="pjaxMenu">
+	<li><a href="index.html" class="pjax">Home</a></li>
+	<li><a href="layout.html" class="pjax">Layout</a></li>
+	<li><a href="#" class="pjax">Function</a></li>
+	<li><a href="base.html" class="pjax">Base</a></li>
+	<li><a href="advence.html" class="pjax">Advence</a></li>
+	<li><a href="jquery.html" class="pjax">Jquery</a></li>
+</ul>
+			</menu>
+		</div>
+	</header>
+	<div class="container row">
+			<div class="container">
+		<div class="tips">Advence 所提供的功能，都必須要支援CSS3的瀏覽器才能夠正常瀏覽</div>
+	</div>
+	<div class="container row">
+	
+	
+		<aside class="column3">
+			<nav>
+				<menu class="navMenu cart aTypeFilter">
+				<ul>
+					<li><a href="#">All</a></li>	
+					<li><a href="#">Button</a></li>
+					<li><a href="#">Translate</a></li>
+				</ul>
+			</menu>
+		</nav>
+		</aside>
+	<div id="pjax-container" class="column9">		
+		<section data-styletype="All">
+		<h1 id="base">aModule Advence</h1>
+		</section>
+		<section data-styletype="All Advence Button">
+			<h2  class="title">Cubic Button</h2>
+			<div class="example">
+			<a class="cubicButton" href="#"><i>A2</i>I need a help.</a> <a class="cubicButton2" href="#"><i>A2</i>Warring!!</a><br><br>			
+			</div>
+			<pre class="sass">+cubicButton($color,$leftWidth)</pre>
+		</section>
+		<section data-styletype="All Advence Button">
+			<h2  class="title">Texture Button</h2>
+			<div class="example textureWove">
+			<a class="textureWove" href="#"><i>A2</i>I need a help.</a> 			
+			</div>
+			<pre class="sass">+textureWove($className: textureWove,$btnFile: btn_blue,$borderPadding: 4px)</pre>
+		</section>
+		<section data-styletype="All Advence">
+			<h2 class="title">cabinet</h2>
+			<div class="example">
+				<div class="cabinet" style="width:380px">
+				<ul>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+				</ul>
+			</div>
+			<div class="cabinet">
+				<ul>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+					<li><img src="images/testimage.jpg"></li>
+				</ul>
+			</div>
+			</div>
+			<pre class="sass">+cabinet()</pre>
+		</section>
+
+		<section data-styletype="All Advence">
+			<h2 class="title">Sizing relatively</h2>
+			<div class="example">
+				<ul style="overflow: hidden">
+					<li class="sizeRelative">123</li>
+					<li class="sizeRelative"></li>
+					<li class="sizeRelative"></li>
+				</ul>
+			</div>
+			<pre class="sass">+sizeRelative($size: 30, $unit: vw) //vw(idth), vh(eight), vmin and vmax.</pre>
+		</section>
+
+		<section data-styletype="All Advence Translate">
+			<h2 class="title">Img Stack</h2>
+			<cite>//from <a href="http://inspectelement.com/demos/css3/stacks/">http://inspectelement.com/demos/css3/stacks/</a></cite>
+			<div class="example clearFix">
+				<div class="imgStack" style="float:left; width: 25%; margin: 0 4%;">
+					<img src="images/fat.jpg" >
+				</div>
+				<div class="imgStack2" style="float:left; width: 25%; margin: 0 4%;">
+					<img src="images/fat.jpg" >
+				</div>
+				<div class="imgStack3" style="float:left; width: 25%; margin: 0 4%;">
+					<img src="images/fat.jpg" >
+				</div>
+			</div>
+			<pre class="sass">+imgStack($style: rotated)//rotated twisted rotated-left</pre>
+		</section>
+
+		<section data-styletype="All Advence Translate">
+			<h2 class="title">turn180</h2>
+			<div class="example">
+				<div class="turn180" style="width:180px;height: 300px;">
+					<div class="flipper">
+						<div><img src="images/testimage.jpg"></div>
+						<div><img src="images/fat.jpg"></div>
+					</div>				
+				</div>
+			</div>
+			<pre class="sass">+turn180($zIndex: 10)</pre>
+		</section>
+
+		<section data-styletype="All Advence">
+			<h2 class="title">Motion input</h2>
+			<div class="example">
+				<div class="motionInput">
+					<input type="text" placeholder="search">
+
+				</div>
+			</div>
+			<pre class="sass">motionInput($widthS: 100px,$widthL: 200px,$color: $defaultColorBlue)</pre>
+		</section>
+
+		<section data-styletype="All Advence Translate">
+			<h2 class="title">iOS checked <small>only for webkit</small></h2>
+			<div class="example">
+				<div >
+				<input type="checkbox" class="ios7checkbox">
+				</div>
+			</div>
+			<pre class="sass">+ios7checkbox($className: ios7checkbox)</pre>
+		</section>
+
+		<section data-styletype="All Advence">
+			<h2 class="title">Paper Shadow</h2>
+			<div class="example">
+				<div class="paperShadow">
+				This parent element needs to set "z-index".
+				</div>
+			</div>
+			<pre class="sass">+paperShadow()</pre>
+		</section>
+	</div>
+		</div>
+
+	</div>
+	
+	<footer></footer>
+</body>
+<script>
+$(document).ready(function(){
+	('.cart').pg_cart({
+	    SmoothSliding: true, //Window Event
+	    TopController: '.scrolltop',
+	    scrollBtn:'._scrollBtn',
+	    AnchorPoint:'.cart'
+	);       
+	//aTypeFilter 
+	$('.aTypeFilter').aTypeFilter({
+	});
+	//abanner
+	$('.a_banner').a_banner_ani({
+		animateMode: 'slider' 
+	});
+});
+</script>
+</html>

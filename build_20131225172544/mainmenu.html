@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	<title>Wcc CSS FrameWork</title>
+	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="stylesheets/bootstrap-icon.min.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/aCart.js"></script>
+</head>
+<body>
+	<header>
+		<div class="row"><h1>Wcc CSS FrameWork</h1>
+			<menu id="mainMenu" class="mainMenu">
+				<ul id="pjaxMenu">
+	<li><a href="index.html" class="pjax">Home</a></li>
+	<li><a href="layout.html" class="pjax">Layout</a></li>
+	<li><a href="#" class="pjax">Function</a></li>
+	<li><a href="base.html" class="pjax">Base</a></li>
+	<li><a href="advence.html" class="pjax">Advence</a></li>
+	<li><a href="jquery.html" class="pjax">Jquery</a></li>
+</ul>
+			</menu>
+		</div>
+	</header>
+	<div class="container row">
+		<ul id="pjaxMenu">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="layout.html">Layout</a></li>
+	<li><a href="base.html">Base</a></li>
+	<li><a href="advence.html">Advence</a></li>
+	<li><a href="jquery.html">Jquery</a></li>
+</ul>
+	</div>
+	
+	<footer></footer>
+</body>
+<script>
+$(document).ready(function(){
+	('.cart').pg_cart({
+	    SmoothSliding: true, //Window Event
+	    TopController: '.scrolltop',
+	    scrollBtn:'._scrollBtn',
+	    AnchorPoint:'.cart'
+	);       
+	//aTypeFilter 
+	$('.aTypeFilter').aTypeFilter({
+	});
+	//abanner
+	$('.a_banner').a_banner_ani({
+		animateMode: 'slider' 
+	});
+});
+</script>
+</html>

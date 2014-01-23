@@ -2,7 +2,7 @@
 		<aside class="column3">
 			<nav>
 				<menu class="navMenu cart aTypeFilter">
-				<h1 id="base" class="subheader">aModule Base <small>基本模組</small></h1>
+				<h1 id="base" class="subheader title">aModule Base <small>基本模組</small></h1>
 				<ul>
 					<li><a href="#">All</a></li>	
 					<li><a href="#">Button</a></li>
@@ -18,7 +18,7 @@
 		<h1>1.Typography <small>文字排版</small></h1>
 		</section>
 		<section data-styletype="All Base">
-			<h2 class="title">Headings <small>標題</small></h2>
+			<h2 class="atitle">Headings <small>標題</small></h2>
 			<p>標準的標題模組，而文字大小使用的單位是<code>em</code>。</p>
 			<div class="example">
 				<pre class="normal">&lt;h1&gt;header... &lt;small&gt;Smaller&lt;/small&gt;&lt;/h1&gt;</pre>
@@ -37,7 +37,7 @@
 			<pre class="sass"><blockquote class="normal"><p>建議使用：html, body</p></blockquote>@extend %heading</pre>
 		</section>
 		<section data-styletype="All Base">
-			<h2 class="title">Paragraphs <small>段落樣式</small></h2>
+			<h2 class="atitle">Paragraphs <small>段落樣式</small></h2>
 			<p>段落樣式中的文字，盡量都不會去重新設定文字大小，所以規格都會依據其繼承，除了<code>sub,sup</code>有設定fontsize: smaller。</p>
 			<div class="example">
 			<pre>&lt;p&gt; 冤冤相報何時了，往事知多少。&lt;/p&gt;</pre>
@@ -62,7 +62,7 @@
 
 
 		<section data-styletype="All Base">
-			<h2 class="title">code</h2>
+			<h2 class="atitle">code</h2>
 			<p>單獨使用code標籤效果，而這沒有限制只能用在&lt;code&gt;</p>
 			<div class="example">
 			<pre>This is a &lt;code&gt; code&lt;/code&gt;</pre>
@@ -73,10 +73,10 @@
 
 
 		<section data-styletype="All Base">
-			<h2 class="title">Abbreviations</h2>
+			<h2 class="atitle">Abbreviations</h2>
 			<div class="example">
-			<pre>I need a &lt;abbr title="Are you OK?"&gt;help&lt;/abbr&gt;.</pre>
-			<p>I need a <abbr title="Are you OK?">help</abbr>.</p>			
+			<pre>I need a &lt;abbr atitle="Are you OK?"&gt;help&lt;/abbr&gt;.</pre>
+			<p>I need a <abbr atitle="Are you OK?">help</abbr>.</p>			
 			</div>
 			<pre class="sass"><blockquote class="normal"><p>建議使用：abbr 行內標籤</p></blockquote>+abbr</pre>
 		</section>
@@ -84,18 +84,18 @@
 
 
 		<section data-styletype="All Base">
-			<h2 class="title">Blockquote</h2>
+			<h2 class="atitle">Blockquote</h2>
 			<div class="example">
 				<p><code>default</code> 模式</p>
 <pre>
 &lt;blockquote class="normal"&gt;
     &lt;p&gt;冤冤相報何時了，往事知多少。&lt;/p&gt;
-    &lt;small&gt;作者：&lt;abbr title="不詳"&gt;不詳&lt;/abbr&gt;&lt;/small&gt;
+    &lt;small&gt;作者：&lt;abbr atitle="不詳"&gt;不詳&lt;/abbr&gt;&lt;/small&gt;
 &lt;/blockquote&gt;
 </pre>
 				<blockquote class="normal">
 					<p>冤冤相報何時了，往事知多少。</p>	
-					<small>作者：<abbr title="不詳">不詳</abbr></small>	
+					<small>作者：<abbr atitle="不詳">不詳</abbr></small>	
 				</blockquote>
 				<hr>
 
@@ -103,12 +103,12 @@
 <pre>
 &lt;blockquote class="right"&gt;
     &lt;p&gt;冤冤相報何時了，往事知多少。&lt;/p&gt;
-    &lt;small&gt;作者：&lt;abbr title="不詳"&gt;不詳&lt;/abbr&gt;&lt;/small&gt;
+    &lt;small&gt;作者：&lt;abbr atitle="不詳"&gt;不詳&lt;/abbr&gt;&lt;/small&gt;
 &lt;/blockquote&gt;
 </pre>
 				<blockquote class="right">				 
 					<p>冤冤相報何時了，往事知多少。</p>	
-					<p><small>作者：<abbr title="不詳">不詳</abbr></small></p>	
+					<p><small>作者：<abbr atitle="不詳">不詳</abbr></small></p>	
 				</blockquote>			
 			</div>
 			<pre class="sass"><blockquote class="normal"><p>建議使用：blockquote 標籤</p></blockquote>+blockquote($borderColor,$textAlign)</pre>
@@ -117,7 +117,7 @@
 
 
 		<section data-styletype="All Base">
-			<h2 class="title">Lists</h2>
+			<h2 class="atitle">Lists</h2>
 			<p>這主要是增加了縮排，以及方便套用ul及ol樣式。</p>
 			<div class="example">
 				<code>ul > li</code>
@@ -148,14 +148,14 @@
 		</section>
 
 		<section data-styletype="All Base">
-			<h2 class="title">Defition List</h2>
+			<h2 class="atitle">Defition List</h2>
 			<p>這是針對<code>dl</code>、<code>dt</code>、<code>dd</code>所設計的樣式。</p>
 			<h3>一般樣式</h3>
 			<div class="example">
 				<p><code>normal</code> 模式</p>
 <pre>
 &lt;dl class="normal"&gt;
-    &lt;dt&gt;&lt;small&gt;作者：&lt;abbr title="不詳"&gt;不詳&lt;/abbr&gt;&lt;/small&gt;&lt;/dt&gt;
+    &lt;dt&gt;&lt;small&gt;作者：&lt;abbr atitle="不詳"&gt;不詳&lt;/abbr&gt;&lt;/small&gt;&lt;/dt&gt;
     &lt;dd&gt;冤冤相報何時了 &lt;br&gt; 往事知多少&lt;/dd&gt;
     &lt;dt&gt;Description lists&lt;/dt&gt;
     &lt;dd&gt;Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. &lt;br&gt;
@@ -163,7 +163,7 @@
 &lt;/dl&gt;
 </pre>
 				<dl class="normal">
-				    <dt><small>作者：<abbr title="不詳">不詳</abbr></small></dt>
+				    <dt><small>作者：<abbr atitle="不詳">不詳</abbr></small></dt>
 				    <dd>冤冤相報何時了 <br>	往事知多少</dd>
 				    <dt>Description lists</dt>
 				    <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. <br>
@@ -176,7 +176,7 @@
 			<p><code>horizontal</code> 模式</p>
 <pre>
 &lt;dl class="horizontal"&gt;
-    &lt;dt&gt;&lt;small&gt;作者：&lt;abbr title="不詳"&gt;不詳&lt;/abbr&gt;&lt;/small&gt;&lt;/dt&gt;
+    &lt;dt&gt;&lt;small&gt;作者：&lt;abbr atitle="不詳"&gt;不詳&lt;/abbr&gt;&lt;/small&gt;&lt;/dt&gt;
     &lt;dd&gt;冤冤相報何時了 &lt;br&gt; 往事知多少&lt;/dd&gt;
     &lt;dt&gt;Description lists&lt;/dt&gt;
     &lt;dd&gt;Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. &lt;br&gt;
@@ -184,7 +184,7 @@
 &lt;/dl&gt;
 </pre>
 				<dl class="horizontal">
-				    <dt><small>作者：<abbr title="不詳">不詳</abbr></small></dt>
+				    <dt><small>作者：<abbr atitle="不詳">不詳</abbr></small></dt>
 				    <dd>冤冤相報何時了 <br>	往事知多少</dd>
 				    <dt>Description lists</dt>
 				    <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. <br>
@@ -196,16 +196,31 @@
 
 		<!--
 		<section data-styletype="All Base">
-			<h2 class="title">Code</h2>
+			<h2 class="atitle">Code</h2>
 			<div class="example">
 			<p>This is a <code>Javascript</code>.</p>			
 			</div>
 			<pre class="sass">+code($color)</pre>
 		</section>	
 		-->
+		<h1>分隔線</h1>
+		<section data-styletype="All Base">
+			<h2 class="atitle">divider</h2>
+			<p>分隔線樣式</p>
+			<div class="example">
+				<code>div.divider</code>
+				<div class="divider">
+					and
+				</div>
+			</div>
+			<pre class="sass"><blockquote class="normal"><p>限制使用：block 盒模型(ex: div)</p></blockquote>+divider</pre>
+		</section>
+
+
+
 		<h1>Table 表格</h1>
 		<section data-styletype="All Base Table">
-			<h2 class="title">Table light</h2>
+			<h2 class="atitle">Table light</h2>
 			<p>這是基本且輕巧型的表格，很適合在各種地方使用。</p>
 			<div class="example">
 				<p><code>default</code> 模式</p>
@@ -297,7 +312,7 @@
 
 
 		<section data-styletype="All Base Button">
-			<h2 class="title">Forms</h2>
+			<h2 class="atitle">Forms</h2>
 			<p>表單樣式，外型上比較類似bootstrap 2</p>
 			<div class="example">
 				<div class="aForms">
@@ -353,7 +368,7 @@
 		</section>
 
 		<section data-styletype="All Base Button">
-			<h2 class="title">aButton</h2>
+			<h2 class="atitle">aButton</h2>
 			<p>這也是類似bootstrap按鈕，可以另外改顏色，預設為藍色，只要自己增加顏色就可以了。</p>
 			<div class="example">
 			<div class="aForms">
@@ -379,7 +394,7 @@
 		</section>
 
 		<section data-styletype="All Base Table">
-			<h2 class="title">tpl</h2>
+			<h2 class="atitle">tpl</h2>
 			<div class="example">
 				<code>+tpl</code>
 				<fieldset id=''  data-step="1" class="tpl">
@@ -482,25 +497,26 @@
 			<pre class="sass">+tpl($color: $defaultColorBlue,$className: tpl)</pre>
 		</section>
 		<section data-styletype="All Base Button">
-			<h2 class="title">Color Button <small>With Bootstrap Icon </small></h2>
+			<h2 class="atitle">Color Button <small>With Bootstrap Icon </small></h2>
 			<p>If you need to use bootstrap icons,please <a href="http://twitter.github.io/bootstrap/customize.html#download">downloads</a> it.</p>
 			<div class="example">	
 			<div class="buttonColor">
-				<div class="color-btn-green"><i class="icon-search icon-white"></i> It can use bootstrap Icon</div>
+				<div class="color-btn green"><i class="icon-search icon-white"></i> It can use bootstrap Icon</div>
 			</div>	
 			<div class="buttonColor">
-				<div class="color-btn-magenta"> It is magenta</div> 
-				<div class="color-btn-red"> It is red</div>
-				<div class="color-btn-orange"> It is orange</div>
+				<div class="color-btn"> Default</div>
+				<div class="color-btn magenta"> It is magenta</div> 
+				<div class="color-btn red"> It is red</div>
+				<div class="color-btn orange"> It is orange</div>
 				<a class="color-btn"> Login In</a>
-				<div class="color-btn-green"> It is green</div>
-				<div class="color-btn-aqua"> It is Aqua</div>
-				<div class="color-btn-skyblue"> It is skyblue</div>
-				<div class="color-btn-deepblue"> It is deepblue</div>
-				<div class="color-btn-blue"> It is blue</div>	
-				<a class="color-btn-purple"> It is purple</a>
-				<div class="color-btn-gray"> It is gray</div>
-				<div class="color-btn-darkgray"> It is darkgray</div>
+				<div class="color-btn green"> It is green</div>
+				<div class="color-btn aqua"> It is Aqua</div>
+				<div class="color-btn skyblue"> It is skyblue</div>
+				<div class="color-btn deepblue"> It is deepblue</div>
+				<div class="color-btn blue"> It is blue</div>	
+				<a class="color-btn purple"> It is purple</a>
+				<div class="color-btn gray"> It is gray</div>
+				<div class="color-btn darkgray"> It is darkgray</div>
 			</div>
 			<div class="buttonColor">
 				<input type="button" class="color-btn" value="This's a input">
@@ -514,16 +530,17 @@
 
 
 		<section data-styletype="All Base Button">
-			<h2 class="title">Flat Button <small>With Bootstrap Icon </small></h2>
+			<h2 class="atitle">Flat Button <small>With Bootstrap Icon </small></h2>
 			<p>If you need to use bootstrap icons,please <a href="http://twitter.github.io/bootstrap/customize.html#download">downloads</a> it.</p>
 			<div class="example">	
 			<div class="buttonFlat">
-				<div class="flat-btn-green"><i class="icon-search icon-white"></i> It can use bootstrap Icon</div>
+				<div class="flat-btn green"><i class="icon-search icon-white"></i> It can use bootstrap Icon</div>
 			</div>	
 			<div class="buttonFlat">
-				<div class="flat-btn-red"> It is red</div> 
-				<div class="flat-btn-orange"> It is orange</div>
-				<a class="flat-btn-purple"> It is purple</a> 
+				<div class="flat-btn"> Default</div>
+				<div class="flat-btn red"> It is red</div> 
+				<div class="flat-btn orange"> It is orange</div>
+				<a class="flat-btn purple"> It is purple</a> 
 			</div>
 			<div class="buttonFlat">
 				<input type="button" class="flat-btn" value="This's a input">
